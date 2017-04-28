@@ -4,13 +4,10 @@ author: "Sam Clifford"
 date: "29/04/2017"
 output:
   html_document:
-    theme: united
-    highlight: tango
+    theme: paper
+    highlight: textmate
     toc: true
     toc_depth: 2
-    pandoc_args: [ 
-      "--output=index.html" 
-    ] 
 bibliography: resume.bib
 ---
 
@@ -18,18 +15,27 @@ bibliography: resume.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Research
+# Research 
 
-## ACEMS Postdoc
+## ACEMS Postdoc {.tabset .tabset-fade }
 
 From 2016 I have been employed at the QUT node of the [ARC Centre of Excellence for Mathematical and Statistical Frontiers](http://acems.org.au/), working on a variety of environmental statistics problems such as coral cover in the Great Barrier Reef and jaguar conservation in Peru.
 
 ### Monitoring Through Many Eyes - Great Barrier Reef
 
+Researchers from the ARC Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Queensland University of Technology (QUT) and the Australian Institute of Marine Science talk about their project to create an immersive, virtual environment of the Great Barrier Reef. The aim of the project is to put "experts" into the virtual environment, and allow them to see and talk about what is going on in various parts of the Reef. This will allow for better decision making on what needs to be done to save the Barrier Reef.
+
 ### Many Eyes on the Wild - Jaguar conservation
+
+The world needs new ways to do conservation. There is no time for endangered animals and their environments. We need an evidence base to make informed decisions, and we need it now. We are addressing this problem by combining traditional conservation with virtual reality technology, mathematical and statistical modelling, local knowledge and international expertise. 
+
+Through our ‘Eyes on the Wild’ program, we aim to facilitate faster, better decisions about management and monitoring.  We are developing and using these approaches to help conserve jaguars  in the Peruvian Amazon.
+
 * @bednarz2016virtual - Using virtual environments to elicit information about ecosystems
 
 ### Air quality
+
+I still collaborate with colleagues at the International Laboratory for Air Quality and health (ILAQH) on a variety of topics including occupational exposure, child health, atmospheric processes, exposure assessment, and instrumentation.
 
 * @mcgarry2016application - Characterisation of air quality in the workplace with multiple instruments
 * @salthammer2016children - Impact of climate and air pollution on children's health at school
@@ -38,13 +44,13 @@ From 2016 I have been employed at the QUT node of the [ARC Centre of Excellence 
 * @rivas2017identification - Identification of problems with DustTrak performance seen during measurement campaigns
 
 
-## ILAQH Postdoc
+## ILAQH Postdoc {.tabset .tabset-fade }
 
 Between 2013 and 2015 I was employed at  [ILAQH](https://www.qut.edu.au/research/our-research/institutes-centres-and-research-groups/international-laboratory-for-air-quality-and-health) as a Postdoctoral Fellow to support the research being done across a variety of topics in air quality.
 
 ### UPTECH
 
-As with my PhD, the bulk of my postdoctoral work at ILAQH was related to the Ultrafine Particles from Traffic Emissions and Child Health  ([UPTECH](https://www.qut.edu.au/research/research-projects/uptech)) project
+As with my PhD, the bulk of my postdoctoral work at ILAQH was related to the Ultrafine Particles from Traffic Emissions and Child Health  ([UPTECH](https://www.qut.edu.au/research/research-projects/uptech)) project. The project seeks to determine the effect of the exposure to airborne nano and ultrafine (UF) particles emitted from motor vehicles on the health of children in schools.
 
 * @endotoxin - Concentrations of endotoxins in primary school classrooms
 * @farhadcluster - Application of clustering techniques to particle size distribution data to understand common source signatures
@@ -78,7 +84,7 @@ As with my PhD, the bulk of my postdoctoral work at ILAQH was related to the Ult
 * @uptechIA2014
 * @falcao2016influence
 
-## PhD 
+## PhD {.tabset .tabset-fade }
 
 Between 2010 and 2013 I completed a PhD at ILAQH under the supervision of Professors Lidia Morawska and Kerrie Mengersen and Dr Sama Low Choy.
 
