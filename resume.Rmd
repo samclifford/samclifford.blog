@@ -1,0 +1,77 @@
+---
+title: "Curriculum Vitae"
+author: "Sam Clifford"
+date: "29/04/2017"
+output:
+  html_document:
+    theme: united
+    highlight: tango
+bibliography: resume.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# PhD 
+
+Between 2010 and 2013 I completed a PhD at [ILAQH](https://www.qut.edu.au/research/our-research/institutes-centres-and-research-groups/international-laboratory-for-air-quality-and-health) under the supervision of Professors Lidia Morawska and Kerrie Mengersen and Dr Sama Low Choy.
+
+**Thesis title**: _Spatio-temporal modelling of ultrafine particle number concentration_
+
+**Summary**: Using the Generalised Additive Model to model temporal trends in ultrafine particle number concentration with penalised splines and spatial trends with Gaussian Markov Random fields.
+
+## Thesis work
+
+* @Clifford2011 - Using GAMs to model temporal trends and covariate effects for PNC in Helsinki, Finland
+* @finlandpaper - A preprint of an unpublished paper looking into Bayesian GAMs with autocorrelated errors
+* @paper2 - Spatio-temporal model in INLA of air pollution in Brisbane, Australia
+* @phdthesis - The thesis
+
+## Coauthored outputs
+
+These papers represent work undertaken during the PhD, typically with other PhD students within ILAQH
+
+* @molgaard2013 - Work that came out of a visit to Helsinki, Finland, using Bayesian GAMs with autocorrelated errors to understand air quality in multiple European cities
+* @farhadpaper - Spatial variation of air quality within primary schools
+* @falk - Review paper on modern statistical methods for analysing spatial data
+* @thermodenuder - Semi-parametric regression used to model particle losses in aerosol measuring equipment
+
+## Conference items
+* @bnpposter - Spatio-temporal modelling of air quality
+* @isbaposter - Spatio-temporal modelling of air quality
+
+# ILAQH Postdoc
+
+Between 2013 and 2015 I was employed at ILAQH as a Postdoctoral Fellow to support the research being done across a variety of topics in air quality.
+
+* @endotoxin - Concentrations of endotoxins in primary school classrooms
+* @farhadcluster - Application of clustering techniques to particle size distribution data to understand common source signatures
+* @emacpaper - Mathematical and statistical models for particle deposition inside the lung
+* @mandanantpaper - Analysis of inhaled particles in primary school children
+* @rusdinAER - Bayesian hierarchical models for calculating air exchange rates and particle deposition rates associated with classroom activities
+* @salonen2014 - 
+* @PBDEs - Multinomial regression modelling to look at the relative proportions of various polybrominated diphenyl ethers across classrooms
+* @ehsan - Generalised Linear Mixed Models for understanding the effects of different surface treatments in a nanomaterial milling process
+* @rusdinpaper1 - The relationship between indoor and outdoor air quality in primary schools
+* @fungireview - A review paper on fungi concentrations in schools around the world
+* @ezz2015 - Methods paper for the [UPTECH](https://www.qut.edu.au/research/research-projects/uptech) project
+* @rohanpm10 - Predictive model for whether or not midday new particle formation events will occur based on morning PM$_{10}$ and visibility
+* @rahman15 -
+* @tenzin1 - 
+
+## Conference items
+* @emactalk - presentation of the work in @emacpaper
+* @eacclifford
+* @eacmazaheri
+* @eacrahman
+* @ntsydney
+* @clustering
+* @jayanAAC
+* @uptechIA2014
+
+# ACEMS Postdoc
+
+From 2016 I have been employed at the QUT node of the [ARC Centre of Excellence for Mathematical and Statistical Frontiers](http://acems.org.au/), working on a variety of environmental statistics problems such as coral cover in the Great Barrier Reef and jaguar conservation in Peru.
+
+# References
