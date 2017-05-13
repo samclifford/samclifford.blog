@@ -165,11 +165,13 @@ Citation                        Description
 
 @paper2                         Spatio-temporal model in INLA of air pollution in Brisbane, Australia
 
-------------------------------------------------------
+@bayesiansplineschapter         A book chapter on various implementations of Bayesian spline regression
 
-* @bayesiansplineschapter - A book chapter on various implementations of Bayesian spline regression
-* @finlandpaper - A preprint of an unpublished paper looking into Bayesian GAMs with autocorrelated errors
-* @Clifford2011 - Using GAMs to model temporal trends and covariate effects for PNC in Helsinki, Finland
+@finlandpaper                   A preprint of an unpublished paper looking into Bayesian GAMs with autocorrelated errors
+
+@Clifford2011                   Using GAMs to model temporal trends and covariate effects for PNC in Helsinki, Finland
+
+------------------------------------------------------
 
 ### Other publications
 
