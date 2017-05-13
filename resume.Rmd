@@ -1,15 +1,36 @@
 ---
-title: "Curriculum Vitae"
+title: "Research profile"
 author: "Sam Clifford"
 date: "30 April 2017"
 output: 
-  tufterhandout::html_tufte_handout
+  tufterhandout::html_tufte_handout:
+    css: resume.css
+    toc: true
+    toc_depth: 2
 bibliography: resume.bib
+link-citations: yes
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# Bio
+
+I'm a statistician working at Queensland University of technology on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students.
+
+<aside>
+<a href="http://www.qut.edu.au">QUT</a><br>
+</aside>
+
+My undergrad was in applied and computational mathematics, focussing on fluid dynamics in my honours year. Over time, I drifted towards Bayesian statistical modelling, where I use semi-parametric regression and hierarchical modelling for spatial, temporal, and spatio-temporal modelling.
+
+Occasionally, I blog about my research and you can find more about my publication history at QUT eprints and Google Scholar.
+
+<aside>
+<a href="http://samclifford.info">Blog</a><br>
+<a href="https://scholar.google.com.au/citations?hl=en&user=KbrnxeoAAAAJ&view_op=list_works">Google Scholar</a>
+</aside>
 
 # ACEMS 
 
@@ -19,7 +40,7 @@ From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of t
 <a href="http://acems.org.au/">ARC Centre of Excellence for Mathematical and Statistical Frontiers</a>
 </aside>
 
-## Monitoring Through Many Eyes
+## Reef 
 
 The Monitoring Through Many Eyes project is a collaboration between scientists, data analysts and marine explorers, working together to document, analyse and predict the health of the Great Barrier Reef. The aim is to tap into the power of ‘Citizen Scientists’ by collating thousands of underwater images take by recreational divers and snorkelers on the Reef each year.
 
@@ -28,7 +49,7 @@ The Monitoring Through Many Eyes project is a collaboration between scientists, 
 </aside>
 
 
-## Many Eyes on the Wild
+## Jaguars
 
 The world needs new ways to do conservation. There is no time for endangered animals and their environments. We need an evidence base to make informed decisions, and we need it now. We are addressing this problem by combining traditional conservation with virtual reality technology, mathematical and statistical modelling, local knowledge and international expertise. 
 
@@ -61,7 +82,6 @@ Between 2013 and 2015 I was employed as a **Postdoctoral Fellow** at ILAQH to su
 
 I still collaborate with colleagues at the International Laboratory for Air Quality and Health (ILAQH) on a variety of topics including occupational exposure, child health, atmospheric processes, exposure assessment, and instrumentation.
 
-## UPTECH
 
 The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The project seeks to determine the effect of the exposure to airborne nano and ultrafine (UF) particles emitted from motor vehicles on the health of children in schools.
 
@@ -69,29 +89,7 @@ The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The
 <a href="https://www.qut.edu.au/research/research-projects/uptech">Ultrafine Particles from Traffic Emissions and Children's Health</a>
 </aside>
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@rusdinpaper1                   The relationship between indoor and outdoor air quality in primary schools
-
-@ezz2015                        Methods paper for the UPTECH project
-
-@PBDEs                          Multinomial regression modelling to look at the relative proportions of various polybrominated diphenyl ethers across classrooms
-
-@farhadcluster                  Application of clustering techniques to particle size distribution data to understand common source signatures
-
-@emacpaper                      Mathematical and statistical models for particle deposition inside the lung
-
-@mandanantpaper                 Analysis of inhaled particles in primary school children
-
-@rusdinAER                      Bayesian hierarchical models for calculating air exchange rates and particle deposition rates associated with classroom activities
-
-@salonen2014                    Concentrations of fungi in primary school classrooms
-
-@endotoxin                      Concentrations of endotoxins in primary school classrooms
-------------------------------- ----------------------
-
-## Postdoctoral publications
+## Air quality
 
 ------------------------------------------------------
 Citation                        Description
@@ -120,6 +118,32 @@ Citation                        Description
 ------------------------------- ----------------------
 
 
+## UPTECH
+
+------------------------------------------------------
+Citation                        Description
+------------------------------- ----------------------
+@rusdinpaper1                   The relationship between indoor and outdoor air quality in primary schools
+
+@ezz2015                        Methods paper for the UPTECH project
+
+@PBDEs                          Multinomial regression modelling to look at the relative proportions of various polybrominated diphenyl ethers across classrooms
+
+@farhadcluster                  Application of clustering techniques to particle size distribution data to understand common source signatures
+
+@emacpaper                      Mathematical and statistical models for particle deposition inside the lung
+
+@mandanantpaper                 Analysis of inhaled particles in primary school children
+
+@rusdinAER                      Bayesian hierarchical models for calculating air exchange rates and particle deposition rates associated with classroom activities
+
+@salonen2014                    Concentrations of fungi in primary school classrooms
+
+@endotoxin                      Concentrations of endotoxins in primary school classrooms
+------------------------------- ----------------------
+
+
+
 ## PhD Thesis
 
 <aside>
@@ -145,7 +169,7 @@ These papers represent work undertaken during the PhD, typically with other PhD 
 * @molgaard2013 - Work that came out of a visit to Helsinki, Finland, using Bayesian GAMs with autocorrelated errors to understand air quality in multiple European cities
 * @farhadpaper - Spatial variation of air quality within primary schools
 
-## Conference items
+# Conference items
 
 * @falcao2016influence - Modern statistical techniques for understanding indoor/outdoor relationships in air pollution
 * @eacclifford - A missing data model for estimating cigarette exposure from survey data and partially complete blood tests

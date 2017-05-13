@@ -1,0 +1,29 @@
+/* Whole document: */
+  body{
+    font-family: Gill Sans;
+    padding: 2%;
+    font-size: 12pt;
+    max-width: 1200;
+    margin: auto;
+    margin-left:210px;
+    margin-right:210px;
+    line-height: 20px;
+  }
+/* Headers */
+  h1{
+    font-size: 24pt;
+}
+
+h2,h3,h4,h5,h6{
+    font-size: 18pt;
+}
+
+#TOC {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  overflow:auto;
+}
+
