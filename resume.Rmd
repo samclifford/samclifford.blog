@@ -1,12 +1,14 @@
 ---
 title: "Research profile"
 author: "Sam Clifford"
-date: "30 April 2017"
+date: "`r Sys.Date()`"
 output: 
   tufterhandout::html_tufte_handout:
     css: resume.css
     toc: true
     toc_depth: 2
+    includes:
+      in_header: header.html
 bibliography: resume.bib
 link-citations: yes
 ---
@@ -16,6 +18,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Bio
+
+<div align="left">
+![Photo by <a href="http://www.njtierney.com/">Nick Tierney</a>](samclifford20131029.jpg)
+</div>
 
 I'm a statistician working at Queensland University of technology on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students.
 
@@ -29,6 +35,7 @@ Occasionally, I blog about my research and you can find more about my publicatio
 
 <aside>
 <a href="http://samclifford.info">Blog</a><br>
+<a href="https://eprints.qut.edu.au/view/person/Clifford,_Sam.html">QUT eprints</a><br>
 <a href="https://scholar.google.com.au/citations?hl=en&user=KbrnxeoAAAAJ&view_op=list_works">Google Scholar</a>
 </aside>
 
@@ -146,17 +153,20 @@ Citation                        Description
 
 ## PhD Thesis
 
-<aside>
-**Title**: _Spatio-temporal modelling of ultrafine particle number concentration_
-
-**Summary**: Using the Generalised Additive Model to model temporal trends in ultrafine particle number concentration with penalised splines and spatial trends with Gaussian Markov Random fields.
-</aside>
 
 ### Thesis outputs
 
-* @phdthesis - The thesis
-* @falk - Review paper on modern statistical methods for analysing spatial data
-* @paper2 - Spatio-temporal model in INLA of air pollution in Brisbane, Australia
+------------------------------------------------------
+Citation                        Description
+------------------------------- ----------------------
+@phdthesis                      _Spatio-temporal modelling of ultrafine particle number concentration_ - Using the Generalised Additive Model to model temporal trends in ultrafine particle number concentration with penalised splines and spatial trends with Gaussian Markov Random fields.
+
+@falk                           Review paper on modern statistical methods for analysing spatial data
+
+@paper2                         Spatio-temporal model in INLA of air pollution in Brisbane, Australia
+
+------------------------------------------------------
+
 * @bayesiansplineschapter - A book chapter on various implementations of Bayesian spline regression
 * @finlandpaper - A preprint of an unpublished paper looking into Bayesian GAMs with autocorrelated errors
 * @Clifford2011 - Using GAMs to model temporal trends and covariate effects for PNC in Helsinki, Finland
