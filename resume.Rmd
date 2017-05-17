@@ -1,7 +1,7 @@
 ---
 title: "Research profile"
 author: "Sam Clifford"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.Date(), '%d %b %Y')`"
 output: 
   tufterhandout::html_tufte_handout:
     css: resume.css
@@ -34,6 +34,7 @@ My undergrad was in applied and computational mathematics, focussing on fluid dy
 Occasionally, I blog about my research and you can find more about my publication history at QUT eprints and Google Scholar.
 
 <aside>
+<a href="https://github.com/samclifford">GitHub</a><br>
 <a href="http://samclifford.info">Blog</a><br>
 <a href="https://eprints.qut.edu.au/view/person/Clifford,_Sam.html">QUT eprints</a><br>
 <a href="https://scholar.google.com.au/citations?hl=en&user=KbrnxeoAAAAJ&view_op=list_works">Google Scholar</a>
@@ -90,18 +91,13 @@ Between 2013 and 2015 I was employed as a **Postdoctoral Fellow** at ILAQH to su
 I still collaborate with colleagues at the International Laboratory for Air Quality and Health (ILAQH) on a variety of topics including occupational exposure, child health, atmospheric processes, exposure assessment, and instrumentation.
 
 
-The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The project seeks to determine the effect of the exposure to airborne nano and ultrafine (UF) particles emitted from motor vehicles on the health of children in schools.
-
-<aside>
-<a href="https://www.qut.edu.au/research/research-projects/uptech">Ultrafine Particles from Traffic Emissions and Children's Health</a>
-</aside>
 
 ## Air quality
 
 ------------------------------------------------------
 Citation                        Description
 ------------------------------- ----------------------
-@rahman17                       Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
+@rahman2017estimate                       Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
 
 @salimi2017nocturnal            Investigating new particle formation events that occur outside normal conditions
 
@@ -126,6 +122,13 @@ Citation                        Description
 
 
 ## UPTECH
+
+
+The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The project seeks to determine the effect of the exposure to airborne nano and ultrafine (UF) particles emitted from motor vehicles on the health of children in schools.
+
+<aside>
+<a href="https://www.qut.edu.au/research/research-projects/uptech">Ultrafine Particles from Traffic Emissions and Children's Health</a>
+</aside>
 
 ------------------------------------------------------
 Citation                        Description
@@ -177,9 +180,17 @@ Citation                        Description
 
 These papers represent work undertaken during the PhD, typically with other PhD students within ILAQH
 
-* @thermodenuder - Semi-parametric regression used to model particle losses in aerosol measuring equipment
-* @molgaard2013 - Work that came out of a visit to Helsinki, Finland, using Bayesian GAMs with autocorrelated errors to understand air quality in multiple European cities
-* @farhadpaper - Spatial variation of air quality within primary schools
+
+------------------------------------------------------
+Citation                        Description
+------------------------------- ----------------------
+@thermodenuder                  Semi-parametric regression used to model particle losses in aerosol measuring equipment
+
+@molgaard2013                   Work that came out of a visit to Helsinki, Finland, using Bayesian GAMs with autocorrelated errors to understand air quality in multiple European cities
+
+@farhadpaper                    Spatial variation of air quality within primary schools
+
+------------------------------------------------------
 
 # Conference items
 
@@ -201,6 +212,13 @@ Since 2013 I have been involved in the development and delivery of *SEB113 - Qua
 
 In 2015, the teaching team was the recipient of the Vice Chancellor's Performance Award for innovation in redesiging the unit for student success through encouraging engagement with multiple technologies.
 
-* @herdsa2016 - Redesign of a first year unit with blended learning to improve student engagement and success
+
+------------------------------------------------------
+Citation                        Description
+------------------------------- ----------------------
+@herdsa2016                     Redesign of a first year unit with blended learning to improve student engagement and success
+
+------------------------------------------------------
+
 
 # References
