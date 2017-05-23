@@ -1,6 +1,5 @@
 ---
-title: "Research profile"
-author: "Sam Clifford"
+title: "Sam Clifford - Research profile"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
 output: 
   tufterhandout::html_tufte_handout:
@@ -194,17 +193,33 @@ Citation                        Description
 
 # Conference items
 
-* @falcao2016influence - Modern statistical techniques for understanding indoor/outdoor relationships in air pollution
-* @eacclifford - A missing data model for estimating cigarette exposure from survey data and partially complete blood tests
-* @eacmazaheri - Comparing two methods of exposure assessment 
-* @eacrahman - Source characterisation in an urban area
-* @jayanAAC - Land Use Regression for air pollution
-* @uptechIA2014 - Synthesis of indoor air pollution results from UPTECH study
-* @emactalk - Presentation of the work in @emacpaper
-* @ntsydney - Comparison of inhaled particle doses for Italian and Australian students
-* @clustering - Identification of subpopulations in epidemiological studies
-* @isbaposter - Poster on spatio-temporal modelling of air quality at ISBA2012
-* @bnpposter - Poster on spatio-temporal modelling of air quality at 8BNP
+
+------------------------------------------------------
+Citation                        Description
+------------------------------- ----------------------
+@falcao2016influence            Modern statistical techniques for understanding indoor/outdoor relationships in air pollution
+ 
+@eacclifford                    A missing data model for estimating cigarette exposure from survey data and partially complete blood tests
+
+@eacmazaheri                    Comparing two methods of exposure assessment 
+
+@eacrahman                      Source characterisation in an urban area
+
+@jayanAAC                       Land Use Regression for air pollution
+
+@uptechIA2014                   Synthesis of indoor air pollution results from UPTECH study
+
+@emactalk                       Presentation of the work in @emacpaper
+
+@ntsydney                       Comparison of inhaled particle doses for Italian and Australian students
+
+@clustering                     Identification of subpopulations in epidemiological studies
+
+@isbaposter                     Poster on spatio-temporal modelling of air quality at ISBA2012
+
+@bnpposter                      Poster on spatio-temporal modelling of air quality at 8BNP
+
+------------------------------------------------------
 
 # Teaching
 
