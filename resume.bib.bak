@@ -371,7 +371,7 @@
 }
 
 @Article{jaguarspatial,
-  Title                    = {Modelling imperfect presence data obtained by citizen science*},
+  Title                    = {Modelling imperfect presence data obtained by citizen science},
   Author                   = {Mengersen, Kerrie and Peterson, Erin E. and Clifford, Samuel and Ye, Nan and Kim, June and Bednarz, Tomasz and Brown, Ross and James, Allan and Vercelloni, Julie and Pearse, Alan R. and Davis, Jacqueline and Hunter, Vanessa},
   Journal                  = {Environmetrics},
   Year                     = {2017},
