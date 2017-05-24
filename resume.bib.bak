@@ -378,7 +378,6 @@
   Note                     = {e2446 env.2446},
   Pages                    = {e2446--n/a},
 
-  Doi                      = {10.1002/env.2446},
   ISSN                     = {1099-095X},
   Keywords                 = {compound-imperfect observations, conservation, false presences, jaguar, presence-only data, species distribution models},
   Publisher                = {Wiley},
@@ -502,7 +501,7 @@
 
 @Article{fungireview,
   Title                    = {Airborne viable fungi in school environments in different climatic regions - a review},
-  Author                   = {H. Salonen and C. Duchaine and M. Mazaheri and S. Clifford and S. Lappalainen and K. Reijula and L. Morawska},
+  Author                   = {Salonen, Heidi and C. Duchaine and M. Mazaheri and S. Clifford and S. Lappalainen and K. Reijula and L. Morawska},
   Journal                  = {Atmospheric Environment},
   Year                     = {2015},
   Pages                    = {186-194},

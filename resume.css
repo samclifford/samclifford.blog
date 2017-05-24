@@ -32,3 +32,4 @@ h2,h3,h4,h5,h6{
   overflow:auto;
 }
 
+tr:nth-child(even) {background-color: #f2f2f2}

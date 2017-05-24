@@ -67,8 +67,6 @@ The world needs new ways to do conservation. There is no time for endangered ani
 Through our ‘Eyes on the Wild’ program, we aim to facilitate faster, better decisions about management and monitoring.  We are developing and using these approaches to help conserve jaguars  in the Peruvian Amazon.
 
 
-
-
 ------------------------------------------------------
 Citation                        Description
 ------------------------------- ----------------------
@@ -77,9 +75,10 @@ Citation                        Description
 @bednarz2016virtual             Using virtual environments to elicit information about ecosystems
 ------------------------------- ----------------------
 
+
 # ILAQH
 
-Between 2010 and 2013 I was a **PhD student** at ILAQH under the supervision of Professors Lidia Morawska and Kerrie Mengersen and Dr Sama Low Choy.
+Between 2010 and 2013 I was a **PhD student** at the International Laboratory for Air Quality and Health (ILAQH) under the supervision of Professors [Lidia Morawska](http://staff.qut.edu.au/staff/morawska/) and [Kerrie Mengersen](http://staff.qut.edu.au/staff/mengerse/) and Dr [Sama Low Choy](http://staff.qut.edu.au/staff/lowchoy/).
 
 <aside>
 <a href="https://www.qut.edu.au/research/our-research/institutes-centres-and-research-groups/international-laboratory-for-air-quality-and-health">International Laboratory for Air Quality and Health</a>
@@ -87,7 +86,7 @@ Between 2010 and 2013 I was a **PhD student** at ILAQH under the supervision of 
 
 Between 2013 and 2015 I was employed as a **Postdoctoral Fellow** at ILAQH to support the research being done across a variety of topics in air quality.
 
-I still collaborate with colleagues at the International Laboratory for Air Quality and Health (ILAQH) on a variety of topics including occupational exposure, child health, atmospheric processes, exposure assessment, and instrumentation.
+I still collaborate with colleagues at ILAQH on a variety of topics including occupational exposure, child health, atmospheric processes, exposure assessment, and instrumentation.
 
 
 
