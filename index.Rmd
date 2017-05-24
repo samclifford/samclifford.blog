@@ -3,6 +3,7 @@ title: "Sam Clifford - Research profile"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
 output: 
   tufterhandout::html_tufte_handout:
+    keep_md: true
     css: resume.css
     toc: true
     toc_depth: 2
@@ -47,7 +48,7 @@ From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of t
 <a href="http://acems.org.au/">ARC Centre of Excellence for Mathematical and Statistical Frontiers</a>
 </aside>
 
-## Reef 
+## Coral cover on the Great Barrier Reef 
 
 The Monitoring Through Many Eyes project is a collaboration between scientists, data analysts and marine explorers, working together to document, analyse and predict the health of the Great Barrier Reef. The aim is to tap into the power of ‘Citizen Scientists’ by collating thousands of underwater images take by recreational divers and snorkelers on the Reef each year.
 
@@ -56,7 +57,7 @@ The Monitoring Through Many Eyes project is a collaboration between scientists, 
 </aside>
 
 
-## Jaguars
+## Jaguar conservation in the Peruvian Amazon
 
 The world needs new ways to do conservation. There is no time for endangered animals and their environments. We need an evidence base to make informed decisions, and we need it now. We are addressing this problem by combining traditional conservation with virtual reality technology, mathematical and statistical modelling, local knowledge and international expertise. 
 
@@ -67,13 +68,14 @@ The world needs new ways to do conservation. There is no time for endangered ani
 Through our ‘Eyes on the Wild’ program, we aim to facilitate faster, better decisions about management and monitoring.  We are developing and using these approaches to help conserve jaguars  in the Peruvian Amazon.
 
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@jaguarspatial                  Spatial modelling of presence only data with a variety of statistical and machine learning techniques
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@jaguarspatial           Spatial modelling of presence only data with a variety of statistical and machine learning techniques
 
-@bednarz2016virtual             Using virtual environments to elicit information about ecosystems
-------------------------------- ----------------------
+@bednarz2016virtual      Using virtual environments to elicit information about ecosystems
+
+--------------------------------------------------------
 
 
 # ILAQH
@@ -92,35 +94,34 @@ I still collaborate with colleagues at ILAQH on a variety of topics including oc
 
 ## Air quality
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@rahman2017estimate                       Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@rahman2017estimate      Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
 
-@salimi2017nocturnal            Investigating new particle formation events that occur outside normal conditions
+@salimi2017nocturnal     Investigating new particle formation events that occur outside normal conditions
 
-@rivas2017identification        Identification of problems with DustTrak performance seen during measurement campaigns
+@rivas2017identification Identification of problems with DustTrak performance seen during measurement campaigns
 
-@yeganeh2017satellite           A variety of models used to estimate air pollution concentrations from satellite imagery
+@yeganeh2017satellite    A variety of models used to estimate air pollution concentrations from satellite imagery
 
-@salonen2016endotoxin           A review of endotoxin concentrations in a range of indoor environments around the world
+@salonen2016endotoxin    A review of endotoxin concentrations in a range of indoor environments around the world
 
-@mcgarry2016application         Characterisation of air quality in the workplace with multiple instruments
+@mcgarry2016application  Characterisation of air quality in the workplace with multiple instruments
 
-@salthammer2016children         Impact of climate and air pollution on children's health at school
+@salthammer2016children  Impact of climate and air pollution on children's health at school
 
-@ehsan                          Generalised Linear Mixed Models for understanding the effects of different surface treatments in a nanomaterial milling process
+@ehsan                   Generalised Linear Mixed Models for understanding the effects of different surface treatments in a nanomaterial milling process
 
-@fungireview                    A review paper on fungi concentrations in schools around the world
+@fungireview             A review paper on fungi concentrations in schools around the world
 
-@rohanpm10                      Predictive model for whether or not midday new particle formation events will occur based on morning PM$_{10}$ and visibility
+@rohanpm10               Predictive model for whether or not midday new particle formation events will occur based on morning PM$_{10}$ and visibility
 
-@tenzin1                        Children's exposure to air pollution in rural Bhutan
-------------------------------- ----------------------
+@tenzin1                 Children's exposure to air pollution in rural Bhutan
+---------------------------------------------------------
 
 
-## UPTECH
-
+## Air quality and children's health
 
 The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The project seeks to determine the effect of the exposure to airborne nano and ultrafine (UF) particles emitted from motor vehicles on the health of children in schools.
 
@@ -128,28 +129,27 @@ The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The
 <a href="https://www.qut.edu.au/research/research-projects/uptech">Ultrafine Particles from Traffic Emissions and Children's Health</a>
 </aside>
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@rusdinpaper1                   The relationship between indoor and outdoor air quality in primary schools
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@rusdinpaper1            The relationship between indoor and outdoor air quality in primary schools
 
-@ezz2015                        Methods paper for the UPTECH project
+@ezz2015                 Methods paper for the UPTECH project
 
-@PBDEs                          Multinomial regression modelling to look at the relative proportions of various polybrominated diphenyl ethers across classrooms
+@PBDEs                   Multinomial regression modelling to look at the relative proportions of various polybrominated diphenyl ethers across classrooms
 
-@farhadcluster                  Application of clustering techniques to particle size distribution data to understand common source signatures
+@farhadcluster           Application of clustering techniques to particle size distribution data to understand common source signatures
 
-@emacpaper                      Mathematical and statistical models for particle deposition inside the lung
+@emacpaper               Mathematical and statistical models for particle deposition inside the lung
 
-@mandanantpaper                 Analysis of inhaled particles in primary school children
+@mandanantpaper          Analysis of inhaled particles in primary school children
 
-@rusdinAER                      Bayesian hierarchical models for calculating air exchange rates and particle deposition rates associated with classroom activities
+@rusdinAER               Bayesian hierarchical models for calculating air exchange rates and particle deposition rates associated with classroom activities
 
-@salonen2014                    Concentrations of fungi in primary school classrooms
+@salonen2014             Concentrations of fungi in primary school classrooms
 
-@endotoxin                      Concentrations of endotoxins in primary school classrooms
-------------------------------- ----------------------
-
+@endotoxin               Concentrations of endotoxins in primary school classrooms
+---------------------------------------------------------
 
 
 ## PhD Thesis
@@ -157,82 +157,83 @@ Citation                        Description
 
 ### Thesis outputs
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@phdthesis                      _Spatio-temporal modelling of ultrafine particle number concentration_ - Using the Generalised Additive Model to model temporal trends in ultrafine particle number concentration with penalised splines and spatial trends with Gaussian Markov Random fields.
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@phdthesis               _Spatio-temporal modelling of ultrafine particle number concentration_ - Using the Generalised Additive Model to model temporal trends in ultrafine particle number concentration with penalised splines and spatial trends with Gaussian Markov Random fields.
 
-@falk                           Review paper on modern statistical methods for analysing spatial data
+@falk                    Review paper on modern statistical methods for analysing spatial data
 
-@paper2                         Spatio-temporal model in INLA of air pollution in Brisbane, Australia
+@paper2                  Spatio-temporal model in INLA of air pollution in Brisbane, Australia
 
-@bayesiansplineschapter         A book chapter on various implementations of Bayesian spline regression
+@bayesiansplineschapter  A book chapter on various implementations of Bayesian spline regression
 
-@finlandpaper                   A preprint of an unpublished paper looking into Bayesian GAMs with autocorrelated errors
+@finlandpaper            A preprint of an unpublished paper looking into Bayesian GAMs with autocorrelated errors
 
-@Clifford2011                   Using GAMs to model temporal trends and covariate effects for PNC in Helsinki, Finland
+@Clifford2011            Using GAMs to model temporal trends and covariate effects for PNC in Helsinki, Finland
 
-------------------------------------------------------
+---------------------------------------------------------
 
 ### Other publications
 
 These papers represent work undertaken during the PhD, typically with other PhD students within ILAQH
 
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@thermodenuder            Semi-parametric regression used to model particle losses in aerosol measuring equipment
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@thermodenuder                  Semi-parametric regression used to model particle losses in aerosol measuring equipment
+@molgaard2013             Work that came out of a visit to Helsinki, Finland, using Bayesian GAMs with autocorrelated errors to understand air quality in multiple European cities
 
-@molgaard2013                   Work that came out of a visit to Helsinki, Finland, using Bayesian GAMs with autocorrelated errors to understand air quality in multiple European cities
+@farhadpaper              Spatial variation of air quality within primary schools
 
-@farhadpaper                    Spatial variation of air quality within primary schools
+---------------------------------------------------------
 
-------------------------------------------------------
 
 # Conference items
 
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@falcao2016influence            Modern statistical techniques for understanding indoor/outdoor relationships in air pollution
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@falcao2016influence     Modern statistical techniques for understanding indoor/outdoor relationships in air pollution
  
-@eacclifford                    A missing data model for estimating cigarette exposure from survey data and partially complete blood tests
+@eacclifford             A missing data model for estimating cigarette exposure from survey data and partially complete blood tests
 
-@eacmazaheri                    Comparing two methods of exposure assessment 
+@eacmazaheri             Comparing two methods of exposure assessment 
 
-@eacrahman                      Source characterisation in an urban area
+@eacrahman               Source characterisation in an urban area
 
-@jayanAAC                       Land Use Regression for air pollution
+@jayanAAC                Land Use Regression for air pollution
 
-@uptechIA2014                   Synthesis of indoor air pollution results from UPTECH study
+@uptechIA2014            Synthesis of indoor air pollution results from UPTECH study
 
-@emactalk                       Presentation of the work in @emacpaper
+@emactalk                Presentation of the work in @emacpaper
 
-@ntsydney                       Comparison of inhaled particle doses for Italian and Australian students
+@ntsydney                Comparison of inhaled particle doses for Italian and Australian students
 
-@clustering                     Identification of subpopulations in epidemiological studies
+@clustering              Identification of subpopulations in epidemiological studies
 
-@isbaposter                     Poster on spatio-temporal modelling of air quality at ISBA2012
+@isbaposter              Poster on spatio-temporal modelling of air quality at ISBA2012
 
-@bnpposter                      Poster on spatio-temporal modelling of air quality at 8BNP
+@bnpposter               Poster on spatio-temporal modelling of air quality at 8BNP
 
-------------------------------------------------------
+---------------------------------------------------------
 
-# Teaching
+
+# Education
 
 Since 2013 I have been involved in the development and delivery of *SEB113 - Quantitative Methods for Science* as part of the ST01 Bachelor of Science course at Queensland University of Technology. The course covers a variety of mathematical and statistical topics taught through scientific case studies and makes use of the R language for all computation.
 
 In 2015, the teaching team was the recipient of the Vice Chancellor's Performance Award for innovation in redesiging the unit for student success through encouraging engagement with multiple technologies.
 
 
-------------------------------------------------------
-Citation                        Description
-------------------------------- ----------------------
-@herdsa2016                     Redesign of a first year unit with blended learning to improve student engagement and success
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@herdsa2016              Redesign of a first year unit with blended learning to improve student engagement and success
 
-------------------------------------------------------
+---------------------------------------------------------
 
 
 # References
