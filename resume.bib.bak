@@ -409,14 +409,6 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0169809516303684}
 }
 
-@Article{rahman2017nox,
-  Title                    = {Development of a land use regression model for daily {NO}$_2$ and {NO}$_x$ concentrations in the {Brisbane metropolitan area, Australia}},
-  Author                   = {Rahman, Md Mahmudur and Yeganeh, Bijan and Clifford, Sam and Knibbs, Luke and Morawska, Lidia},
-  Journal                  = {Environmental Modelling and Software},
-  Year                     = {2017},
-  Volume                   = {accepted}
-}
-
 @Misc{eacrahman,
   Title                    = {Characterisation and sources of ultrafine particles in an inner city urban area},
 
@@ -522,7 +514,7 @@
 
 @Article{salonen2014,
   Title                    = {Airborne culturable fungi in naturally ventilated primary school environments in a subtropical climate},
-  Author                   = {Salonen, Heidi and Caroline Duchaine and Mandana Mazaheri and Sam Clifford and Lidia Morawska},
+  Author                   = {Heidi Salonen and Caroline Duchaine and Mandana Mazaheri and Sam Clifford and Lidia Morawska},
   Journal                  = {Atmospheric Environment},
   Year                     = {2015},
   Pages                    = {412-418},
@@ -595,15 +587,6 @@
 
   Publisher                = {Elsevier},
   Url                      = {http://www.sciencedirect.com/science/article/pii/S1364815216309483}
-}
-
-
-@Article{zoe2017ofmdpm,
-  Title                    = {Clustering action potential spikes: insights on the use of overfitted finite mixture models and {Dirichlet} process mixture models},
-  Author                   = {{van Havre}, Zo\'e and White, Nicole and Rousseau, Judith and Clifford, Sam and Mengersen, Kerrie},
-  Journal                  = {Australia and New Zealand Journal of Statistics},
-  Year                     = {2017},
-  Volume                   = {under review},
 }
 
 @comment{jabref-meta: selector_publisher:}
