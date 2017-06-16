@@ -50,7 +50,7 @@ From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of t
 
 ## Coral cover on the Great Barrier Reef 
 
-The Monitoring Through Many Eyes project is a collaboration between scientists, data analysts and marine explorers, working together to document, analyse and predict the health of the Great Barrier Reef. The aim is to tap into the power of ‘Citizen Scientists’ by collating thousands of underwater images take by recreational divers and snorkelers on the Reef each year.
+The Monitoring Through Many Eyes project is a collaboration between scientists, data analysts and marine explorers, working together to document, analyse and predict the health of the Great Barrier Reef. The aim is to tap into the power of Citizen Scientists by collating thousands of underwater images take by recreational divers and snorkelers on the Reef each year.
 
 <aside>
 <a href="https://www.virtualreef.org.au/">Monitoring Through Many Eyes</a>
@@ -65,7 +65,7 @@ The world needs new ways to do conservation. There is no time for endangered ani
 <a href="http://vis.stats.technology/">Many Eyes on the Wild</a>
 </aside>
 
-Through our ‘Eyes on the Wild’ program, we aim to facilitate faster, better decisions about management and monitoring.  We are developing and using these approaches to help conserve jaguars  in the Peruvian Amazon.
+Through our Many Eyes on the Wild program, we aim to facilitate faster, better decisions about management and monitoring.  We are developing and using these approaches to help conserve jaguars  in the Peruvian Amazon.
 
 
 ---------------------------------------------------------
@@ -77,8 +77,19 @@ Citation                 Description
 
 --------------------------------------------------------
 
+## Bayesian spike sorting
 
-# ILAQH
+I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zo� van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
+
+
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@zoe2017ofmdpm           Overfitted mixtures and Dirichlet process mixtures for spike classification
+
+--------------------------------------------------------
+
+# ILAQH 
 
 Between 2010 and 2013 I was a **PhD student** at the International Laboratory for Air Quality and Health (ILAQH) under the supervision of Professors [Lidia Morawska](http://staff.qut.edu.au/staff/morawska/) and [Kerrie Mengersen](http://staff.qut.edu.au/staff/mengerse/) and Dr [Sama Low Choy](http://staff.qut.edu.au/staff/lowchoy/).
 
@@ -97,6 +108,8 @@ I still collaborate with colleagues at ILAQH on a variety of topics including oc
 ---------------------------------------------------------
 Citation                 Description
 ------------------------ --------------------------------
+@rahman2017nox           Land use regression modelling with variable selection of NO$_x$ and NO$_2$ concentrations
+
 @rahman2017estimate      Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
 
 @salimi2017nocturnal     Investigating new particle formation events that occur outside normal conditions
