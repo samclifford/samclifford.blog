@@ -19,15 +19,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Bio
 
-<div align="left">
-![Photo by <a href="http://www.njtierney.com/">Nick Tierney</a>](samclifford20131029.jpg)
-</div>
-
-I'm a statistician working at Queensland University of technology on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students.
 
 <aside>
+![](170309QUT_SEF_Sam Clifford_007_640x480.jpg)
+
 <a href="http://www.qut.edu.au">QUT</a><br>
 </aside>
+
+I'm a statistician working at Queensland University of technology on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students in the unit [SEB113 - Quantitative Methods in Science](https://www.qut.edu.au/study/unit?unitCode=SEB113).
 
 My undergrad was in applied and computational mathematics, focussing on fluid dynamics in my honours year. Over time, I drifted towards Bayesian statistical modelling, where I use semi-parametric regression and hierarchical modelling for spatial, temporal, and spatio-temporal modelling.
 
@@ -48,6 +47,10 @@ From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of t
 <a href="http://acems.org.au/">ARC Centre of Excellence for Mathematical and Statistical Frontiers</a>
 </aside>
 
+## Dengue fever transmission
+
+I am working with colleagues at QUT and <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">QIMR</a> to investigate the spread of Dengue fever.
+
 ## Coral cover on the Great Barrier Reef 
 
 The Monitoring Through Many Eyes project is a collaboration between scientists, data analysts and marine explorers, working together to document, analyse and predict the health of the Great Barrier Reef. The aim is to tap into the power of Citizen Scientists by collating thousands of underwater images take by recreational divers and snorkelers on the Reef each year.
@@ -56,6 +59,13 @@ The Monitoring Through Many Eyes project is a collaboration between scientists, 
 <a href="https://www.virtualreef.org.au/">Monitoring Through Many Eyes</a>
 </aside>
 
+
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@reefaesthetics          Gathering information from experts and citizen scientists in a virtual environment to understand what people believe makes an aesthetically pleasing reef
+
+--------------------------------------------------------
 
 ## Jaguar conservation in the Peruvian Amazon
 
@@ -79,7 +89,7 @@ Citation                 Description
 
 ## Bayesian spike sorting
 
-I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zo? van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
+I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zoé van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
 
 
 ---------------------------------------------------------
@@ -108,7 +118,7 @@ I still collaborate with colleagues at ILAQH on a variety of topics including oc
 ---------------------------------------------------------
 Citation                 Description
 ------------------------ --------------------------------
-@rahman2017nox           Land use regression modelling with variable selection of NO$_x$ and NO$_2$ concentrations
+@rahman2017nox           Land use regression modelling with variable selection of NO$_\mathrm{x}$ and NO$_2$ concentrations
 
 @rahman2017estimate      Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
 
