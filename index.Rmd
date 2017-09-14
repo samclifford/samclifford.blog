@@ -3,6 +3,7 @@ title: "Sam Clifford - Research profile"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
 output: 
   tufterhandout::html_tufte_handout:
+    self_contained: false
     keep_md: true
     css: resume.css
     toc: true
@@ -11,6 +12,7 @@ output:
       in_header: header.html
 bibliography: resume.bib
 link-citations: yes
+
 ---
 
 ```{r setup, include=FALSE}
@@ -30,7 +32,7 @@ I'm a statistician working at Queensland University of technology on a range of 
 
 My undergrad was in applied and computational mathematics, focussing on fluid dynamics in my honours year. Over time, I drifted towards Bayesian statistical modelling, where I use semi-parametric regression and hierarchical modelling for spatial, temporal, and spatio-temporal modelling.
 
-Occasionally, I blog about my research and you can find more about my publication history at QUT eprints and Google Scholar. Occasionally I publish useful code, including a package for tidying MCMC output from `coda` or `rjags` entitled [`mmcc`](http://www.njtierney.com/mmcc/).
+Occasionally, I blog about my research and you can find more about my publication history at QUT eprints and Google Scholar. Occasionally I publish useful code, including a package for tidying MCMC output from `coda` or `rjags` entitled [`mmcc`](http://mmcc.njtierney.com/).
 
 <aside>
 <a href="https://github.com/samclifford">GitHub</a><br>
@@ -89,7 +91,7 @@ Citation                 Description
 
 ## Bayesian spike sorting
 
-I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zoé van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
+I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zo? van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
 
 
 ---------------------------------------------------------
