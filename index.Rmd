@@ -9,6 +9,7 @@ output:
     toc_depth: 2
     includes:
       in_header: header.html
+    self_contained: no
 bibliography: resume.bib
 link-citations: yes
 ---
@@ -89,7 +90,7 @@ Citation                 Description
 
 ## Bayesian spike sorting
 
-I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zoé van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
+I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zo{\'e} van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
 
 
 ---------------------------------------------------------
@@ -118,6 +119,10 @@ I still collaborate with colleagues at ILAQH on a variety of topics including oc
 ---------------------------------------------------------
 Citation                 Description
 ------------------------ --------------------------------
+@uptechmain              Exposure-response relationships for the effect of ultrafine particles on inflammation markers, lung function and respiratory illness symptoms in students aged 8-11 years old
+
+@MORAWSKA201775          Trends in exposure in homes, schools and offices to PNC, PM$_{2.5}$ and PM$_{10}$.
+
 @rahman2017nox           Land use regression modelling with variable selection of NO$_\mathrm{x}$ and NO$_2$ concentrations
 
 @rahman2017estimate      Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
