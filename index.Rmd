@@ -22,10 +22,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 <aside>
-![](170309QUT_SEF_Sam Clifford_007_640x480.jpg)
-
+<img src="170309QUT_SEF_Sam Clifford_007_640x480.jpg", style="height: 200px;">
+<p>
 <a href="http://www.qut.edu.au">QUT</a><br>
 </aside>
+
 
 I'm a statistician working at Queensland University of technology on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students in the unit [SEB113 - Quantitative Methods in Science](https://www.qut.edu.au/study/unit?unitCode=SEB113).
 
