@@ -49,11 +49,11 @@ From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of t
 <a href="http://acems.org.au/">ARC Centre of Excellence for Mathematical and Statistical Frontiers</a>
 </aside>
 
-## Dengue fever transmission
+## Dengue 
 
 I am working with colleagues at QUT and <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">QIMR</a> to investigate the spread of Dengue fever.
 
-## Coral cover on the Great Barrier Reef 
+## Coral 
 
 The Monitoring Through Many Eyes project is a collaboration between scientists, data analysts and marine explorers, working together to document, analyse and predict the health of the Great Barrier Reef. The aim is to tap into the power of Citizen Scientists by collating thousands of underwater images take by recreational divers and snorkelers on the Reef each year.
 
@@ -69,7 +69,7 @@ Reference                Description
 
 --------------------------------------------------------
 
-## Jaguar conservation in the Peruvian Amazon
+## Jaguars
 
 The world needs new ways to do conservation. There is no time for endangered animals and their environments. We need an evidence base to make informed decisions, and we need it now. We are addressing this problem by combining traditional conservation with virtual reality technology, mathematical and statistical modelling, local knowledge and international expertise. 
 
@@ -77,7 +77,7 @@ The world needs new ways to do conservation. There is no time for endangered ani
 <a href="http://vis.stats.technology/">Many Eyes on the Wild</a>
 </aside>
 
-Through our Many Eyes on the Wild program, we aim to facilitate faster, better decisions about management and monitoring.  We are developing and using these approaches to help conserve jaguars  in the Peruvian Amazon.
+Through our Many Eyes on the Wild program, we aim to facilitate faster, better decisions about management and monitoring.  We are developing and using these approaches to help conserve jaguars in the Peruvian Amazon.
 
 
 ---------------------------------------------------------
@@ -89,7 +89,7 @@ Reference                Description
 
 --------------------------------------------------------
 
-## Bayesian spike sorting
+## Spike sorting
 
 I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zoé van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
 
@@ -146,7 +146,7 @@ Reference                Description
 ---------------------------------------------------------
 
 
-## Air quality and children's health
+## Children's health
 
 The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The project seeks to determine the effect of the exposure to airborne nano and ultrafine (UF) particles emitted from motor vehicles on the health of children in schools.
 
