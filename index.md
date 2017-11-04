@@ -47,7 +47,7 @@ The Monitoring Through Many Eyes project is a collaboration between scientists, 
 
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @reefaesthetics          Gathering information from experts and citizen scientists in a virtual environment to understand what people believe makes an aesthetically pleasing reef
 
@@ -65,7 +65,7 @@ Through our Many Eyes on the Wild program, we aim to facilitate faster, better d
 
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @jaguarspatial           Spatial modelling of presence only data with a variety of statistical and machine learning techniques
 
@@ -75,11 +75,11 @@ Citation                 Description
 
 ## Bayesian spike sorting
 
-I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zo? van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
+I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zoé van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
 
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @zoe2017ofmdpm           Overfitted mixtures and Dirichlet process mixtures for spike classification
 
@@ -102,7 +102,7 @@ I still collaborate with colleagues at ILAQH on a variety of topics including oc
 ## Air quality
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @rahman2017nox           Land use regression modelling with variable selection of NO$_\mathrm{x}$ and NO$_2$ concentrations
 
@@ -139,7 +139,7 @@ The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The
 </aside>
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @rusdinpaper1            The relationship between indoor and outdoor air quality in primary schools
 
@@ -167,7 +167,7 @@ Citation                 Description
 ### Thesis outputs
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @phdthesis               _Spatio-temporal modelling of ultrafine particle number concentration_ - Using the Generalised Additive Model to model temporal trends in ultrafine particle number concentration with penalised splines and spatial trends with Gaussian Markov Random fields.
 
@@ -188,7 +188,7 @@ Citation                 Description
 These papers represent work undertaken during the PhD, typically with other PhD students within ILAQH
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @thermodenuder            Semi-parametric regression used to model particle losses in aerosol measuring equipment
 
@@ -203,7 +203,7 @@ Citation                 Description
 
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @falcao2016influence     Modern statistical techniques for understanding indoor/outdoor relationships in air pollution
  
@@ -238,7 +238,7 @@ In 2015, the teaching team was the recipient of the Vice Chancellor's Performanc
 
 
 ---------------------------------------------------------
-Citation                 Description
+Reference                Description
 ------------------------ --------------------------------
 @herdsa2016              Redesign of a first year unit with blended learning to improve student engagement and success
 
