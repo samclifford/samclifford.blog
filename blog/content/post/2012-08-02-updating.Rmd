@@ -1,0 +1,6 @@
+---
+title: Bayesian updating
+author: Sam Clifford
+date: 2012-08-27
+---
+

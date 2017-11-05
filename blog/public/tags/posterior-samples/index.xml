@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posterior Samples on Sam Clifford </title>
+    <link>/./tags/posterior-samples/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2017-03-29 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2017/03/29/posterior-samples/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2017/03/29/posterior-samples/</guid>
+      <description>&lt;p&gt;I’ve been using Twitter for reading and our QUT Maths/Stats Slack domain for discussing maths, stats, data science, etc. over the last few months. So the way I use social media for work has changed a lot, and I’ve not been blogging as often. In any case, I figured there’s enough random stuff I encounter floating around that it could be good to restart the info dump that is Posterior samples.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1609.00037&#34;&gt;Wilson et al. - Good Enough Practices in Scientific Computing&lt;/a&gt;. I’ve noticed that I’m a lot more evangelical about people using git to collaboratively work on R-based analysis these days. Whether it’s people a few desks or a few hundred kilometres away, getting your work up on a private github repository is going to make it easier for us to work together.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://soapboxscience.org/women-science-learn-code/&#34;&gt;Vicky Butt - Why Women in Science Should Learn to Code&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theguardian.com/commentisfree/2017/mar/28/arctic-researcher-donald-trump-deleting-my-citations&#34;&gt;The Trump administration seems to be deleting climate data&lt;/a&gt; (or at least stopping access to it).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theguardian.com/australia-news/2017/mar/27/ama-accuses-pete-evans-of-endangering-lives-with-unscientific-health-advice&#34;&gt;The Australian Medical Association is accusing celebrity chef (and paleo-evangelist) Pete Evans of giving unscientific medical advice that he’s not qualified to give&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Oh, and Dr Jack Wrigley, my lecturer for Advanced Calculus, Computational Mathematics 1 and Partial Differential Equations, dropped by to see how the School of Mathematical Sciences’ new home was.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;17359163_979095335554912_2685693721464386778_o.jpg&#34; alt=&#34;17359163_979095335554912_2685693721464386778_o.jpg&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;17359163_979095335554912_2685693721464386778_o.jpg&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>posterior samples</title>
+      <link>/./2014/10/17/posterior-samples/</link>
+      <pubDate>Fri, 17 Oct 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/10/17/posterior-samples/</guid>
+      <description>&lt;p&gt;I probably should have put this post up earlier because it’s now a huge collection of stuff from the last month. Here we go! It appears that &lt;a href=&#34;http://hilaryparker.com/2012/08/16/the-setup-part-1/&#34;&gt;Hilary Parker&lt;/a&gt; and I have similar (but by no means identical) work setups for doing stats (or at least we did two years ago). It’s never too late to come up with a sensible way of organising your work and collection of references/downloaded papers. Applied statisticians should probably &lt;a href=&#34;http://simplystatistics.org/2014/09/15/applied-statisticians-people-want-to-learn-what-we-do-lets-teach-them/&#34;&gt;teach scientists what it is we do&lt;/a&gt;, rather than just the mathematics behind statistics. This is a difference I’ve noticed between SEB113 and more traditional statistics classes; we spend a lot less time discussion F distributions and a lot more time on model development and visualisation. Speaking of visualisation, here’s a really great article on visualisation and how we can use small multiples and colour, shape, etc. to highlight the interesting differences so that it’s very clear what our message is. Jeff Leek has compiled &lt;a href=&#34;http://simplystatistics.org/2014/09/09/a-non-comprehensive-list-of-awesome-female-data-people-on-twitter/&#34;&gt;a list of some of the most awesome data people&lt;/a&gt; on Twitter who happen to be female. In the ongoing crusade against abuse of p-values, &lt;a href=&#34;http://simplystatistics.org/2014/09/30/you-think-p-values-are-bad-i-say-show-me-the-data/&#34;&gt;we may want to instead focus on reproducibility&lt;/a&gt; to show that our results say what we say they do. Andrew Gelman and Eric Loken have &lt;a href=&#34;http://www.americanscientist.org/issues/feature/2014/6/the-statistical-crisis-in-science/99999&#34;&gt;an article in The American Statistician&lt;/a&gt; reminding us that p-values have a context and we need to be aware of issues like sample size, p-hacking, multiple comparisons, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/09/24/posterior-samples/</link>
+      <pubDate>Wed, 24 Sep 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/09/24/posterior-samples/</guid>
+      <description>&lt;p&gt;SEB113 students really seemed to enjoy looking at mathematical modelling last week. &lt;a href=&#34;http://books.google.com.au/books?id=nM_X1PTccloC&amp;amp;lpg=PA111&amp;amp;ots=dCzeaDpIeb&amp;amp;dq=lotka%20volterra%20fulford%20and%20barnes&amp;amp;pg=PA106#v=onepage&amp;amp;q=lotka%20volterra%20fulford%20and%20barnes&amp;amp;f=false&#34;&gt;The Lotka-Volterra equations&lt;/a&gt; continue to be a good teaching tool. A student pointed out that when reviewing the limit idea for derivatives it’d be useful to show it with approximating the circumference of a circle using a polygon. So I knocked this up: &lt;a href=&#34;https://samcliffordinfo.files.wordpress.com/2014/09/approximations.png&#34;&gt;&lt;img src=&#34;approximations.png?w=300&#34; alt=&#34;approximations&#34; /&gt;&lt;/a&gt; Are you interested in big data and/or air quality? &lt;a href=&#34;https://www.qut.edu.au/research/our-research/student-topics/big-data-and-nanoparticles-modelling-complex-spatio-temporal-variation&#34;&gt;Consider doing a PhD with me&lt;/a&gt;. This week I showed in the workshop how Markov chains are a neat application of linear algebra for dealing with probability. We used &lt;a href=&#34;http://setosa.io/blog/2014/07/26/markov-chains/&#34;&gt;this interactive visualisation&lt;/a&gt; to investigate what happens as the transition probabilities change. Zoubin Ghahramani has written &lt;a href=&#34;http://rsta.royalsocietypublishing.org/content/371/1984/20110553.abstract&#34;&gt;a really nice review paper&lt;/a&gt; of Bayesian non-parametrics that I really recommend checking out if you’re interested in the new modelling techniques that have been coming out in the last few years for complex data sets. &lt;a href=&#34;http://www.wired.com/2014/09/exercism/&#34;&gt;Exercism.io&lt;/a&gt; is a new service for learning how to master programming by getting feedback on exercises.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2014/07/30/posterior-samples/</link>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/07/30/posterior-samples/</guid>
+      <description>&lt;p&gt;Interested in collaborative use of R, MATLAB, etc. for analysis and visualisation within a webpage? &lt;a href=&#34;http://nbviewer.ipython.org/gist/msund/403910de45e282d658fa&#34;&gt;Combining plotly and iPython&lt;/a&gt; can help you with that. Cosmopolitan (yes, &lt;em&gt;that&lt;/em&gt; Cosmopolitan) has &lt;a href=&#34;http://www.cosmopolitan.com/career/news/a29534/get-that-life-emily-graslie-science/&#34;&gt;a great article&lt;/a&gt; interviewing Emily Graslie, Chief Curiosity Officer at the Field Museum in Chicago. She discusses being an artist and making the transition into science, science education and YouTube stardom. A few of the PhD students in my lab have asked if I could run an introduction to R session. I’d mentioned the CAR workshop that I’d be doing but the cost had put them off. Luckily, there are alternatives like &lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-r&#34;&gt;Datacamp&lt;/a&gt;, &lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt; and &lt;a href=&#34;http://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html&#34;&gt;Lynda&lt;/a&gt;. Coursera’s next round of “Data Science”, delivered by Johns Hopkins University, starts next Monday (Course 1 - &lt;a href=&#34;https://www.coursera.org/specialization/jhudatascience/1&#34;&gt;R Programming&lt;/a&gt;). So get in there and learn some R! I’m considering recommending some of these Coursera courses to my current SEB113 students who want to go a bit further with R, but the approach that they take in these online modules is quite different to what we do in SEB113 and I don’t want them to confuse themselves.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/07/02/posterior-samples/</link>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/07/02/posterior-samples/</guid>
+      <description>&lt;p&gt;ARC Discovery Projects have been returned to their authors, and we are putting our responses together for the rejoinders. Interesting to see that we got a comment suggesting that we use the less restrictive CC-by instead of CC-by-nc-sa as we’d suggested. We weren’t successful in our Linkage Project applications, which is disappointing as they were interesting projects (well, we thought so). Continuing to bring research funding in is an ongoing struggle for all research groups and I feel it’s only going to get harder as the new federal government’s research priorities appear to be more aligned to medical science that delivers treatments than to our group’s traditional strengths. SEB113 is pretty much completely over for the semester, with marks having been entered for almost every student. Overall I think the students did fairly well. We had some issues with the timetable this semester. Ideally, we’d like the Lecture, then all of the computer labs, then all of the workshops, so that we can introduce a statistical idea, show the code and then apply the idea and code in a group setting. Next semester, we have the lecture followed immediately by the workshops with the computer labs dotted throughout the remainder of the week. This has provided us with an opportunity to try some semi-flipped classroom ideas, where students are able/expected to do the computer lab at home at their own pace rather than watch a tutor explain it one line at a time at the front of a computer lab. I’m teaching part of a &lt;a href=&#34;http://www.eventbrite.com.au/e/r-statistical-language-for-air-pollution-epidemiology-tickets-12043581677&#34;&gt;two day course&lt;/a&gt; on the use of R in air pollution epidemiology. My part will introduce Bayesian statistics with a brief overview, a discussion about prior distributions as a means of encoding &lt;em&gt;a priori&lt;/em&gt; beliefs about model parameters, and discuss the use of Bayesian hierarchical modelling (as opposed to more traditional ANOVA techniques) as a way of making the most of the data that’s been collected. The other two presenters are &lt;a href=&#34;http://researchers.uq.edu.au/researcher/2181&#34;&gt;Dr Peter Baker&lt;/a&gt; and &lt;a href=&#34;http://researchers.uq.edu.au/researcher/2530&#34;&gt;Dr Yuming Guo&lt;/a&gt;. The course is being run by the CAR-CRE, who partially fund my postdoctoral fellowship. I had meant to post this back when they were doing the rounds, but there’s &lt;a href=&#34;http://www.tylervigen.com/&#34;&gt;a bunch of plots&lt;/a&gt; that attempt to show that correlation isn’t causation and that spurious correlations exist in large data sets. &lt;a href=&#34;https://tom-christie.github.io/articles/correlation/&#34;&gt;Tom Christie has responded&lt;/a&gt; to this by going over the fact that correlation in time series isn’t as simple as in the case of independent, identically distributed data. One should be careful that one’s criticism of bad statistics is itself founded on good statistics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/04/26/posterior-samples/</link>
+      <pubDate>Sat, 26 Apr 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/04/26/posterior-samples/</guid>
+      <description>&lt;p&gt;I’m teaching science students how to do statistics. It would be great if we could turn them into Bayesians, especially seeing as we’ve just covered the Agresti-Coull correction for estimating proportions from small experiments. &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/teachingbayes.pdf&#34;&gt;Andrew Gelman has an interesting paper&lt;/a&gt; on teaching Bayesian statistics to non-statisticians that focuses on the delivery of skills rather than concepts. I would definitely agree with his approach, especially when you consider how he stresses that discussing the model is probably the most important part. NASA have done some work simulating global aerosols and it’s been compiled into &lt;a href=&#34;http://www.itsokaytobesmart.com/post/82630633966/one-of-my-favorite-gifs-of-one-of-my-favorite-nasa&#34;&gt;a neat video&lt;/a&gt; (via &lt;a href=&#34;http://www.itsokaytobesmart.com/&#34;&gt;It’s Okay To Be Smart’s Joe Hanson&lt;/a&gt;). CSIRO have been doing some interesting stuff looking at the production of organic aerosols as well, so this is something I’m paying a bit more attention to at the moment. &lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Datacamp&lt;/a&gt; is a set of online labs for learning to use R, covering the basics of R, data analysis and statistical inference, and computational finance and econometrics. &lt;a href=&#34;https://medium.com/of-games-and-code/d90a50c5d58e&#34;&gt;Learn to be a better coder&lt;/a&gt; by improving your communication skills. The most practical (in terms of coding, at least) aspect of this includes using meaningful names and writing comments that describe what the code does when it’s not clear from the code itself.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/03/05/posterior-samples/</link>
+      <pubDate>Wed, 05 Mar 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/03/05/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ntnu.edu/&#34;&gt;NTNU&lt;/a&gt; in Trondheim, Norway, has &lt;a href=&#34;https://sites.google.com/a/r-inla.org/www/events/openphd-grants&#34;&gt;five PhD fellowships&lt;/a&gt; open. Visualising homicide rates in Mexico &lt;a href=&#34;http://lcolladotor.github.io/2014/02/26/excited-by-willingness-to-help-get-things-done/&#34;&gt;using R and GitHub&lt;/a&gt; (via &lt;a href=&#34;http://www.statisticsblog.com/2014/03/the-week-in-stats-mar-3rd-edition/&#34;&gt;Probability and Statistics Blog&lt;/a&gt;). If you’re in Melbourne, Australia, you should consider popping along to &lt;a href=&#34;http://thelaborastory.com/&#34;&gt;Laborastory&lt;/a&gt; at the Cider House (Brunswick), where five scientists get up on the first Tuesday of the month to tell the stories of the heroes and history of their field. A friend of mine went along this week and enjoyed it immensely. SEB113 has started again. I’ve already done 5 workshops (I have three a week). Introducing a whole new cohort of students to R, RStudio and ggplot. We did some paper plane throwing last week and had a look at how simple usage of faceting, colouring and stacking histograms can reveal both overall variation and group-to-group variation. A few students are still bewildered by the idea of writing code to make pictures but they recognise that it’s just a case of needing practice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/02/13/posterior-samples/</link>
+      <pubDate>Thu, 13 Feb 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/02/13/posterior-samples/</guid>
+      <description>&lt;p&gt;It’s still ARC writing time so that’s been taking up quite a bit of time recently. A coworker from Maths mentioned she’d started using &lt;a href=&#34;http://literatureandlatte.com/scrivener.php&#34;&gt;Scrivener&lt;/a&gt; to storyboard her papers. Apparently &lt;a href=&#34;http://mosx.tumblr.com/post/51299936501/our-collaborative-scrivener-workflows&#34;&gt;it can be used with tools like git&lt;/a&gt;, &lt;a href=&#34;http://creativityhacker.ca/2013/04/23/scrivener-and-the-cloud-best-practices-2013/&#34;&gt;Google Drive and Dropbox&lt;/a&gt; to work collaboratively but you’ve got to be careful of conflicted copies that won’t be discovered. Another coworker from Maths isn’t so impressed by Scrivener, noting that in terms of using it with version control software you’re better off using LaTeX anyway. At US$40 a license I’m a bit reluctant to try to make Scrivener part of my workflow, and there’s no way I can ask collaborators to fork out that kind of money. I keep being impressed by Matt Wand, Jan Luts and Tamara Broderick’s work on &lt;a href=&#34;http://realtime-semiparametric-regression.net/&#34;&gt;realtime semiparametric regression&lt;/a&gt;. I saw Wand present this work at Bayes on the Beach just over a year ago. I can’t, for the life of me, wrap my head around mean-field variational Bayes, though. Perhaps it’s that I’ve never had to deal with Calculus of Variations and got into inference beyond linear models through MCMC in WinBUGS rather than through machine learning. I’ve got a few more books on my desk about statistical theory now, including Congdon’s “Bayesian Statistical Modelling”, Koller and Friedman’s “Probabilistic Graphical Models”, Casella and Berger’s “Statistical Inference”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/12/17/posterior-samples/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/17/posterior-samples/</guid>
+      <description>&lt;p&gt;Today’s collection of links have the loose theme of engagement between the public and science. Grist, an environmental news service I used to read every single day, have an &lt;a href=&#34;http://grist.org/climate-energy/reddits-science-forum-banned-climate-deniers-why-dont-all-newspapers-do-the-same/&#34;&gt;interesting article&lt;/a&gt; about how on reddit the science subreddit has banned out and out climate denial (more accurately: conspiracy theories) from their discussion. The author, a moderator of the subreddit, wonders why mainstream news services don’t just do the same given that the science is in. If you’re unconvinced about the science, or are convinced that it’s right but are unsure about the specifics, &lt;a href=&#34;http://www.npr.org/blogs/13.7/2013/12/16/251437395/global-warming-explained-in-about-a-minute&#34;&gt;NPR has a short article and animation&lt;/a&gt; about the mechanisms of global warming. The authors raise the point that the general public find science a bit daunting, particularly when it’s something as complex as global climate systems. Charlotte Pezaro, a PhD student at the University of Queensland, is &lt;a href=&#34;http://cpezaro.wordpress.com/2013/12/17/making-decisions-in-personally-relevant-contexts-of-science/&#34;&gt;doing research&lt;/a&gt; into how science education plays a role in preparing people to evaluate evidence rather than just preparing them to do science or to memorise scientific facts. Pezaro argues that more than this, a focus of science education should be to develop scientific literacy in the making of decisions in a personally relevant context of science, such as health, nutrition and the use of technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/12/12/posterior-samples/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/12/posterior-samples/</guid>
+      <description>&lt;p&gt;Hugh Possingham’s lab at UQ is advertising four postdoc positions. &lt;a href=&#34;http://uqjobs.uq.edu.au/jobDetails.asp?sJobIDs=495300&amp;amp;stp=AW&#34;&gt;Two from an ARC Laureate Fellowship&lt;/a&gt; and &lt;a href=&#34;http://uqjobs.uq.edu.au/jobDetails.asp?sJobIDs=495304&amp;amp;stp=AW&#34;&gt;two through the ARC Centre of Excellence for Environmental Decisions&lt;/a&gt;. The positions are three years full time and focus on mathematics and statistics rather than ecological fieldwork. The International Agency for Research on Cancer has &lt;a href=&#34;http://martynplummer.wordpress.com/2013/12/10/postdoctoral-opportunity-at-iarc-2/&#34;&gt;a postdoc position&lt;/a&gt; as well. I had my PhD graduation ceremony yesterday. &lt;a href=&#34;img_2653a.jpg&#34;&gt;&lt;img src=&#34;http://samcliffordinfo.files.wordpress.com/2013/12/img_2653a.jpg&#34; alt=&#34;IMG_2653a&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2013/12/02/posterior-samples/</link>
+      <pubDate>Mon, 02 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/02/posterior-samples/</guid>
+      <description>&lt;p&gt;Thiago Martins has posted &lt;a href=&#34;http://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/&#34;&gt;a neat little tutorial&lt;/a&gt; about using R to calculate and visualise Principle Components Analysis, using Fisher’s Iris data. PCA is something I’ve struggled with as I’ve gone further into statistics, as it comes across as being based on mathematics rather than statistics. I’d like to learn more about the Indian Buffet Process and associated non-parametric Bayesian methods but if I’m going to be looking at long and wide data sets (say, UPTECH questionnaire data) I’d like to have somewhere to start. It looks like this may provide that. Rasmus Bååth’s done &lt;a href=&#34;http://www.sumsar.net/blog/2013/11/easy-laplace-approximation/&#34;&gt;a tutorial on Laplace Approximations in R&lt;/a&gt; (hat tip to Matt Moores for this one). Laplace Approximations are an alternative to MCMC simulation that can provide good approximations to well-behaved posterior densities in a fraction of the time. The tutorial deals with the issue of reparameterisation for when you’ve got parameters which have bounded values (such as binomial proportions). As a piece of trivia, Thiago (above) is based at NTNU where &lt;a href=&#34;http://www.r-inla.org/&#34;&gt;R-INLA&lt;/a&gt; is developed. I’m at the &lt;a href=&#34;http://emac2013.com.au/&#34;&gt;emac2013&lt;/a&gt; conference this week. We’re about half way through day one of the talks (of three) and there’s already been some fascinating stuff. Professor Robert Mahony (ANU) gave a talk that shows that the development of more advanced unmanned aerial vehicles (UAVs, drones) involves some quite complex but elegant mathematics, involving Lie group symmetries, rather than just coming up with cooler robots. Hasitha Nayanajith Polwaththe Gallage (QUT) showed some really interesting particle method (mesh-free) modelling where forces and energies were used to determine the shape of a red blood cell that had just ejected its nucleus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding uncertainty</title>
+      <link>/./2013/10/29/understanding-uncertainty/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/29/understanding-uncertainty/</guid>
+      <description>&lt;p&gt;Ah, the &lt;a href=&#34;http://en.wikipedia.org/wiki/Monty_Hall_problem&#34;&gt;Monty Hall problem&lt;/a&gt;. AKA “What? HOW!? Is this magic?” &lt;a href=&#34;http://www.stayorswitch.com/&#34;&gt;Here’s a nice little Flash site&lt;/a&gt; that simulates the Monty Hall problem and asks you whether you’re going to switch or stay and shows the stats of the number of people who’ve switched and stayed and how often they’ve won the car. The great thing about the Monty Hall problem is that it’s a great example of the use of Bayes’ theorem and Game theory. &lt;a href=&#34;http://www.youtube.com/watch?feature=player_detailpage&amp;amp;v=bVMVGHkt2cg&#34;&gt;This is a fun video&lt;/a&gt; starring Ronald Fisher explaining how to test the effect of some treatment (flicking the top of beer cans affecting whether or not it sprays everywhere) using hypothesis tests. It goes into quite a bit of the nuance of hypothesis testing. I especially like that Fisher discusses how p values for a hypothesis test are uniformly distributed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/25/posterior-samples/</link>
+      <pubDate>Fri, 25 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/25/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.upworthy.com/one-guy-with-a-marker-just-made-the-global-warming-debate-completely-obsolete-7&#34;&gt;Here’s an interesting but simple discussion&lt;/a&gt; of the risk analysis of action on climate change. What I like is that the author encourages the viewer to play around with the outcomes rather than using an appeal to authority that states “this is what the IPCC and other climate scientists say will happen”. it’s a very Bayesian way of asking people to consider risk, not just in the conditional statement sense but in the sense that one’s personal subjective belief is viewed as a welcome addition to the discussion. So much of the climate debate seems to be based on whether or not the IPCC is right; some people don’t like that the IPCC is an international body of elite scientists and so will ignore anything they say. Couching the exercise in terms of “Any reasonable person should be able to concede that they may be wrong about the way the physical world behaves” takes it away from “who is right and who is wrong?”. &lt;a href=&#34;http://www.usq.edu.au/scholarships/usq/australian-postgraduate-award&#34;&gt;USQ has some APA PhD scholarships available&lt;/a&gt;, including scholarships for computational mathematics and climate risk and resource management. So if you’re interested in $30,000 per year (tax free!) to work on some interesting topics check out the USQ site. Problems with the interpretation of p values are &lt;a href=&#34;http://bayesianbiologist.com/2011/08/21/p-value-fallacy-on-more-or-less/&#34;&gt;often due to people treating them as statements about their hypothesis&lt;/a&gt; given some data when they’re really statements about the data given some hypothesis. Any SEB113 students reading would do well to remember this. I’ve also &lt;a href=&#34;http://samclifford.info/2013/10/18/response-to-a-student-on-p-values/&#34; title=&#34;Response to a student on p values&#34;&gt;blogged my response&lt;/a&gt; to an SEB113 student about this. &lt;a href=&#34;http://simplystatistics.org/2013/10/15/teaching-least-squares-to-a-5th-grader-by-calibrating-a-programmable-robot/&#34;&gt;Here’s a cute little video&lt;/a&gt; about using least squares regression to figure out how many revolutions a Lego Mindstorms robot’s wheel needs to turn to make it travel 1m. It’s an interesting use of regression as a calibration technique, which is something we haven’t covered explicitly in SEB113 but I imagine it’d be pretty common in engineering classes. &lt;a href=&#34;http://thesiswhisperer.com/2013/10/23/why-is-grey-literature-not-open-access/&#34;&gt;Interesting post at the Thesis Whisperer&lt;/a&gt; asking why work that’s owned by someone (as in the intellectual property rights are assigned) but not copyrighted by a commercial publisher isn’t more freely available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/16/posterior-samples/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/16/posterior-samples/</guid>
+      <description>&lt;p&gt;Christian Robert gives &lt;a href=&#34;https://xianblog.wordpress.com/2013/10/14/statistics-for-spatio-temporal-data-book-review/&#34;&gt;a brief review&lt;/a&gt; of the latest version of Noel Cressie’s book on spatial statistics. I met Cressie once a few years ago and have found the 1993 edition of his book really useful in my PhD. I may just have to get my hands on this new version. Sometimes in your analysis there’ll be an overall trend which is apparent but when you look at subgroups of the data all of them have a trend going the opposite way. This is called Simpson’s paradox and is explained with an interactive tool &lt;a href=&#34;http://vudlab.com/simpsons/&#34;&gt;here&lt;/a&gt;. A &lt;a href=&#34;http://simplystatistics.org/2013/10/14/why-did-lars-peter-hansen-win-the-nobel-prize-generalized-method-of-moments-explained/&#34;&gt;primer&lt;/a&gt; about why Lars Peter Hansen won the Nobel Prize for Economics. This is probably as close as we can get to a Nobel Prize for Statistics (do the Fields Medal and Abel Prize count?). &lt;a href=&#34;http://lipmag.com/featured/where-have-all-the-wiki-ladies-gone/&#34;&gt;Lip Mag interview&lt;/a&gt; with Kelly Wong about women in science. Wong’s a Brisbane-based PhD student whose supervisor has worked with my supervisor, so I guess we’re like research cousins once removed. The interview raises questions about the recognition of women in science on Wikipedia. This is all related to &lt;a href=&#34;http://www.theguardian.com/technology/2013/oct/15/nerd-cabaret-wikipedia-ada-lovelace-day-2013?CMP=twt_fd&#34;&gt;Ada Lovelace Day&lt;/a&gt; (Lovelace was the first computer programmer), which will feature wikipedia edit-a-thons to ensure that our big online repository of human knowledge and history reflects the achievements of women in STEM.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/10/posterior-samples/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/10/posterior-samples/</guid>
+      <description>&lt;p&gt;Open Access publishing is an exciting new development but like any new industry there are those who would seek to unethically make a quick fortune by providing a sub-par service. &lt;em&gt;Science&lt;/em&gt; did some research into this by submitting a fake article with a number of glaring errors (such as non-existent institutions) in it to a number of journals around the world to see who’d accept it. &lt;a href=&#34;http://www.npr.org/blogs/health/2013/10/03/228859954/some-online-journals-will-publish-fake-science-for-a-fee?ft=1&amp;amp;f=1001&#34;&gt;The results are quite interesting&lt;/a&gt;. I know of a few instances of work published in a respectable journal being plagiarised and published in one of these scam journals and one case where the authors hastily retracted their submission once they found out the journal wasn’t anywhere near as prestigious as the editors made out. I support the goals of Open Access and web-based publication but be careful. I’ve been poking around the QUT Wiki looking for information on graduation. In the Higher Degree Research portal there’s a link to a brilliant article (three years old) on &lt;a href=&#34;http://www.timeshighereducation.co.uk/news/how-not-to-write-a-phd-thesis/410208.article&#34;&gt;how not to write a thesis&lt;/a&gt;. Probably good advice for any PhD student looking to graduate sooner rather than later. Elizabeth C. Matsui has been working with Roger Peng for several years; she has &lt;a href=&#34;http://simplystatistics.org/2013/10/08/the-care-and-feeding-of-the-biostatistician/&#34;&gt;some advice on how to cultivate a successful relationship with the biostatistician&lt;/a&gt; you’ve brought on to your medical science project. I think some of these could be adapted to be more general to cover dealing with statisticians. One of the biggest things I could add here is that you need to recognise that asking someone to “help with the statistics” means dedicating some serious time and effort to figuring out a conceptual model (which will be converted into a quantitative model) that addresses the scientific questions you wish to ask. Asking a statistician to “calculate the correlations” or even more broadly “do the statistics” is like asking a scientist to just “run an experiment” or “do the science”. These things all take time, energy and communication. Further to this, don’t just ask for p-values if you’re dealing with a statistician. P-values represent some probabilistic statement, such as “What is the probability of seeing a test statistic at least as extreme as this if the true value of the parameter was zero?”. Sure, you can do simple tests like ANOVA or Chi-Squared goodness of fit but the real value in working with a statistician is being able to develop models that represent assumptions about the data and then assessing whether those assumptions are justified and looking at the inferences that they provide. As my unit co-ordinator for SEB113 pointed out to me the other day, default hypothesis tests of H&lt;sub&gt;0&lt;/sub&gt;: β = 0 at a 5% significance level may not always be sensible and may not even answer the question you’re interested in answering. And finally here’s &lt;a href=&#34;http://www.youtube.com/watch?v=QPKKQnijnsM&#34;&gt;a video that’s almost a year old&lt;/a&gt; that shows a very interesting case of eliciting a distribution from the American public about what they perceive the distribution of wealth in their country is and what they think it is. Turns out the ideal is as far away from the perception as the perception is from the reality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/04/posterior-samples/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/04/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://dynamicecology.wordpress.com/2013/09/26/wiwacs-vs-zombie-ideas/&#34;&gt;Zombie ideas in ecology&lt;/a&gt; make it difficult to publish results that go against them, but how prevalent are they? &lt;a href=&#34;http://mathesaurus.sourceforge.net/octave-r.html&#34;&gt;R for MATLAB users&lt;/a&gt;. This would have been handy in SEB113 if we were still using MATLAB. Perhaps we should give it as a general resource for stats classes in the mathematics program at QUT. The US government shutdown is having &lt;a href=&#34;http://edition.cnn.com/2013/10/03/opinion/urry-nasa-shutdown/index.html?hpt=hp_c2&#34;&gt;quite severe effects on science&lt;/a&gt;, such as threatening the launch of the next &lt;a href=&#34;http://edition.cnn.com/2013/10/03/us/shutdown-mars-mission/index.html&#34;&gt;Mission to Mars&lt;/a&gt;. This is pretty awful given it was &lt;a href=&#34;http://www.news.com.au/technology/sci-tech/happy-birthday-nasa-shut-it-down/story-fn5fsgyc-1226731242175&#34;&gt;NASA’s 50th birthday&lt;/a&gt; earlier this week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2013/09/11/posterior-samples/</link>
+      <pubDate>Wed, 11 Sep 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/09/11/posterior-samples/</guid>
+      <description>&lt;p&gt;Roger Peng and Jeff Leek are going to be &lt;a href=&#34;http://simplystatistics.org/2013/08/29/the-return-of-the-stat-computing-for-data-analysis-data-analysis-back-on-coursera/&#34;&gt;re-offering their Coursera courses&lt;/a&gt; on data analysis, including the use of R. A Creative Commons-licensed textbook on Bayesian statistics that teaches in Python rather than mathematics? Sure. &lt;a href=&#34;http://www.greenteapress.com/thinkbayes/thinkbayes.pdf&#34;&gt;Have this one&lt;/a&gt;. &lt;a href=&#34;http://www.youtube.com/watch?v=fCuZ5UUrKrM&#34;&gt;Let’s discuss gender bias in STEM fields&lt;/a&gt;. Australia has a new government and &lt;a href=&#34;http://www.abc.net.au/science/articles/2013/09/10/3845442.htm&#34;&gt;that new government has flagged&lt;/a&gt; that it will be keeping a closer eye on the Australian Research Council’s grants process in order to “crack down on Labor’s (the former government) addition to waste by auditing increasingly ridiculous research grants”. The Liberal-National Party coalition government has a history of doing this; former Minister for Education, Brendan Nelson, &lt;a href=&#34;http://www.themonthly.com.au/issue/2006/may/1294984634/gideon-haigh/nelson-touch&#34;&gt;personally vetoed grants for humanities projects&lt;/a&gt; that had been approved through the ARC’s independent peer review process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/08/22/posterior-samples/</link>
+      <pubDate>Thu, 22 Aug 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/08/22/posterior-samples/</guid>
+      <description>&lt;p&gt;Life can be tough when you’re the &lt;a href=&#34;http://simplystatistics.org/2013/08/09/embarrassing-typos-reveal-the-dangers-of-the-lonely-data-analyst/&#34;&gt;only statistician in your group&lt;/a&gt;. In addition to attempting to communicate statistical ideas with scientists who may only understand statistics as far as linear regression and ANOVA, the communication runs both ways and everyone needs to be clear on what’s being done, how it’s being done, and how you write that up. Check all papers for comments before they’re submitted, otherwise you may end up leaving yourself open to falsifying your data. SAS still dominates job advertisements for statisticians (&lt;a href=&#34;http://simplystatistics.org/2013/08/08/data-scientist-is-just-a-sexed-up-word-for-statistician/&#34;&gt;or data scientists&lt;/a&gt; if there is indeed a distinction) but &lt;a href=&#34;http://blog.revolutionanalytics.com/2013/08/job-trends-for-statistics-packages.html&#34;&gt;R jobs are on the rise&lt;/a&gt;. It’d be interesting to see if this is related to the cost of licensing and training for SAS. I was checking out &lt;a href=&#34;http://3.14-pi.net/&#34;&gt;a website&lt;/a&gt; that was posted on &lt;a href=&#34;http://www.itsokaytobesmart.com/&#34;&gt;Joe Hanson’s Tumblr&lt;/a&gt; when my supervisor walked in and asked what I was looking at. The site lists off the digits of π and plays a kick drum sounds for 0, a hi hat for 1, and tones on a scale for 2 to 9. “What purpose does this have?” I don’t know, but it’s a neat little thing and there’s no repeating melody thanks to the irrationality of π. This reminds me a little of Brian Eno’s “&lt;a href=&#34;http://en.wikipedia.org/wiki/Brian_Eno#Generative_music&#34;&gt;Generative Music&lt;/a&gt;”, which uses some initial sounds to generate unique melodies, through adjustable parameters, that may not repeat for long, long, long periods of time (of the order of thousands of years, potentially). Eno released &lt;a href=&#34;http://www.youtube.com/watch?v=KE86wbZhlWYwhich&#34;&gt;an entire album&lt;/a&gt; of such music but I much prefer “&lt;a href=&#34;http://www.youtube.com/watch?v=RfKcu_ze-60&#34;&gt;Ambient 1: Music for Airports&lt;/a&gt;” which uses tape loops of varying lengths and phasing to create musical patterns whose lengths are &lt;a href=&#34;http://en.wikipedia.org/wiki/Commensurability_(mathematics)&#34;&gt;incommensurable&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples - July wrap</title>
+      <link>/./2013/07/29/posterior-samples---july-wrap/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/07/29/posterior-samples---july-wrap/</guid>
+      <description>&lt;p&gt;I had some Posterior Samples to share before going on leave but didn’t get around to posting them. Here’s what’s been on my mind this month: Maths and science units are popular with (Kentucky) students until they realise that &lt;a href=&#34;http://blogs.wsj.com/economics/2013/07/08/math-science-popular-until-students-realize-theyre-hard/&#34;&gt;they’re hard&lt;/a&gt;. While not directly relevant to the Australian university education model it’s probably an important thing for the Science and Engineering Faculty to keep in mind. &lt;a href=&#34;http://blogs.wsj.com/economics/2013/07/08/math-science-popular-until-students-realize-theyre-hard/&#34;&gt;&lt;/a&gt; I’m looking at ggplot2 more these days, so the idea of a “grammar of graphics” is beginning to resonate with me. &lt;a href=&#34;//www.youtube.com/watch?v=xyGggdg31mc&#34;&gt;Here’s a talk&lt;/a&gt; about building one for &lt;a href=&#34;http://clojure.org/&#34;&gt;clojure&lt;/a&gt; (which I don’t use). Something for me to keep in mind when delivering SEB113 slides this semester is &lt;a href=&#34;https://www.dropbox.com/s/p0sgdgo7mxkoj4h/What%20your%20math%20slides%20dont%20need.pdf&#34;&gt;what your maths slides don’t need&lt;/a&gt;. Probably also good pointers for any PhD students graduating soon. &lt;a href=&#34;http://well.blogs.nytimes.com/2013/07/22/the-kitchen-as-a-pollution-hazard/&#34;&gt;An interesting article in the New York Times&lt;/a&gt; about air pollution from cooking. This is something that ILAQH has a research interest in and our nanotracer paper contains a bit of analysis of inhaled surface area dose from particles that originate from cooking. &lt;a href=&#34;http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html&#34;&gt;Another NYT article&lt;/a&gt;, this time with a delicious visualisation of the geographical trends in income disparity and social mobility. &lt;a href=&#34;http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html&#34;&gt;Andrew Gelman writes at Slate&lt;/a&gt; about some of the problems with scientific publishing and the publication of spurious findings (which isn’t always willingly dishonest). A special “Big Bayes Stories” issue of “Statistical Science” will be published soon, focussing on the real world application of Bayesian statistics where other methods were inapplicable. &lt;a href=&#34;http://xianblog.wordpress.com/2013/07/29/big-bayes-stories/&#34;&gt;Christian Robert has written the preface&lt;/a&gt;; the issue is being edited by Robert, Kerrie Mengersen (one of my PhD supervisors) and Sharon McGrayne, author of “&lt;a href=&#34;http://www.amazon.com/Theory-That-Would-Not-Die/dp/1452636850&#34;&gt;The Theory That Would Not Die&lt;/a&gt;”. Also I went to &lt;a href=&#34;http://www.questacon.edu.au/&#34;&gt;Questacon&lt;/a&gt; and it was awesome.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples - SEB113 edition</title>
+      <link>/./2013/07/10/posterior-samples---seb113-edition/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/07/10/posterior-samples---seb113-edition/</guid>
+      <description>&lt;p&gt;I’m going to be frank, a lot of this relates to SEB113 - Quantitative Methods for Science, a subject I tutored last semester. One of the students from SEB113 last semester, Daniel Franks, is &lt;a href=&#34;https://twitter.com/dpfscience&#34;&gt;live-tweeting his Bachelor of Science degree&lt;/a&gt;. Daniel was in my workshop group last semester and I recognise some of the events he talks about in his timeline. It’s interesting to see his perspective not just on SEB113 but on the other three units that form the first semester of QUT’s new Bachelor of Science course. SEB113 is getting a small makeover for Semester 2. One of the things we’re considering is the use of ggplot2 instead of a combination of the base graphics package, heatmaps from dendrograms with colorbars from yet another package, etc. Lattice doesn’t have the nicest interface and it’s nigh on impossible to add elements afterwards (I hate you, levelplot). It’s possible to do &lt;a href=&#34;http://gettinggeneticsdone.blogspot.com.au/2010/01/ggplot2-tutorial-scatterplots-in-series.html&#34;&gt;small multiples in ggplot2&lt;/a&gt; fairly easily. We ought to be sticking to the same steps in data analysis as we did last semester, and Daniel’s tweets refer to an experience in class last semester where we discussed drawing the analysis method out of exploratory plots of the data, rather than trying to pick the “best” model &lt;em&gt;a priori&lt;/em&gt; and making the data fit the model. &lt;a href=&#34;http://simplystatistics.org/2013/06/27/what-is-the-best-way-to-analyze-data/&#34;&gt;Roger Peng’s got a good five step&lt;/a&gt; technique for analysing data:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Exploratory analysis&lt;/li&gt;
+&lt;li&gt;Model fitting&lt;/li&gt;
+&lt;li&gt;Model building&lt;/li&gt;
+&lt;li&gt;Sensitivity analysis&lt;/li&gt;
+&lt;li&gt;Reporting&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Via &lt;a href=&#34;http://www.quantumforest.com/2013/07/flotsam-13-early-july-links/&#34;&gt;Luis Apiolaza at Quantum Forest&lt;/a&gt; I’ve stumbled across &lt;a href=&#34;http://www.statschat.org.nz/&#34;&gt;Thomas Lumley&lt;/a&gt;’s Tumblr, where he’s doing some personal blogging about statistics. An &lt;a href=&#34;http://notstatschat.tumblr.com/post/54011641155/where-is-bayesian-introductory-statistics-better&#34;&gt;interesting post&lt;/a&gt; of his is on the role of Bayesian stats in introductory classes. I would love to turn SEB113 into a Bayesian statistics based class but for the time being I will have to settle for it dealing with modelling over tests (which is still a big win, pedagogically). Teaching Bayesian statistics generally relies on a good grounding in calculus, otherwise writing down full conditionals is going to be quite difficult. When people tell me that statistics is so different to mathematics I like to point out that it’s just a combination of calculus, linear algebra and some discrete mathematics. &lt;a href=&#34;http://magazine.amstat.org/blog/2013/07/01/calculus-and-statistics/&#34;&gt;Daniel Kaplan writes at &lt;strong&gt;AMSTAT&lt;/strong&gt;News&lt;/a&gt; about ditching mathematical formalism to make statistics more accessible. The American undergraduate model is very different to what we have in Australia, but I take his point about a first year calculus class not being as relevant to graduates as a first year statistics course that teaches statistical thinking over statistical calculation. I really like the focus in SEB113 on modelling using R rather than statistical tests by hand with pages of tables (as MAB101 was when I did my Bachelor of Science). If people finish SEB113 knowing how to read their data in to R and perform a Generalised Linear Model I think we’ll have done our job. If they want to go on to further statistics from there, the statistics units in the School of Mathematical Sciences work from a calculus perspective and while they require a calculus pre-requisite (MAB121 or MAB122 for those QUT students reading) you could do a lot worse than taking MAB210 and MAB314. I hope a follow-up data analysis course will be offered to Bachelor of Science students that builds on SEB113 and covers some more advanced topics and introduces enough mathematics to make those topics worthwhile. We’ll have to see how it all unfolds as this first cohort make their way through.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/06/24/posterior-samples/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/24/posterior-samples/</guid>
+      <description>&lt;p&gt;I was a bit disappointed that it wasn’t about machines doing automatic analysis for us, but this article, “&lt;a href=&#34;http://simplystatistics.org/2013/06/14/the-vast-majority-of-statistical-analysis-is-not-performed-by-statisticians/&#34;&gt;The vast majority of statistical analysis is not performed by statisticians&lt;/a&gt;”, is a bit of a wake-up call for those statisticians who haven’t realised that we need to improve the way we teach statistics and interact with non-statisticians. I don’t think we have enough statisticians in the world to do all the analysis that needs doing, so we need to focus on training scientists and others better so that we don’t leave them stuck in a culture of bad regression and t-tests in Excel. Gianluca Baio (UCL) has &lt;a href=&#34;http://www.statistica.it/gianluca/Talks/INLA.pdf&#34;&gt;a really nice introduction&lt;/a&gt; to &lt;a href=&#34;http://www.r-inla.org/&#34;&gt;INLA&lt;/a&gt; with a comparison to &lt;a href=&#34;http://mcmc-jags.sourceforge.net/&#34;&gt;JAGS&lt;/a&gt;. I started using JAGS when WinBUGS/OpenBUGS was becoming too slow for the analysis I was doing but the major paper of my thesis uses INLA for spatio-temporal analysis. I still use both programs and when faced with a new problem will usually start in JAGS as it’s quite flexible in the way you set up priors. INLA has its advantages as well, one of them being that it will fit a Poisson likelihood to non-integer data very well. There’s &lt;a href=&#34;http://blogs.plos.org/attheinterface/2013/06/19/why-art-and-science/&#34;&gt;a neat little article on the PLoS blog&lt;/a&gt; about linkages between art and science and how the involvement of art in research (beyond making prettier plots, which is really more an issue of design than art) can lead to better scientific outcomes. Radford Neal has just announced &lt;a href=&#34;http://radfordneal.wordpress.com/2013/06/22/announcing-pqr-a-faster-version-of-r/&#34;&gt;pqR&lt;/a&gt;, “pretty quick R”, which is designed to make use of multiple cores wherever possible and avoid unnecessarily onerous computation. It’s not available for Mac/Windows yet, so I won’t be able to look at it for the time being. I wonder if QUT’s HPC group would consider making it available on the supercomputer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/23/posterior-samples/</link>
+      <pubDate>Thu, 23 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/23/posterior-samples/</guid>
+      <description>&lt;p&gt;Some people make their visualisations in Excel, I make mine in R and others still use things like Processing or InDesign. Bret Victor &lt;a href=&#34;http://vimeo.com/66085662&#34;&gt;shows us&lt;/a&gt; how the various ideas from each approach can be combined to make dynamic visualisations. It’s written with a view to &lt;a href=&#34;http://andrewgelman.com/2013/05/17/how-can-statisticians-help-psychologists-do-their-research-better/&#34;&gt;the interaction between statisticians and psychologists&lt;/a&gt; but it applies just as much to statisticians helping scientists with their statistics, which is basically my job at the moment. Two of my colleagues in BRAG gave &lt;a href=&#34;http://bragqut.wordpress.com/2013/05/21/geospatial-visualisation/&#34;&gt;a really neat talk&lt;/a&gt; about using R to visualise spatial data. Maybe &lt;a href=&#34;http://phenomena.nationalgeographic.com/2013/05/07/charlemagnes-dna-and-our-universal-royalty/&#34;&gt;Europe’s genetic history&lt;/a&gt; isn’t as diverse as we’d previously thought. They’re not all Habsburgs but there’s a little bit of Charlemagne in all of us. I helped a colleague hand in her PhD thesis recently; perhaps she should have read this beforehand: “&lt;a href=&#34;http://thesiswhisperer.com/2013/05/22/how-not-to-hand-in-your-phd/&#34;&gt;How not to hand in your PhD&lt;/a&gt;”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/15/posterior-samples/</link>
+      <pubDate>Wed, 15 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/15/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://andrewgelman.com/2013/05/14/gpstuff-bayesian-modeling-with-gaussian-processes&#34;&gt;GPStuff 4.1 has been released recently&lt;/a&gt;. I’d like to work with Aki Vehtari’s group. I should really learn more about different inference approaches like EM, EP, VB. Some advice for my SEB113 students who may struggle with the workload of first semester university comes from the sagest of equines, &lt;span class=&#34;citation&#34;&gt;[@horse_ebooks]&lt;/span&gt;(&lt;a href=&#34;https://twitter.com/horse_ebooks&#34; class=&#34;uri&#34;&gt;https://twitter.com/horse_ebooks&lt;/a&gt;).&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2013/05/tumblr_mmjxritaln1qfgro5o1_500h.jpg&#34;&gt;&lt;img src=&#34;tumblr_mmjxritaln1qfgro5o1_500h.jpg?w=450&#34; alt=&#34;horseebooks&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.biology.uq.edu.au/staff/hugh-possingham&#34;&gt;Hugh Possingham&lt;/a&gt;’s &lt;a href=&#34;http://brisscience.wordpress.com/2013/04/20/monday-20-may-2013/&#34;&gt;talking on Monday&lt;/a&gt; about the mathematics and economics of conservation as part of the &lt;a href=&#34;http://brisscience.wordpress.com/&#34;&gt;BrisScience&lt;/a&gt; seminar series. I’ve been meaning to make it to a Possingham talk for a while.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/13/posterior-samples/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/13/posterior-samples/</guid>
+      <description>&lt;p&gt;Something important to remember as a maths educator is that &lt;a href=&#34;http://www.slate.com/articles/health_and_science/science/2013/04/math_teacher_explains_math_anxiety_and_defensiveness_it_hurts_to_feel_stupid.single.html&#34;&gt;maths can make people feel stupid and people don’t like feeling stupid&lt;/a&gt;. &lt;a href=&#34;http://kottke.org/13/05/riding-an-icebreaker&#34;&gt;Ever wondered what it’s like to spend two months on an ice-breaker?&lt;/a&gt; The &lt;a href=&#34;http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/&#34;&gt;lecture slides from Harvard’s Stat 221 course&lt;/a&gt; are all online now. Commander Chris Hadfield’s &lt;a href=&#34;http://www.youtube.com/watch?v=KaOC9danxNo&#34;&gt;farewell from the ISS&lt;/a&gt; is, fittingly, a cover of David Bowie’s “Space Oddity”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/04/29/posterior-samples/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/04/29/posterior-samples/</guid>
+      <description>&lt;p&gt;Often we don’t &lt;a href=&#34;http://dynamicecology.wordpress.com/2013/03/18/whats-your-best-technical-trick/&#34;&gt;discuss the various technical tricks&lt;/a&gt; that make the science easier in the methodology sections of our papers. Randall Munroe made &lt;a href=&#34;http://xkcd.com/1205/&#34;&gt;a chart&lt;/a&gt; that helps you figure out whether you’re spending more time working on your time-saving technical trick than you’d actually save. SAMSI &lt;a href=&#34;http://samsiatrtp.wordpress.com/2013/04/25/samsi-hosts-simons-foundation-public-lecture-the-public-health-impact-of-air-pollution-and-climate-change/&#34;&gt;hosted a talk&lt;/a&gt; about the public health impact of climate change. Wish I could have been there. A few (somewhat) recent posts from Andrew Gelman regarding p values&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://andrewgelman.com/2013/04/28/plain-old-everyday-bayesianism/&#34;&gt;reporting probabilities instead of p values&lt;/a&gt; is very Bayesian&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2013/02/p-values-and-statistical-practice/&#34;&gt;p values and statistical practice&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I find myself agreeing with a lot of what Gelman says on p values. I think they put the focus of statistics on testing rather than modelling, which is part of why we end up with scientists and others with such poor statistical skills and next to no creativity in terms of the models they fit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/12/05/posterior-samples/</link>
+      <pubDate>Wed, 05 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/05/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=5UYMnzXQEtw&amp;amp;feature=plcp&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;MechBass - a final year engineering project to build a mechanical bass guitar&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://students.washington.edu/mclarkso/documents/line%20styles%20Ver2.pdf&#34;&gt;I had no idea I could change line caps &lt;em&gt;within R.&lt;/em&gt; I was just starting to get back into Corel Draw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://news.sciencemag.org/sciencenow/2012/10/dance-your-phd-and-the-winner-is.html&#34;&gt;Dance your PhD winner is a materials scientist from the University of Sydney&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lhup.edu/~dsimanek/whoops.htm&#34;&gt;So often we see three gears together in a logo in such a way that it would impossible to move them&lt;/a&gt;. &lt;a href=&#34;http://www.youtube.com/watch?v=I9IBQVHFeQs&#34;&gt;This video shows three interlocking gears that all rotate together.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/23/posterior-samples/</link>
+      <pubDate>Fri, 23 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/23/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://littlestat.com/&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;LittleStat is an online R tool for simple data analysis&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.readmatter.com&#34;&gt;Matter&lt;/a&gt; is a new essay-based science/tech publication that got its start on &lt;a href=&#34;http://www.kickstarter.com/projects/readmatter/matter/&#34;&gt;Kickstarter&lt;/a&gt; - this issue is about people who feel like they have an extra limb.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://0fps.wordpress.com/2012/11/19/conways-game-of-life-for-curved-surfaces-part-1/&#34;&gt;Conway’s Game of Life as a smooth PDE system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://statisticalsocietyaustralia.wordpress.com/2012/11/20/november-question/&#34;&gt;SSAI wants to know what the biggest challenges in modern Bayesian statistics are&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.r-bloggers.com/RUG/2012/11/video-simpler-tricks-and-tools-help-debugging-git-latex-and-workflow-with-r-by-prof-rob-hyndman/&#34;&gt;SimpleR tricks and tools: Help, debugging, git, LaTeX, and workflow with R by Prof Rob Hyndman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/16/posterior-samples/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/16/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nature.com/spoton/2012/11/spoton-london-2012-why-old-female-science-professors-should-blog/&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;Why old, female science professors should blog&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www2.qut.edu.au/sci-eng-centre/project/&#34;&gt;QUT’s new Science and Engineering Centre opened on Friday. I had a walk through with Luisa. There’s some nice stuff but it’s a little &lt;em&gt;too&lt;/em&gt; open plan for my taste.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://xianblog.wordpress.com/2012/11/16/the-bugs-book/&#34;&gt;A new book on BUGS/WinBUGS by the authors of WinBUGS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rspb.royalsocietypublishing.org/content/early/2011/07/07/rspb.2011.0932.full&#34;&gt;Cornell study discovers parrots name their chicks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/14/posterior-samples/</link>
+      <pubDate>Wed, 14 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/14/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xkcd.com/1133/&#34;&gt;Randall Munroe explains Saturn V using only the thousand most commonly used English words, and it’s hilarious&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2012/11/16808/#comment-109366&#34;&gt;Speaking of Randall Munroe, here’s his response to Gelman’s criticism of Munroe’s Bayesian vs Frequentist comic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/35563800852/some-thoughts-on-teaching-r-to-50-000-students&#34;&gt;Some (but not my) thoughts on teaching R to 50,000 students&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.abc.net.au/local/stories/2012/11/13/3631638.htm&#34;&gt;There was an eclipse visible in Australia on the morning of November 14 2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://musicmachinery.com/2012/11/12/the-infinite-jukebox/&#34;&gt;It’s getting hammered at the moment, but The Infinite Jukebox analyses songs for similar phrases and builds a series of paths between similar sections so that you can have an infinitely long song.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Infinite Jukebox reminds me a bit about &lt;a href=&#34;http://www.youtube.com/watch?v=UqzVSvqXJYg&#34;&gt;Brian Eno’s work on generative systems&lt;/a&gt; for rule-based music. This in turn reminds me of Brian Eno’s album “Discreet Music”, which features an &lt;a href=&#34;http://www.youtube.com/watch?v=7-Vq4pmzMaE&#34;&gt;automatically played song and three re-arrangements of Pachelbel’s “Canon in D”.&lt;/a&gt; The album is designed to sit in the background and be fairly unobtrusive, but it’s hard not to notice the familiar phrases of “Canon in D”. I find this album good as background music at work. The generative systems video above takes me back to my undergraduate studies in mathematics, where we learned about &lt;a href=&#34;http://staff.qut.edu.au/staff/malletd/&#34;&gt;mathematical modelling using cellular automata&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/09/posterior-samples/</link>
+      <pubDate>Fri, 09 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/09/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/34563838584/computing-for-data-analysis-simply-statistics-edition&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;Content from very popular online R course run through Coursera to be published online soon&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.statisticsblog.com/2012/10/recommendation-of-the-week/&#34;&gt;Convinced your fancy analysis technique is the right approach? Run it on noise and see what you get&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://scienceseeker.org/&#34;&gt;Science news from science newsmakers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://statisfaction.wordpress.com/2012/11/06/just-for-the-fun-of-it/&#34;&gt;Should ecologists become Bayesians?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you’ve got a colour graph but want to print it black and white, make sure you check what it looks like first. &lt;a href=&#34;http://i.imgur.com/krzQu.jpg&#34;&gt;Otherwise you might struggle to make your point.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2012/11/poll-aggregation-and-election-forecasting/&#34;&gt;Andrew Gelman on poll aggregation and election forecasting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/The-Signal-Noise-Predictions-Fail-but/dp/159420411X/ref=zg_bs_books_2&#34;&gt;Nate Silver’s book is #2 on the Amazon best-seller list at the moment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/34635539704/on-weather-forecasts-nate-silver-and-the&#34;&gt;Speaking of Nate Silver, here’s a blog post on the politicisation of statistical literacy. (Bonus round: Ctrl-F “Schwimmer”. Extra bonus round: Andrew Gelman comments, saying “I wrote about this on my blog”, just like everyone else on the internet)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/10/27/posterior-samples/</link>
+      <pubDate>Sat, 27 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/27/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://www.theatlantic.com/technology/archive/2012/10/scientists-recover-the-sounds-of-19th-century-music-and-laughter-from-the-oldest-playable-american-recording/264147/&#34;&gt;A group at the Lawrence Berkeley National Laboratory manage to digitally model an 1878 recording from one of Edison’s phonographs.&lt;/a&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.priceonomics.com/post/33713850223/a-dragnet-for-pee-wee&#34;&gt;Using economics to reduce bike theft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themonkeycage.org/blog/2012/10/25/steven-levitt-says-that-he-has-a-good-indicator-that-aaron-edlin-noah-kaplan-nate-silver-and-i-are-not-so-smart/&#34;&gt;Andrew Gelman responds to Steven Levitt’s criticism of people who vote thinking that their vote matters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2012/10/19/posterior-samples/</link>
+      <pubDate>Fri, 19 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/19/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://boingboing.net/2012/10/18/why-casual-sexism-in-science-m.html&#34;&gt;Why casual sexism in science matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.elsevier.com/wps/find/intro.cws_home/googlemaps&#34;&gt;Google Maps for some Elsevier journals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.library.qut.edu.au/events/details/open-access-week-2/&#34;&gt;QUT’s annual “Open Access Week” next week&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.abc.net.au/news/2012-10-18/medical-research-grants-to-be-unfrozen/4321662&#34;&gt;Research grant money (hundreds of millions of dollars) frozen by the Australian government set to be unfrozen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/10/05/posterior-samples/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/05/posterior-samples/</guid>
+      <description>&lt;p&gt;Everyone seems to do it. The collection of a few links with interesting material that may not necessarily be worth an entire post by themselves. I’ve decided that it’s probably worth doing this so that I can share the things that make me say “Hey, neat”. So today I present the first in an ongoing series with a pun-based name.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2012/10/columbo-does-posterior-predictive-checks/&#34;&gt;Andrew Gelman - Columbo does posterior predictive checks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A little bit of fun.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cityofsound.com/blog/2012/10/garage-of-small-things-nanotechnology.html&#34;&gt;Dan Hill - Essay: The Garage of Small Things; nanotechnology, biomimicry and design practice&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Encourages me that it’s totally worth moving to Helsinki.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://vimeo.com/22053820&#34;&gt;Mike Monteiro - “Fuck you, pay me&lt;/a&gt;&amp;quot; (&lt;a href=&#34;http://www.youtube.com/watch?v=cP_GOoBPKfQ&#34;&gt;refresher: Goodfellas&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mainly for designers, but it’s important to remember in any sort of work that involves a contract that everyone needs to understand what they’ve agreed to and follows through on it. You don’t want to throw yourselves on the mercy of someone who is looking to not pay you.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

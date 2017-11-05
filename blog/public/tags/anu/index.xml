@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Anu on Sam Clifford </title>
+    <link>/./tags/anu/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-07-22 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Science communication</title>
+      <link>/./2012/07/22/science-communication/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/22/science-communication/</guid>
+      <description>&lt;p&gt;A field within science that has been getting a little attention recently is science communication. Science can be hard to understand. Even if one is a scientist, attempting to come to terms with something outside your field can be very tricky. So if scientists have difficulty explaining their work to each other (try being a statistician talking to applied scientists) then what hope does the general public have in terms of understanding science? As an example, ask people about the significance of the CERN announcements a few weeks ago regarding the search for the Higgs boson. Apart from the awful slides that the ATLAS team presented, the slides by CMS were very information dense, overcrowded and undigestible. &lt;a href=&#34;http://themonkeycage.org/blog/2012/07/18/on-communicating-scientific-findings/&#34;&gt;Arthur Lupia puts the blame on the researchers&lt;/a&gt;. In a nice analogy about getting you and your lost friend out of the woods that you know well, Lupia’s main point is that there are two things you need to know to help your friend get out of the woods:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;the woods (your field of work)&lt;/li&gt;
+&lt;li&gt;where your friend is (what your audience know)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In terms of communicating your results to your audience, it’s no good only being an expert; you also need to know what level of literacy your audience has when it comes to the topic. There are some academics who are quite good public speakers and give public lectures about both the science they are working on and the philosophy of science. I’ve seen Field’s medal winner &lt;a href=&#34;http://terrytao.wordpress.com/&#34;&gt;Terry Tao&lt;/a&gt; give a good public talk about science (mainly astrophysics) and &lt;a href=&#34;http://www.griffith.edu.au/environment-planning-architecture/centre-environment-population-health/staff/ian-lowe&#34;&gt;Ian Lowe&lt;/a&gt; and &lt;a href=&#34;http://www.ies.unsw.edu.au/staff/mark.html&#34;&gt;Mark Diesendorf&lt;/a&gt; are also fantastic speakers, particularly about the issues surrounding climate change. I’d say that these people, all eminent scientists, are good readers of their audience. But people tend not to get their news and information from public seminars by eminent scientists who are good presenters, or even from television programs like PBS’s “&lt;a href=&#34;http://www.pbs.org/wgbh/nova/&#34;&gt;Nova&lt;/a&gt;”. There are some rare exceptions, such as David Attenborough’s very popular documentaries about nature. Attenborough is a master entertainer and makes geology, zoology and botany very accessible. Part of this is that the natural world, plants and animals are much more concrete than abstract ideas of physics and chemistry and there’s also the fact that animals and plants can look pretty. A chemical, on the other hand, no matter how integral to life on earth, is often still just a solid, liquid or gas. Science reporting in the media is generally fairly poor, at least from my point of view as a statistician. Misinterpretation of relative risk, odds ratios, p values, “significance”, etc. abound. Our newspapers generally do not employ scientists or science communicators to write articles about scientific discoveries. &lt;a href=&#34;http://understandinguncertainty.org/10-best-practice-guidelines-reporting-science-health-stories&#34;&gt;One of the outcomes of the Leveson inquiry into the UK media is a list of guidelines for science reporting&lt;/a&gt;.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;State the source of the story - e.g. interview, conference, journal article, a survey from a charity or trade body, etc. - ideally with enough information for readers to look it up or a web link.&lt;/li&gt;
+&lt;li&gt;Specify the size and nature of the study - e.g. who/what were the subjects, how long did it last, what was tested or was it an observation? If space, mention the major limitations.&lt;/li&gt;
+&lt;li&gt;When reporting a link between two things, indicate whether or not there is evidence that one causes the other.&lt;/li&gt;
+&lt;li&gt;Give a sense of the stage of the research - e.g. cells in a laboratory or trials in humans - and a realistic time-frame for any new treatment or technology.&lt;/li&gt;
+&lt;li&gt;On health risks, include the absolute risk whenever it is available in the press release or the research paper - i.e. if ‘cupcakes double cancer risk’ state the&lt;/li&gt;
+&lt;li&gt;outright risk of that cancer, with and without cupcakes.&lt;/li&gt;
+&lt;li&gt;Especially on a story with public health implications, try to frame a new finding in the context of other evidence - e.g. does it reinforce or conflict with previous studies? If it attracts serious scientific concerns, they should not be ignored.&lt;/li&gt;
+&lt;li&gt;If space, quote both the researchers themselves and external sources with appropriate expertise. Be wary of scientists and press releases over-claiming for studies.&lt;/li&gt;
+&lt;li&gt;Distinguish between findings and interpretation or extrapolation; don’t suggest health advice if none has been offered.&lt;/li&gt;
+&lt;li&gt;Remember patients - don’t call something a ‘cure’ that is not a cure.&lt;/li&gt;
+&lt;li&gt;Headlines should not mislead the reader about a story’s contents and quotation marks should not be used to dress up overstatement.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If these are adopted they will go some way to addressing what I see as the flaws in current science reporting. Even the Australian government’s ABC News sometimes publishes poor quality articles about new science. The ABC has done well in shows about science, particularly “Quantum”, hosted by mathematician/comedian/radio presenter Adam Spencer, and its replacement “Catalyst”. The online news team could probably do with some better science reporters. It’s all well and good to talk about a need for science communicators but how do we find them? How does one become one? The Australian National University has a &lt;a href=&#34;http://studyat.anu.edu.au/programs/7614XMSCOM;overview.html&#34;&gt;Masters of Science Communication&lt;/a&gt;. The course involves &lt;a href=&#34;http://studyat.anu.edu.au/interests/75&#34;&gt;subjects across a wide variety of topics&lt;/a&gt; such as the use of technology in communication, engagement with the public, teaching, ethics, etc. QUT is currently restructuring its Bachelor of Applied Science degree around a handful of majors and many coherent comajors, one of which is science communication. Introducing the ideas of science communication in undergrad is, in my mind, a good idea. Training our scientists to not just be good at chemistry, biology, mathematics, etc. but to be good at communicating their work will help the penetration of their work within their workplace. If the student goes on to postgraduate research then they will likely end up a good public speaker with expertise in a certain field. If the student exits academia after undergrad then they will be able to better make their case and improve the penetration of scientific ideas in their workplace.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

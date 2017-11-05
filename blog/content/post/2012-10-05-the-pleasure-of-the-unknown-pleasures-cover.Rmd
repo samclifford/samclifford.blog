@@ -1,0 +1,12 @@
+---
+title: The pleasure of the Unknown Pleasures cover
+author: Sam Clifford
+date: 2012-10-18
+tags: ["astronomy","blog","Blog","joy division","science","visualisation"]
+---
+
+Hat tip to [Luisa](http://conidialcoleopticide.wordpress.com/) for this one. The video below (from the [following link](http://laughingsquid.com/the-story-of-the-iconic-cover-art-for-joy-divisions-unknown-pleasures/)) tells the story of the front cover image of Joy Division's 1979 album "Unknown Pleasures". [I've previously mentioned](http://samclifford.info/2012/10/08/unknown-measures/ "Unknown measures") that this would be a great data visualisation technique for time series data and that's more or less what it is. [vimeo http://www.vimeo.com/51365288 w=500&h=281] [Data Visualization Reinterpreted by VISUALIZED](http://vimeo.com/51365288) from [VISUALIZED](http://vimeo.com/user13541926) on [Vimeo](http://vimeo.com). From Wikipedia:
+
+> The front cover image comes from an edition of the Cambridge Encyclopedia of Astronomy, and was originally drawn with black lines on a white background. It presents successive pulses from the first pulsar discovered, PSR B1919+21 - often referred to in the context of this album by its older name, CP 1919\. The image was suggested by Bernard Sumner. The cover design is credited to Joy Division, Peter Saville and Chris Mathan.
+
+So there you go. It started off as an illustration in a physics encyclopedia and I'm suggesting we use it for visualisation 55 years later.

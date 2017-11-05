@@ -1,0 +1,456 @@
+---
+title: Christian Robert addressing BRAG about improving MCMC
+author: Sam Clifford
+date: 2012-08-23
+tags: ["bayesian statistics","blog","Blog","brag","christian robert","programming","statistics"]
+---
+
+Christian took some time to finish off the abridged meeting from last week so he could give us a few more leads about how to improve MCMC mixing and convergence.
+
+<div class="sfy-html">
+
+<div class="s-story noborder" style="margin:0 auto;padding:0;background:#fff;color:#333;font-size:15px;line-height:18px;border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;min-width:280px;">
+
+1.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">An extra special meeting of my research group to have #xian tell us a bit more about improving MCMC. Tempering to flatten target density.</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:06:44</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238442112058806273&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238442112058806273&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+2.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">Radford Neal 1996 paper on tempering http://www.cs.toronto.edu/~radford/ttrans-pub.abstract.html#ref-ttrans-pub #xian</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:10:51</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238443150660730881&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238443150660730881&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+3.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">Run parallel chains with diff starting values and look at posterior density as you go to check convergence and importance of region #xian</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:27:25</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238447319324962816&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238447319324962816&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+4.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">Change of variable to map posterior space to a hypercube may lead to concentration in small dots but you have a more compact space #xian</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:31:34</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238448363475984384&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238448363475984384&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+5.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">Introducing an auxiliary variable z so that a prior on x becomes a prior on (x,z) can allow the prior on x to be discovered quicker #xian</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:36:12</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238449527697313792&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238449527697313792&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+6.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">Idea of energy in MCMC and looking at level sets (isocontours of posterior density) means "large" jumps possible http://www.stat.sfu.ca/~cao/Research/GirolamiCalderhead.pdf #xian</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:42:33</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238451126343725056&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238451126343725056&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+7.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">Question: a lot of knowledge about low density rejected MH steps. How do we use this info to avoid these regions? #xian</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:47:12</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238452296512577536&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238452296512577536&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+8.  <div class="s-element-container" style="max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;">
+
+    <div class="s-quote s-element-content" style="overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url('http://storify.com/public/img/quote-bg.png') right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;">
+
+    <div class="s-quote-content">
+
+    <div class="s-quote-avatar s-quote-avatar-twitter" style="float:left;margin:0 10px 0 0;">![samclifford](cftqgm2dexqctcqlrlp2_normal.jpeg)</div>
+
+    <div class="s-quote-text linkify" style="margin-left:62px;line-height:1.5em;padding-left:21px;background:url('http://storify.com/public/img/avatar-bubble.png') left top no-repeat;min-height:52px;font-family:'Georgia', serif;font-size:16px;">Answer: we can use this to develop jumping rules. #xian We want to know about this region but we can't use it without thinking abt acc. rate</div>
+
+    </div>
+
+    <div class="actions" style="display:none;">
+
+    <div class="s-share-dropdown" style="display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;">
+
+    *   [Share on Facebook](#)
+    *   [Share on Twitter](#)
+    *   [Share on Pinterest](#)
+    *   [Share on Google](#)
+    *   [Share on Linkedin](#)
+    *   [Share by email](#)
+
+    </div>
+
+    </div>
+
+    <div class="s-attribution" style="clear:both;padding:10px 0 0;font-size:11px;font-family:'Lucida Grande', sans-serif;color:#aaa;">
+
+    <div class="s-author" style="float:left;font-weight:bold;margin-right:8px;line-height:16px;">[クリフヅ サム](http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&redirect=http://twitter.com/samclifford)</div>
+
+    <div class="s-posted" style="color:#666;float:right;line-height:16px;">
+
+    <div class="timestamp">Wed, Aug 22 2012 18:50:00</div>
+
+    </div>
+
+    <div class="s-element-actions" style="opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;">[Reply](http://twitter.com/intent/tweet?in_reply_to=238452999993827328&related=storify "Reply")[Retweet](http://twitter.com/intent/retweet?tweet_id=238452999993827328&related=storify "Retweet")</div>
+
+    </div>
+
+    </div>
+
+    <div class="s-element-stats hide" style="border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;">
+
+    <div class="s-element-stats-likes hide" style="display:none;">**0** likes</div>
+
+    <span class="s-element-stats-sep hide" style="display:none;"> · </span>
+
+    <div class="s-element-stats-comments hide" style="display:none;">**0** comments</div>
+
+    </div>
+
+    </div>
+
+</div>
+
+</div>

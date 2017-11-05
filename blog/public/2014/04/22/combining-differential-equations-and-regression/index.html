@@ -1,0 +1,131 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Combining differential equations and regression</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2014/04/22/combining-differential-equations-and-regression/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2014/04/22/combining-differential-equations-and-regression/">Combining differential equations and regression</a></h1>
+	        <div class="post-time">April 22 2014</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/code">code</a>              
+	            
+	                <a href="/./tags/mathematical-modelling">mathematical modelling</a>              
+	            
+	                <a href="/./tags/mathematics">mathematics</a>              
+	            
+	                <a href="/./tags/programming">programming</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/r">R</a>              
+	            
+	                <a href="/./tags/science">science</a>              
+	            
+	                <a href="/./tags/seb113">seb113</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>Last week I gave my first lecture for the semester to the SEB113 students. While they tend to not have a particularly strong mathematics background I got some very positive feedback on how much they enjoyed learning about mathematical modelling. We revised differentiation, what derivatives are and then jumped into a bit about formulating differential equations from words that represent the assumptions that the model makes. The bulk of that week’s lecture is showing where the non-linear regression models we used in the previous week (first order compartment, asymptotic, biexponential) come from. To do this we have a chat about exponential growth and decay models as some of the easiest differential equation models to deal with. I show them how we solve the exponential model exactly and then make reference to the fact that I don’t expect them to solve these equations in this subject. We show the solutions to the DE systems and make it very clear that the non-linear regression models are the solutions to differential equations that represent different assumptions. We finish the lecture off with a section on how we can’t always get a “pen and paper” solution to differential equations and so sometimes we either simplify the system to one we can solve (alluding to perturbation methods) or give it to a numerical solver (alluding to computational mathematics). Because it’s how I learned about numerical solutions to DEs I showed the students the Lotka-Volterra model and discussed why we can’t solve X(t) and Y(t) and so have to use numerical methods. For different parameter values we get variations on the same behaviour: cyclic patterns, prey population growth followed by predator population growth followed by overconsumption of prey leading to fewer predators being born to replace the dying. Many students seemed to enjoy investigating this model in the workshops, as it’s quite different to everything we’ve learned so far. Solution is via the deSolve package in R but we introduce the students to Euler’s method and discuss numerical instability and the accumulation of numerical error. I finish off the lecture with a chat about how regression tends to make assumptions about the form of the mean relationship between variables so we can do parameter estimation and that differential equations give us a system we can solve to obtain that mean relationship. I state that while we <em>can</em> solve the DE numerically while simultaneously estimating the parameter it is way outside the scope of the course. I had a bit of time this morning to spend on next week’s lecture material (linear algebra) so decided to have a go at numerical estimation for the logistic growth model and some data based on the Orange tree circumference data set in R with JAGS/rjags. It’s the first time I’ve had a go at combining regression and numerical solutions to DEs in the same code, so I’ve only used Euler’s method. That said, I was very happy with the solution and the code is provided below the cut. [code language=“r”] # euler.bugs model{ y[1] ~ dnorm(mu[1], tau.y) mu[1] &lt;- y0 + dt * exp(lr) * y0 * (1 - y0/K) for (i in 2:n){ y[i] ~ dnorm(mu[i], tau.y) mu[i] &lt;- y[i-1] + dt * exp(lr) * y[i-1] * (1 - y[i-1]/K) } for (i in 1:n){ y.p[i] ~ dnorm(mu[i], tau.y) } lr ~ dnorm(0, 1e-6) K ~ dnorm(0, 1e-6) y0 ~ dunif(0.001, 1000) tau.y ~ dgamma(0.001, 0.001) } [/code] Which can be called appropriately with [code language=“r”] library(rjags) library(ggplot2) my.orange &lt;- data.frame(age=seq(100, 1900, by=200), circumference = c(32, 47, 73, 101, 134, 162, 182, 194, 205, 214)) dt &lt;- 10 orange.dat &lt;- data.frame(age=seq(0, 3000, by=dt),circumference=NA) orange.dat[match(table=orange.dat<span class="math inline">\(age, x=my.orange\)</span>age),“circumference”] &lt;- my.orange[, “circumference”] orange.m &lt;- jags.model(file=“euler.bugs”, data=list(y=orange.dat<span class="math inline">\(circumference, n = nrow(orange.dat), dt=dt),inits=list(y0=50, K=500, lr=-5)) orange.b &lt;- jags.samples(model=orange.m, n.iter=10000, variable.names=c(&quot;y.p&quot;,&quot;K&quot;,&quot;lr&quot;,&quot;y0&quot;)) orange.pred &lt;- coda.samples(model=orange.m, n.iter=1000, variable.names=c(&quot;y.p&quot;)) orange.sum &lt;- summary(orange.pred, q=c(0.025, 0.5, 0.975)) orange.gg &lt;- data.frame(orange.sum\)</span>quantiles) orange.gg<span class="math inline">\(age &lt;- orange.dat\)</span>age windows(height=3.5) ggplot(data=orange.gg, aes(x=age, y=X50.)) + geom_line() + geom_line(aes(y=X2.5.), lty=2) + geom_line(aes(y=X97.5.), lty=2) + geom_point(data= my.orange, aes(y=circumference), alpha=0.5) + theme_bw() + xlab(“Time (days)”) + ylab(“Tree circumference (mm)”) [/code] The resulting picture can be seen below. [caption id=“attachment_1226” align=“aligncenter” width=“625”][<img src="predicting.png?w=625" alt="Prediction of tree circumference from logistic growth differential equation" />](<a href="http://samcliffordinfo.files.wordpress.com/2014/04/predicting.png" class="uri">http://samcliffordinfo.files.wordpress.com/2014/04/predicting.png</a>) Prediction of tree circumference from logistic growth differential equation[/caption]</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2014/04/26/posterior-samples/">Prev</a>
+			<a class="next" href="/./2014/04/22/predicting/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

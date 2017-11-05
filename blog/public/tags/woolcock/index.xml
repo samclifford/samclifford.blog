@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Woolcock on Sam Clifford </title>
+    <link>/./tags/woolcock/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-06-13 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/06/13/posterior-samples/</link>
+      <pubDate>Thu, 13 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/13/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://themonkeycage.org/2013/05/29/how-to-make-an-academic-conference-and-more-accessible-and-more-interesting-live-streaming-and-conference-hashtags&#34;&gt;Josh Tucker at the Monkey Cage&lt;/a&gt; and &lt;a href=&#34;http://simplystatistics.org/2013/06/11/why-not-have-a-future-of-the-field-session-at-a-conference-with-only-young-speakers/&#34;&gt;Jeff Leek at Simply Statistics&lt;/a&gt; have some good ideas and goals as to how to make academic conferences more interesting. Opening up the conference with live streaming is a cheap way to engage the wider public (but risks potential attendees deciding to stay home and watch rather than engaging with the rest of the conference). A youth session is also a really good way to engage in some inter-generational communication by giving the younger researchers a stage for setting out their vision. &lt;a href=&#34;http://f1000research.com/data-policies&#34;&gt;These journals&lt;/a&gt; wouldn’t view publication of data as prior publication when assessing an article based on that data. I spent last week in Sydney with Guy Marks’ group at the &lt;a href=&#34;http://www.woolcock.org.au/&#34;&gt;Woolcock Institute of Medical Research&lt;/a&gt;. I first met Marks at Bayesian data analysis course run by Kerrie Mengersen; he &lt;a href=&#34;http://sydney.edu.au/medicine/people/academics/profiles/guym.php&#34;&gt;does work&lt;/a&gt; on tuberculosis in Vietnam. Christian Robert, a collaborator of Mengersen’s, just gave 40 students in Ho Chi Minh City a crash course in Bayesian statistics. The slides are available &lt;a href=&#34;http://xianblog.wordpress.com/2013/06/05/teaching-bayesian-statistics-in-hochimin-city/&#34;&gt;here&lt;/a&gt;. Speaking of Bayesian stats, the term “derp” is apparently a &lt;a href=&#34;http://au.businessinsider.com/sorry-haters-derp-isnt-going-away-2013-6&#34;&gt;Bayesian way of describing the way someone believes something so strongly&lt;/a&gt; (their prior) that they can not be swayed by data. I’m going to be doing a lot more work teaching people how to use R in the near future. &lt;a href=&#34;http://www.computerworld.com/s/article/9239625/Beginner_s_guide_to_R_Introduction&#34;&gt;This looks like a handy resource for beginners&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

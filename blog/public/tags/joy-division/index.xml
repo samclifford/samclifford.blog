@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Joy Division on Sam Clifford </title>
+    <link>/./tags/joy-division/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-10-18 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>The pleasure of the Unknown Pleasures cover</title>
+      <link>/./2012/10/18/the-pleasure-of-the-unknown-pleasures-cover/</link>
+      <pubDate>Thu, 18 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/18/the-pleasure-of-the-unknown-pleasures-cover/</guid>
+      <description>&lt;p&gt;Hat tip to &lt;a href=&#34;http://conidialcoleopticide.wordpress.com/&#34;&gt;Luisa&lt;/a&gt; for this one. The video below (from the &lt;a href=&#34;http://laughingsquid.com/the-story-of-the-iconic-cover-art-for-joy-divisions-unknown-pleasures/&#34;&gt;following link&lt;/a&gt;) tells the story of the front cover image of Joy Division’s 1979 album “Unknown Pleasures”. &lt;a href=&#34;http://samclifford.info/2012/10/08/unknown-measures/&#34; title=&#34;Unknown measures&#34;&gt;I’ve previously mentioned&lt;/a&gt; that this would be a great data visualisation technique for time series data and that’s more or less what it is. [vimeo &lt;a href=&#34;http://www.vimeo.com/51365288&#34; class=&#34;uri&#34;&gt;http://www.vimeo.com/51365288&lt;/a&gt; w=500&amp;amp;h=281] [Data Visualization Reinterpreted by VISUALIZED](&lt;a href=&#34;http://vimeo.com/51365288&#34; class=&#34;uri&#34;&gt;http://vimeo.com/51365288&lt;/a&gt;) from &lt;a href=&#34;http://vimeo.com/user13541926&#34;&gt;VISUALIZED&lt;/a&gt; on &lt;a href=&#34;http://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;. From Wikipedia:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The front cover image comes from an edition of the Cambridge Encyclopedia of Astronomy, and was originally drawn with black lines on a white background. It presents successive pulses from the first pulsar discovered, PSR B1919+21 - often referred to in the context of this album by its older name, CP 1919. The image was suggested by Bernard Sumner. The cover design is credited to Joy Division, Peter Saville and Chris Mathan.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So there you go. It started off as an illustration in a physics encyclopedia and I’m suggesting we use it for visualisation 55 years later.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unknown measures</title>
+      <link>/./2012/10/08/unknown-measures/</link>
+      <pubDate>Mon, 08 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/08/unknown-measures/</guid>
+      <description>&lt;p&gt;I think it would be incredibly dorky, and thus incredibly cool (or incredibly hipster), to present some aerosol time series data in the same vein as the cover art for Joy Division’s “Unknown Pleasures”. &lt;a href=&#34;unknown-pleasures-joy-division.jpg&#34;&gt;&lt;img src=&#34;http://samcliffordinfo.files.wordpress.com/2012/10/unknown-pleasures-joy-division.jpg&#34; title=&#34;Joy Division &amp;quot;Unknown Pleasures&amp;quot;&#34; /&gt;&lt;/a&gt;It’s actually quite an interesting way to visualise spatio-temporally correlated data, with either time or space as the grouping variable.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,8 @@
+---
+title: Upcoming conferences
+author: Sam Clifford
+date: 2013-10-25
+tags: ["bayesian statistics","blog","Blog","conferences","mathematics","statistics"]
+---
+
+It's more a note for myself here but I've got an abstract accepted for [EMAC2013](http://emac2013.com.au/), discussing the modelling we did for personal sampling in the UPTECH project. [ISBA 2014](http://isba2014.eventos.cimat.mx/node/72) abstracts close December 1\. [ASC-IMS 2014](http://www.asc-ims2014.com/) abstracts close October 30\. I need to get abstracts for these conferences together. I'll probably talk about UPTECH at ASC-IMS as it's a conference with an Australian focus. I think ISBA 2014 I'll try and present the modelling associated with the [field work](http://samclifford.info/2012/09/17/my-first-field-work/ "My first field work") I did about a year ago (we're still writing the analysis).

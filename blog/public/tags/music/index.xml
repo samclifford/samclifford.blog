@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Music on Sam Clifford </title>
+    <link>/./tags/music/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-08-22 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/08/22/posterior-samples/</link>
+      <pubDate>Thu, 22 Aug 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/08/22/posterior-samples/</guid>
+      <description>&lt;p&gt;Life can be tough when you’re the &lt;a href=&#34;http://simplystatistics.org/2013/08/09/embarrassing-typos-reveal-the-dangers-of-the-lonely-data-analyst/&#34;&gt;only statistician in your group&lt;/a&gt;. In addition to attempting to communicate statistical ideas with scientists who may only understand statistics as far as linear regression and ANOVA, the communication runs both ways and everyone needs to be clear on what’s being done, how it’s being done, and how you write that up. Check all papers for comments before they’re submitted, otherwise you may end up leaving yourself open to falsifying your data. SAS still dominates job advertisements for statisticians (&lt;a href=&#34;http://simplystatistics.org/2013/08/08/data-scientist-is-just-a-sexed-up-word-for-statistician/&#34;&gt;or data scientists&lt;/a&gt; if there is indeed a distinction) but &lt;a href=&#34;http://blog.revolutionanalytics.com/2013/08/job-trends-for-statistics-packages.html&#34;&gt;R jobs are on the rise&lt;/a&gt;. It’d be interesting to see if this is related to the cost of licensing and training for SAS. I was checking out &lt;a href=&#34;http://3.14-pi.net/&#34;&gt;a website&lt;/a&gt; that was posted on &lt;a href=&#34;http://www.itsokaytobesmart.com/&#34;&gt;Joe Hanson’s Tumblr&lt;/a&gt; when my supervisor walked in and asked what I was looking at. The site lists off the digits of π and plays a kick drum sounds for 0, a hi hat for 1, and tones on a scale for 2 to 9. “What purpose does this have?” I don’t know, but it’s a neat little thing and there’s no repeating melody thanks to the irrationality of π. This reminds me a little of Brian Eno’s “&lt;a href=&#34;http://en.wikipedia.org/wiki/Brian_Eno#Generative_music&#34;&gt;Generative Music&lt;/a&gt;”, which uses some initial sounds to generate unique melodies, through adjustable parameters, that may not repeat for long, long, long periods of time (of the order of thousands of years, potentially). Eno released &lt;a href=&#34;http://www.youtube.com/watch?v=KE86wbZhlWYwhich&#34;&gt;an entire album&lt;/a&gt; of such music but I much prefer “&lt;a href=&#34;http://www.youtube.com/watch?v=RfKcu_ze-60&#34;&gt;Ambient 1: Music for Airports&lt;/a&gt;” which uses tape loops of varying lengths and phasing to create musical patterns whose lengths are &lt;a href=&#34;http://en.wikipedia.org/wiki/Commensurability_(mathematics)&#34;&gt;incommensurable&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/14/posterior-samples/</link>
+      <pubDate>Wed, 14 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/14/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xkcd.com/1133/&#34;&gt;Randall Munroe explains Saturn V using only the thousand most commonly used English words, and it’s hilarious&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2012/11/16808/#comment-109366&#34;&gt;Speaking of Randall Munroe, here’s his response to Gelman’s criticism of Munroe’s Bayesian vs Frequentist comic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/35563800852/some-thoughts-on-teaching-r-to-50-000-students&#34;&gt;Some (but not my) thoughts on teaching R to 50,000 students&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.abc.net.au/local/stories/2012/11/13/3631638.htm&#34;&gt;There was an eclipse visible in Australia on the morning of November 14 2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://musicmachinery.com/2012/11/12/the-infinite-jukebox/&#34;&gt;It’s getting hammered at the moment, but The Infinite Jukebox analyses songs for similar phrases and builds a series of paths between similar sections so that you can have an infinitely long song.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Infinite Jukebox reminds me a bit about &lt;a href=&#34;http://www.youtube.com/watch?v=UqzVSvqXJYg&#34;&gt;Brian Eno’s work on generative systems&lt;/a&gt; for rule-based music. This in turn reminds me of Brian Eno’s album “Discreet Music”, which features an &lt;a href=&#34;http://www.youtube.com/watch?v=7-Vq4pmzMaE&#34;&gt;automatically played song and three re-arrangements of Pachelbel’s “Canon in D”.&lt;/a&gt; The album is designed to sit in the background and be fairly unobtrusive, but it’s hard not to notice the familiar phrases of “Canon in D”. I find this album good as background music at work. The generative systems video above takes me back to my undergraduate studies in mathematics, where we learned about &lt;a href=&#34;http://staff.qut.edu.au/staff/malletd/&#34;&gt;mathematical modelling using cellular automata&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unknown measures</title>
+      <link>/./2012/10/08/unknown-measures/</link>
+      <pubDate>Mon, 08 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/08/unknown-measures/</guid>
+      <description>&lt;p&gt;I think it would be incredibly dorky, and thus incredibly cool (or incredibly hipster), to present some aerosol time series data in the same vein as the cover art for Joy Division’s “Unknown Pleasures”. &lt;a href=&#34;unknown-pleasures-joy-division.jpg&#34;&gt;&lt;img src=&#34;http://samcliffordinfo.files.wordpress.com/2012/10/unknown-pleasures-joy-division.jpg&#34; title=&#34;Joy Division &amp;quot;Unknown Pleasures&amp;quot;&#34; /&gt;&lt;/a&gt;It’s actually quite an interesting way to visualise spatio-temporally correlated data, with either time or space as the grouping variable.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

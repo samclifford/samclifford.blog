@@ -1,0 +1,131 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - The ongoing crusade against Excel-based analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2014/05/14/the-ongoing-crusade-against-excel-based-analysis/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2014/05/14/the-ongoing-crusade-against-excel-based-analysis/">The ongoing crusade against Excel-based analysis</a></h1>
+	        <div class="post-time">May 14 2014</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/education">education</a>              
+	            
+	                <a href="/./tags/pedagogy">pedagogy</a>              
+	            
+	                <a href="/./tags/programming">programming</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/r">R</a>              
+	            
+	                <a href="/./tags/science">science</a>              
+	            
+	                <a href="/./tags/seb113">seb113</a>              
+	            
+	                <a href="/./tags/seb114">seb114</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/visualisation">visualisation</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p><span style="line-height:1.714285714;font-size:1rem;">One of the things I catch myself saying quite often in SEB113 is “This is new. It’s hard. But remember, you weren’t born knowing how to walk. You learned it”, as my way of saying that it’s okay to not understand this straight away, it takes time, practice and determination. I often say this in response to students complaining about learning R to do their data analysis. It’s actually got to the point where t</span><span style="line-height:1.714285714;font-size:1rem;">he unit co-ordinator suggested I get a t-shirt printed with “You weren’t born knowing how to walk” on the front and “So learn R” on the back.</span> One of the reasons I’m so keen to push new students into learning R is that while Excel can do some of the simpler calculations required in the first year of a science degree it is often completely inadequate for doing data analysis as a professional scientist, or even in an advanced level university course. I actually saw a senior researcher in a 3 day Bayesian statistics course try to avoid using R to code a Gibbs sampler by getting it up and running in Excel. They managed it, but it took minutes to run what the rest of us could compute in a second (and it was for a trivially simple problem). There are <a href="http://www.asq904.org/StatisticalFlawsInExcel.pdf">problems with Excel</a>, such as its inability to deal with the standard deviation of a group of very large numbers due to its bizarre formulation. Apparently the secret to sane use of Excel is to <a href="http://www.r-bloggers.com/excel-fanaticism-and-r/">only use it for data storage</a>. This guiding principle has meant that I no longer manipulate my data in Excel. Even with time stamp information I’ll fire up the <a href="http://cran.r-project.org/web/packages/lubridate/index.html">lubridate</a> package to convert from one format to another. I’m slowly exploring the <a href="http://blog.datascienceretreat.com/">Hadleyverse</a> and that sort of approach is filtering through into SEB113 where we’re teaching the use of ggplot2 and reshape2 within RStudio. These are all powerful tools that simplify data analysis and avoid the hackish feel that much Excel-based analysis has, where pivot tables are a thing and graphs are made by clicking and dragging a selection tool down the data (which can lead to <a href="http://en.wikipedia.org/wiki/Growth_in_a_Time_of_Debt">some nasty errors</a>). The fact that these powerful tools that make data analysis simple are free is another reason to choose R over Excel. I’m not on the “Open Source Software and provision of all code is mandatory” bandwagon as others seem to be when it comes to analysis being replicable. I agree it’s a worthwhile goal but it’s not a priority for me. That said, though, I definitely support encouraging the use of free software (in both senses) in education on the grounds of equity of access. I had a chat with some students in SEB113 yesterday about why we’re teaching everything in R given that the SEB114 staff use a combination of Excel, MATLAB (and maybe even other packages I don’t know about). If we were to teach analysis the way that the SEB114 lecturers do it themselves, we’d have to teach multiple packages to multiple disciplines. Even discounting the fact that everything we teach is implemented in R, that R is free (unlike Excel and MATLAB), cross-platform (Excel on Linux? Try OpenOffice/OfficeLibre) and extensible (MATLAB has toolboxes, Excel has add-ins, R has a nice package manager) was a big plus for students who said that being able to work on assignments at home was valuable and so paying for software would make study difficult. Convincing students to use R can be difficult, especially if they have no programming background, but ultimately they seem to accept that R is powerful, can do more than Excel and that writing reusable code makes future analysis easier. Convincing SEB114 academics that teaching their students to use R is a good idea is probably a harder sell, given that they’ve got years of experience with other tools. It’s still only semester 3 of the new Bachelor of Science course so we’ll have to see how this plays out over the years to come.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2014/05/22/posterior-samples/">Prev</a>
+			<a class="next" href="/./2014/04/26/posterior-samples/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

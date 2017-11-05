@@ -1,0 +1,8 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2013-05-15
+tags: ["bayesian statistics","blog","Blog","ecology","economics","education","finland","gaussian process","mathematics","posterior samples","programming","science","statistics"]
+---
+
+[GPStuff 4.1 has been released recently](http://andrewgelman.com/2013/05/14/gpstuff-bayesian-modeling-with-gaussian-processes). I'd like to work with Aki Vehtari's group. I should really learn more about different inference approaches like EM, EP, VB. Some advice for my SEB113 students who may struggle with the workload of first semester university comes from the sagest of equines, [@horse_ebooks](https://twitter.com/horse_ebooks).[![horseebooks](tumblr_mmjxritaln1qfgro5o1_500h.jpg?w=450)](http://samcliffordinfo.files.wordpress.com/2013/05/tumblr_mmjxritaln1qfgro5o1_500h.jpg)[Hugh Possingham](http://www.biology.uq.edu.au/staff/hugh-possingham)'s [talking on Monday](http://brisscience.wordpress.com/2013/04/20/monday-20-may-2013/) about the mathematics and economics of conservation as part of the [BrisScience](http://brisscience.wordpress.com/) seminar series. I've been meaning to make it to a Possingham talk for a while.

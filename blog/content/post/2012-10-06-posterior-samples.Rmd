@@ -1,0 +1,20 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2012-10-05
+tags: ["blog","Blog","posterior samples"]
+---
+
+Everyone seems to do it. The collection of a few links with interesting material that may not necessarily be worth an entire post by themselves. I've decided that it's probably worth doing this so that I can share the things that make me say "Hey, neat". So today I present the first in an ongoing series with a pun-based name.
+
+*   [Andrew Gelman - Columbo does posterior predictive checks](http://andrewgelman.com/2012/10/columbo-does-posterior-predictive-checks/)
+
+A little bit of fun.
+
+*   [Dan Hill - Essay: The Garage of Small Things; nanotechnology, biomimicry and design practice](http://www.cityofsound.com/blog/2012/10/garage-of-small-things-nanotechnology.html)
+
+Encourages me that it's totally worth moving to Helsinki.
+
+*   [Mike Monteiro - "Fuck you, pay me](http://vimeo.com/22053820)" ([refresher: Goodfellas](http://www.youtube.com/watch?v=cP_GOoBPKfQ))
+
+Mainly for designers, but it's important to remember in any sort of work that involves a contract that everyone needs to understand what they've agreed to and follows through on it. You don't want to throw yourselves on the mercy of someone who is looking to not pay you.

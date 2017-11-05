@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Robotics on Sam Clifford </title>
+    <link>/./tags/robotics/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-12-02 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2013/12/02/posterior-samples/</link>
+      <pubDate>Mon, 02 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/02/posterior-samples/</guid>
+      <description>&lt;p&gt;Thiago Martins has posted &lt;a href=&#34;http://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/&#34;&gt;a neat little tutorial&lt;/a&gt; about using R to calculate and visualise Principle Components Analysis, using Fisher’s Iris data. PCA is something I’ve struggled with as I’ve gone further into statistics, as it comes across as being based on mathematics rather than statistics. I’d like to learn more about the Indian Buffet Process and associated non-parametric Bayesian methods but if I’m going to be looking at long and wide data sets (say, UPTECH questionnaire data) I’d like to have somewhere to start. It looks like this may provide that. Rasmus Bååth’s done &lt;a href=&#34;http://www.sumsar.net/blog/2013/11/easy-laplace-approximation/&#34;&gt;a tutorial on Laplace Approximations in R&lt;/a&gt; (hat tip to Matt Moores for this one). Laplace Approximations are an alternative to MCMC simulation that can provide good approximations to well-behaved posterior densities in a fraction of the time. The tutorial deals with the issue of reparameterisation for when you’ve got parameters which have bounded values (such as binomial proportions). As a piece of trivia, Thiago (above) is based at NTNU where &lt;a href=&#34;http://www.r-inla.org/&#34;&gt;R-INLA&lt;/a&gt; is developed. I’m at the &lt;a href=&#34;http://emac2013.com.au/&#34;&gt;emac2013&lt;/a&gt; conference this week. We’re about half way through day one of the talks (of three) and there’s already been some fascinating stuff. Professor Robert Mahony (ANU) gave a talk that shows that the development of more advanced unmanned aerial vehicles (UAVs, drones) involves some quite complex but elegant mathematics, involving Lie group symmetries, rather than just coming up with cooler robots. Hasitha Nayanajith Polwaththe Gallage (QUT) showed some really interesting particle method (mesh-free) modelling where forces and energies were used to determine the shape of a red blood cell that had just ejected its nucleus.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

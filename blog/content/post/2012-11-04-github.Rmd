@@ -1,0 +1,8 @@
+---
+title: GitHub
+author: Sam Clifford
+date: 2012-11-21
+tags: ["aerosols","git","ilaqh","latex","papers","programming","qut","science","statistics"]
+---
+
+GitHub for Windows can be such a pain sometimes. I guess it's partially my fault for attempting to use version control on the compiled PDF of a LaTeX document, but I spent a fair amount of time today attempting to fix up a colleague's local repository. I'm now a bit more familiar with cherry-pick and rebase but it would have been nice to have it just work. For some reason, GitHub for Windows on this colleague's computer simply _will not sync properly_; my colleague has had to become a bit more familiar with the common commands (push, pull, fetch, commit, merge). It works fine on their Mac, though. I run GitHub for OS X at home and it's an absolute dream. At work (Windows XP) I have had no end of trouble with various programs like TortoiseGit. I think when I start my post-doc I'll organise to have my computer converted to a Linux system. After all that, though, we did make some pretty good progress on the modelling in this paper. I'm not quite sure which journal we'll be sending it to but it's a really nice piece of work with some personal monitoring data, simple but informative analysis and some very creative use of the base graphics system in R.

@@ -1,0 +1,127 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Learning different programming languages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2014/07/02/learning-different-programming-languages/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2014/07/02/learning-different-programming-languages/">Learning different programming languages</a></h1>
+	        <div class="post-time">July 2 2014</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/aerosol-science">aerosol science</a>              
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/ilaqh">ilaqh</a>              
+	            
+	                <a href="/./tags/programming">programming</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/r">R</a>              
+	            
+	                <a href="/./tags/science">science</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>One of the biggest changes I noticed moving from doing statistics in Minitab (in first year data analysis) to doing statistics in R (in third year statistical inference) was that R encourages you to write functions. Normally this is done by writing functions in R’s own language (that call other functions, also written in R, which eventually call functions written in C) but it’s also possible to make use of other languages to do the heavy lifting. This isn’t unique to R, of course; MATLAB encourages the use of MEX files to improve run-times when you need to call the same custom function over and over again. I’ve really only used high level languages to do my statistics, making use of other peoples’ optimised code that do the things that I want. I’ve seen the development of <a href="http://eprints.qut.edu.au/43469/">pyMCMC</a> by reseachers at QUT and someone from my NPBayes reading group made quite heavy use of RCpp in his thesis. Python and C++ are probably the two languages that would be the most useful to learn given their ubiquity and reputation. I have been putting off learning these for years as I know that there’s a large time investment required to become proficient in programming and no external pressure to learn (unlike learning R as part of my PhD thesis work). There’s no doubt that writing optimised code is a desirable thing to do, and that knowing more than one programming language (and how to use them together) gives you a much richer toolbox for numerically solving problems. I’m now at a point, though, where it looks like I may need to bite the bullet and pick up C++. JAGS, which I use through rjags in R, is a stable, fast platform for MCMC-based inference. It’s written in C++ and notifies you every time you load it in R that it has loaded the basemod and bugs modules. There are additional modules available (check in -3.4.064) and <a href="http://www.cidlab.com/prints/wabersich2013extending.pdf">it’s possible to write your own</a>, as long as you know C++. I’m at a point with the work I’ve been doing on <a href="http://pubs.acs.org/doi/abs/10.1021/es403721w">estimating personal dose of ultrafine particles</a> that I’d like to make the modelling more Bayesian, which includes figuring out a way to include the deposition model in the MCMC scheme (as I’d like to put a prior on the shape parameter of the reconstructed size distribution). My options seem to be either writing a JAGS module that will allow me to call a C++ified version of the function or to abandon JAGS and write a Gibbs sampler (or Metropolis-Hastings, but Gibbs will likely be quicker given the simplicity of the model I’m interested in). Either solution will stretch me as a programmer and probably give me a better understanding of the problem. Eubank and Kupresanin’s “Statistical Computing in C++ and R” is staring at me from the shelf above my desk.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2014/07/30/posterior-samples/">Prev</a>
+			<a class="next" href="/./2014/07/02/posterior-samples/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

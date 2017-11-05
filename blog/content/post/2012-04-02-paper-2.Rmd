@@ -1,0 +1,8 @@
+---
+title: Paper 2
+author: Sam Clifford
+date: 2012-04-02
+tags: ["blog","Blog","ilaqh","papers","qut","statistics"]
+---
+
+The second paper of my PhD is really taking shape. It's on spatial and temporal modelling of panel design data from the UPTECH project and has been a lot of fun to work on. I said it should be ready by the end of the week for the final comments by my supervisors and it looks like it'll be on time, too. Once I've got that feedback it's time to submit it and start work on paper 3 (which follows from paper 2). I'll be so glad when this is over and I can look forward to finishing.

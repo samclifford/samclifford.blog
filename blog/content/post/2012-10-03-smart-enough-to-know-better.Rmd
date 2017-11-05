@@ -1,0 +1,8 @@
+---
+title: Smart Enough to Know Better
+author: Sam Clifford
+date: 2012-10-23
+tags: ["bayesian statistics","blog","Blog","podcast","science","smart enough to know better","statistics"]
+---
+
+One of my hobbies is improvised theatre, and through this hobby I've met some really interesting people who do some really interesting stuff. Two such people are Greg and Dan, the "[Talent](http://smartenough.org/talent.php)" behind the fortnightly podcast 'Smart Enough to Know Better". Dan and Greg are both passionate about science and interview people who share their passion in order to explore [all sorts of topics](http://smartenough.org/archive.php). Dan had asked me a while ago if I'd be interested in recording an episode of the podcast with them and we finally organised to do it on Sunday at Greg's place. We spent maybe just short of an hour talking about what I actually work on, the 2009 dust storm, why the Blue Mountains are blue and what Bayesian statistics is (a way of quantifying our beliefs in the absence of data and then updating our beliefs with data). The podcast is also broken up by short sketches and we recorded two of these. The episode I recorded will be added to the queue and appear perhaps a few months down the track. It'll be interesting to see how the edits fall and what I sound like on "radio".

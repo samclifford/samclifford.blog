@@ -1,0 +1,18 @@
+---
+title: About
+author: Sam Clifford
+date: 2011-10-10
+---
+
+Dr Sam Clifford is an applied Bayesian statistician, currently a Postdoctoral Fellow and Associate Lecturer in the School of Mathematical Sciences at Queensland University of Technology (QUT). He lectures SEB113 - Quantitative Methods for Science, the core first year mathematics and statistics unit for students enrolled in the ST01 Bachelor of Science. His research is with Professor Kerrie Mengersen and the [Bayesian Research and Applications Group.](https://bragqut.wordpress.com/) His previous postdoctoral fellowship was funded jointly by the [International Laboratory for Air Quality and Health](http://www.ilaqh.qut.edu.au/), [Institute for Future Environments](https://www.qut.edu.au/institute-for-future-environments) and [Centre for Air quality and health Research and evaluation (CAR-CRE)](http://www.car-cre.org.au/). His PhD was conferred in 2013, completed within the [International Laboratory for Air Quality and Health](http://www.ilaqh.qut.edu.au/) (QUT) under the supervision of [Professor Lidia Morawska](http://staff.qut.edu.au/staff/morawska/), [Professor Kerrie Mengersen](http://staff.qut.edu.au/staff/mengerse/) and [Dr Sama Low Choy](http://staff.qut.edu.au/staff/lowchoy/). The topic of the thesis was _[Spatio-temporal modelling of ultrafine particle number concentration](http://eprints.qut.edu.au/63528/)_. His undergraduate background is in computational mathematics, mathematical modelling and applied physics. He holds a B AppSc (Mathematics) with Division II A Honours for his thesis on numerical modelling of dispersion in non-uniform flow. His research interests include
+
+*   environmental modelling
+*   Bayesian statistics
+*   semi-parametric regression
+*   spatial and spatio-temporal statistics
+*   air quality
+*   non-parametric Bayesian methods
+
+<div>Further information can be found in Sam's [CV](http://samclifford.info/?attachment_id=1345).</div>
+
+<div>Sam also [blogs](http://samclifford.info/category/blog-2/) about his research activity.</div>

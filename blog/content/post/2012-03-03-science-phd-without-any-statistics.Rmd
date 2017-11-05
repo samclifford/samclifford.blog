@@ -1,0 +1,8 @@
+---
+title: Science PhD without any statistics?
+author: Sam Clifford
+date: 2012-03-27
+tags: ["Blog","qut","science","statistics"]
+---
+
+I went to a PhD final seminar recently and was absolutely shocked at how little statistics was in the project. The candidate did two questionnaires with and took geocoded measurements along a path yet the only data analysis was looking at summary statistics and doing a shocking job of interpreting the margin of error on responses on the questionnaires which were a 1 to 5 scale (hint: you shouldn't get a margin of error which is above 5). I can't believe that there wasn't a single piece of statistical modelling in the entire PhD, not even a linear regression, just summary statistics and plotting the geocoded data. How is that a person can go through Honours and a PhD in a scientific field without picking up the idea that statistical modelling is a good thing to include in your thesis? The candidate thanked their institute's research methods group (internal statistical consultants, essentially) for their help, which makes me wonder whether it's the research methods group who have failed or whether the student just didn't want to listen. I'm being deliberately vague about the thesis details because I don't want to dump a proverbial bucket over this person in public.

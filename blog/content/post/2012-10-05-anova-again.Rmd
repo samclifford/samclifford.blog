@@ -1,0 +1,8 @@
+---
+title: ANOVA again
+author: Sam Clifford
+date: 2012-10-25
+tags: ["anova","bayesian statistics","blog","Blog","ilaqh","qut","science","statistics","visualisation"]
+---
+
+I've been out for an after work drink with some people from ILAQH. Rather than going to bed after getting home I decided that what I _urgently_ need to do is write about the exchangeability in this hierarchical prior for the microbiology paper I'm writing with Heidi Salonen. I got a bit carried away and have reformulated the model a bit to properly represent the hierarchy while still making the code as similar in its working across all branches. Now I've got a bit carried away and am looking at how best to visually represent an estimate of the difference between indoor and outdoor fungal counts. It's nice that I can generate these estimates from MCMC output rather than having to do formal testing that assumes a particular distribution. I'm looking forward to presenting these plots and results to my co-authors because it really shows the power of Bayesian hierarchical modelling as a tool for examining random effects across groups where there is little data.

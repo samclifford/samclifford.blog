@@ -1,0 +1,131 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Statistics - not just for statisticians</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2012/06/01/statistics---not-just-for-statisticians/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2012/06/01/statistics---not-just-for-statisticians/">Statistics - not just for statisticians</a></h1>
+	        <div class="post-time">June 1 2012</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/aerosols">aerosols</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/education">education</a>              
+	            
+	                <a href="/./tags/ilaqh">ilaqh</a>              
+	            
+	                <a href="/./tags/journals">journals</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/science">science</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/the-conversation">the conversation</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>An article in <a href="http://theconversation.edu.au/top-cited-academics-honoured-but-wheres-the-humanity-7348">The Conversation</a> made the rounds in our office yesterday and prompted a discussion with one of my colleagues about the role of statistics in scientific papers. The article itself talks about Australians who received an award from Thomson Reuters on the basis of publishing frequently cited work and discusses the different culture in science and the humanities when it comes to publication and citation. The basic argument is that the awards are skewed to the sciences where publication is traditionally by journal article and citation in other journal articles is picked up more than in the humanities where monographs/books are the traditional means of disseminating information. One of the academics interviewed makes the point that science is much more collaborative, with researchers working in teams to achieve the goals of a project. One of the email discussants in our group offered the following:</p>
+<blockquote>
+<p>Graham Farquhar from the Australian National University is Australia’s citation laureate. Graham’s belief is this: start with a really good hypothesis driven question that no-one has answered and answer it. Deliver the answer with robust science and, voila, you have highly cited work. Coming up with the questions is hard though. Thinking seven impossible questions before breakfast is probably a daily norm in Graham’s existence. Doing this, and maintaining a normal personality is difficult though, but he manages quite well.</p>
+</blockquote>
+<p>A colleague talked to me about this idea of Farquhar’s in terms of a paper of his that he thought did well to answer an unanswered question. The aim of the paper was to offer an explanation for a physical phenomenon that is known in aerosols but it’s not well known why this phenomenon occurs. We then got into an argument about the robustness of the science, not based on the science that had been done (it was a synthesis of previous work by other authors), but because the evidence hadn’t all been included in a model that drew all these reviews together in a statistical manner. Scientists love <em>t</em> tests. They are simple tests which tell you if there’s a difference between two groups and are appropriate in some, but not all, instances, and are a good first step for exploratory data analysis. I was making the point that a Bayesian meta-analysis would have been far more appropriate as it’s a technique which is specifically designed to draw multiple sources of information together in a single model to provide a better estimate of an effect size. The Bayesian approach would have also helped here as a review of the literature could be used to determine priors such that even if no new data was collected for this paper, inferences could be drawn based on the current state of knowledge. I think every research group should hire a statistician, have them retrain the researchers in how to use statistics, including GLMs/GAMs, spatial analysis, time series methods, and Bayesian inference in order to build capacity within the group. The statistician can then work with the scientists to ensure that new papers include the best analysis of results possible and to also review old papers to see if there’s any low hanging fruit in terms of interesting experiments/observations which could be re-analysed with something more than ANOVA or linear regression. Statistics isn’t just for statisticians; we need to get away from the idea that doing more than the bare minimum for a paper is going too far. Apparently QUT is reviewing the way it teaches statistics to science students (something which is long overdue, my recollection is that MAB101 is an awful unit full of statistical techniques relevant to agricultural trials) so I’m hopeful that we can teach students statistical techniques that are relevant to them in an exciting way. I hope we don’t swing too far and just give them the exact tools they need and nothing else, because then we’re limiting graduates. If you’ve got the brain power to deal with atmospheric chemistry and/or physics, you should be able to handle statistics. Not everyone goes through to do advanced level statistical units but it shouldn’t be too much of a jump from collecting experimental data to analysing it in R with a package appropriate to your field. Edited to add: The point I’m trying to make here is that all researchers should have a basic understanding of exploratory/descriptive data analysis, simple GLMs (even if it’s just using glm() in R) and the ability to communicate the physical results in terms of the statistical modelling. I don’t expect that all scientists will go and become proficient in the use of Bayesian non-parametrics, but scientists should be able to start with some scatter plots, box plots and ANOVA to look for differences and then use regression to explain those differences.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2012/06/05/working-on-this-finnish-paper/">Prev</a>
+			<a class="next" href="/./2012/05/29/a-few-thoughts-on-the-various-software-packages-for-stats/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

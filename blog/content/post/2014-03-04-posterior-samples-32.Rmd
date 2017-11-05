@@ -1,0 +1,8 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2014-03-05
+tags: ["blog","Blog","git","norway","phd programs","posterior samples","programming","qut","R","science","science communication","visualisation"]
+---
+
+[NTNU](http://www.ntnu.edu/) in Trondheim, Norway, has [five PhD fellowships](https://sites.google.com/a/r-inla.org/www/events/openphd-grants) open. Visualising homicide rates in Mexico [using R and GitHub](http://lcolladotor.github.io/2014/02/26/excited-by-willingness-to-help-get-things-done/) (via [Probability and Statistics Blog](http://www.statisticsblog.com/2014/03/the-week-in-stats-mar-3rd-edition/)). If you're in Melbourne, Australia, you should consider popping along to [Laborastory](http://thelaborastory.com/) at the Cider House (Brunswick), where five scientists get up on the first Tuesday of the month to tell the stories of the heroes and history of their field. A friend of mine went along this week and enjoyed it immensely. SEB113 has started again. I've already done 5 workshops (I have three a week). Introducing a whole new cohort of students to R, RStudio and ggplot. We did some paper plane throwing last week and had a look at how simple usage of faceting, colouring and stacking histograms can reveal both overall variation and group-to-group variation. A few students are still bewildered by the idea of writing code to make pictures but they recognise that it's just a case of needing practice.

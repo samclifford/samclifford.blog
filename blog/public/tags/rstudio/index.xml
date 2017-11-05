@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Rstudio on Sam Clifford </title>
+    <link>/./tags/rstudio/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2015-12-16 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Blogging about blogging</title>
+      <link>/./2015/12/16/blogging-about-blogging/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2015/12/16/blogging-about-blogging/</guid>
+      <description>&lt;p&gt;I was inspired to make a website and start blogging about my work when I went to 8BNP in 2011 and met people like &lt;a href=&#34;http://canini.me/&#34;&gt;Kevin Canini&lt;/a&gt; and &lt;a href=&#34;http://www.tamarabroderick.com/&#34;&gt;Tamara Broderick&lt;/a&gt; who had websites to spruik themselves as researchers. I eventually got around to re-setting up my Wordpress account, buying a domain and setting up the whole DNS shebang. The last four years have seen some major changes in the web resources for research, with things like github taking the place of subversion and encouraging a more social and outward facing coding culture. You can blog using github now, and &lt;a href=&#34;http://www.njtierney.com/jekyll/2015/11/11/how-i-built-my-site/&#34;&gt;Nick Tierney&lt;/a&gt; (a PhD student at QUT) has made me think about whether it’s worth migrating from Wordpress to jekyll. Further exposure to R Markdown through Di Cook’s workshop at Bayes on the Beach has strengthened my belief in RStudio not just as a way to do research but to communicate it. This is even before we start considering all the things like shiny and embedded web stuff. It’ll take some work and I’m not sure I’ll have time over summer, but it’s a change that’s probably worth making.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,121 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Indian Buffet process - I&#39;m full</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2012/04/06/indian-buffet-process---im-full/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2012/04/06/indian-buffet-process---im-full/">Indian Buffet process - I&#39;m full</a></h1>
+	        <div class="post-time">April 6 2012</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/clustering">clustering</a>              
+	            
+	                <a href="/./tags/indian-buffet-process">indian buffet process</a>              
+	            
+	                <a href="/./tags/nonparametrics">nonparametrics</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>My little NP Bayes reading group finally finished with the <a href="http://samclifford.info/2012/03/28/indian-buffet-process/">IBP</a> paper <a href="https://wiki.qut.edu.au/display/npbayes/2012/04/04/Week+12+Summary">this week</a>, having spent five weeks going over it. It’s quite a neat paper which introduces some very interesting approaches to latent feature modelling, such as generating binary matrices which are explicitly in a certain form and using combinatorics to figure out how many other matrices can be reordered into that form. Another neat mathematical trick is the use of the Sherman-Morrison formula to update the inverse of Z’Z (part of the posterior covariance). Each row of Z represents an observation’s latent feature presence and absence. The exchangeable IBP allows us to reorder the observations however we want, so we can sequentially sample rows in Z and then perform the rank one update, rather than block sampling (regenerating the entire Z matrix) and computing the inverse of quite a dense matrix. It turns out that inference for infinite binary matrices can be performed by considering the finite case and recognising that the infinitely many zero columns won’t contribute to the posterior. The example they give, image analysis, is quite effective in illustrating the use of the IBP. One of us suggested that we could spend the next few weeks coding up the Metropolis within Gibbs MCMC sampler and applying it to Fisher’s iris data. We’ve looked at the iris data with the DP for allocating flowers to clusters but perhaps some latent feature analysis will better unearth the underlying species.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2012/04/07/dont-forget-to-clean-up/">Prev</a>
+			<a class="next" href="/./2012/04/02/paper-2/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

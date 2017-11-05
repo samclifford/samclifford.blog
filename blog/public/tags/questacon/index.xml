@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Questacon on Sam Clifford </title>
+    <link>/./tags/questacon/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-07-29 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples - July wrap</title>
+      <link>/./2013/07/29/posterior-samples---july-wrap/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/07/29/posterior-samples---july-wrap/</guid>
+      <description>&lt;p&gt;I had some Posterior Samples to share before going on leave but didn’t get around to posting them. Here’s what’s been on my mind this month: Maths and science units are popular with (Kentucky) students until they realise that &lt;a href=&#34;http://blogs.wsj.com/economics/2013/07/08/math-science-popular-until-students-realize-theyre-hard/&#34;&gt;they’re hard&lt;/a&gt;. While not directly relevant to the Australian university education model it’s probably an important thing for the Science and Engineering Faculty to keep in mind. &lt;a href=&#34;http://blogs.wsj.com/economics/2013/07/08/math-science-popular-until-students-realize-theyre-hard/&#34;&gt;&lt;/a&gt; I’m looking at ggplot2 more these days, so the idea of a “grammar of graphics” is beginning to resonate with me. &lt;a href=&#34;//www.youtube.com/watch?v=xyGggdg31mc&#34;&gt;Here’s a talk&lt;/a&gt; about building one for &lt;a href=&#34;http://clojure.org/&#34;&gt;clojure&lt;/a&gt; (which I don’t use). Something for me to keep in mind when delivering SEB113 slides this semester is &lt;a href=&#34;https://www.dropbox.com/s/p0sgdgo7mxkoj4h/What%20your%20math%20slides%20dont%20need.pdf&#34;&gt;what your maths slides don’t need&lt;/a&gt;. Probably also good pointers for any PhD students graduating soon. &lt;a href=&#34;http://well.blogs.nytimes.com/2013/07/22/the-kitchen-as-a-pollution-hazard/&#34;&gt;An interesting article in the New York Times&lt;/a&gt; about air pollution from cooking. This is something that ILAQH has a research interest in and our nanotracer paper contains a bit of analysis of inhaled surface area dose from particles that originate from cooking. &lt;a href=&#34;http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html&#34;&gt;Another NYT article&lt;/a&gt;, this time with a delicious visualisation of the geographical trends in income disparity and social mobility. &lt;a href=&#34;http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html&#34;&gt;Andrew Gelman writes at Slate&lt;/a&gt; about some of the problems with scientific publishing and the publication of spurious findings (which isn’t always willingly dishonest). A special “Big Bayes Stories” issue of “Statistical Science” will be published soon, focussing on the real world application of Bayesian statistics where other methods were inapplicable. &lt;a href=&#34;http://xianblog.wordpress.com/2013/07/29/big-bayes-stories/&#34;&gt;Christian Robert has written the preface&lt;/a&gt;; the issue is being edited by Robert, Kerrie Mengersen (one of my PhD supervisors) and Sharon McGrayne, author of “&lt;a href=&#34;http://www.amazon.com/Theory-That-Would-Not-Die/dp/1452636850&#34;&gt;The Theory That Would Not Die&lt;/a&gt;”. Also I went to &lt;a href=&#34;http://www.questacon.edu.au/&#34;&gt;Questacon&lt;/a&gt; and it was awesome.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

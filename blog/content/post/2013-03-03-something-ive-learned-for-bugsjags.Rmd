@@ -1,0 +1,14 @@
+---
+title: Something I've learned for BUGS/JAGS
+author: Sam Clifford
+date: 2013-03-19
+tags: ["bayesian statistics","blog","Blog","jags","microbiology","programming","R","statistics","uptech","winbugs"]
+---
+
+Just quickly, I'm using JAGS with rjags to run some models for this fungal concentration paper I'm writing with our Finnish visitor (who leaves in a few months!). There are three levels of hierarchy in the experiment
+
+1.  <span style="line-height:12px;">school (i = 1 to 25)</span>
+2.  measurement site within school (j = 1 to 3)
+3.  sample number at measurement site (k = 1 to K<sub>j</sub>)
+
+which mean that I was constructing my data frame as a three dimensional array, y[i,j,k] where there were uneven numbers of samples at each site within each school. Furthermore, modelling y[i,j,k] ~ dnorm(mu[i,j,k],tau.y) was giving me problems because I couldn't tell JAGS to monitor a three dimensional parameter. I figured out that it'd just be easier to treat the levels of measurement site and sample number as covariates that I could use as index counters in JAGS. I've got much simpler code now and JAGS is monitoring mu[i] (i = 1 to 261). Edit: It's been a busy month. I hope to finally publish that blog post about SEB113 soon.

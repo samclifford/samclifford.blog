@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Xkcd on Sam Clifford </title>
+    <link>/./tags/xkcd/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-04-29 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/04/29/posterior-samples/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/04/29/posterior-samples/</guid>
+      <description>&lt;p&gt;Often we don’t &lt;a href=&#34;http://dynamicecology.wordpress.com/2013/03/18/whats-your-best-technical-trick/&#34;&gt;discuss the various technical tricks&lt;/a&gt; that make the science easier in the methodology sections of our papers. Randall Munroe made &lt;a href=&#34;http://xkcd.com/1205/&#34;&gt;a chart&lt;/a&gt; that helps you figure out whether you’re spending more time working on your time-saving technical trick than you’d actually save. SAMSI &lt;a href=&#34;http://samsiatrtp.wordpress.com/2013/04/25/samsi-hosts-simons-foundation-public-lecture-the-public-health-impact-of-air-pollution-and-climate-change/&#34;&gt;hosted a talk&lt;/a&gt; about the public health impact of climate change. Wish I could have been there. A few (somewhat) recent posts from Andrew Gelman regarding p values&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://andrewgelman.com/2013/04/28/plain-old-everyday-bayesianism/&#34;&gt;reporting probabilities instead of p values&lt;/a&gt; is very Bayesian&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2013/02/p-values-and-statistical-practice/&#34;&gt;p values and statistical practice&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I find myself agreeing with a lot of what Gelman says on p values. I think they put the focus of statistics on testing rather than modelling, which is part of why we end up with scientists and others with such poor statistical skills and next to no creativity in terms of the models they fit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/14/posterior-samples/</link>
+      <pubDate>Wed, 14 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/14/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xkcd.com/1133/&#34;&gt;Randall Munroe explains Saturn V using only the thousand most commonly used English words, and it’s hilarious&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2012/11/16808/#comment-109366&#34;&gt;Speaking of Randall Munroe, here’s his response to Gelman’s criticism of Munroe’s Bayesian vs Frequentist comic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/35563800852/some-thoughts-on-teaching-r-to-50-000-students&#34;&gt;Some (but not my) thoughts on teaching R to 50,000 students&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.abc.net.au/local/stories/2012/11/13/3631638.htm&#34;&gt;There was an eclipse visible in Australia on the morning of November 14 2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://musicmachinery.com/2012/11/12/the-infinite-jukebox/&#34;&gt;It’s getting hammered at the moment, but The Infinite Jukebox analyses songs for similar phrases and builds a series of paths between similar sections so that you can have an infinitely long song.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Infinite Jukebox reminds me a bit about &lt;a href=&#34;http://www.youtube.com/watch?v=UqzVSvqXJYg&#34;&gt;Brian Eno’s work on generative systems&lt;/a&gt; for rule-based music. This in turn reminds me of Brian Eno’s album “Discreet Music”, which features an &lt;a href=&#34;http://www.youtube.com/watch?v=7-Vq4pmzMaE&#34;&gt;automatically played song and three re-arrangements of Pachelbel’s “Canon in D”.&lt;/a&gt; The album is designed to sit in the background and be fairly unobtrusive, but it’s hard not to notice the familiar phrases of “Canon in D”. I find this album good as background music at work. The generative systems video above takes me back to my undergraduate studies in mathematics, where we learned about &lt;a href=&#34;http://staff.qut.edu.au/staff/malletd/&#34;&gt;mathematical modelling using cellular automata&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

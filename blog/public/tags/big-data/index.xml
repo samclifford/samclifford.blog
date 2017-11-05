@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Big Data on Sam Clifford </title>
+    <link>/./tags/big-data/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-05-22 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/05/22/posterior-samples/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/05/22/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.compoundchem.com/2014/04/02/a-rough-guide-to-spotting-bad-science/&#34;&gt;A rough guide to spotting bad science&lt;/a&gt;. &lt;a href=&#34;http://simplystatistics.org/2014/05/07/why-big-data-is-in-trouble-they-forgot-about-applied-statistics/&#34;&gt;Why big data is in trouble: they forgot about applied statistics&lt;/a&gt;. Big data analytics are all well and good but you have to keep in mind that there are statistical properties that govern which inferences are valid. While I’m comfortable giving a lecture I really struggled to get through them in undergrad. &lt;a href=&#34;http://news.sciencemag.org/education/2014/05/lectures-arent-just-boring-theyre-ineffective-too-study-finds&#34;&gt;It turns out they may not be the most effective way to get information to students.&lt;/a&gt; My supervisors, Professor Lidia Morawska, is giving a public talk (free to register) at QUT soon, &lt;a href=&#34;https://www.qut.edu.au/institute-for-future-environments/about/news-events/news?news-id=71015&#34;&gt;“Air Quality Reports On Our Mobiles - Do We Care?”&lt;/a&gt; June 6 2014&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

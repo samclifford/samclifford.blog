@@ -1,0 +1,8 @@
+---
+title: First arXived paper
+author: Sam Clifford
+date: 2012-06-19
+tags: ["arxiv","blog","Blog","isba","Japan","latex","papers","statistics"]
+---
+
+Given that I've had to submit a manuscript for ISBA 2012 I figured I should put it on arXiv just in case anything happens. It'd also be good to point people to it at the conference to get a better idea from the poster that I'm presenting. I've put a link to it on my [publications](http://samclifford.info/publications/ "Publications") page, but the direct link is [here](http://arxiv.org/abs/1206.3833) to save you a click. I found the arXiv submission process very easy to use and am very impressed with its LaTeX processing.

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Japan on Sam Clifford </title>
+    <link>/./tags/japan/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-07-04 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>A few things that warrant an update</title>
+      <link>/./2012/07/04/a-few-things-that-warrant-an-update/</link>
+      <pubDate>Wed, 04 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/04/a-few-things-that-warrant-an-update/</guid>
+      <description>&lt;p&gt;The Finnish paper is pretty much ready for submission to Annals of Applied Stats. I’ve updated my publications page to include a link to the preprint on the &lt;a href=&#34;http://arxiv.org/abs/1207.0558&#34;&gt;arXiv&lt;/a&gt;. I will update my CV soon and I’ll add my posters and slides to the publications page. The Higgs boson - what’s the deal with that? &lt;a href=&#34;http://www.northcountrypublicradio.org/news/npr/156221787/cern-discovers-a-new-particle-likely-the-higgs-boson&#34;&gt;NPR has a good article on it&lt;/a&gt;. I spent the evening watching the Higgs announcements at uni and even though I thought the CERN slides were pretty cluttered and didn’t like the layout, nothing had prepared me for the ATLAS slides. Bad colour schemes (if you can call them that) and Comic Sans MS? Yuk. You don’t make science accessible by making people think “Hey. That looks like &lt;em&gt;I&lt;/em&gt; could have designed that. Scientists aren’t so different to me after all!” Some clearly presented slides that weren’t stuffed full of text and images are, in my opinion, the key to a good scientific presentation. 1 slide per minute, no more than 5-6 lines with no more than 5-6 words per line. The slides should touch on the key points so people can, at a glance, get a good idea of what’s going on. The talk that accompanies the slides is what conveys the rest of the information in more natural language. There was a lot of great science presented tonight, but it wasn’t presented well. David Spiegelhalter &lt;a href=&#34;http://understandinguncertainty.org/higgs-it-one-sided-or-two-sided&#34;&gt;explains&lt;/a&gt; the five sigma significance of the ATLAS/CERN results. P-values and confidence intervals are two things where I think frequentist probability stops being conceptually simpler than Bayesian statistics and becomes about questions like “What is the probability of observing the data I have seen given that I have this model and these parameter estimates?” and “If I did an infinite number of trials how many times would I expect this interval for my sample mean to cover the true mean?” and “Something something agriculture”. &lt;a href=&#34;http://hb2012.org/&#34;&gt;Healthy Buildings&lt;/a&gt; is coming up next week. It’s all hands on deck at ILAQH while we put the finishing touches on the program and sort out the behind the scenes stuff. It’s going to be great. I’ll be giving two talks; the first is about how we can use the Dirichlet process for clustering in health survey data and the second is about the need for better statistics in science. ISBA 2012 was a heap of fun and there were lots of good talks. I find meeting other statisticians very inspiring. I will try to write a wrap-up when HB 2012 is over. For now, you can enjoy &lt;a href=&#34;http://xianblog.wordpress.com/2012/06/27/isba-2012-guest-post/&#34;&gt;my preliminary thoughts&lt;/a&gt; on Xian’s ’Og.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISBA 2012 - A few thoughts</title>
+      <link>/./2012/06/27/isba-2012---a-few-thoughts/</link>
+      <pubDate>Wed, 27 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/27/isba-2012---a-few-thoughts/</guid>
+      <description>&lt;p&gt;Christian Robert asked for some guest bloggers for ISBA 2012 and &lt;a href=&#34;http://xianblog.wordpress.com/2012/06/27/isba-2012-guest-post/&#34;&gt;today his ’og features my thoughts&lt;/a&gt; as of this morning’s coffee break. There have been some really amazing talks in the sessions I’ve gone to, mostly in the NP Bayes talks. My poster went well, I had a good discussion with Daniel Williamson about some of the shortfalls of P-spline models when smoothing temporal data. Hopefully I convinced him that my use of AR residuals means I’m not modelling noise with a highly oscillatory spline. I don’t think I can convince him of the validity of using an informative Gamma(1,b) prior for the smoothing parameter as he’s quite firmly in the subjective priors camp. Perhaps he and Sama should have a meeting. I still haven’t been able to find Jukka Corander, he didn’t seem to be at the poster session where three of his students were presenting. Perhaps I just haven’t spotted him because we’ve only met once before and that was a year ago.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A few observations on Kyoto so far</title>
+      <link>/./2012/06/25/a-few-observations-on-kyoto-so-far/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/25/a-few-observations-on-kyoto-so-far/</guid>
+      <description>&lt;p&gt;I’ve been here roughly 24 hours and thought I might jot down a few things I’ve noticed about Kyoto, at least the parts I’ve been to. It’s a very human scale city. A lot of the photos I’ve seen of Tokyo made me think that urban Japan is this sprawling metropolis of high rise buildings, neon lights, etc. Kyoto is not like that at all. Most of the buildings I’ve seen in the downtown area are perhaps four stories tall. You can see the mountains by looking down the street. There are not multiple lane highways running through the CBD, most streets near the central JR station are one lane in each direction, maybe two at the intersection. A few of the bigger streets may be three or four lanes in each direction but they aren’t clogged full of traffic and nor are they speedways. Contrast this to Brisbane where almost every street downtown is a four lane one way street with on-street parking on each side except in peak hour where all four lanes are on street parking because traffic slows to about 10km/hr. There is a huge bike culture. It seems to be the easiest way to get around when making short trips. No one locks their bikes up. You just pop up the kick stand and go into the store for a few minutes. There are bike lanes at intersections for crossing and people ride on the road and the footpaths, and down the arcades in some places. There appear to be no helmet laws. Bins are as rare as hen’s teeth yet the city doesn’t have a litter problem. Every vending machine has recycling bins next to it and people eat their food at the shops where they buy it, even if it’s a pokey little hole in the wall takeaway dumpling place in an arcade. People don’t walk around eating and drinking like they do in Australia. You sit down, eat your takeaway meal, dump the rubbish in the bin and then off you go. I must have spent ten minutes walking around with an empty takoyaki tray before deciding to walk into a Starbucks, dump by garbage, buy an iced tea, drink it quickly, dump the rubbish and leave. The markets are wonderful. I spent the late morning walking around downtown with two other QUT ISBA attendees. We went to a few arcades where almost every shop seemed to be selling fresh fish, fermented vegetables, tofu, fried takeaway, dried beans, etc. The smells! Like nothing you get in Brisbane markets (I’m thinking Brisbane Square). We stopped for some takoyaki (octopus croquettes, basically) and I got a tempura lotus root on a stick. Not my usual fare but it’s not the sort of thing you see all that often in Brisbane so I decided I’d have a go. I couldn’t bring myself to eat the boiled baby octopus on a skewer, though; too Lovecraftian. All in all, Kyoto appears to be a great little town with a fantastic public transport system, good food, friendly people all at a scale that’s not completely overwhelming. I would consider living here if there was a good postdoc position. I’d have to learn much more Japanese than “Arigato” and “Ohaio gozaimasu”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First arXived paper</title>
+      <link>/./2012/06/19/first-arxived-paper/</link>
+      <pubDate>Tue, 19 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/19/first-arxived-paper/</guid>
+      <description>&lt;p&gt;Given that I’ve had to submit a manuscript for ISBA 2012 I figured I should put it on arXiv just in case anything happens. It’d also be good to point people to it at the conference to get a better idea from the poster that I’m presenting. I’ve put a link to it on my &lt;a href=&#34;http://samclifford.info/publications/&#34; title=&#34;Publications&#34;&gt;publications&lt;/a&gt; page, but the direct link is &lt;a href=&#34;http://arxiv.org/abs/1206.3833&#34;&gt;here&lt;/a&gt; to save you a click. I found the arXiv submission process very easy to use and am very impressed with its LaTeX processing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Just a few quick thoughts</title>
+      <link>/./2012/06/19/just-a-few-quick-thoughts/</link>
+      <pubDate>Tue, 19 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/19/just-a-few-quick-thoughts/</guid>
+      <description>&lt;p&gt;I’m setting up a laptop to take to ISBA with me as I have lots of thesis work to do. I must say, I’m really impressed with GitHub for Windows in regards to how simple it is to set up. It’s a matter of installing the program itself, then entering your github details. Cloning your GitHub repositories to your local machine is as simple as pressing a button. I haven’t had to faff about with ssh, pageant, etc. Now I just have to finish setting up remote INLA (which will require faffing about with ssh), installing LaTeX and figuring out if I can use X forwarding without X-Win. I also have to finish my ISBA poster and organise for it to be printed. Then there’s the two talks I am giving at Healthy Buildings 2012 which need writing and the Student Program work. I leave for Japan on Sunday. I should probably look at train travel from Osaka to Kyoto, find my travel money card, passport, etc. I uploaded a paper to arXiv yesterday. I’ll post about it here when it appears.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISBA update - logistics</title>
+      <link>/./2012/05/10/isba-update---logistics/</link>
+      <pubDate>Thu, 10 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/10/isba-update---logistics/</guid>
+      <description>&lt;p&gt;This morning I booked my flights to Osaka ($670 return, a very good deal) and am in the process of organising accommodation with &lt;a href=&#34;http://www.stat.berkeley.edu/~tab/&#34;&gt;Tamara Broderick&lt;/a&gt;. I’m getting excited about catching up with the various people that I met at the BNP conference last year and it’s even more exciting to see their names on the list of people giving talks. Tamara will be talking about Beta processes and Sergio Bacallado is giving a talk alongside Sonia Petrone and Yee Whye Teh, two of the big names in Bayesian non-parametrics. A few QUT people are talking as well. Nicole White and Susanna Cramb will be talking about spatio-temporal disease modelling. One of my supervisors, Sama Low Choy, will be talking about combining subjective priors (expert elicitation) and another, Kerrie Mengersen, is organising that session and co-author on a few papers that are being presented by people in her BRAG group, as well as posters (such as mine). I’m also looking forward to seeing presentations on INLA, spatial modelling, non-parametric estimation and environmental modelling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISBA 2012 update</title>
+      <link>/./2012/03/13/isba-2012-update/</link>
+      <pubDate>Tue, 13 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/13/isba-2012-update/</guid>
+      <description>&lt;p&gt;I got a very exciting email this morning as I was getting my morning coffee.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear Sam Clifford, We are very pleased to inform you that you have been selected as a recipient of a Junior Travel Award for attending the ISBA 2012 World Meeting! The amount of the Award is $300 (in US dollars) and is provided by funds from the Japanese Ministry of Education, Science, Sports, Culture and Technology.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;US$300 will pay for most of the conference registration if I register early as a PhD student. I’m drafting a budget now to check how much I’ll have to pay for accommodation, flights, etc. and will check how much money’s left in my IHBI student allocation and check if the new Science and Engineering Faculty will chip in a bit to help send me overseas. This is really thrilling news. I will get a chance to present my statistics work to statisticians, catch up with some of the people I met at the 8th Bayesian Nonparametrics workshop, meet some more early career statisticians, and find some academics working on similar projects who might be looking for postdocs in a year and a bit. My abstract is available &lt;a href=&#34;http://bayesian.org/node/2915&#34;&gt;online&lt;/a&gt; if you’re interested in Bayesian spatio-temporal modelling of data from a split panel design. I’ve got an old friend in Osaka who I should really catch up with. Osaka’s the nearest international airport to Kyoto and it’s an hour on the train. There’s a weekend before the conference starts, so I can probably afford to organise to see him and his wife prior to the conference.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

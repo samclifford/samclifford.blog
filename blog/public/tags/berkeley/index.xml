@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Berkeley on Sam Clifford </title>
+    <link>/./tags/berkeley/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-10-27 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/10/27/posterior-samples/</link>
+      <pubDate>Sat, 27 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/27/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://www.theatlantic.com/technology/archive/2012/10/scientists-recover-the-sounds-of-19th-century-music-and-laughter-from-the-oldest-playable-american-recording/264147/&#34;&gt;A group at the Lawrence Berkeley National Laboratory manage to digitally model an 1878 recording from one of Edison’s phonographs.&lt;/a&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.priceonomics.com/post/33713850223/a-dragnet-for-pee-wee&#34;&gt;Using economics to reduce bike theft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themonkeycage.org/blog/2012/10/25/steven-levitt-says-that-he-has-a-good-indicator-that-aaron-edlin-noah-kaplan-nate-silver-and-i-are-not-so-smart/&#34;&gt;Andrew Gelman responds to Steven Levitt’s criticism of people who vote thinking that their vote matters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Video Lecture on Sam Clifford </title>
+    <link>/./tags/video-lecture/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-05-13 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/13/posterior-samples/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/13/posterior-samples/</guid>
+      <description>&lt;p&gt;Something important to remember as a maths educator is that &lt;a href=&#34;http://www.slate.com/articles/health_and_science/science/2013/04/math_teacher_explains_math_anxiety_and_defensiveness_it_hurts_to_feel_stupid.single.html&#34;&gt;maths can make people feel stupid and people don’t like feeling stupid&lt;/a&gt;. &lt;a href=&#34;http://kottke.org/13/05/riding-an-icebreaker&#34;&gt;Ever wondered what it’s like to spend two months on an ice-breaker?&lt;/a&gt; The &lt;a href=&#34;http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/&#34;&gt;lecture slides from Harvard’s Stat 221 course&lt;/a&gt; are all online now. Commander Chris Hadfield’s &lt;a href=&#34;http://www.youtube.com/watch?v=KaOC9danxNo&#34;&gt;farewell from the ISS&lt;/a&gt; is, fittingly, a cover of David Bowie’s “Space Oddity”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revision, revised</title>
+      <link>/./2012/07/15/revision-revised/</link>
+      <pubDate>Sun, 15 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/15/revision-revised/</guid>
+      <description>&lt;p&gt;I just quickly want to plug the videolectures.net website, as it’s a great repository of talks about a wide range of topics. In particular, I want to plug the following two reviews of Bayesian statistics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Christopher Bishop (Microsoft Research) - &lt;a href=&#34;http://videolectures.net/mlss09uk_bishop_ibi/&#34;&gt;Introduction to Bayesian Inference&lt;/a&gt; (MLSS 2009)&lt;/li&gt;
+&lt;li&gt;Carl Edward Rasmussen (Max Planck Institute) - &lt;a href=&#34;http://videolectures.net/mlss07_rasmussen_bigp/&#34;&gt;Bayesian Inference and Gaussian Processes&lt;/a&gt; (MLSS 2007)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first, three hours long, gives a good overview of what Bayesian stats is, conceptually, and introduces a few key terms and some examples. The second one, five hours long, goes deeper into the difference between frequentist and Bayesian statistics and builds towards the use of Gaussian process models, a very important class of models that have a wide variety of applications. If you’ve got eight hours to kill, even if it’s spread over a few weeks, these appear to form a very good introduction to Bayesian statistics which progresses logically and introduces what’s needed when it’s needed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,151 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Bayes on the Beach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2012/11/08/bayes-on-the-beach/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2012/11/08/bayes-on-the-beach/">Bayes on the Beach</a></h1>
+	        <div class="post-time">November 8 2012</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/bayes-on-the-beach">bayes on the beach</a>              
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/conferences">conferences</a>              
+	            
+	                <a href="/./tags/experimental-design">experimental design</a>              
+	            
+	                <a href="/./tags/inla">inla</a>              
+	            
+	                <a href="/./tags/nonparametrics">nonparametrics</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/uptech">uptech</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>I’ve spent the last three days at the Bayes on the Beach conference/workshop in <a href="https://maps.google.com.au/maps?q=caloundra&amp;hl=en&amp;sll=-19.457034,145.879162&amp;sspn=35.100111,39.506836&amp;hnear=Caloundra+Queensland&amp;t=m&amp;z=14&amp;iwloc=A">Caloundra</a>. The meeting is an annual event where Bayesian statisticians (usually Australians who know Kerrie Mengersen) get together for a very casual set of talks, workshops and other activities in a beachside town.</p>
+<div id="design" class="section level3">
+<h3>Design</h3>
+<p>We arrived in Caloundra on Tuesday morning and got down to business with a keynote talk from <a href="http://www.southampton.ac.uk/maths/about/staff/davew.page">Dave Woods</a> (University of Southampton). Professor Woods’ talk opened a day in which the over-arching theme was experimental design and made the point that any design is at least implicitly Bayesian. I really agree with this point because any design is based on the prior experience of the experimenter or is pieced together from a review of what’s been done previously. I don’t know of any situation in which an experimental study was carried out totally at random without choosing appropriate covariate values. I don’t have much of a head for design but I think after seeing the talks on Tuesday (particularly Liz Ryan’s, which others in her session praised as giving a good review of utility) I’m a bit more aware of what it all means. What really helped was <a href="http://pharmacy.otago.ac.nz/our-people/academic-staff/stephen-duffull">Stephen Duffull</a> (University of Otago) in his Thursday talk where he spelled out D-optimality (wanting to maximise the effect) and P-optimality (wanting to get the best estimate of parameters). D- and P-optimality work in opposite directions quite frequently (killing all your patients doesn’t tell you much about the parameters in your model, for example) but it’s possible to trade them off with a DP-optimal design.</p>
+</div>
+<div id="workshops" class="section level3">
+<h3>Workshops</h3>
+<p>One of my favourite aspects of the Bayes on the Beach meetings is the workshops. At my first Bayes on the Beach (2009) we were shown how to do a Bayesian meta-analysis to combine the results of a bunch of disparate studies that dealt with the same topic. Ever since then, I’ve been looking forward to learning some more statistics or getting to grips with interesting data. <a href="http://datasearch2.uts.edu.au/science/staff/maths/details.cfm?StaffID=11641">Matt Wand</a> (University of Technology Sydney), <a href="http://data.aims.gov.au/staffcv/jsf/external/view.xhtml?partyId=900000428">Julian Caley</a> (Australian Institute of Marine Science) and <a href="http://staff.qut.edu.au/staff/lowchoy/">Sama Low Choy</a> (Queensland University of Technology, my associate supervisor) each pitched a problem that people could have a look at, not necessarily solving but, working towards a solution. Wand presented some really interesting spatio-temporal data of extreme rainfall in NSW which I was very keen to sign up to but Kerrie suggested that it might be a bit more of a challenge to do something other than spatio-temporal modelling of environmental data. Sama presented some work that she’s been doing on combining elicited opinions into a subjective prior that represents the aggregate knowledge of experts. I ended up in Caley’s group, where we worked on some data that <a href="http://scholar.google.com/citations?user=T-nbIuUAAAAJ&amp;hl=en">Julie Vercelloni</a> is dealing with as part of her PhD.</p>
+<div id="reef-workshop" class="section level4">
+<h4>Reef workshop</h4>
+<p>Caley, Vercelloni and Mengersen (among others) are working on coral coverage in the Great Barrier Reef in six sectors that run up the length of the reef (2600km). Within each sector there are reef shelves and on each shelf there are multiple reefs with multiple measurement patches. The question we attempted to answer was “How different are the long term trends in coral coverage at these reefs?” Caley has data going back to about 1994, reported annually, which when pooled looked very boring but when plotted (very well by Vercelloni) grouped by reef shelf within sector indicated that there might be quite a lot of interesting variation which may not be so straight forward to model. Our group split up into a few subgroups with different approaches and I ended up working with James McKeone and a few others on a model inspired by <a href="http://samclifford.info/2012/10/19/anova/" title="ANOVA">Cari Kaufmann’s functional ANOVA with GP priors</a>. Over the next day or so McKeone took what we’d discussed and written down as a model and came up with quite a general Gibbs sampling scheme that is flexible enough to admit any linear predictor. I’m fairly certain James and I both had P-splines in mind but I did talk later to Matt Wand about O’Sullivan splines and I think it might be conceptually easier to use Wand’s low rank thin plate smoothers, particularly as Vercelloni’s quite new to Bayesian statistics and has a background in ecology rather than computational statistics. It was interesting to see how the other workshops went on the Thursday afternoon recap. Sama’s group had split into three groups, each tackling the issue of elicitation with a different topic and a different angle. I must say that my favourite was the group who did an elicitation of predictions of the outcome of the US Presidential Election. <a href="http://conidialcoleopticide.wordpress.com/">Luisa Hall</a> even managed to elicit my opinion for her survey without me even realising it (we talk a lot about politics)! The other groups asked about how risky a life-saving operation would have to be for them to not take it and average completion time for PhD students (which Sama gave a talk about on Thursday).</p>
+</div>
+</div>
+<div id="real-time-updates-for-mean-field-variational-bayes" class="section level3">
+<h3>Real time updates for Mean Field Variational Bayes</h3>
+<p>Matt Wand also gave a talk and tutorial about using Mean Field Variational Bayes (a name he attributes to Mike Jordan) to do live, real-time updates of posterior estimates with streamed data such as stock trading. Rather than going into the content of the talk, I suggest you read <a href="http://www.uow.edu.au/~mwand/ovbpap.pdf">the paper</a> he’s written with Tamara Broderick (University of California, Berkeley) and his PhD student Jan Luts (University of Technology Sydney) and check out <a href="http://realtime-semiparametric-regression.net/">their website</a> with neat examples, e.g. <a href="http://realtime-semiparametric-regression.net/SydneyRealEstate/">the Sydney rental market</a> (which I think would be fascinating with the train lines superimposed).</p>
+</div>
+<div id="games-and-posters" class="section level3">
+<h3>Games and Posters</h3>
+<p>Tuesday and Wednesday evenings had Luisa and I running some games (<a href="http://en.wikipedia.org/wiki/Fictionary">Dictionary</a> and <a href="http://boardgamegeek.com/boardgame/38159/ultimate-werewolf-ultimate-edition">Werewolf</a>) before the poster sessions. It’s interesting running games like this with Bayesians because Dictionary is basically a problem of credibility of unknown experts and Werewolf is all about updating an initially uninformative prior with information based on peoples’ behaviour as they accuse others while trying to avoid being lynched. The poster sessions themselves were quite good, with a wide variety of applications and methodologies being presented. Everyone seemed quite keen to talk about their posters and they were generally of a high quality. On Thursday afternoon I gave my talk about spatio-temporal modelling of the UPTECH data as a case study for INLA. I got a few questions about the versatility of INLA and my choice of random walk and spline models instead of other bases as well as comments about the spatial modelling I’m doing. Definitely some things to think about for the next papers I write.</p>
+</div>
+<div id="a-success" class="section level3">
+<h3>A success</h3>
+<p>The organisers of Bayes on the Beach (Nicole White, Matt Moores, Jannah Baker and Dow Jaemjamrat) all did a really good job and I think everyone had a good time but was also inspired. I had a few minor issues (timekeeping is a perpetual bugbear of mine and I’m yet to go to a conference that runs totally on schedule) but think that the meeting did a really good job of bringing together a disparate group of researchers and introducing them to each other and providing ideas for future work and employment opportunities (Kim-Anh Do did a really good job of selling the <a href="http://www.mdanderson.org/">MD Anderson Cancer Center</a>). I think the challenge for future Bayes on the Beach meetings will be managing the growth in the number of attendees. I look forward to next year’s meeting; I might even have some time to go to the beach!</p>
+</div>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2012/11/09/posterior-samples/">Prev</a>
+			<a class="next" href="/./2012/11/01/where-do-i-want-to-go/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

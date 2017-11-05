@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Norway on Sam Clifford </title>
+    <link>/./tags/norway/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-03-05 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/03/05/posterior-samples/</link>
+      <pubDate>Wed, 05 Mar 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/03/05/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ntnu.edu/&#34;&gt;NTNU&lt;/a&gt; in Trondheim, Norway, has &lt;a href=&#34;https://sites.google.com/a/r-inla.org/www/events/openphd-grants&#34;&gt;five PhD fellowships&lt;/a&gt; open. Visualising homicide rates in Mexico &lt;a href=&#34;http://lcolladotor.github.io/2014/02/26/excited-by-willingness-to-help-get-things-done/&#34;&gt;using R and GitHub&lt;/a&gt; (via &lt;a href=&#34;http://www.statisticsblog.com/2014/03/the-week-in-stats-mar-3rd-edition/&#34;&gt;Probability and Statistics Blog&lt;/a&gt;). If you’re in Melbourne, Australia, you should consider popping along to &lt;a href=&#34;http://thelaborastory.com/&#34;&gt;Laborastory&lt;/a&gt; at the Cider House (Brunswick), where five scientists get up on the first Tuesday of the month to tell the stories of the heroes and history of their field. A friend of mine went along this week and enjoyed it immensely. SEB113 has started again. I’ve already done 5 workshops (I have three a week). Introducing a whole new cohort of students to R, RStudio and ggplot. We did some paper plane throwing last week and had a look at how simple usage of faceting, colouring and stacking histograms can reveal both overall variation and group-to-group variation. A few students are still bewildered by the idea of writing code to make pictures but they recognise that it’s just a case of needing practice.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

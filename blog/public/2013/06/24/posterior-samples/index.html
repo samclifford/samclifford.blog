@@ -1,0 +1,133 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Posterior samples</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2013/06/24/posterior-samples/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2013/06/24/posterior-samples/">Posterior samples</a></h1>
+	        <div class="post-time">June 24 2013</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/art">art</a>              
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/education">education</a>              
+	            
+	                <a href="/./tags/hpc">hpc</a>              
+	            
+	                <a href="/./tags/inla">inla</a>              
+	            
+	                <a href="/./tags/jags">jags</a>              
+	            
+	                <a href="/./tags/posterior-samples">posterior samples</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/r">R</a>              
+	            
+	                <a href="/./tags/radford-neal">radford neal</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>I was a bit disappointed that it wasn’t about machines doing automatic analysis for us, but this article, “<a href="http://simplystatistics.org/2013/06/14/the-vast-majority-of-statistical-analysis-is-not-performed-by-statisticians/">The vast majority of statistical analysis is not performed by statisticians</a>”, is a bit of a wake-up call for those statisticians who haven’t realised that we need to improve the way we teach statistics and interact with non-statisticians. I don’t think we have enough statisticians in the world to do all the analysis that needs doing, so we need to focus on training scientists and others better so that we don’t leave them stuck in a culture of bad regression and t-tests in Excel. Gianluca Baio (UCL) has <a href="http://www.statistica.it/gianluca/Talks/INLA.pdf">a really nice introduction</a> to <a href="http://www.r-inla.org/">INLA</a> with a comparison to <a href="http://mcmc-jags.sourceforge.net/">JAGS</a>. I started using JAGS when WinBUGS/OpenBUGS was becoming too slow for the analysis I was doing but the major paper of my thesis uses INLA for spatio-temporal analysis. I still use both programs and when faced with a new problem will usually start in JAGS as it’s quite flexible in the way you set up priors. INLA has its advantages as well, one of them being that it will fit a Poisson likelihood to non-integer data very well. There’s <a href="http://blogs.plos.org/attheinterface/2013/06/19/why-art-and-science/">a neat little article on the PLoS blog</a> about linkages between art and science and how the involvement of art in research (beyond making prettier plots, which is really more an issue of design than art) can lead to better scientific outcomes. Radford Neal has just announced <a href="http://radfordneal.wordpress.com/2013/06/22/announcing-pqr-a-faster-version-of-r/">pqR</a>, “pretty quick R”, which is designed to make use of multiple cores wherever possible and avoid unnecessarily onerous computation. It’s not available for Mac/Windows yet, so I won’t be able to look at it for the time being. I wonder if QUT’s HPC group would consider making it available on the supercomputer.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2013/06/27/stop-collaborate-and-listen/">Prev</a>
+			<a class="next" href="/./2013/06/17/maturing-from-student-to-researcher/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

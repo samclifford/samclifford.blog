@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Coursera on Sam Clifford </title>
+    <link>/./tags/coursera/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-11-11 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Coursera courses on statistics</title>
+      <link>/./2013/11/11/coursera-courses-on-statistics/</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/11/11/coursera-courses-on-statistics/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;I was looking into Coursera courses for a colleague who wants their postgrad students to have a stronger background in statistics. These students are coming from a background of having done science but not necessarily taken any mathematics or statistics electives in a while. It’d be good for them to learn R for their data analysis, too, seeing as most other statistics packages cost money and Excel, while readily available within universities and other research laboratories, is utterly terrible for proper data analysis.&lt;/span&gt; I managed to find the following courses which look relevant to the students and perhaps might even be good for any SEB113 students seeking to consolidate their statistical knowledge. This may also be relevant for current researchers looking to refamiliarise themselves with statistics and learn a good software package while they’re at it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/course/biostats&#34;&gt;Mathematical Biostatistics Boot Camp 1&lt;/a&gt;. Starting November 18 2013 and running for seven weeks. This requires some knowledge of calculus but looks like a really good course. Uses R.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/course/compdata&#34;&gt;Computing for Data Analysis&lt;/a&gt;. Starting January 6 2014 and running for four weeks. Uses R.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/course/statreasoning&#34;&gt;Statistical Reasoning for Public Health: Estimation, Inference, &amp;amp; Interpretation&lt;/a&gt;. Starting January 21 2013 and running for eight weeks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/course/statistics&#34;&gt;Data Analysis and Statistical Inference&lt;/a&gt;. Starting February 17 2013 and running for ten weeks. Uses R.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These courses are all free and some of them provide you with a statement of accomplishment upon successful completion, which could be a useful addition to your CV if you want to show prospective employers that you’re enthusiastic about learning and applying statistics. Edit: there’s also &lt;a href=&#34;https://novoed.com/numbers-life-quantway&#34;&gt;this&lt;/a&gt; “Numbers for Life” from Novo Ed. Johns Hopkins’ Open Courseware has the following neat courses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/introbiostats/coursePage/index/&#34;&gt;Introduction to Biostatistics&lt;/a&gt;. This is a bit like if SEB113 focussed on tests rather than models.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/BiostatisticsLectureSeries05/coursePage/index/&#34;&gt;Biostatistics Lecture Series&lt;/a&gt;&lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;. A discussion not so much about statistics but the way statistics is practised.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;Methods in Biostatistics&lt;/span&gt; &lt;a href=&#34;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/MethodsInBiostatisticsI/coursePage/index/&#34;&gt;I&lt;/a&gt; &lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;and&lt;/span&gt; &lt;a href=&#34;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/methodsinbiostatisticsii/coursePage/index/&#34;&gt;II&lt;/a&gt;&lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;Statistics for Laboratory Scientists&lt;/span&gt; &lt;a href=&#34;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/StatisticsLaboratoryScientistsI/coursePage/index/&#34;&gt;I&lt;/a&gt; &lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;and&lt;/span&gt; &lt;a href=&#34;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/statisticslaboratoryscientistsii/coursePage/index/&#34;&gt;II&lt;/a&gt;&lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/EssentialsProbabilityStatisticalInference/coursePage/index/&#34;&gt;Essentials of Probability and Statistical Inference IV&lt;/a&gt;. GAMs, CARTs, neural networks. Good for postgrad level statisticians.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ben Fitzpatrick also introduced me to &lt;a href=&#34;http://www.lynda.com/&#34;&gt;lynda&lt;/a&gt;, which has a few short courses on statistics and R.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Politics on Sam Clifford </title>
+    <link>/./tags/politics/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-10-04 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/04/posterior-samples/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/04/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://dynamicecology.wordpress.com/2013/09/26/wiwacs-vs-zombie-ideas/&#34;&gt;Zombie ideas in ecology&lt;/a&gt; make it difficult to publish results that go against them, but how prevalent are they? &lt;a href=&#34;http://mathesaurus.sourceforge.net/octave-r.html&#34;&gt;R for MATLAB users&lt;/a&gt;. This would have been handy in SEB113 if we were still using MATLAB. Perhaps we should give it as a general resource for stats classes in the mathematics program at QUT. The US government shutdown is having &lt;a href=&#34;http://edition.cnn.com/2013/10/03/opinion/urry-nasa-shutdown/index.html?hpt=hp_c2&#34;&gt;quite severe effects on science&lt;/a&gt;, such as threatening the launch of the next &lt;a href=&#34;http://edition.cnn.com/2013/10/03/us/shutdown-mars-mission/index.html&#34;&gt;Mission to Mars&lt;/a&gt;. This is pretty awful given it was &lt;a href=&#34;http://www.news.com.au/technology/sci-tech/happy-birthday-nasa-shut-it-down/story-fn5fsgyc-1226731242175&#34;&gt;NASA’s 50th birthday&lt;/a&gt; earlier this week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2013/09/11/posterior-samples/</link>
+      <pubDate>Wed, 11 Sep 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/09/11/posterior-samples/</guid>
+      <description>&lt;p&gt;Roger Peng and Jeff Leek are going to be &lt;a href=&#34;http://simplystatistics.org/2013/08/29/the-return-of-the-stat-computing-for-data-analysis-data-analysis-back-on-coursera/&#34;&gt;re-offering their Coursera courses&lt;/a&gt; on data analysis, including the use of R. A Creative Commons-licensed textbook on Bayesian statistics that teaches in Python rather than mathematics? Sure. &lt;a href=&#34;http://www.greenteapress.com/thinkbayes/thinkbayes.pdf&#34;&gt;Have this one&lt;/a&gt;. &lt;a href=&#34;http://www.youtube.com/watch?v=fCuZ5UUrKrM&#34;&gt;Let’s discuss gender bias in STEM fields&lt;/a&gt;. Australia has a new government and &lt;a href=&#34;http://www.abc.net.au/science/articles/2013/09/10/3845442.htm&#34;&gt;that new government has flagged&lt;/a&gt; that it will be keeping a closer eye on the Australian Research Council’s grants process in order to “crack down on Labor’s (the former government) addition to waste by auditing increasingly ridiculous research grants”. The Liberal-National Party coalition government has a history of doing this; former Minister for Education, Brendan Nelson, &lt;a href=&#34;http://www.themonthly.com.au/issue/2006/may/1294984634/gideon-haigh/nelson-touch&#34;&gt;personally vetoed grants for humanities projects&lt;/a&gt; that had been approved through the ARC’s independent peer review process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Educational testing and statistical testing</title>
+      <link>/./2012/09/24/educational-testing-and-statistical-testing/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/09/24/educational-testing-and-statistical-testing/</guid>
+      <description>&lt;p&gt;When the Australian Government introduced &lt;a href=&#34;http://www.naplan.edu.au/&#34;&gt;NAPLAN&lt;/a&gt; and the &lt;a href=&#34;http://www.myschool.edu.au/&#34;&gt;MySchool&lt;/a&gt; website I was very worried about league tables being drawn up, the ranking of schools and the stigmatisation of poorer schools as being “bad” and parents opting to not send their kids there. I don’t have a problem with benchmarks for students, letting parents know how their kids are developing and ensuring that governments are able to target their resources where they’re needed. What I do have a problem with is this bizarre notion that “accountability” means the government throws good policy, teachers and kids under a bus to appease parents or the more neoliberal elements of the national media. If it’s not clear, I have grave concerns about the impact on our education system of publicly releasing nation-wide summary statistics of how well the students are doing at each school. I think the USA’s focus on standardised testing and the awful notion of “merit based pay” threaten the integrity of public education. Having said that, the collection of this data and its appropriate analysis provide governments with a very good tool for assessing their policies and determining where to spend the finite amount of money they have. &lt;a href=&#34;http://www.quantumforest.com/2012/09/new-zealand-school-performance-beyond-the-headlines/&#34;&gt;This post&lt;/a&gt; from Quantum Forest shows how a naive analysis of literacy versus socioeconomics in New Zealand can give a very misleading picture. To cut a long story short, there’s a lot of variability that plotting a trend line or some averages doesn’t take into account. The post is worth a read and doesn’t go into a huge amount of statistical detail but explains, with some well described R code, the use of boxplots for quick summaries of data that show the variability inherent in the data. The author also discusses how this exploration can lead to appropriate modelling which takes the variability into account. This is the sort of exploration that should form the basis of any academic analysis of any data and I’m grateful to the author for explaining it simply and providing R code and the publicly available data. To me, statistics is all about quantifying uncertainty; Bayesian statistics even moreso. Confidence/credible intervals are not just something we calculate to check that something’s significant at the 5% level, they’re how we represent how certain we are about our parameter estimates. Not stating the uncertainty in one’s analysis may as well be a cardinal sin and no one should get away with providing a plot or parameter value without an estimate of its variability. It doesn’t matter if you’re a first year student, research scientist, public servant or journalist, you need to include uncertainty or else you’re lying to your audience (a lie of omission, but still a lie). With a bit of luck, there’s a statistician working at a major news service who can make use of this when the next MySchool report comes out and some statisticians working in the Department of Education who are able to make use of good statistical modelling to make suggestions to the Minister regarding funding allocation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

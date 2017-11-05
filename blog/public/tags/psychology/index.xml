@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Psychology on Sam Clifford </title>
+    <link>/./tags/psychology/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-05-23 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/23/posterior-samples/</link>
+      <pubDate>Thu, 23 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/23/posterior-samples/</guid>
+      <description>&lt;p&gt;Some people make their visualisations in Excel, I make mine in R and others still use things like Processing or InDesign. Bret Victor &lt;a href=&#34;http://vimeo.com/66085662&#34;&gt;shows us&lt;/a&gt; how the various ideas from each approach can be combined to make dynamic visualisations. It’s written with a view to &lt;a href=&#34;http://andrewgelman.com/2013/05/17/how-can-statisticians-help-psychologists-do-their-research-better/&#34;&gt;the interaction between statisticians and psychologists&lt;/a&gt; but it applies just as much to statisticians helping scientists with their statistics, which is basically my job at the moment. Two of my colleagues in BRAG gave &lt;a href=&#34;http://bragqut.wordpress.com/2013/05/21/geospatial-visualisation/&#34;&gt;a really neat talk&lt;/a&gt; about using R to visualise spatial data. Maybe &lt;a href=&#34;http://phenomena.nationalgeographic.com/2013/05/07/charlemagnes-dna-and-our-universal-royalty/&#34;&gt;Europe’s genetic history&lt;/a&gt; isn’t as diverse as we’d previously thought. They’re not all Habsburgs but there’s a little bit of Charlemagne in all of us. I helped a colleague hand in her PhD thesis recently; perhaps she should have read this beforehand: “&lt;a href=&#34;http://thesiswhisperer.com/2013/05/22/how-not-to-hand-in-your-phd/&#34;&gt;How not to hand in your PhD&lt;/a&gt;”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Obsession with statistical significance</title>
+      <link>/./2012/08/14/obsession-with-statistical-significance/</link>
+      <pubDate>Tue, 14 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/14/obsession-with-statistical-significance/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://bps-research-digest.blogspot.com.au/2012/08/phew-made-it-how-uncanny-proportion-of.html&#34;&gt;Another link&lt;/a&gt; courtesy of the Monkey Cage’s “Potpourri” link collection. This time it’s about the prevalence of papers in Psychology journals that report &lt;em&gt;p&lt;/em&gt; values of just under 0.05. The quest for statistical significance at the 0.05 level is probably the greatest shame of statistics education around the world. It comes across as being taught as a hard and fast rule that 0.05 is the magic number. We hear all about 95% confidence intervals (which I detest as a way of summarising uncertainty) and &lt;em&gt;t&lt;/em&gt; tests with &lt;em&gt;p&lt;/em&gt; values under 0.05 proving that there’s an effect. Something I’ve picked up from my statistics supervisors, both of whom are Bayesians, is that “significance” is a bit arbitrary yet it’s treated as a revelation of some universal truth by those whose statistical training hasn’t been particularly thorough. A little bit of knowledge is dangerous, you might say, particularly among reviewers. While I’m not the biggest fan of hypothesis testing, there’s a right way and a wrong way to do it. The argument should be made that “this is the &lt;em&gt;p&lt;/em&gt; value of the test under the hypothesis (and the model)” rather than just assuming that an effect is significant or not based on a point estimate of a probability measure. What would I suggest in its place? Doing one’s regression in a Bayesian setting (the GLM is generally more flexible than ANOVA) and reporting the 95% credible interval. The credible interval represents the distribution of values that a parameter may take and so a 95% credible interval corresponds to a belief that the value lies in that range. This is opposed to the confidence interval approach which says that infinite replication of the experiment would yield an effect size which lies in the confidence region 95% of the time. The Bayesian posterior represents one’s belief (objective, subjective, whatever) updated by the data by a model. It’s more useful to report the range of values that one believes &lt;em&gt;a posteriori&lt;/em&gt; that the parameter of interest might take. And this is the strength of the Bayesian paradigm. It is all about quantifying uncertainty rather than coming up with point estimates and stating wholesale whether a result is significant or not. Far better to state “this is what I think and this is how uncertain I am”.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

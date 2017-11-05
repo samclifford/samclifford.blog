@@ -1,0 +1,8 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2013-10-04
+tags: ["astronomy","blog","Blog","ecology","matlab","nasa","politics","posterior samples","qut","R","science","seb113","statistics"]
+---
+
+[Zombie ideas in ecology](http://dynamicecology.wordpress.com/2013/09/26/wiwacs-vs-zombie-ideas/) make it difficult to publish results that go against them, but how prevalent are they? [R for MATLAB users](http://mathesaurus.sourceforge.net/octave-r.html). This would have been handy in SEB113 if we were still using MATLAB. Perhaps we should give it as a general resource for stats classes in the mathematics program at QUT. The US government shutdown is having [quite severe effects on science](http://edition.cnn.com/2013/10/03/opinion/urry-nasa-shutdown/index.html?hpt=hp_c2), such as threatening the launch of the next [Mission to Mars](http://edition.cnn.com/2013/10/03/us/shutdown-mars-mission/index.html). This is pretty awful given it was [NASA's 50th birthday](http://www.news.com.au/technology/sci-tech/happy-birthday-nasa-shut-it-down/story-fn5fsgyc-1226731242175) earlier this week.

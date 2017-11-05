@@ -1,0 +1,133 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - A mostly Fin(n)ish[ed] paper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2012/05/09/a-mostly-finnished-paper/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2012/05/09/a-mostly-finnished-paper/">A mostly Fin(n)ish[ed] paper</a></h1>
+	        <div class="post-time">May 9 2012</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/aerosols">aerosols</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/finland">finland</a>              
+	            
+	                <a href="/./tags/git">git</a>              
+	            
+	                <a href="/./tags/isba">isba</a>              
+	            
+	                <a href="/./tags/matlab">matlab</a>              
+	            
+	                <a href="/./tags/matt-wand">matt wand</a>              
+	            
+	                <a href="/./tags/nonparametrics">nonparametrics</a>              
+	            
+	                <a href="/./tags/papers">papers</a>              
+	            
+	                <a href="/./tags/programming">programming</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>The paper I started with some collaborators in Finland (<a href="https://tuhat.halvi.helsinki.fi/portal/en/persons/bjarke-moelgaard(74a8081d-a379-4e4b-9aff-e9b85bc98c78)/publications.html">Bjarke Mølgaard</a>, <a href="http://www.rni.helsinki.fi/~jic/">Jukka Corander</a>, <a href="http://www.atm.helsinki.fi/~khameri/">Kaarle Hämeri</a>, <a href="https://tuhat.halvi.helsinki.fi/portal/en/persons/tareq-hussein(3aacf8e7-f431-41b0-9303-1abaf1897bf7)/publications.html?page=5&amp;rendering=vancouver">Tareq Hussein</a>) almost a year ago is nearly done. It’s been nearly done a few times, but now all that remains is to do a little bit of model choice regarding the separability of the effects of meteorology on ultrafine particle number concentration. We’ve been using git to send the paper and code back and forth (well, Bjarke and I have) and I’ve found that to be a really simple way of collaboratively writing code and a paper. To see the changes made, one need only look at the commit details. Much nicer than using tracked changes in Word and emailing a bunch of versions of the same file back and forth and trying to do complicated merges of changes. I am really looking forward to submitting this paper, as it’s probably the most methodological work I’ll get out of my PhD (the other papers are largely applications of some novel techniques to the UPTECH project’s data). It’s quite a nice blending of the <a href="https://tuhat.halvi.helsinki.fi/portal/en/publications/forecasting-sizefra(9c6ae07d-af34-4909-a4f9-d758bc7a4795).html">work done by the Finnish authors previously</a> [1] as part of Bjarke’s PhD and some of the ideas in my first paper [2]. While I don’t know that it will totally revolutionise atmospheric modelling (in the way that I’m sure we all hope it will), it’s quite a nice technique that increases the flexibility of the Generalised Additive Model and hopefully encourage anyone interested in doing Bayesian modelling with the GAM to stop using <a href="http://www.uow.edu.au/~mwand/">Matt Wand</a>’s WinBUGS approach [3, 4]. To be clear, I find GAMs in WinBUGS particularly cumbersome to code given that WinBUGS doesn’t deal with matrix operations very well and the use of P-splines requires a lot of matrix operations. Having said that, though, Wand’s code is a nice intro to Bayesian splines where you don’t have to write your own MCMC sampler. I just think it has some limitations that are not easily overcome. I’d like to present this to a statistics conference but it wasn’t anywhere near ready enough to demonstrate at ISBA 2012 when I was submitting an abstract. [1] B. Mølgaard, T. Hussein, J. Corander, K. Hämeri, Forecasting size-fractionated particle number concentrations in the urban atmosphere, Atmospheric Environment, Volume 46, January 2012, Pages 155-163, ISSN 1352-2310, 10.1016/j.atmosenv.2011.10.004. <a href="http://www.sciencedirect.com/science/article/pii/S1352231011010491">ScienceDirect</a> [2] S. Clifford, S. Low Choy, T. Hussein, K. Mengersen, L. Morawska, Using the Generalised Additive Model to model the particle number count of ultrafine particles, Atmospheric Environment, Volume 45, Issue 32, October 2011, Pages 5934-5945, ISSN 1352-2310, 10.1016/j.atmosenv.2011.05.004. <a href="http://www.sciencedirect.com/science/article/pii/S1352231011004766">ScienceDirect</a> [3] C. M. Crainiceanu, D. Ruppert. M. P. Wand, Bayesian Analysis for Penalized Spline Regression Using WinBUGS, <a href="http://www.jstatsoft.org/v14/i14/">Journal of Statistical Software, Volume 14, Issue 14, September 2005</a>. [4] J. K. Marley, M. P. Wand, Non-Standard Semiparametric Regression via BRugs, <a href="http://www.jstatsoft.org/v37/i05">Journal of Statistical Software, Volume 37, Issue 5, November 2010</a>. P.S. I apologise for the awful pun, but <a href="http://en.wikipedia.org/wiki/The_Micallef_P(r)ogram(me)">Shaun Micallef</a> has been on my mind recently.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2012/05/10/isba-update---logistics/">Prev</a>
+			<a class="next" href="/./2012/04/19/open-access-and-my-next-paper/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

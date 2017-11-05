@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Spatial Statistics on Sam Clifford </title>
+    <link>/./tags/spatial-statistics/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-01-20 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Using R-INLA for spatio-temporal modelling</title>
+      <link>/./2014/01/20/using-r-inla-for-spatio-temporal-modelling/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/01/20/using-r-inla-for-spatio-temporal-modelling/</guid>
+      <description>&lt;p&gt;Every once in a while I have to figure out how to do something in R-INLA. The easiest thing to do, obviously, is to see if anyone else has done the same thing before. Often they have and I am continually impressed by what INLA is capable of doing. I’m currently revising my paper on spatio-temporal modelling of outdoor PNC in the UPTECH project and the following papers have been incredibly helpful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.math.ntnu.no/inla/r-inla.org/tutorials/spde/spde-tutorial.pdf&#34;&gt;Krainski and Lindgren (2013) - The R-INLA tutorial: SPDE models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0167947313001552&#34;&gt;Martins, Simpson, Lindgren and Rue (2013) - Bayesian computing with INLA: new features&lt;/a&gt; &lt;a href=&#34;http://arxiv.org/abs/1210.0333&#34;&gt;(or there’s the arXived version)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S1877584512000846&#34;&gt;Blangiardo, Cameletti, Baio and Rue (2013) - Spatial and spatio-temporal models with R-INLA&lt;/a&gt; &lt;a href=&#34;http://www.math.ntnu.no/inla/r-inla.org/case-studies/Blangiardo-et-al-2012/Report-version-Oct-2012.pdf&#34;&gt;(tech report version)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://link.springer.com/article/10.1007%2Fs10182-012-0196-3&#34;&gt;Cameletti, Lindgren, Simpson and Rue (2013) - Spatio-temporal modeling of particulate matter concentration through the SPDE approach&lt;/a&gt; &lt;a href=&#34;http://www.math.ntnu.no/inla/r-inla.org/case-studies/Cameletti2012/Cameletti_et_al_2012_acc.pdf&#34;&gt;(tech report version)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/16/posterior-samples/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/16/posterior-samples/</guid>
+      <description>&lt;p&gt;Christian Robert gives &lt;a href=&#34;https://xianblog.wordpress.com/2013/10/14/statistics-for-spatio-temporal-data-book-review/&#34;&gt;a brief review&lt;/a&gt; of the latest version of Noel Cressie’s book on spatial statistics. I met Cressie once a few years ago and have found the 1993 edition of his book really useful in my PhD. I may just have to get my hands on this new version. Sometimes in your analysis there’ll be an overall trend which is apparent but when you look at subgroups of the data all of them have a trend going the opposite way. This is called Simpson’s paradox and is explained with an interactive tool &lt;a href=&#34;http://vudlab.com/simpsons/&#34;&gt;here&lt;/a&gt;. A &lt;a href=&#34;http://simplystatistics.org/2013/10/14/why-did-lars-peter-hansen-win-the-nobel-prize-generalized-method-of-moments-explained/&#34;&gt;primer&lt;/a&gt; about why Lars Peter Hansen won the Nobel Prize for Economics. This is probably as close as we can get to a Nobel Prize for Statistics (do the Fields Medal and Abel Prize count?). &lt;a href=&#34;http://lipmag.com/featured/where-have-all-the-wiki-ladies-gone/&#34;&gt;Lip Mag interview&lt;/a&gt; with Kelly Wong about women in science. Wong’s a Brisbane-based PhD student whose supervisor has worked with my supervisor, so I guess we’re like research cousins once removed. The interview raises questions about the recognition of women in science on Wikipedia. This is all related to &lt;a href=&#34;http://www.theguardian.com/technology/2013/oct/15/nerd-cabaret-wikipedia-ada-lovelace-day-2013?CMP=twt_fd&#34;&gt;Ada Lovelace Day&lt;/a&gt; (Lovelace was the first computer programmer), which will feature wikipedia edit-a-thons to ensure that our big online repository of human knowledge and history reflects the achievements of women in STEM.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

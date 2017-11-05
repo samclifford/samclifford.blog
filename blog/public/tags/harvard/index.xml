@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Harvard on Sam Clifford </title>
+    <link>/./tags/harvard/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-05-13 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/13/posterior-samples/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/13/posterior-samples/</guid>
+      <description>&lt;p&gt;Something important to remember as a maths educator is that &lt;a href=&#34;http://www.slate.com/articles/health_and_science/science/2013/04/math_teacher_explains_math_anxiety_and_defensiveness_it_hurts_to_feel_stupid.single.html&#34;&gt;maths can make people feel stupid and people don’t like feeling stupid&lt;/a&gt;. &lt;a href=&#34;http://kottke.org/13/05/riding-an-icebreaker&#34;&gt;Ever wondered what it’s like to spend two months on an ice-breaker?&lt;/a&gt; The &lt;a href=&#34;http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/&#34;&gt;lecture slides from Harvard’s Stat 221 course&lt;/a&gt; are all online now. Commander Chris Hadfield’s &lt;a href=&#34;http://www.youtube.com/watch?v=KaOC9danxNo&#34;&gt;farewell from the ISS&lt;/a&gt; is, fittingly, a cover of David Bowie’s “Space Oddity”.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

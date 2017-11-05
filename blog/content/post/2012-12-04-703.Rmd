@@ -1,0 +1,8 @@
+---
+title: Statistics in Ecology
+author: Sam Clifford
+date: 2012-12-12
+tags: ["anova","blog","Blog","ecology","statistics"]
+---
+
+The author of this post argues that 1) ecology is bad at prediction and 2) ecology needs to get better at prediction. I'd expand this beyond ecology to air quality and most other sciences based on observations of environmental phenomenon. I've railed against ANOVA previously but haven't spent as much time as the author delving into the philosophy of science. I like that they suggest GAMs. I don't like the focus on only p values, R-squared and effect sizes but I do note that they've mentioned AIC, so perhaps this isn't aimed at people getting PhDs in statistical modelling.

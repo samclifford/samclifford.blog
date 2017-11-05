@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Aerosol Science on Sam Clifford </title>
+    <link>/./tags/aerosol-science/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-07-02 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Learning different programming languages</title>
+      <link>/./2014/07/02/learning-different-programming-languages/</link>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/07/02/learning-different-programming-languages/</guid>
+      <description>&lt;p&gt;One of the biggest changes I noticed moving from doing statistics in Minitab (in first year data analysis) to doing statistics in R (in third year statistical inference) was that R encourages you to write functions. Normally this is done by writing functions in R’s own language (that call other functions, also written in R, which eventually call functions written in C) but it’s also possible to make use of other languages to do the heavy lifting. This isn’t unique to R, of course; MATLAB encourages the use of MEX files to improve run-times when you need to call the same custom function over and over again. I’ve really only used high level languages to do my statistics, making use of other peoples’ optimised code that do the things that I want. I’ve seen the development of &lt;a href=&#34;http://eprints.qut.edu.au/43469/&#34;&gt;pyMCMC&lt;/a&gt; by reseachers at QUT and someone from my NPBayes reading group made quite heavy use of RCpp in his thesis. Python and C++ are probably the two languages that would be the most useful to learn given their ubiquity and reputation. I have been putting off learning these for years as I know that there’s a large time investment required to become proficient in programming and no external pressure to learn (unlike learning R as part of my PhD thesis work). There’s no doubt that writing optimised code is a desirable thing to do, and that knowing more than one programming language (and how to use them together) gives you a much richer toolbox for numerically solving problems. I’m now at a point, though, where it looks like I may need to bite the bullet and pick up C++. JAGS, which I use through rjags in R, is a stable, fast platform for MCMC-based inference. It’s written in C++ and notifies you every time you load it in R that it has loaded the basemod and bugs modules. There are additional modules available (check in -3.4.064) and &lt;a href=&#34;http://www.cidlab.com/prints/wabersich2013extending.pdf&#34;&gt;it’s possible to write your own&lt;/a&gt;, as long as you know C++. I’m at a point with the work I’ve been doing on &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/es403721w&#34;&gt;estimating personal dose of ultrafine particles&lt;/a&gt; that I’d like to make the modelling more Bayesian, which includes figuring out a way to include the deposition model in the MCMC scheme (as I’d like to put a prior on the shape parameter of the reconstructed size distribution). My options seem to be either writing a JAGS module that will allow me to call a C++ified version of the function or to abandon JAGS and write a Gibbs sampler (or Metropolis-Hastings, but Gibbs will likely be quicker given the simplicity of the model I’m interested in). Either solution will stretch me as a programmer and probably give me a better understanding of the problem. Eubank and Kupresanin’s “Statistical Computing in C++ and R” is staring at me from the shelf above my desk.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

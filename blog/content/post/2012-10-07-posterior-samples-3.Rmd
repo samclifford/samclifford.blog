@@ -1,0 +1,10 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2012-10-27
+tags: ["andrew gelman","berkeley","blog","Blog","economics","posterior samples"]
+---
+
+*   <span style="line-height:12px;">[A group at the Lawrence Berkeley National Laboratory manage to digitally model an 1878 recording from one of Edison's phonographs.](http://www.theatlantic.com/technology/archive/2012/10/scientists-recover-the-sounds-of-19th-century-music-and-laughter-from-the-oldest-playable-american-recording/264147/) </span>
+*   [Using economics to reduce bike theft](http://blog.priceonomics.com/post/33713850223/a-dragnet-for-pee-wee)
+*   [Andrew Gelman responds to Steven Levitt's criticism of people who vote thinking that their vote matters](http://themonkeycage.org/blog/2012/10/25/steven-levitt-says-that-he-has-a-good-indicator-that-aaron-edlin-noah-kaplan-nate-silver-and-i-are-not-so-smart/)

@@ -1,0 +1,8 @@
+---
+title: Two papers submitted
+author: Sam Clifford
+date: 2012-07-06
+tags: ["aerosols","arxiv","blog","Blog","clustering","conferences","ilaqh","journals","qut","science","statistics"]
+---
+
+In the last two weeks I've sent two papers to Annals of Applied Statistics and uploaded them to the arXiv. This fulfills the minimum publication requirements for a PhD by publication at QUT. So it's a milestone on the way to completion. Now I just have to sort out a fourth paper as backup, give two presentations at next week's conference, organise a final seminar session, compile all my work into a thesis and get it to my supervisors. On top of my immediate thesis work on spatio-temporal modelling, I've got a paper for Healthy Buildings on methods for analysing the UPTECH survey data that'll get published, a paper on which I'm coauthor (particle losses in a thermodenuder system) that's almost finished and the microbiology paper I wrote about previously. Busy.

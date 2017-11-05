@@ -1,0 +1,8 @@
+---
+title: Online courses in Bayesian statistics
+author: Sam Clifford
+date: 2012-07-30
+tags: ["bayesian statistics","blog","Blog","courses","programming","R","winbugs"]
+---
+
+I just got an email from Jannah Baker (fellow QUT PhD student and student assistant chair of the SSAI) about three training courses that are being run online through [statistics.com](http://statistics.com). Bill Bolstad will be running an introduction to Bayesian statistics from [August 17 to September 14](http://www.statistics.com/bayesian/). Peter Congdon will be running a course on Bayesian computation from [September 21 to October 19](http://www.statistics.com/BayesianComputing/) and then another course on MCMC for regression from [November 16 until December 14](http://www.statistics.com/MCMC/). All three of these courses consist of four sessions which will touch on various aspects of Bayesian inference. If you're interested in learning about Bayesian inference and how to perform Bayesian regression in a computational environment (WinBUGS and R, as far as I can tell) then you might want to consider these courses. They aren't free (so if you're looking for free, I suggest checking out [videolectures](http://samclifford.info/2012/07/15/revision-revised/ "Revision, revised"), getting [a good book](http://samclifford.info/2012/07/13/where-to-start-if-youre-going-to-revise-statistics/ "Where to start if you're going to revise statistics") and looking at [relevant R packages and tutorials](http://cran.r-project.org/web/views/Bayesian.html)).

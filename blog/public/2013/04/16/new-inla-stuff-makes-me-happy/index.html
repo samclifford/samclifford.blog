@@ -1,0 +1,129 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - New INLA stuff makes me happy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2013/04/16/new-inla-stuff-makes-me-happy/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2013/04/16/new-inla-stuff-makes-me-happy/">New INLA stuff makes me happy</a></h1>
+	        <div class="post-time">April 16 2013</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/dan-simpson">dan simpson</a>              
+	            
+	                <a href="/./tags/h%C3%A5vard-rue">håvard rue</a>              
+	            
+	                <a href="/./tags/inla">inla</a>              
+	            
+	                <a href="/./tags/programming">programming</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/r">R</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/uptech">uptech</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p><a href="www.r-inla.org">R-INLA</a> is a really neat use of GMRFs for computing posteriors for quite complicated Bayesian Latent Gaussian Models. I used it for spatio-temporal modelling in my PhD and had to feel my way through a lot based on an old demo which was purely spatial. As I got further and further into my PhD I saw extensions for R-INLA being written thanks to a few visits from, and email correspondence with, <a href="http://www.math.ntnu.no/~daniesi/">Dr Daniel Simpson</a>, and the help list on the R-INLA site where Dan, Håvard Rue and Finn Lindgren are very quick with a reply. A few days ago I got an email from Rue telling me he’d been made aware of <a href="http://arxiv.org/abs/1206.3833">one of my thesis papers</a> and if I wouldn’t mind having a look at running it with the new testing distribution of R-INLA. It’s the first time I’ve looked at the code again since submitting the paper for publication and it seems that an awful lot of work has been put into internal optimisation. The code for running my model requires less manual tuning now and I’m excited about using it in follow-up papers where I’ll be looking at more of the UPTECH data. There’s also a <a href="http://www.r-inla.org/examples/tutorials/spde-tutorial">new tutorial for spatial modelling with INLA</a>, written by <a href="http://www.leg.ufpr.br/~elias/">Elias T. Krainski</a>, which covers a number of topics such as a simple spatial regression, a spatial model with misalignment and non-stationary spatial models (which I’ve seen talked about a few times but there’s very little documentation about them). I think R-INLA, particularly the spatial modelling, has really come a long way over the last few years and it’s encouraging to see it being taken up at QUT where students would probably have used WinBUGS in the past. While there are some limitations in terms of the flexibility of the classes of models that can be fit in BUGS versus R-INLA I’d much rather do any spatial, spatio-temporal or non-parametric smoothing in R-INLA.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2013/04/17/a-proud-moment/">Prev</a>
+			<a class="next" href="/./2013/03/19/something-ive-learned-for-bugs/jags/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

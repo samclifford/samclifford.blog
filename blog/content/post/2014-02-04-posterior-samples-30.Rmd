@@ -1,0 +1,8 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2014-02-05
+tags: ["andrew gelman","bayesian statistics","blog","Blog","ilaqh","programming","qut","R","science","stan","statistics"]
+---
+
+[Everything I need to know about Bayesian Statistics, I learned in eight schools](http://andrewgelman.com/2014/01/21/everything-need-know-bayesian-statistics-learned-eight-schools/). At first I thought this meant not really understanding it until having worked in many places with different people but it's actually a reference to a particular example of hierarchical modelling. [Hadley Wickham talking about dplyr](http://www.youtube.com/watch?v=qRSfxSRdL5Y). Very fancy. [I'm finally attempting to install RStan](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started). My computer is misbehaving. And it's ARC Discovery Project writing time.

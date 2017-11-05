@@ -1,0 +1,10 @@
+---
+title: Indian Buffet process - I'm full
+author: Sam Clifford
+date: 2012-04-06
+tags: ["blog","Blog","clustering","indian buffet process","nonparametrics","qut","statistics"]
+---
+
+
+
+<p>My little NP Bayes reading group finally finished with the <a href="http://samclifford.info/2012/03/28/indian-buffet-process/">IBP</a> paper <a href="https://wiki.qut.edu.au/display/npbayes/2012/04/04/Week+12+Summary">this week</a>, having spent five weeks going over it. It’s quite a neat paper which introduces some very interesting approaches to latent feature modelling, such as generating binary matrices which are explicitly in a certain form and using combinatorics to figure out how many other matrices can be reordered into that form. Another neat mathematical trick is the use of the Sherman-Morrison formula to update the inverse of Z’Z (part of the posterior covariance). Each row of Z represents an observation’s latent feature presence and absence. The exchangeable IBP allows us to reorder the observations however we want, so we can sequentially sample rows in Z and then perform the rank one update, rather than block sampling (regenerating the entire Z matrix) and computing the inverse of quite a dense matrix. It turns out that inference for infinite binary matrices can be performed by considering the finite case and recognising that the infinitely many zero columns won’t contribute to the posterior. The example they give, image analysis, is quite effective in illustrating the use of the IBP. One of us suggested that we could spend the next few weeks coding up the Metropolis within Gibbs MCMC sampler and applying it to Fisher’s iris data. We’ve looked at the iris data with the DP for allocating flowers to clusters but perhaps some latent feature analysis will better unearth the underlying species.</p>

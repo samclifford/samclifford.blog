@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Gender on Sam Clifford </title>
+    <link>/./tags/gender/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-09-11 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2013/09/11/posterior-samples/</link>
+      <pubDate>Wed, 11 Sep 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/09/11/posterior-samples/</guid>
+      <description>&lt;p&gt;Roger Peng and Jeff Leek are going to be &lt;a href=&#34;http://simplystatistics.org/2013/08/29/the-return-of-the-stat-computing-for-data-analysis-data-analysis-back-on-coursera/&#34;&gt;re-offering their Coursera courses&lt;/a&gt; on data analysis, including the use of R. A Creative Commons-licensed textbook on Bayesian statistics that teaches in Python rather than mathematics? Sure. &lt;a href=&#34;http://www.greenteapress.com/thinkbayes/thinkbayes.pdf&#34;&gt;Have this one&lt;/a&gt;. &lt;a href=&#34;http://www.youtube.com/watch?v=fCuZ5UUrKrM&#34;&gt;Let’s discuss gender bias in STEM fields&lt;/a&gt;. Australia has a new government and &lt;a href=&#34;http://www.abc.net.au/science/articles/2013/09/10/3845442.htm&#34;&gt;that new government has flagged&lt;/a&gt; that it will be keeping a closer eye on the Australian Research Council’s grants process in order to “crack down on Labor’s (the former government) addition to waste by auditing increasingly ridiculous research grants”. The Liberal-National Party coalition government has a history of doing this; former Minister for Education, Brendan Nelson, &lt;a href=&#34;http://www.themonthly.com.au/issue/2006/may/1294984634/gideon-haigh/nelson-touch&#34;&gt;personally vetoed grants for humanities projects&lt;/a&gt; that had been approved through the ARC’s independent peer review process.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

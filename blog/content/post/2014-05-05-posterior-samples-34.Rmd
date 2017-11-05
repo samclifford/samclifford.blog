@@ -1,0 +1,8 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2014-05-22
+tags: ["aerosols","air quality","big data","Blog","education","pedagogy","science","seminar","statistics"]
+---
+
+[A rough guide to spotting bad science](http://www.compoundchem.com/2014/04/02/a-rough-guide-to-spotting-bad-science/). [Why big data is in trouble: they forgot about applied statistics](http://simplystatistics.org/2014/05/07/why-big-data-is-in-trouble-they-forgot-about-applied-statistics/). Big data analytics are all well and good but you have to keep in mind that there are statistical properties that govern which inferences are valid. While I'm comfortable giving a lecture I really struggled to get through them in undergrad. [It turns out they may not be the most effective way to get information to students.](http://news.sciencemag.org/education/2014/05/lectures-arent-just-boring-theyre-ineffective-too-study-finds) My supervisors, Professor Lidia Morawska, is giving a public talk (free to register) at QUT soon, ["Air Quality Reports On Our Mobiles - Do We Care?"](https://www.qut.edu.au/institute-for-future-environments/about/news-events/news?news-id=71015) June 6 2014

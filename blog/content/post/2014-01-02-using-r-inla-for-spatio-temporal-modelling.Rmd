@@ -1,0 +1,13 @@
+---
+title: Using R-INLA for spatio-temporal modelling
+author: Sam Clifford
+date: 2014-01-20
+tags: ["bayesian statistics","blog","Blog","science","spatial statistics","statistics"]
+---
+
+Every once in a while I have to figure out how to do something in R-INLA. The easiest thing to do, obviously, is to see if anyone else has done the same thing before. Often they have and I am continually impressed by what INLA is capable of doing. I'm currently revising my paper on spatio-temporal modelling of outdoor PNC in the UPTECH project and the following papers have been incredibly helpful:
+
+*   [Krainski and Lindgren (2013) - The R-INLA tutorial: SPDE models](http://www.math.ntnu.no/inla/r-inla.org/tutorials/spde/spde-tutorial.pdf)
+*   [Martins, Simpson, Lindgren and Rue (2013) - Bayesian computing with INLA: new features](http://www.sciencedirect.com/science/article/pii/S0167947313001552) [(or there's the arXived version)](http://arxiv.org/abs/1210.0333)
+*   [Blangiardo, Cameletti, Baio and Rue (2013) - Spatial and spatio-temporal models with R-INLA](http://www.sciencedirect.com/science/article/pii/S1877584512000846) [(tech report version)](http://www.math.ntnu.no/inla/r-inla.org/case-studies/Blangiardo-et-al-2012/Report-version-Oct-2012.pdf)
+*   [Cameletti, Lindgren, Simpson and Rue (2013) - Spatio-temporal modeling of particulate matter concentration through the SPDE approach](http://link.springer.com/article/10.1007%2Fs10182-012-0196-3) [(tech report version)](http://www.math.ntnu.no/inla/r-inla.org/case-studies/Cameletti2012/Cameletti_et_al_2012_acc.pdf)

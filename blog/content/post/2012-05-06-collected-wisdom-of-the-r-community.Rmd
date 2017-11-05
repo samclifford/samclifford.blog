@@ -1,0 +1,12 @@
+---
+title: Collected wisdom of the R community
+author: Sam Clifford
+date: 2012-05-11
+tags: ["blog","Blog","R","statistics","winbugs"]
+---
+
+Just for a bit of fun, I thought I might share with you the [_fortunes_](http://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) package from CRAN, containing some of the collected wisdom of the R community. My favourite, as someone who's attempted to use [_BRugs_](http://cran.r-project.org/web/packages/BRugs/index.html) to fit Bayesian models in R using WinBUGS, is number 13 on the list.
+
+> Andrew Thomas: . . . and if something goes wrong here it is probably not WinBUGS since that has been running for more than 10 years. . . Peter Green (from the back): . . . and it still hasn't converged!
+
+Andrew Thomas and Peter Green (during the talk about 'BRugs') gR 2003, Aalborg (September 2003)

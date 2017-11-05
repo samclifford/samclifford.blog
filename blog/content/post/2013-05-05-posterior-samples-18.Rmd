@@ -1,0 +1,8 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2013-05-23
+tags: ["blog","Blog","brag","genetics","ilaqh","phd","posterior samples","psychology","science","statistics","visualisation"]
+---
+
+Some people make their visualisations in Excel, I make mine in R and others still use things like Processing or InDesign. Bret Victor [shows us](http://vimeo.com/66085662) how the various ideas from each approach can be combined to make dynamic visualisations. It's written with a view to [the interaction between statisticians and psychologists](http://andrewgelman.com/2013/05/17/how-can-statisticians-help-psychologists-do-their-research-better/) but it applies just as much to statisticians helping scientists with their statistics, which is basically my job at the moment. Two of my colleagues in BRAG gave [a really neat talk](http://bragqut.wordpress.com/2013/05/21/geospatial-visualisation/) about using R to visualise spatial data. Maybe [Europe's genetic history](http://phenomena.nationalgeographic.com/2013/05/07/charlemagnes-dna-and-our-universal-royalty/) isn't as diverse as we'd previously thought. They're not all Habsburgs but there's a little bit of Charlemagne in all of us. I helped a colleague hand in her PhD thesis recently; perhaps she should have read this beforehand: "[How not to hand in your PhD](http://thesiswhisperer.com/2013/05/22/how-not-to-hand-in-your-phd/)".

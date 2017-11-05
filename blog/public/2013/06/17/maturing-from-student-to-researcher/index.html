@@ -1,0 +1,123 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Maturing from student to researcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2013/06/17/maturing-from-student-to-researcher/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2013/06/17/maturing-from-student-to-researcher/">Maturing from student to researcher</a></h1>
+	        <div class="post-time">June 17 2013</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/andrew-gelman">andrew gelman</a>              
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/research">research</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/sydney">sydney</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p><a href="http://samclifford.info/2013/06/06/trips-interstate/" title="Trips interstate">The other week, when I was in Sydney</a>, I caught up a friend who’s moved down there and is working in a similar role to me (albeit with a much larger group). He’s got a similar background to me; we both studied mathematics at QUT and focussed on computational and applied mathematics units but we now find ourselves working in (bio-)statistics<em>. I stayed in academia when he went off to work in industry but he has earned a Masters in computational statistics and has picked up Bayesian stats. We both learned Bayesian stats through Gelman, Carlin, Stern and Rubin’s “<a href="http://www.stat.columbia.edu/~gelman/book/">Bayesian Data Analysis</a>”, a book which is known to the Bayesian PhD students at QUT as “The Bible”; it’s been used by just about every lecturer that has taught the Honours level Bayesian Data Analysis class. In addition to The Bible, other Bayesian resources I’ve leaned on over the last few years are <a href="http://www.stat.columbia.edu/~gelman/arm/">Gelman and Hill’s book on hierarchical models</a> and <a href="http://andrewgelman.com/">Gelman’s blog</a>. My friend and I got talking about Gelman’s work and how of late we seem to be disagreeing with some of the choices he makes in modelling. For my part, I don’t agree with (or is it understand?) the decisions in Gelman’s Bayesian approach to <a href="http://www.stat.columbia.edu/~gelman/research/published/econanova3.pdf">ANOVA</a> (focussing more on the variance parameters than the means) and the particular parameterisation of the <a href="http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&amp;id=pdf_1&amp;handle=euclid.ba/1340371048">global variance parameter</a> when he discusses the use of a folded non-central <em>t</em> distribution. Now, it’s not that I think Gelman is wrong where he was previously right or that he’s losing the plot (after all, these papers are years old), but as I read his blog about the models he’s fitting now I’m coming to the realisation that I had been following what he’d been saying and am now looking elsewhere and seeing other ways of doing things. There are many different approaches that each have their strengths and weaknesses and philosophical (and practical) idiosyncrasies. One of the strengths of the Bayesian approach is that the incorporation of priors in the modelling approach gives you a very flexible class of models (hierarchical Bayesian modelling is one of the most useful tools I’ve picked up) and allows you a great amount of freedom in choosing how to build your priors. There is no one correct prior for each problem<sup>§</sup>; you can use a Jeffreys’ prior if you really want to go down the path of non-informativity or if you’re content with (and can justify) a weakly informative Normal(0, 1e-6) or Gamma(0.001, 0.001). Sometimes you can even choose an appropriately flat prior that results in the posteriors of your parameters having the same distribution as the frequentist approach (where the 95% confidence interval and credible intervals have the same values, but not the same interpretations of course). Sometimes it’s appropriate to elicit a prior from experts or the literature and go for a very informative prior if you don’t have much data in your experiment/observation^. There are lots of different ways to do things, lots of papers pushing different approaches. As a student you tend to look up to people as paragons of the field and go “Well if Gelman did it that way then I’d better do that too”; after four years of study I feel more comfortable looking at something and saying “No, I disagree”. I may not always be doing it the best way possible but I’ll always try to justify what I’ve done both to my collaborators and to the editor/reader of my papers. If it turns out I’ve done something wrong, so be it; I can always try again and learn from the experience. </em> I’m yet to hear a satisfactory explanation as to what the difference is between a biostatistician and a statistician. § It’s worth checking out some of the ideas of so-called <a href="http://ba.stat.cmu.edu/journal/2006/vol01/issue03/berger.pdf">Objective Bayes</a> if subjectivity is something you’re concerned about. ^ Whatever you do, check your sensitivity to your choice of priors.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2013/06/24/posterior-samples/">Prev</a>
+			<a class="next" href="/./2013/06/14/applying-for-jobs/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

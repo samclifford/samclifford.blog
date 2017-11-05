@@ -1,0 +1,12 @@
+---
+title: New paper from Trondheim's INLA group (arXiv)
+author: Sam Clifford
+date: 2012-10-03
+tags: ["arxiv","bayesian statistics","blog","Blog","inla","papers","statistics","uptech"]
+---
+
+[Martins, Simpson, Lindgren and Rue](http://arxiv.org/abs/1210.0333)
+
+> The INLA approach for approximate Bayesian inference for latent Gaussian models has been shown to give fast and accurate estimates of posterior marginals and also to be a valuable tool in practice via the R-package R-INLA. In this paper we formalize new developments in the R-INLA package and show how these features greatly extend the scope of models that can be analyzed by this interface. We also discuss the current default method in R-INLA to approximate posterior marginals of the hyperparameters using only a modest number of evaluations of the joint posterior distribution of the hyperparameters, without any need for numerical integration.
+
+I'm using R-INLA for two UPTECH papers at the moment and I'm really interested in the replication functionality in 3.2 and the Kronecker functionality in 3.6, which seems to be a more "official" version of the work I've been doing rolling my own precision matrices for use with the generic0 model class. R-INLA is definitely a worthwhile piece of software to learn to use and the stochastic PDE model for spatial inference is one of the coolest things I've seen in terms of spatial modelling. I wonder if the Kronecker stuff in 3.6 will let me define a separable product of a stochastic PDE model and a model for the time series component.

@@ -1,0 +1,8 @@
+---
+title: Abnormal normals
+author: Sam Clifford
+date: 2013-09-05
+tags: ["bayesian statistics","Blog","matlab","programming","R","statistics"]
+---
+
+I'm doing thesis revisions at the moment and one of the examiners has asked that I refit some of the models in one of the chapters. The chapter corresponds to a book chapter that I wrote with one of my supervisors where we looked at Bayesian spline regression. This was pretty early in my PhD and represented a stepping stone from the frequentist approach that Simon Wood uses in his mgcv pacakge (used for my first paper) and the Bayesian approach to Generalised Additive Models with autoregressive errors (based on Siddartha Chib's 1993 paper). One thing that I've discovered that really bugs me in MATLAB is that normpdf (density function of a normal distribution) is specified in terms of a mean and standard deviation whereas mvnpdf (density function of a multivariate normal) is specified in terms of a mean vector and covariance matrix. The result is that normpdf(0,0,1.5) and mvnpdf(0,0,1.5) give different results! In my mind, the univariate normal is a special case of the multivariate normal and the usage should be consistent.

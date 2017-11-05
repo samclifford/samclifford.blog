@@ -1,0 +1,12 @@
+---
+title: A goal for 2013
+author: Sam Clifford
+date: 2012-10-17
+tags: ["blog","Blog","ilaqh","programming","R","science","statistics"]
+---
+
+I made a comment earlier today that seemed like a bit of a throwaway at the time but I think it's well worth pursuing.
+
+> By the time I leave here next year, everyone in this group will be using R.
+
+A few people in my group have been really quick to start using it for their analysis and their work is much improved because of it. A handful of others have been a bit reluctant to get started but admit to wanting to learn how and have started to pick up some short guides, books, etc. and ask me for help from time to time. The other members of the group can see that it's useful but are probably reluctant to invest the time to learn and make do with Excel for the time being. The goal is to get the reluctant people confident with playing around and making mistakes, asking the more gung-ho members for help, while I teach a few basic concepts in a small group environment to those who are completely unfamiliar with R. I think it's doable. There are plenty of ways to use R for analysis and visualisation, whether it's via command line on QUT's supercomputer, using [RStudio](http://rstudio.org/download/desktop), [R Commander](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/), [Revolution Analytics](http://www.revolutionanalytics.com/), [JGR](http://rforge.net/JGR/), or some other variant.

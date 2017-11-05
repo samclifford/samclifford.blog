@@ -1,0 +1,13 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2012-12-27
+tags: ["aerosols","blog","Blog","education","google","ilaqh","marijuana","qut","science","science communication","statistics","visualisation"]
+---
+
+*   <span style="line-height:12px;">[Gelman recommends](http://andrewgelman.com/2012/12/textbook-for-data-visualization/) Cleveland's "[The Elements of Graphing Data](http://books.google.com.au/books/about/The_elements_of_graphing_data.html?id=Y2pqAAAAMAAJ)" over Tufte's work for someone looking to put together a data analysis and visualisation couse. I'll see if I can grab a copy from the library, it sounds interesting.</span>
+*   [Jeffrey Wright uses wacky experiments to teach children about the universe, but it is his own personal story that teaches them the true meaning of life.](http://www.nytimes.com/video/2012/12/24/science/100000001947354/wrights-law.html)
+*   [Quora - What do statisticians do at Google?](https://www.quora.com/Google/What-do-statisticians-do-at-Google) Some of the answer is deliberately vague, but the answer appears to be "Figure out whether the engineers have made the search algorithms better" and "Try to quantify whether changes to the way ads work have been positive".
+*   I work in an aerosol science group which has studied tobacco smoke. Something I can't find in our publication history is a study on marijuana smoke. NORML have [a page](http://norml.org/library/health-reports/item/norml-s-marijuana-health-mythology) dedicated to disputing some of the myths surrounding marijuana that come from both the pro- and anti-marijuana camps. The review was done in 1994 so I'd be interested to see how the epidemiological evidence has changed as our equipment has improved. I don't know that the Queensland government (or QUT) would let us purchase any marijuana to do the study.
+
+Hmm. Are bullet points really the way to do this? Merry Christmas!

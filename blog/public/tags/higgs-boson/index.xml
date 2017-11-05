@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Higgs Boson on Sam Clifford </title>
+    <link>/./tags/higgs-boson/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-07-04 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>A few things that warrant an update</title>
+      <link>/./2012/07/04/a-few-things-that-warrant-an-update/</link>
+      <pubDate>Wed, 04 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/04/a-few-things-that-warrant-an-update/</guid>
+      <description>&lt;p&gt;The Finnish paper is pretty much ready for submission to Annals of Applied Stats. I’ve updated my publications page to include a link to the preprint on the &lt;a href=&#34;http://arxiv.org/abs/1207.0558&#34;&gt;arXiv&lt;/a&gt;. I will update my CV soon and I’ll add my posters and slides to the publications page. The Higgs boson - what’s the deal with that? &lt;a href=&#34;http://www.northcountrypublicradio.org/news/npr/156221787/cern-discovers-a-new-particle-likely-the-higgs-boson&#34;&gt;NPR has a good article on it&lt;/a&gt;. I spent the evening watching the Higgs announcements at uni and even though I thought the CERN slides were pretty cluttered and didn’t like the layout, nothing had prepared me for the ATLAS slides. Bad colour schemes (if you can call them that) and Comic Sans MS? Yuk. You don’t make science accessible by making people think “Hey. That looks like &lt;em&gt;I&lt;/em&gt; could have designed that. Scientists aren’t so different to me after all!” Some clearly presented slides that weren’t stuffed full of text and images are, in my opinion, the key to a good scientific presentation. 1 slide per minute, no more than 5-6 lines with no more than 5-6 words per line. The slides should touch on the key points so people can, at a glance, get a good idea of what’s going on. The talk that accompanies the slides is what conveys the rest of the information in more natural language. There was a lot of great science presented tonight, but it wasn’t presented well. David Spiegelhalter &lt;a href=&#34;http://understandinguncertainty.org/higgs-it-one-sided-or-two-sided&#34;&gt;explains&lt;/a&gt; the five sigma significance of the ATLAS/CERN results. P-values and confidence intervals are two things where I think frequentist probability stops being conceptually simpler than Bayesian statistics and becomes about questions like “What is the probability of observing the data I have seen given that I have this model and these parameter estimates?” and “If I did an infinite number of trials how many times would I expect this interval for my sample mean to cover the true mean?” and “Something something agriculture”. &lt;a href=&#34;http://hb2012.org/&#34;&gt;Healthy Buildings&lt;/a&gt; is coming up next week. It’s all hands on deck at ILAQH while we put the finishing touches on the program and sort out the behind the scenes stuff. It’s going to be great. I’ll be giving two talks; the first is about how we can use the Dirichlet process for clustering in health survey data and the second is about the need for better statistics in science. ISBA 2012 was a heap of fun and there were lots of good talks. I find meeting other statisticians very inspiring. I will try to write a wrap-up when HB 2012 is over. For now, you can enjoy &lt;a href=&#34;http://xianblog.wordpress.com/2012/06/27/isba-2012-guest-post/&#34;&gt;my preliminary thoughts&lt;/a&gt; on Xian’s ’Og.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

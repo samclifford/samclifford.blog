@@ -1,0 +1,8 @@
+---
+title: My spoon is too big
+author: Sam Clifford
+date: 2012-07-07
+tags: ["blog","Blog","finland","journals","papers","statistics"]
+---
+
+Rejected. I had submitted the Finnish paper to an applied statistics journal and received, within a working day or two, a response from the reviewer. They said the paper doesn't focus as much on the application and is in fact more methodological. They go on to make a few suggestions as to how we could improve our method (mainly the forecasting and posterior summary stuff) and that we should submit it to a methods journal (I'm thinking Bayesian Analysis). Having not studied much statistics in undergrad and learning Bayesian statistics to any degree after starting my PhD, I have felt like the work I've been doing was just applying methods that others had developed and that I wasn't doing much statistics research. My first paper was more or less just that, fitting a GAM to some air quality data. It's a nice paper, I'm proud of it, and it was a very valuable piece of work in terms of me understanding GAMs and semi-parametric regression; it took a lot of work to get there. At the same time, it felt a bit like I was using an R package to do some magic. So while the Finnish paper has been rejected by a journal, I am buoyed by the reviewer's comments about it being a well written paper that outlines a nice method with some solid statistics behind it. We have some changes to make (and I agree with the comments they make about our posterior summaries) but the thought of publishing a methods paper is very exciting.

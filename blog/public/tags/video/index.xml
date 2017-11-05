@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Video on Sam Clifford </title>
+    <link>/./tags/video/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-04-26 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/04/26/posterior-samples/</link>
+      <pubDate>Sat, 26 Apr 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/04/26/posterior-samples/</guid>
+      <description>&lt;p&gt;I’m teaching science students how to do statistics. It would be great if we could turn them into Bayesians, especially seeing as we’ve just covered the Agresti-Coull correction for estimating proportions from small experiments. &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/teachingbayes.pdf&#34;&gt;Andrew Gelman has an interesting paper&lt;/a&gt; on teaching Bayesian statistics to non-statisticians that focuses on the delivery of skills rather than concepts. I would definitely agree with his approach, especially when you consider how he stresses that discussing the model is probably the most important part. NASA have done some work simulating global aerosols and it’s been compiled into &lt;a href=&#34;http://www.itsokaytobesmart.com/post/82630633966/one-of-my-favorite-gifs-of-one-of-my-favorite-nasa&#34;&gt;a neat video&lt;/a&gt; (via &lt;a href=&#34;http://www.itsokaytobesmart.com/&#34;&gt;It’s Okay To Be Smart’s Joe Hanson&lt;/a&gt;). CSIRO have been doing some interesting stuff looking at the production of organic aerosols as well, so this is something I’m paying a bit more attention to at the moment. &lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Datacamp&lt;/a&gt; is a set of online labs for learning to use R, covering the basics of R, data analysis and statistical inference, and computational finance and econometrics. &lt;a href=&#34;https://medium.com/of-games-and-code/d90a50c5d58e&#34;&gt;Learn to be a better coder&lt;/a&gt; by improving your communication skills. The most practical (in terms of coding, at least) aspect of this includes using meaningful names and writing comments that describe what the code does when it’s not clear from the code itself.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding uncertainty</title>
+      <link>/./2013/10/29/understanding-uncertainty/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/29/understanding-uncertainty/</guid>
+      <description>&lt;p&gt;Ah, the &lt;a href=&#34;http://en.wikipedia.org/wiki/Monty_Hall_problem&#34;&gt;Monty Hall problem&lt;/a&gt;. AKA “What? HOW!? Is this magic?” &lt;a href=&#34;http://www.stayorswitch.com/&#34;&gt;Here’s a nice little Flash site&lt;/a&gt; that simulates the Monty Hall problem and asks you whether you’re going to switch or stay and shows the stats of the number of people who’ve switched and stayed and how often they’ve won the car. The great thing about the Monty Hall problem is that it’s a great example of the use of Bayes’ theorem and Game theory. &lt;a href=&#34;http://www.youtube.com/watch?feature=player_detailpage&amp;amp;v=bVMVGHkt2cg&#34;&gt;This is a fun video&lt;/a&gt; starring Ronald Fisher explaining how to test the effect of some treatment (flicking the top of beer cans affecting whether or not it sprays everywhere) using hypothesis tests. It goes into quite a bit of the nuance of hypothesis testing. I especially like that Fisher discusses how p values for a hypothesis test are uniformly distributed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/10/posterior-samples/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/10/posterior-samples/</guid>
+      <description>&lt;p&gt;Open Access publishing is an exciting new development but like any new industry there are those who would seek to unethically make a quick fortune by providing a sub-par service. &lt;em&gt;Science&lt;/em&gt; did some research into this by submitting a fake article with a number of glaring errors (such as non-existent institutions) in it to a number of journals around the world to see who’d accept it. &lt;a href=&#34;http://www.npr.org/blogs/health/2013/10/03/228859954/some-online-journals-will-publish-fake-science-for-a-fee?ft=1&amp;amp;f=1001&#34;&gt;The results are quite interesting&lt;/a&gt;. I know of a few instances of work published in a respectable journal being plagiarised and published in one of these scam journals and one case where the authors hastily retracted their submission once they found out the journal wasn’t anywhere near as prestigious as the editors made out. I support the goals of Open Access and web-based publication but be careful. I’ve been poking around the QUT Wiki looking for information on graduation. In the Higher Degree Research portal there’s a link to a brilliant article (three years old) on &lt;a href=&#34;http://www.timeshighereducation.co.uk/news/how-not-to-write-a-phd-thesis/410208.article&#34;&gt;how not to write a thesis&lt;/a&gt;. Probably good advice for any PhD student looking to graduate sooner rather than later. Elizabeth C. Matsui has been working with Roger Peng for several years; she has &lt;a href=&#34;http://simplystatistics.org/2013/10/08/the-care-and-feeding-of-the-biostatistician/&#34;&gt;some advice on how to cultivate a successful relationship with the biostatistician&lt;/a&gt; you’ve brought on to your medical science project. I think some of these could be adapted to be more general to cover dealing with statisticians. One of the biggest things I could add here is that you need to recognise that asking someone to “help with the statistics” means dedicating some serious time and effort to figuring out a conceptual model (which will be converted into a quantitative model) that addresses the scientific questions you wish to ask. Asking a statistician to “calculate the correlations” or even more broadly “do the statistics” is like asking a scientist to just “run an experiment” or “do the science”. These things all take time, energy and communication. Further to this, don’t just ask for p-values if you’re dealing with a statistician. P-values represent some probabilistic statement, such as “What is the probability of seeing a test statistic at least as extreme as this if the true value of the parameter was zero?”. Sure, you can do simple tests like ANOVA or Chi-Squared goodness of fit but the real value in working with a statistician is being able to develop models that represent assumptions about the data and then assessing whether those assumptions are justified and looking at the inferences that they provide. As my unit co-ordinator for SEB113 pointed out to me the other day, default hypothesis tests of H&lt;sub&gt;0&lt;/sub&gt;: β = 0 at a 5% significance level may not always be sensible and may not even answer the question you’re interested in answering. And finally here’s &lt;a href=&#34;http://www.youtube.com/watch?v=QPKKQnijnsM&#34;&gt;a video that’s almost a year old&lt;/a&gt; that shows a very interesting case of eliciting a distribution from the American public about what they perceive the distribution of wealth in their country is and what they think it is. Turns out the ideal is as far away from the perception as the perception is from the reality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2013/09/11/posterior-samples/</link>
+      <pubDate>Wed, 11 Sep 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/09/11/posterior-samples/</guid>
+      <description>&lt;p&gt;Roger Peng and Jeff Leek are going to be &lt;a href=&#34;http://simplystatistics.org/2013/08/29/the-return-of-the-stat-computing-for-data-analysis-data-analysis-back-on-coursera/&#34;&gt;re-offering their Coursera courses&lt;/a&gt; on data analysis, including the use of R. A Creative Commons-licensed textbook on Bayesian statistics that teaches in Python rather than mathematics? Sure. &lt;a href=&#34;http://www.greenteapress.com/thinkbayes/thinkbayes.pdf&#34;&gt;Have this one&lt;/a&gt;. &lt;a href=&#34;http://www.youtube.com/watch?v=fCuZ5UUrKrM&#34;&gt;Let’s discuss gender bias in STEM fields&lt;/a&gt;. Australia has a new government and &lt;a href=&#34;http://www.abc.net.au/science/articles/2013/09/10/3845442.htm&#34;&gt;that new government has flagged&lt;/a&gt; that it will be keeping a closer eye on the Australian Research Council’s grants process in order to “crack down on Labor’s (the former government) addition to waste by auditing increasingly ridiculous research grants”. The Liberal-National Party coalition government has a history of doing this; former Minister for Education, Brendan Nelson, &lt;a href=&#34;http://www.themonthly.com.au/issue/2006/may/1294984634/gideon-haigh/nelson-touch&#34;&gt;personally vetoed grants for humanities projects&lt;/a&gt; that had been approved through the ARC’s independent peer review process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples - July wrap</title>
+      <link>/./2013/07/29/posterior-samples---july-wrap/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/07/29/posterior-samples---july-wrap/</guid>
+      <description>&lt;p&gt;I had some Posterior Samples to share before going on leave but didn’t get around to posting them. Here’s what’s been on my mind this month: Maths and science units are popular with (Kentucky) students until they realise that &lt;a href=&#34;http://blogs.wsj.com/economics/2013/07/08/math-science-popular-until-students-realize-theyre-hard/&#34;&gt;they’re hard&lt;/a&gt;. While not directly relevant to the Australian university education model it’s probably an important thing for the Science and Engineering Faculty to keep in mind. &lt;a href=&#34;http://blogs.wsj.com/economics/2013/07/08/math-science-popular-until-students-realize-theyre-hard/&#34;&gt;&lt;/a&gt; I’m looking at ggplot2 more these days, so the idea of a “grammar of graphics” is beginning to resonate with me. &lt;a href=&#34;//www.youtube.com/watch?v=xyGggdg31mc&#34;&gt;Here’s a talk&lt;/a&gt; about building one for &lt;a href=&#34;http://clojure.org/&#34;&gt;clojure&lt;/a&gt; (which I don’t use). Something for me to keep in mind when delivering SEB113 slides this semester is &lt;a href=&#34;https://www.dropbox.com/s/p0sgdgo7mxkoj4h/What%20your%20math%20slides%20dont%20need.pdf&#34;&gt;what your maths slides don’t need&lt;/a&gt;. Probably also good pointers for any PhD students graduating soon. &lt;a href=&#34;http://well.blogs.nytimes.com/2013/07/22/the-kitchen-as-a-pollution-hazard/&#34;&gt;An interesting article in the New York Times&lt;/a&gt; about air pollution from cooking. This is something that ILAQH has a research interest in and our nanotracer paper contains a bit of analysis of inhaled surface area dose from particles that originate from cooking. &lt;a href=&#34;http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html&#34;&gt;Another NYT article&lt;/a&gt;, this time with a delicious visualisation of the geographical trends in income disparity and social mobility. &lt;a href=&#34;http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html&#34;&gt;Andrew Gelman writes at Slate&lt;/a&gt; about some of the problems with scientific publishing and the publication of spurious findings (which isn’t always willingly dishonest). A special “Big Bayes Stories” issue of “Statistical Science” will be published soon, focussing on the real world application of Bayesian statistics where other methods were inapplicable. &lt;a href=&#34;http://xianblog.wordpress.com/2013/07/29/big-bayes-stories/&#34;&gt;Christian Robert has written the preface&lt;/a&gt;; the issue is being edited by Robert, Kerrie Mengersen (one of my PhD supervisors) and Sharon McGrayne, author of “&lt;a href=&#34;http://www.amazon.com/Theory-That-Would-Not-Die/dp/1452636850&#34;&gt;The Theory That Would Not Die&lt;/a&gt;”. Also I went to &lt;a href=&#34;http://www.questacon.edu.au/&#34;&gt;Questacon&lt;/a&gt; and it was awesome.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/13/posterior-samples/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/13/posterior-samples/</guid>
+      <description>&lt;p&gt;Something important to remember as a maths educator is that &lt;a href=&#34;http://www.slate.com/articles/health_and_science/science/2013/04/math_teacher_explains_math_anxiety_and_defensiveness_it_hurts_to_feel_stupid.single.html&#34;&gt;maths can make people feel stupid and people don’t like feeling stupid&lt;/a&gt;. &lt;a href=&#34;http://kottke.org/13/05/riding-an-icebreaker&#34;&gt;Ever wondered what it’s like to spend two months on an ice-breaker?&lt;/a&gt; The &lt;a href=&#34;http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/&#34;&gt;lecture slides from Harvard’s Stat 221 course&lt;/a&gt; are all online now. Commander Chris Hadfield’s &lt;a href=&#34;http://www.youtube.com/watch?v=KaOC9danxNo&#34;&gt;farewell from the ISS&lt;/a&gt; is, fittingly, a cover of David Bowie’s “Space Oddity”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Aren&#39;t Women Choosing Science Careers?</title>
+      <link>/./2012/12/19/why-arent-women-choosing-science-careers/</link>
+      <pubDate>Wed, 19 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/19/why-arent-women-choosing-science-careers/</guid>
+      <description>&lt;p&gt;[youtube &lt;a href=&#34;http://www.youtube.com/watch?v=WMwvNZMqUw0&#34; class=&#34;uri&#34;&gt;http://www.youtube.com/watch?v=WMwvNZMqUw0&lt;/a&gt;] One of my favourite video bloggers, Laci Green, talking about why women aren’t going into STEM fields. I’m quite fortunate to work with two research groups headed by women. There’s no sexism coming from the top of these groups and there are roughly even numbers of men and women in each group. Still, I know that not every university, nor every group within my university, has this sort of balance. Whether overt or covert there are still institutional barriers to equality of opportunity for women. P.S. that EC video campaign is terrible&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/12/11/posterior-samples/</link>
+      <pubDate>Tue, 11 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/11/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://www.statisticsblog.com/2012/12/information-graphics/&#34;&gt;Nice infographic of Mars missions&lt;/a&gt; showing all attempts and planned attempts&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;As much as I love using .csv files to send data back and forth, especially on GitHub, apparently I should &lt;a href=&#34;http://www.win-vector.com/blog/2012/12/pleases-stop-using-excel-like-formats-to-exchange-data/&#34;&gt;stop using Excel-like files to exchange data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;There are some really lovely visualisations of quite profound and complex scientific ideas among &lt;a href=&#34;http://www.wired.com/wiredscience/2012/12/science-figures-2012/&#34;&gt;The best scientific figures of 2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;As someone who espouses the beauty of LaTeX and &lt;a href=&#34;http://samclifford.info/2012/08/12/credibility-of-information-given-font-choice/&#34;&gt;the importance of proper font choice&lt;/a&gt;, &lt;a href=&#34;http://typeanatomy.com/&#34;&gt;The Anatomy of Type&lt;/a&gt; is a book I’m considering buying. Maybe I should get it for my sister for Christmas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sydneypadua.com/2dgoggles/lovelace-the-origin-2/&#34;&gt;A charming comic with an origin story for Ada Lovelace&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And, yes, I do plan on writing more about what I’m actually doing! I’m just working on thesis stuff a lot and trying to organise my final seminar. I’ve got some thoughts on presentations that I’m writing up, so stay tuned. One more &lt;a href=&#34;http://exp.lore.com/post/37688902608/60-seconds-of-awe-in-this-timelapse-of-the&#34;&gt;* Stunning time lapse photography of the eclipse.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/12/05/posterior-samples/</link>
+      <pubDate>Wed, 05 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/05/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=5UYMnzXQEtw&amp;amp;feature=plcp&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;MechBass - a final year engineering project to build a mechanical bass guitar&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://students.washington.edu/mclarkso/documents/line%20styles%20Ver2.pdf&#34;&gt;I had no idea I could change line caps &lt;em&gt;within R.&lt;/em&gt; I was just starting to get back into Corel Draw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://news.sciencemag.org/sciencenow/2012/10/dance-your-phd-and-the-winner-is.html&#34;&gt;Dance your PhD winner is a materials scientist from the University of Sydney&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lhup.edu/~dsimanek/whoops.htm&#34;&gt;So often we see three gears together in a logo in such a way that it would impossible to move them&lt;/a&gt;. &lt;a href=&#34;http://www.youtube.com/watch?v=I9IBQVHFeQs&#34;&gt;This video shows three interlocking gears that all rotate together.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/23/posterior-samples/</link>
+      <pubDate>Fri, 23 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/23/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://littlestat.com/&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;LittleStat is an online R tool for simple data analysis&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.readmatter.com&#34;&gt;Matter&lt;/a&gt; is a new essay-based science/tech publication that got its start on &lt;a href=&#34;http://www.kickstarter.com/projects/readmatter/matter/&#34;&gt;Kickstarter&lt;/a&gt; - this issue is about people who feel like they have an extra limb.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://0fps.wordpress.com/2012/11/19/conways-game-of-life-for-curved-surfaces-part-1/&#34;&gt;Conway’s Game of Life as a smooth PDE system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://statisticalsocietyaustralia.wordpress.com/2012/11/20/november-question/&#34;&gt;SSAI wants to know what the biggest challenges in modern Bayesian statistics are&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.r-bloggers.com/RUG/2012/11/video-simpler-tricks-and-tools-help-debugging-git-latex-and-workflow-with-r-by-prof-rob-hyndman/&#34;&gt;SimpleR tricks and tools: Help, debugging, git, LaTeX, and workflow with R by Prof Rob Hyndman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My take on the Bayesian updating video</title>
+      <link>/./2012/08/27/my-take-on-the-bayesian-updating-video/</link>
+      <pubDate>Mon, 27 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/27/my-take-on-the-bayesian-updating-video/</guid>
+      <description>&lt;p&gt;I’m referring here to my &lt;a href=&#34;http://samclifford.info/2012/08/25/438/&#34;&gt;last post&lt;/a&gt; where I reblogged something that &lt;a href=&#34;http://bayesianbiologist.com/&#34;&gt;Bayesian Biologist&lt;/a&gt; &lt;a href=&#34;http://bayesianbiologist.com/2012/08/17/an-update-on-visualizing-bayesian-updating/&#34;&gt;had written&lt;/a&gt;. I’ve modified the code (and included it below) to tweak it to my tastes and show the different behaviour of the posterior under a uniform Beta(1,1) prior and an informative Beta(20,20) prior. Rather than flipping a fair coin I’ve assumed that the coin is unfair (p=0.25) and the Beta(20,20) prior is chosen by the naive observer who believes, with a high degree of certainty, that the coin is fair. This is, to me, an illustration of the power of uninformative priors (something Laplace seemed keen on in Binomial experiments). It’s also a good demonstration of how given enough data the posteriors will converge to the same result. A persistent criticism of Bayesian analysis is that the priors are so subjective that anyone can come up with their own prior and get a different result to another observer. As more data is collected, the influence of the prior in the posterior is diminished. We see (in the 1.08MB animation below the cut) that the Beta(1,1) prior is more sensitive to each success and failure and the posterior mean approximates p much quicker than the more “certain” Beta(20,20) prior. The take home message? Be more vague than you think is warranted just in case your prior is not diffuse enough. To generate the gif I’ve used the instructions in the video in the last lines of the code. &lt;a href=&#34;updating.gif&#34;&gt;&lt;img src=&#34;http://samcliffordinfo.files.wordpress.com/2012/08/updating.gif&#34; title=&#34;Bayesian updating&#34; /&gt;&lt;/a&gt; [sourcecode language=“r”] ## Corey Chivers, 2012 ## ## modifications by ## ## Sam Clifford, 2012 ## sim_bayes &amp;lt;- function(p=0.5,N=100,y_lim=20,a_a=2,a_b=10,b_a=8,b_b=3) { ## Simulate outcomes in advance outcomes&amp;lt;-sample(1:0,N,prob=c(p,1-p),replace=TRUE) success&amp;lt;-cumsum(outcomes) for(frame in 1:N) { png(paste(“plots/”,1000+frame,“.png”,sep=“”)) curve(dbeta(x,a_a,a_b),xlim=c(0,1),ylim=c(0,y_lim),col=‘green’,xlab=‘p’,ylab=‘Posterior Density’,lty=2) curve(dbeta(x,b_a,b_b),col=‘blue’,lty=2,add=TRUE) lines(x=c(p,p),y=c(0,y_lim),lty=2,lwd=1,col=“grey60”) i &amp;lt;- frame # i don’t like having the leftovers on the screen – Sam #for(i in 1:frame) #{ # curve(dbeta(x,a_a+success[i]+1,a_b+(i-success[i])+1),add=TRUE,col=rgb(0,100,0,(1-(frame-i)/frame) * 100,maxColorValue=255)) # curve(dbeta(x,b_a+success[i]+1,b_b+(i-success[i])+1),add=TRUE,col=rgb(0,0,100,(1-(frame-i)/frame) * 100,maxColorValue=255)) #} curve(dbeta(x,a_a+success[i]+1,a_b+(i-success[i])+1),add=TRUE,col=rgb(0,100,0,255,maxColorValue=255),lwd=2) curve(dbeta(x,b_a+success[i]+1,b_b+(i-success[i])+1),add=TRUE,col=rgb(0,0,100,255,maxColorValue=255),lwd=2) # modifications to make prior explicit in legend legend(‘topleft’,legend=c( paste(‘Observer A - Beta(’, a_a , ‘,’ , a_b , ‘)’,sep=“”),paste(‘Observer B - Beta(’, b_a , ‘,’ , b_b , ‘)’,sep=“”)),lty=1,col=c(‘green’,‘blue’)) text(0.75,17,label=paste(success[i],“successes,”,i-success[i],“failures”)) dev.off() } # Sam # system(’mencoder mf://plots/*.png -mf fps=15:type=png -ovc copy -oac copy -o plots/output.avi’) # we’ll use GIMP rather than mencoder # &lt;a href=&#34;http://www.youtube.com/watch?v=u5_3MGP2Lj4&amp;amp;feature=player_detailpage#t=265s&#34; class=&#34;uri&#34;&gt;http://www.youtube.com/watch?v=u5_3MGP2Lj4&amp;amp;feature=player_detailpage#t=265s&lt;/a&gt; } sim_bayes(a_a=1,a_b=1,b_a=20,b_b=20,p=0.25,N=250) [/sourcecode]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/./2012/08/25/</link>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/25/</guid>
+      <description>&lt;p&gt;I came across this via reddit’s r/statistics community and thought I might share it as a nice way of visualising posteriors. Specifically, it’s a very good demonstration of the convergence of the posterior beliefs of two observers with separate priors but the same data (which is sequentially collected, but the order of successes/failures are irrelevant). So next time someone’s telling you that Bayesian statistics is inherently wrong because of the subjectivity of the prior belief, you can point them to something like this to demonstrate that as data is collected the posteriors become quite close. I suggest having a play with the R code to understand how the diffuseness of the priors affects the concentration of posterior belief. While the opposite beliefs of the observers in the attached video are a nice example of convergence to the same posterior, I think two priors with the same mean and different variance would be a more interesting visualisation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CephaliPod</title>
+      <link>/./2012/08/25/cephalipod/</link>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/25/cephalipod/</guid>
+      <description>&lt;p&gt;Every once in a while a post will pop up in my RSS reader that makes me appreciate science as the creative domain of nerds. This time around, it’s a bunch of researchers &lt;a href=&#34;http://news.backyardbrains.com/2012/08/insane-in-the-chromatophores/&#34;&gt;hooking an iPod up to a squid&lt;/a&gt; in order to examine how its chromatophores (colour change bits) react to external electrical stimulus (in this case, Cypress Hill’s hit “Insane in the Membrane”). [youtube &lt;a href=&#34;http://www.youtube.com/watch?v=G-OVrI9x8Zs&#34; class=&#34;uri&#34;&gt;http://www.youtube.com/watch?v=G-OVrI9x8Zs&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

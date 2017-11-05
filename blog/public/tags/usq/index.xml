@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Usq on Sam Clifford </title>
+    <link>/./tags/usq/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-10-25 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/25/posterior-samples/</link>
+      <pubDate>Fri, 25 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/25/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.upworthy.com/one-guy-with-a-marker-just-made-the-global-warming-debate-completely-obsolete-7&#34;&gt;Here’s an interesting but simple discussion&lt;/a&gt; of the risk analysis of action on climate change. What I like is that the author encourages the viewer to play around with the outcomes rather than using an appeal to authority that states “this is what the IPCC and other climate scientists say will happen”. it’s a very Bayesian way of asking people to consider risk, not just in the conditional statement sense but in the sense that one’s personal subjective belief is viewed as a welcome addition to the discussion. So much of the climate debate seems to be based on whether or not the IPCC is right; some people don’t like that the IPCC is an international body of elite scientists and so will ignore anything they say. Couching the exercise in terms of “Any reasonable person should be able to concede that they may be wrong about the way the physical world behaves” takes it away from “who is right and who is wrong?”. &lt;a href=&#34;http://www.usq.edu.au/scholarships/usq/australian-postgraduate-award&#34;&gt;USQ has some APA PhD scholarships available&lt;/a&gt;, including scholarships for computational mathematics and climate risk and resource management. So if you’re interested in $30,000 per year (tax free!) to work on some interesting topics check out the USQ site. Problems with the interpretation of p values are &lt;a href=&#34;http://bayesianbiologist.com/2011/08/21/p-value-fallacy-on-more-or-less/&#34;&gt;often due to people treating them as statements about their hypothesis&lt;/a&gt; given some data when they’re really statements about the data given some hypothesis. Any SEB113 students reading would do well to remember this. I’ve also &lt;a href=&#34;http://samclifford.info/2013/10/18/response-to-a-student-on-p-values/&#34; title=&#34;Response to a student on p values&#34;&gt;blogged my response&lt;/a&gt; to an SEB113 student about this. &lt;a href=&#34;http://simplystatistics.org/2013/10/15/teaching-least-squares-to-a-5th-grader-by-calibrating-a-programmable-robot/&#34;&gt;Here’s a cute little video&lt;/a&gt; about using least squares regression to figure out how many revolutions a Lego Mindstorms robot’s wheel needs to turn to make it travel 1m. It’s an interesting use of regression as a calibration technique, which is something we haven’t covered explicitly in SEB113 but I imagine it’d be pretty common in engineering classes. &lt;a href=&#34;http://thesiswhisperer.com/2013/10/23/why-is-grey-literature-not-open-access/&#34;&gt;Interesting post at the Thesis Whisperer&lt;/a&gt; asking why work that’s owned by someone (as in the intellectual property rights are assigned) but not copyrighted by a commercial publisher isn’t more freely available.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

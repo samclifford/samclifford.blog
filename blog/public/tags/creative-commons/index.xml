@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Creative Commons on Sam Clifford </title>
+    <link>/./tags/creative-commons/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-10-02 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Git used to write high school maths textbook</title>
+      <link>/./2012/10/02/git-used-to-write-high-school-maths-textbook/</link>
+      <pubDate>Tue, 02 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/02/git-used-to-write-high-school-maths-textbook/</guid>
+      <description>&lt;p&gt;As a mathematician who uses git and LaTeX to collaboratively write papers with Finnish researchers, the following story is really neat. &lt;a href=&#34;http://linja-aho.blogspot.fi/2012/09/a-group-of-finnish-math-teachers-write.html&#34;&gt;A group of Finnish mathematicians, students and teachers got together and hacked out a draft upper secondary school level mathematics textbook&lt;/a&gt;. There’s still some tidying up to be done but a snapshot’s available &lt;a href=&#34;http://cloud.github.com/downloads/linjaaho/oppikirjamaraton-maa1/version-0.9.pdf&#34;&gt;here&lt;/a&gt;. &lt;a href=&#34;https://github.com/linjaaho/oppikirjamaraton-maa1/&#34;&gt;The collaborators used git&lt;/a&gt; to weave together the various parts of the book, allowing them to work on separate sections of the book and feed them back to github. One of the benefits of something like git is that when two people work on the same section and both try to commit their changes it flags the conflict and forces you to resolve it. Using Google Docs to collaborate like this leads to people getting in each others’ way and overwriting each other. Using Dropbox results in a forked version of the conflicted file with no sensible way to resolve the conflict. If you read the comments in their blog post you’ll see stories of other researchers doing similar work to create books. That the Finns are releasing their book under a CC-BY license means that others can take their work, &lt;a href=&#34;https://github.com/linjaaho/oppikirjamaraton-maa1/network&#34;&gt;fork the git repository&lt;/a&gt; and derive and compile their own versions of the book. If you speak Finnish, &lt;a href=&#34;https://www.facebook.com/oppikirjamaraton&#34;&gt;their Facebook page&lt;/a&gt; might also be of interest.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Research on Sam Clifford </title>
+    <link>/./tags/research/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2015-12-16 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Blogging about blogging</title>
+      <link>/./2015/12/16/blogging-about-blogging/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2015/12/16/blogging-about-blogging/</guid>
+      <description>&lt;p&gt;I was inspired to make a website and start blogging about my work when I went to 8BNP in 2011 and met people like &lt;a href=&#34;http://canini.me/&#34;&gt;Kevin Canini&lt;/a&gt; and &lt;a href=&#34;http://www.tamarabroderick.com/&#34;&gt;Tamara Broderick&lt;/a&gt; who had websites to spruik themselves as researchers. I eventually got around to re-setting up my Wordpress account, buying a domain and setting up the whole DNS shebang. The last four years have seen some major changes in the web resources for research, with things like github taking the place of subversion and encouraging a more social and outward facing coding culture. You can blog using github now, and &lt;a href=&#34;http://www.njtierney.com/jekyll/2015/11/11/how-i-built-my-site/&#34;&gt;Nick Tierney&lt;/a&gt; (a PhD student at QUT) has made me think about whether it’s worth migrating from Wordpress to jekyll. Further exposure to R Markdown through Di Cook’s workshop at Bayes on the Beach has strengthened my belief in RStudio not just as a way to do research but to communicate it. This is even before we start considering all the things like shiny and embedded web stuff. It’ll take some work and I’m not sure I’ll have time over summer, but it’s a change that’s probably worth making.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>That feeling when former students contact you</title>
+      <link>/./2014/09/02/that-feeling-when-former-students-contact-you/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/09/02/that-feeling-when-former-students-contact-you/</guid>
+      <description>&lt;p&gt;Last year I had a student in SEB113 who came in to the subject with a distaste for mathematics and statistics; they struggled with both the statistical concepts and the use of R throughout the semester and looked as though they would rather be anywhere else during the collaborative workshops. This student made it to every lecture and workshop though and came to enjoy the work of using R for statistical analysis of data; and earned a 7 in the unit.&lt;/p&gt;
+&lt;p&gt;I just got an email from them asking for a reference for their VRES (Vacation Research Experience Scheme) project application. Not only am I proud of this student for working their butt off to get a 7 in a subject they disliked but came to find interesting, but I am over the moon to hear that they are interested in undertaking scientific field research. This student mentions how my “passion for teaching completely transformed my (their) view of statistics”, and their passion for the research topic is reflected in the email.&lt;/p&gt;
+&lt;p&gt;This sort of stuff is probably the most rewarding aspect of lecturing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ex Post Docto</title>
+      <link>/./2013/07/08/ex-post-docto/</link>
+      <pubDate>Mon, 08 Jul 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/07/08/ex-post-docto/</guid>
+      <description>&lt;p&gt;I am now at the half-way point in my year-long postdoctoral fellowship. Since the start of the year the number of papers submitted with my name on them has approximately doubled, I’ve got my name on some grant applications (some successful, some not) and am co-writing a proposal for a PhD student position at ILAQH that I will likely end up co-supervising. It’s been quite the experience so far and it’s really only just getting started. I’ve been applying for lecturing positions at QUT and will continue to look further afield to see what’s out there that inspires me. Today the staff and post-docs in my group had a meeting to discuss the handling of lab business and how we maintain our space. For the longest time I’ve felt like a bit of an outsider, particularly with regards to lab stuff. I couldn’t tell you how to maintain a CPC, what the difference between a P-trak and Q-trak is or how to compare SMPS to NSAM data. I was not a member of the measurement team for UPTECH and my involvement in the research is mainly through data analysis and statistical consultation. Being given responsibilities within the lab is still a bit strange to me but I’m very happy to be helping out, as I am part of a team and I rely on those around me for my work. Statistics doesn’t happen in a vacuum (unless you’re a probabilist). A friend of a friend is finishing up their chemistry PhD and looking for work for next semester and beyond. They’re applying for a more technical job and we spent some time this evening with our mutual friend (who has recently started a postdoc) discussing how to rearrange the CV in order to best highlight their experience. I showed &lt;a href=&#34;http://samclifford.info/?attachment_id=291&#34;&gt;my own CV&lt;/a&gt; to explain what I wanted to highlight, as all three of us had different opinions on style, format, the flow of the text and whether to include a photograph or not. Obviously I’m pitching myself at academic, rather than technical, positions and I said that I believe professional experience in a lab is far more important to show off than academic awards from undergrad. An interesting moment in the conversation was the disbelief from the friend of a friend that I would make my CV so public. Why wouldn’t I want to show the world who I am, what I’m working on and what I’m interested in? It appears that developing multiple versions of a CV is necessary in order to have something to send to different bodies. University faculties are looking for a very different set of attributes than the Australian Research Council or other funding groups. I haven’t yet managed to whittle my CV down to two pages but I suspect it would include removing much of the tutoring and undergraduate experience I’ve had, my radio and TV interviews and conference organisation background, focussing instead on my top publications, professional experience and track record with grants. I will continue to need to tweak my CV as I continue to apply for jobs and this means having a look around for good resources from those who have gone before me. Some examples of advice I’ve come across are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theresearchwhisperer.wordpress.com/2013/05/14/postdoc-chances/&#34;&gt;Boost your postdoc chances (at The Research Whisperer)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://thesiswhisperer.com/2011/05/26/what-if-your-cv-is-not-enough-part-one/&#34;&gt;What if your CV is not enough? (at The Thesis Whisperer)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trockeneisbombe.wordpress.com/2013/07/04/the-transit-from-phd-student-to-post-doc/&#34;&gt;The transit from PhD student to post-doc (at Trockeneisbombe)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of those blogs are worth following anyway. The next six months will be a challenge, as I attempt to juggle the remaining time in this postdoc with other commitments and the need to find ongoing employment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maturing from student to researcher</title>
+      <link>/./2013/06/17/maturing-from-student-to-researcher/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/17/maturing-from-student-to-researcher/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://samclifford.info/2013/06/06/trips-interstate/&#34; title=&#34;Trips interstate&#34;&gt;The other week, when I was in Sydney&lt;/a&gt;, I caught up a friend who’s moved down there and is working in a similar role to me (albeit with a much larger group). He’s got a similar background to me; we both studied mathematics at QUT and focussed on computational and applied mathematics units but we now find ourselves working in (bio-)statistics&lt;em&gt;. I stayed in academia when he went off to work in industry but he has earned a Masters in computational statistics and has picked up Bayesian stats. We both learned Bayesian stats through Gelman, Carlin, Stern and Rubin’s “&lt;a href=&#34;http://www.stat.columbia.edu/~gelman/book/&#34;&gt;Bayesian Data Analysis&lt;/a&gt;”, a book which is known to the Bayesian PhD students at QUT as “The Bible”; it’s been used by just about every lecturer that has taught the Honours level Bayesian Data Analysis class. In addition to The Bible, other Bayesian resources I’ve leaned on over the last few years are &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/arm/&#34;&gt;Gelman and Hill’s book on hierarchical models&lt;/a&gt; and &lt;a href=&#34;http://andrewgelman.com/&#34;&gt;Gelman’s blog&lt;/a&gt;. My friend and I got talking about Gelman’s work and how of late we seem to be disagreeing with some of the choices he makes in modelling. For my part, I don’t agree with (or is it understand?) the decisions in Gelman’s Bayesian approach to &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/econanova3.pdf&#34;&gt;ANOVA&lt;/a&gt; (focussing more on the variance parameters than the means) and the particular parameterisation of the &lt;a href=&#34;http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&amp;amp;id=pdf_1&amp;amp;handle=euclid.ba/1340371048&#34;&gt;global variance parameter&lt;/a&gt; when he discusses the use of a folded non-central &lt;em&gt;t&lt;/em&gt; distribution. Now, it’s not that I think Gelman is wrong where he was previously right or that he’s losing the plot (after all, these papers are years old), but as I read his blog about the models he’s fitting now I’m coming to the realisation that I had been following what he’d been saying and am now looking elsewhere and seeing other ways of doing things. There are many different approaches that each have their strengths and weaknesses and philosophical (and practical) idiosyncrasies. One of the strengths of the Bayesian approach is that the incorporation of priors in the modelling approach gives you a very flexible class of models (hierarchical Bayesian modelling is one of the most useful tools I’ve picked up) and allows you a great amount of freedom in choosing how to build your priors. There is no one correct prior for each problem&lt;sup&gt;§&lt;/sup&gt;; you can use a Jeffreys’ prior if you really want to go down the path of non-informativity or if you’re content with (and can justify) a weakly informative Normal(0, 1e-6) or Gamma(0.001, 0.001). Sometimes you can even choose an appropriately flat prior that results in the posteriors of your parameters having the same distribution as the frequentist approach (where the 95% confidence interval and credible intervals have the same values, but not the same interpretations of course). Sometimes it’s appropriate to elicit a prior from experts or the literature and go for a very informative prior if you don’t have much data in your experiment/observation^. There are lots of different ways to do things, lots of papers pushing different approaches. As a student you tend to look up to people as paragons of the field and go “Well if Gelman did it that way then I’d better do that too”; after four years of study I feel more comfortable looking at something and saying “No, I disagree”. I may not always be doing it the best way possible but I’ll always try to justify what I’ve done both to my collaborators and to the editor/reader of my papers. If it turns out I’ve done something wrong, so be it; I can always try again and learn from the experience. &lt;/em&gt; I’m yet to hear a satisfactory explanation as to what the difference is between a biostatistician and a statistician. § It’s worth checking out some of the ideas of so-called &lt;a href=&#34;http://ba.stat.cmu.edu/journal/2006/vol01/issue03/berger.pdf&#34;&gt;Objective Bayes&lt;/a&gt; if subjectivity is something you’re concerned about. ^ Whatever you do, check your sensitivity to your choice of priors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biopesticide research programs at QUT</title>
+      <link>/./2012/09/21/biopesticide-research-programs-at-qut/</link>
+      <pubDate>Fri, 21 Sep 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/09/21/biopesticide-research-programs-at-qut/</guid>
+      <description>&lt;p&gt;The email below the cut details three PhD programs that are based on the level above me in the Biopesticides lab at QUT. All projects involve collaboration with researchers in the UK; the mathematics project involves collaborating with &lt;a href=&#34;http://www.maths.ox.ac.uk/contact/details/whites&#34;&gt;researchers at Oxford&lt;/a&gt; and the other two with researchers at &lt;a href=&#34;http://www.cabi.org&#34;&gt;CABI&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&#34;&gt;Chemistry&lt;/a&gt; - The interaction between insect cuticular chemistry and pathology and gene expression in Metarhizium anisopliae&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&#34;&gt;Mathematics&lt;/a&gt; - Development of mathematical models of insect pathogen dynamics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&#34;&gt;Genetics&lt;/a&gt; - Colonisation of the rhizosphere by entomopathogenic fungi: gene expression, metabolite translocation and impacts on invertebrate pests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you’re interested in these, contact &lt;a href=&#34;http://staff.qut.edu.au/staff/hauxwell/&#34;&gt;Associate Professor Caroline Hauxwell&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear all I’m looking for applicants for 3 PhD students in the current round. Please would you pass this on to anyone you think might be interested? Applications to QUT’s research scholarships &lt;strong&gt;close Oct 12 2012.&lt;/strong&gt; Interested applicants should first send a CV and expression of interest stating how your skills and experience will help you to address the research questions to A/Prof Hauxwell &lt;strong&gt;by 5th October at the latest&lt;/strong&gt;. Details of QUT’s scholarships and full application requirements (due 12th October) can be found here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.qut.edu.au/research/scholarships-and-funding/research-scholarships&#34; class=&#34;uri&#34;&gt;http://www.qut.edu.au/research/scholarships-and-funding/research-scholarships&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Outlines of the three projects can be found here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks carrie Dr Caroline Hauxwell Associate Professor Queensland University of Technology&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

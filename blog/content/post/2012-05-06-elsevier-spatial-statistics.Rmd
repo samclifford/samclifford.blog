@@ -1,0 +1,8 @@
+---
+title: Elsevier - spatial statistics
+author: Sam Clifford
+date: 2012-05-11
+tags: ["blog","Blog","elsevier","journals","open access","publishing","statistics"]
+---
+
+[Christian Robert has just blogged](https://xianblog.wordpress.com/2012/05/11/new-elsevier-journal/) about a new Elsevier journal - [Spatial Statistics](http://www.journals.elsevier.com/spatial-statistics/). I think the idea of a dedicated spatial statistics journal is fantastic, but I don't like that Open Access publishing in this journal will cost at least $3000, that the institutional subscription rate is around $650 per year and that authors can post the final version of the text (not the published paper, which is fair enough) on their personal or institutional website but not on the arXiv (so good luck with that if you're at a university that doesn't keep up with the times) (but you can post pre-prints to the arXiv). With mild regret, I won't be submitting to either Spatial Statistics or [Spatial and Spatio-temporal Epidemiology](http://www.journals.elsevier.com/spatial-and-spatio-temporal-epidemiology/), even though these two journals are right up my alley and published by a respected<sup>[_by whom?_]</sup> publisher

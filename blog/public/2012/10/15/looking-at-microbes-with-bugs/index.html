@@ -1,0 +1,127 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Looking at microbes with BUGS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2012/10/15/looking-at-microbes-with-bugs/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2012/10/15/looking-at-microbes-with-bugs/">Looking at microbes with BUGS</a></h1>
+	        <div class="post-time">October 15 2012</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/brag">brag</a>              
+	            
+	                <a href="/./tags/ilaqh">ilaqh</a>              
+	            
+	                <a href="/./tags/programming">programming</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/science">science</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/uptech">uptech</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>I’m working on a paper with <a href="http://www.uku.fi/hallinto/viestinta/alumni/alumnijuttu3.shtml">Heidi</a> <a href="http://www.linkedin.com/pub/heidi-salonen/20/1b5/677">Salonen</a>, a Finnish microbiologist who’s been with us for quite some time and is working on the microbiological (e.g. fungi, bacteria) aspects of the UPTECH project. Due to the timeframes of our presence at each school and the amount of time it takes to measure microbiological activity, we only have a handful of measurements at each school. This represents a perfect opportunity to do some very simple Bayesian hierarchical modelling in order to estimate a distribution of possible microbe concentrations at each school. It’s not a particularly taxing task (it’s more or less the kind of thing that you might find in Gelman’s textbook) but it’s still a nice example of how you can use Bayesian modelling to estimate the mean of a bunch of schools by assuming that the mean and standard deviation at each school are themselves drawn from a distribution of means and standard deviations. I’ve done the modelling, sure, but the next step is to explain it to Heidi and the other co-authors in such a way that they feel comfortable putting something in the paper that’s a little beyond taking the mean of the data and standard deviation of the data as summaries for the microbial concentrations at each school. So it was nice to dust off the old <a href="http://www.openbugs.info/w/">OpenBUGS</a> and write out a simple model with prediction within each school based on the repeated sampling available to us. We hope to use this simple model as the basis of a model which includes covariates and perhaps a bit more random effects modelling. So I don’t have to keep manually copying and pasting data from Excel files I’ll be looking at getting back into using <a href="http://cran.r-project.org/web/packages/rjags/index.html">rjags</a>, <a href="http://cran.r-project.org/web/packages/R2jags/index.html">r2jags</a>, <a href="http://cran.r-project.org/web/packages/BRugs/index.html">BRugs</a> and <a href="http://cran.r-project.org/web/packages/R2WinBUGS/index.html">R2WinBUGS</a>. One of my colleagues in BRAG thinks I should just write my own sampler in MATLAB for this as it’ll be faster, but with so few observations (6-15 at each of 25 schools) speed’s not a huge issue here.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2012/10/16/research-position-with-quts-applied-data-mining-group/">Prev</a>
+			<a class="next" href="/./2012/10/15/my-new-digs/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

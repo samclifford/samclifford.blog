@@ -1,0 +1,12 @@
+---
+title: That feeling when former students contact you
+author: Sam Clifford
+date: 2014-09-02
+tags: ["blog","Blog","education","qut","R","research","science","seb113"]
+---
+
+Last year I had a student in SEB113 who came in to the subject with a distaste for mathematics and statistics; they struggled with both the statistical concepts and the use of R throughout the semester and looked as though they would rather be anywhere else during the collaborative workshops. This student made it to every lecture and workshop though and came to enjoy the work of using R for statistical analysis of data; and earned a 7 in the unit.
+
+I just got an email from them asking for a reference for their VRES (Vacation Research Experience Scheme) project application. Not only am I proud of this student for working their butt off to get a 7 in a subject they disliked but came to find interesting, but I am over the moon to hear that they are interested in undertaking scientific field research. This student mentions how my "passion for teaching completely transformed my (their) view of statistics", and their passion for the research topic is reflected in the email.
+
+This sort of stuff is probably the most rewarding aspect of lecturing.

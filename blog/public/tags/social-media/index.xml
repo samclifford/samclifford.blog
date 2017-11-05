@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Social Media on Sam Clifford </title>
+    <link>/./tags/social-media/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-07-10 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples - SEB113 edition</title>
+      <link>/./2013/07/10/posterior-samples---seb113-edition/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/07/10/posterior-samples---seb113-edition/</guid>
+      <description>&lt;p&gt;I’m going to be frank, a lot of this relates to SEB113 - Quantitative Methods for Science, a subject I tutored last semester. One of the students from SEB113 last semester, Daniel Franks, is &lt;a href=&#34;https://twitter.com/dpfscience&#34;&gt;live-tweeting his Bachelor of Science degree&lt;/a&gt;. Daniel was in my workshop group last semester and I recognise some of the events he talks about in his timeline. It’s interesting to see his perspective not just on SEB113 but on the other three units that form the first semester of QUT’s new Bachelor of Science course. SEB113 is getting a small makeover for Semester 2. One of the things we’re considering is the use of ggplot2 instead of a combination of the base graphics package, heatmaps from dendrograms with colorbars from yet another package, etc. Lattice doesn’t have the nicest interface and it’s nigh on impossible to add elements afterwards (I hate you, levelplot). It’s possible to do &lt;a href=&#34;http://gettinggeneticsdone.blogspot.com.au/2010/01/ggplot2-tutorial-scatterplots-in-series.html&#34;&gt;small multiples in ggplot2&lt;/a&gt; fairly easily. We ought to be sticking to the same steps in data analysis as we did last semester, and Daniel’s tweets refer to an experience in class last semester where we discussed drawing the analysis method out of exploratory plots of the data, rather than trying to pick the “best” model &lt;em&gt;a priori&lt;/em&gt; and making the data fit the model. &lt;a href=&#34;http://simplystatistics.org/2013/06/27/what-is-the-best-way-to-analyze-data/&#34;&gt;Roger Peng’s got a good five step&lt;/a&gt; technique for analysing data:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Exploratory analysis&lt;/li&gt;
+&lt;li&gt;Model fitting&lt;/li&gt;
+&lt;li&gt;Model building&lt;/li&gt;
+&lt;li&gt;Sensitivity analysis&lt;/li&gt;
+&lt;li&gt;Reporting&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Via &lt;a href=&#34;http://www.quantumforest.com/2013/07/flotsam-13-early-july-links/&#34;&gt;Luis Apiolaza at Quantum Forest&lt;/a&gt; I’ve stumbled across &lt;a href=&#34;http://www.statschat.org.nz/&#34;&gt;Thomas Lumley&lt;/a&gt;’s Tumblr, where he’s doing some personal blogging about statistics. An &lt;a href=&#34;http://notstatschat.tumblr.com/post/54011641155/where-is-bayesian-introductory-statistics-better&#34;&gt;interesting post&lt;/a&gt; of his is on the role of Bayesian stats in introductory classes. I would love to turn SEB113 into a Bayesian statistics based class but for the time being I will have to settle for it dealing with modelling over tests (which is still a big win, pedagogically). Teaching Bayesian statistics generally relies on a good grounding in calculus, otherwise writing down full conditionals is going to be quite difficult. When people tell me that statistics is so different to mathematics I like to point out that it’s just a combination of calculus, linear algebra and some discrete mathematics. &lt;a href=&#34;http://magazine.amstat.org/blog/2013/07/01/calculus-and-statistics/&#34;&gt;Daniel Kaplan writes at &lt;strong&gt;AMSTAT&lt;/strong&gt;News&lt;/a&gt; about ditching mathematical formalism to make statistics more accessible. The American undergraduate model is very different to what we have in Australia, but I take his point about a first year calculus class not being as relevant to graduates as a first year statistics course that teaches statistical thinking over statistical calculation. I really like the focus in SEB113 on modelling using R rather than statistical tests by hand with pages of tables (as MAB101 was when I did my Bachelor of Science). If people finish SEB113 knowing how to read their data in to R and perform a Generalised Linear Model I think we’ll have done our job. If they want to go on to further statistics from there, the statistics units in the School of Mathematical Sciences work from a calculus perspective and while they require a calculus pre-requisite (MAB121 or MAB122 for those QUT students reading) you could do a lot worse than taking MAB210 and MAB314. I hope a follow-up data analysis course will be offered to Bachelor of Science students that builds on SEB113 and covers some more advanced topics and introduces enough mathematics to make those topics worthwhile. We’ll have to see how it all unfolds as this first cohort make their way through.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/06/13/posterior-samples/</link>
+      <pubDate>Thu, 13 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/13/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://themonkeycage.org/2013/05/29/how-to-make-an-academic-conference-and-more-accessible-and-more-interesting-live-streaming-and-conference-hashtags&#34;&gt;Josh Tucker at the Monkey Cage&lt;/a&gt; and &lt;a href=&#34;http://simplystatistics.org/2013/06/11/why-not-have-a-future-of-the-field-session-at-a-conference-with-only-young-speakers/&#34;&gt;Jeff Leek at Simply Statistics&lt;/a&gt; have some good ideas and goals as to how to make academic conferences more interesting. Opening up the conference with live streaming is a cheap way to engage the wider public (but risks potential attendees deciding to stay home and watch rather than engaging with the rest of the conference). A youth session is also a really good way to engage in some inter-generational communication by giving the younger researchers a stage for setting out their vision. &lt;a href=&#34;http://f1000research.com/data-policies&#34;&gt;These journals&lt;/a&gt; wouldn’t view publication of data as prior publication when assessing an article based on that data. I spent last week in Sydney with Guy Marks’ group at the &lt;a href=&#34;http://www.woolcock.org.au/&#34;&gt;Woolcock Institute of Medical Research&lt;/a&gt;. I first met Marks at Bayesian data analysis course run by Kerrie Mengersen; he &lt;a href=&#34;http://sydney.edu.au/medicine/people/academics/profiles/guym.php&#34;&gt;does work&lt;/a&gt; on tuberculosis in Vietnam. Christian Robert, a collaborator of Mengersen’s, just gave 40 students in Ho Chi Minh City a crash course in Bayesian statistics. The slides are available &lt;a href=&#34;http://xianblog.wordpress.com/2013/06/05/teaching-bayesian-statistics-in-hochimin-city/&#34;&gt;here&lt;/a&gt;. Speaking of Bayesian stats, the term “derp” is apparently a &lt;a href=&#34;http://au.businessinsider.com/sorry-haters-derp-isnt-going-away-2013-6&#34;&gt;Bayesian way of describing the way someone believes something so strongly&lt;/a&gt; (their prior) that they can not be swayed by data. I’m going to be doing a lot more work teaching people how to use R in the near future. &lt;a href=&#34;http://www.computerworld.com/s/article/9239625/Beginner_s_guide_to_R_Introduction&#34;&gt;This looks like a handy resource for beginners&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

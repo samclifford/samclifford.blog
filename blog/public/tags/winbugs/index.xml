@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Winbugs on Sam Clifford </title>
+    <link>/./tags/winbugs/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-03-19 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Something I&#39;ve learned for BUGS/JAGS</title>
+      <link>/./2013/03/19/something-ive-learned-for-bugs/jags/</link>
+      <pubDate>Tue, 19 Mar 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/03/19/something-ive-learned-for-bugs/jags/</guid>
+      <description>&lt;p&gt;Just quickly, I’m using JAGS with rjags to run some models for this fungal concentration paper I’m writing with our Finnish visitor (who leaves in a few months!). There are three levels of hierarchy in the experiment&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;school (i = 1 to 25)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;measurement site within school (j = 1 to 3)&lt;/li&gt;
+&lt;li&gt;sample number at measurement site (k = 1 to K&lt;sub&gt;j&lt;/sub&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;which mean that I was constructing my data frame as a three dimensional array, y[i,j,k] where there were uneven numbers of samples at each site within each school. Furthermore, modelling y[i,j,k] ~ dnorm(mu[i,j,k],tau.y) was giving me problems because I couldn’t tell JAGS to monitor a three dimensional parameter. I figured out that it’d just be easier to treat the levels of measurement site and sample number as covariates that I could use as index counters in JAGS. I’ve got much simpler code now and JAGS is monitoring mu[i] (i = 1 to 261). Edit: It’s been a busy month. I hope to finally publish that blog post about SEB113 soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online courses in Bayesian statistics</title>
+      <link>/./2012/07/30/online-courses-in-bayesian-statistics/</link>
+      <pubDate>Mon, 30 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/30/online-courses-in-bayesian-statistics/</guid>
+      <description>&lt;p&gt;I just got an email from Jannah Baker (fellow QUT PhD student and student assistant chair of the SSAI) about three training courses that are being run online through &lt;a href=&#34;http://statistics.com&#34;&gt;statistics.com&lt;/a&gt;. Bill Bolstad will be running an introduction to Bayesian statistics from &lt;a href=&#34;http://www.statistics.com/bayesian/&#34;&gt;August 17 to September 14&lt;/a&gt;. Peter Congdon will be running a course on Bayesian computation from &lt;a href=&#34;http://www.statistics.com/BayesianComputing/&#34;&gt;September 21 to October 19&lt;/a&gt; and then another course on MCMC for regression from &lt;a href=&#34;http://www.statistics.com/MCMC/&#34;&gt;November 16 until December 14&lt;/a&gt;. All three of these courses consist of four sessions which will touch on various aspects of Bayesian inference. If you’re interested in learning about Bayesian inference and how to perform Bayesian regression in a computational environment (WinBUGS and R, as far as I can tell) then you might want to consider these courses. They aren’t free (so if you’re looking for free, I suggest checking out &lt;a href=&#34;http://samclifford.info/2012/07/15/revision-revised/&#34; title=&#34;Revision, revised&#34;&gt;videolectures&lt;/a&gt;, getting &lt;a href=&#34;http://samclifford.info/2012/07/13/where-to-start-if-youre-going-to-revise-statistics/&#34; title=&#34;Where to start if you&amp;#39;re going to revise statistics&#34;&gt;a good book&lt;/a&gt; and looking at &lt;a href=&#34;http://cran.r-project.org/web/views/Bayesian.html&#34;&gt;relevant R packages and tutorials&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collected wisdom of the R community</title>
+      <link>/./2012/05/11/collected-wisdom-of-the-r-community/</link>
+      <pubDate>Fri, 11 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/11/collected-wisdom-of-the-r-community/</guid>
+      <description>&lt;p&gt;Just for a bit of fun, I thought I might share with you the &lt;a href=&#34;http://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf&#34;&gt;&lt;em&gt;fortunes&lt;/em&gt;&lt;/a&gt; package from CRAN, containing some of the collected wisdom of the R community. My favourite, as someone who’s attempted to use &lt;a href=&#34;http://cran.r-project.org/web/packages/BRugs/index.html&#34;&gt;&lt;em&gt;BRugs&lt;/em&gt;&lt;/a&gt; to fit Bayesian models in R using WinBUGS, is number 13 on the list.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Andrew Thomas: . . . and if something goes wrong here it is probably not WinBUGS since that has been running for more than 10 years. . . Peter Green (from the back): . . . and it still hasn’t converged!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Andrew Thomas and Peter Green (during the talk about ‘BRugs’) gR 2003, Aalborg (September 2003)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

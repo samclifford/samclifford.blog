@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Climate Science on Sam Clifford </title>
+    <link>/./tags/climate-science/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-01-20 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Why don&#39;t climate change deniers publish papers?</title>
+      <link>/./2014/01/20/why-dont-climate-change-deniers-publish-papers/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/01/20/why-dont-climate-change-deniers-publish-papers/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.slate.com/blogs/bad_astronomy/2014/01/14/climate_change_another_study_shows_they_don_t_publish_actual_papers.html&#34;&gt;Because they’re wrong&lt;/a&gt;. In third year I took a physics elective which ended up steering me towards the group I did my PhD with. In a discussion about global climate models one of the other students, who was doing a non-science degree and also doing the unit as an elective, asked the lecturer “So is climate change actually real?” The answer wasn’t given as curtly as the one above but it was just as simple “Yes, it is”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/12/17/posterior-samples/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/17/posterior-samples/</guid>
+      <description>&lt;p&gt;Today’s collection of links have the loose theme of engagement between the public and science. Grist, an environmental news service I used to read every single day, have an &lt;a href=&#34;http://grist.org/climate-energy/reddits-science-forum-banned-climate-deniers-why-dont-all-newspapers-do-the-same/&#34;&gt;interesting article&lt;/a&gt; about how on reddit the science subreddit has banned out and out climate denial (more accurately: conspiracy theories) from their discussion. The author, a moderator of the subreddit, wonders why mainstream news services don’t just do the same given that the science is in. If you’re unconvinced about the science, or are convinced that it’s right but are unsure about the specifics, &lt;a href=&#34;http://www.npr.org/blogs/13.7/2013/12/16/251437395/global-warming-explained-in-about-a-minute&#34;&gt;NPR has a short article and animation&lt;/a&gt; about the mechanisms of global warming. The authors raise the point that the general public find science a bit daunting, particularly when it’s something as complex as global climate systems. Charlotte Pezaro, a PhD student at the University of Queensland, is &lt;a href=&#34;http://cpezaro.wordpress.com/2013/12/17/making-decisions-in-personally-relevant-contexts-of-science/&#34;&gt;doing research&lt;/a&gt; into how science education plays a role in preparing people to evaluate evidence rather than just preparing them to do science or to memorise scientific facts. Pezaro argues that more than this, a focus of science education should be to develop scientific literacy in the making of decisions in a personally relevant context of science, such as health, nutrition and the use of technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/25/posterior-samples/</link>
+      <pubDate>Fri, 25 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/25/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.upworthy.com/one-guy-with-a-marker-just-made-the-global-warming-debate-completely-obsolete-7&#34;&gt;Here’s an interesting but simple discussion&lt;/a&gt; of the risk analysis of action on climate change. What I like is that the author encourages the viewer to play around with the outcomes rather than using an appeal to authority that states “this is what the IPCC and other climate scientists say will happen”. it’s a very Bayesian way of asking people to consider risk, not just in the conditional statement sense but in the sense that one’s personal subjective belief is viewed as a welcome addition to the discussion. So much of the climate debate seems to be based on whether or not the IPCC is right; some people don’t like that the IPCC is an international body of elite scientists and so will ignore anything they say. Couching the exercise in terms of “Any reasonable person should be able to concede that they may be wrong about the way the physical world behaves” takes it away from “who is right and who is wrong?”. &lt;a href=&#34;http://www.usq.edu.au/scholarships/usq/australian-postgraduate-award&#34;&gt;USQ has some APA PhD scholarships available&lt;/a&gt;, including scholarships for computational mathematics and climate risk and resource management. So if you’re interested in $30,000 per year (tax free!) to work on some interesting topics check out the USQ site. Problems with the interpretation of p values are &lt;a href=&#34;http://bayesianbiologist.com/2011/08/21/p-value-fallacy-on-more-or-less/&#34;&gt;often due to people treating them as statements about their hypothesis&lt;/a&gt; given some data when they’re really statements about the data given some hypothesis. Any SEB113 students reading would do well to remember this. I’ve also &lt;a href=&#34;http://samclifford.info/2013/10/18/response-to-a-student-on-p-values/&#34; title=&#34;Response to a student on p values&#34;&gt;blogged my response&lt;/a&gt; to an SEB113 student about this. &lt;a href=&#34;http://simplystatistics.org/2013/10/15/teaching-least-squares-to-a-5th-grader-by-calibrating-a-programmable-robot/&#34;&gt;Here’s a cute little video&lt;/a&gt; about using least squares regression to figure out how many revolutions a Lego Mindstorms robot’s wheel needs to turn to make it travel 1m. It’s an interesting use of regression as a calibration technique, which is something we haven’t covered explicitly in SEB113 but I imagine it’d be pretty common in engineering classes. &lt;a href=&#34;http://thesiswhisperer.com/2013/10/23/why-is-grey-literature-not-open-access/&#34;&gt;Interesting post at the Thesis Whisperer&lt;/a&gt; asking why work that’s owned by someone (as in the intellectual property rights are assigned) but not copyrighted by a commercial publisher isn’t more freely available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hug a Climate Scientist Day</title>
+      <link>/./2012/06/12/hug-a-climate-scientist-day/</link>
+      <pubDate>Tue, 12 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/12/hug-a-climate-scientist-day/</guid>
+      <description>&lt;p&gt;According to Crikey.com.au’s “First Dog on the Moon” today, June 12, is &lt;a href=&#34;http://www.crikey.com.au/hug-a-climate-scientist-day-2012/&#34;&gt;Hug a Climate Scientist Day&lt;/a&gt;. The day was proclaimed by First Dog in response to the threats that climate scientists receive. The aim of the day is to show climate scientists that their work is appreciated and that we love them as people. I work in an air quality research group so it’s not difficult to find a climate scientist to hug (although not all of us in the group work in climate research). If you happen to not be one of the small group of people who have ready access to climate scientists, First Dog recommends you “&lt;a href=&#34;http://blogs.crikey.com.au/firstblog/files/2012/05/HugAClimateScientistJune.jpg&#34;&gt;find a fellow warmenist and cling trembling to each other in the knowledge that it’s too late for even the adorable climate scientists to save us&lt;/a&gt;”. I’m going to try to get a photo of me hugging a climate scientist today. Unfortunately, our group’s director isn’t in today. [caption id=“attachment_260” align=“aligncenter” width=“228”][&lt;img src=&#34;hugaclimatescientistjune.jpg?w=228&#34; title=&#34;HugAClimateScientistJune&#34; /&gt;](&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2012/06/hugaclimatescientistjune.jpg&#34; class=&#34;uri&#34;&gt;http://samcliffordinfo.files.wordpress.com/2012/06/hugaclimatescientistjune.jpg&lt;/a&gt;) First Dog on the Moon’s “Hug a Climate Scientist Day”[/caption]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

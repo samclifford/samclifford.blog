@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Thomas Lumley on Sam Clifford </title>
+    <link>/./tags/thomas-lumley/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-08-09 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Conference posters and an accepted paper</title>
+      <link>/./2013/08/09/conference-posters-and-an-accepted-paper/</link>
+      <pubDate>Fri, 09 Aug 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/08/09/conference-posters-and-an-accepted-paper/</guid>
+      <description>&lt;p&gt;Thomas Lumley &lt;a href=&#34;http://notstatschat.tumblr.com/post/57747270796/speed-sessions-at-jsm-2013&#34;&gt;has some thoughts&lt;/a&gt; on poster sessions at JSM 2013. Healthy Buildings 2012 had something I hadn’t seen before - poster presenters were given two minutes at the end of the technical session most relevant to their poster to describe the work they are presenting in the poster session immediately after the talk slot. This gave poster presenters a small taste of presenting at a conference without them needing to prepare a full talk. QUT’s Nano and Molecular Sciences discipline had a poster session during its one day symposium a few months ago and the posters were run off &lt;a href=&#34;http://www.thecube.qut.edu.au/&#34;&gt;The Cube&lt;/a&gt;, which allowed people to zoom and rotate a static image of their poster (PDF preferred). Our group will have a few posters at the &lt;a href=&#34;http://eac2013.cz/&#34;&gt;European Aerosol Conference&lt;/a&gt; in a few weeks. Mandana Mazaheri and I have been discussing the issues of transporting posters back and forth internationally, including whether or not to print on cloth and the unwieldy nature of poster tubes. I am a big fan of mailing your poster home once it’s presented but a cloth poster can be folded up and put in your luggage and you can just give it a quick iron before presenting it. I’ve also seen way too many posters that are too busy and have gradient backgrounds. Hopefully by teaching SEB113 students about the principles of good visualisation of data QUT can produce graduates who know not to make ugly posters. &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/es4023706&#34;&gt;Our endotoxin paper got accepted in Environmental Science &amp;amp; Technology&lt;/a&gt; after a frantic couple of days of finalising amendments and responses to reviewer comments. This paper gave me a much better understanding of Bayesian hierarchical linear models and I’m very happy with how the paper turned out. The next step is to resubmit our fungus paper, which includes similar modelling but also uses a Multinomial model with Dirichlet prior to look at the proportions of different fungal genera across the UPTECH schools. There’s yet another paper looking at chemicals in floor dust which we’re also finalising that uses a similar methodology to the fungus paper but has its own subtleties due to some chemicals not being present across all schools.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples - SEB113 edition</title>
+      <link>/./2013/07/10/posterior-samples---seb113-edition/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/07/10/posterior-samples---seb113-edition/</guid>
+      <description>&lt;p&gt;I’m going to be frank, a lot of this relates to SEB113 - Quantitative Methods for Science, a subject I tutored last semester. One of the students from SEB113 last semester, Daniel Franks, is &lt;a href=&#34;https://twitter.com/dpfscience&#34;&gt;live-tweeting his Bachelor of Science degree&lt;/a&gt;. Daniel was in my workshop group last semester and I recognise some of the events he talks about in his timeline. It’s interesting to see his perspective not just on SEB113 but on the other three units that form the first semester of QUT’s new Bachelor of Science course. SEB113 is getting a small makeover for Semester 2. One of the things we’re considering is the use of ggplot2 instead of a combination of the base graphics package, heatmaps from dendrograms with colorbars from yet another package, etc. Lattice doesn’t have the nicest interface and it’s nigh on impossible to add elements afterwards (I hate you, levelplot). It’s possible to do &lt;a href=&#34;http://gettinggeneticsdone.blogspot.com.au/2010/01/ggplot2-tutorial-scatterplots-in-series.html&#34;&gt;small multiples in ggplot2&lt;/a&gt; fairly easily. We ought to be sticking to the same steps in data analysis as we did last semester, and Daniel’s tweets refer to an experience in class last semester where we discussed drawing the analysis method out of exploratory plots of the data, rather than trying to pick the “best” model &lt;em&gt;a priori&lt;/em&gt; and making the data fit the model. &lt;a href=&#34;http://simplystatistics.org/2013/06/27/what-is-the-best-way-to-analyze-data/&#34;&gt;Roger Peng’s got a good five step&lt;/a&gt; technique for analysing data:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Exploratory analysis&lt;/li&gt;
+&lt;li&gt;Model fitting&lt;/li&gt;
+&lt;li&gt;Model building&lt;/li&gt;
+&lt;li&gt;Sensitivity analysis&lt;/li&gt;
+&lt;li&gt;Reporting&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Via &lt;a href=&#34;http://www.quantumforest.com/2013/07/flotsam-13-early-july-links/&#34;&gt;Luis Apiolaza at Quantum Forest&lt;/a&gt; I’ve stumbled across &lt;a href=&#34;http://www.statschat.org.nz/&#34;&gt;Thomas Lumley&lt;/a&gt;’s Tumblr, where he’s doing some personal blogging about statistics. An &lt;a href=&#34;http://notstatschat.tumblr.com/post/54011641155/where-is-bayesian-introductory-statistics-better&#34;&gt;interesting post&lt;/a&gt; of his is on the role of Bayesian stats in introductory classes. I would love to turn SEB113 into a Bayesian statistics based class but for the time being I will have to settle for it dealing with modelling over tests (which is still a big win, pedagogically). Teaching Bayesian statistics generally relies on a good grounding in calculus, otherwise writing down full conditionals is going to be quite difficult. When people tell me that statistics is so different to mathematics I like to point out that it’s just a combination of calculus, linear algebra and some discrete mathematics. &lt;a href=&#34;http://magazine.amstat.org/blog/2013/07/01/calculus-and-statistics/&#34;&gt;Daniel Kaplan writes at &lt;strong&gt;AMSTAT&lt;/strong&gt;News&lt;/a&gt; about ditching mathematical formalism to make statistics more accessible. The American undergraduate model is very different to what we have in Australia, but I take his point about a first year calculus class not being as relevant to graduates as a first year statistics course that teaches statistical thinking over statistical calculation. I really like the focus in SEB113 on modelling using R rather than statistical tests by hand with pages of tables (as MAB101 was when I did my Bachelor of Science). If people finish SEB113 knowing how to read their data in to R and perform a Generalised Linear Model I think we’ll have done our job. If they want to go on to further statistics from there, the statistics units in the School of Mathematical Sciences work from a calculus perspective and while they require a calculus pre-requisite (MAB121 or MAB122 for those QUT students reading) you could do a lot worse than taking MAB210 and MAB314. I hope a follow-up data analysis course will be offered to Bachelor of Science students that builds on SEB113 and covers some more advanced topics and introduces enough mathematics to make those topics worthwhile. We’ll have to see how it all unfolds as this first cohort make their way through.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Latex on Sam Clifford </title>
+    <link>/./tags/latex/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-02-13 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/02/13/posterior-samples/</link>
+      <pubDate>Thu, 13 Feb 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/02/13/posterior-samples/</guid>
+      <description>&lt;p&gt;It’s still ARC writing time so that’s been taking up quite a bit of time recently. A coworker from Maths mentioned she’d started using &lt;a href=&#34;http://literatureandlatte.com/scrivener.php&#34;&gt;Scrivener&lt;/a&gt; to storyboard her papers. Apparently &lt;a href=&#34;http://mosx.tumblr.com/post/51299936501/our-collaborative-scrivener-workflows&#34;&gt;it can be used with tools like git&lt;/a&gt;, &lt;a href=&#34;http://creativityhacker.ca/2013/04/23/scrivener-and-the-cloud-best-practices-2013/&#34;&gt;Google Drive and Dropbox&lt;/a&gt; to work collaboratively but you’ve got to be careful of conflicted copies that won’t be discovered. Another coworker from Maths isn’t so impressed by Scrivener, noting that in terms of using it with version control software you’re better off using LaTeX anyway. At US$40 a license I’m a bit reluctant to try to make Scrivener part of my workflow, and there’s no way I can ask collaborators to fork out that kind of money. I keep being impressed by Matt Wand, Jan Luts and Tamara Broderick’s work on &lt;a href=&#34;http://realtime-semiparametric-regression.net/&#34;&gt;realtime semiparametric regression&lt;/a&gt;. I saw Wand present this work at Bayes on the Beach just over a year ago. I can’t, for the life of me, wrap my head around mean-field variational Bayes, though. Perhaps it’s that I’ve never had to deal with Calculus of Variations and got into inference beyond linear models through MCMC in WinBUGS rather than through machine learning. I’ve got a few more books on my desk about statistical theory now, including Congdon’s “Bayesian Statistical Modelling”, Koller and Friedman’s “Probabilistic Graphical Models”, Casella and Berger’s “Statistical Inference”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A proud moment</title>
+      <link>/./2013/04/17/a-proud-moment/</link>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/04/17/a-proud-moment/</guid>
+      <description>&lt;p&gt;Today a collaborator of mine started the outline of a new paper in LaTeX, put it on our git repository and emailed it as a PDF file to other people who will be co-authors on this paper. The text of the email included:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I wrote this in LaTeX, which generates pdf files. Therefore, I do not have a Word document for this. Apologies for any inconvenience this may cause.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’ve been working with this collaborator to get them using Github, R and LaTeX . There was the denial, the anger, bargaining, depression and ultimately acceptance. Watching this collaborator send this email I felt like a proud father watching their child graduate.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/23/posterior-samples/</link>
+      <pubDate>Fri, 23 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/23/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://littlestat.com/&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;LittleStat is an online R tool for simple data analysis&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.readmatter.com&#34;&gt;Matter&lt;/a&gt; is a new essay-based science/tech publication that got its start on &lt;a href=&#34;http://www.kickstarter.com/projects/readmatter/matter/&#34;&gt;Kickstarter&lt;/a&gt; - this issue is about people who feel like they have an extra limb.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://0fps.wordpress.com/2012/11/19/conways-game-of-life-for-curved-surfaces-part-1/&#34;&gt;Conway’s Game of Life as a smooth PDE system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://statisticalsocietyaustralia.wordpress.com/2012/11/20/november-question/&#34;&gt;SSAI wants to know what the biggest challenges in modern Bayesian statistics are&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.r-bloggers.com/RUG/2012/11/video-simpler-tricks-and-tools-help-debugging-git-latex-and-workflow-with-r-by-prof-rob-hyndman/&#34;&gt;SimpleR tricks and tools: Help, debugging, git, LaTeX, and workflow with R by Prof Rob Hyndman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>/./2012/11/21/github/</link>
+      <pubDate>Wed, 21 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/21/github/</guid>
+      <description>&lt;p&gt;GitHub for Windows can be such a pain sometimes. I guess it’s partially my fault for attempting to use version control on the compiled PDF of a LaTeX document, but I spent a fair amount of time today attempting to fix up a colleague’s local repository. I’m now a bit more familiar with cherry-pick and rebase but it would have been nice to have it just work. For some reason, GitHub for Windows on this colleague’s computer simply &lt;em&gt;will not sync properly&lt;/em&gt;; my colleague has had to become a bit more familiar with the common commands (push, pull, fetch, commit, merge). It works fine on their Mac, though. I run GitHub for OS X at home and it’s an absolute dream. At work (Windows XP) I have had no end of trouble with various programs like TortoiseGit. I think when I start my post-doc I’ll organise to have my computer converted to a Linux system. After all that, though, we did make some pretty good progress on the modelling in this paper. I’m not quite sure which journal we’ll be sending it to but it’s a really nice piece of work with some personal monitoring data, simple but informative analysis and some very creative use of the base graphics system in R.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Credibility of information given font choice</title>
+      <link>/./2012/08/12/credibility-of-information-given-font-choice/</link>
+      <pubDate>Sun, 12 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/12/credibility-of-information-given-font-choice/</guid>
+      <description>&lt;p&gt;Thanks to the &lt;a href=&#34;http://themonkeycage.org/blog/2012/08/11/potpourri-80&#34;&gt;Monkey Cage blog&lt;/a&gt; (a very good read if you’re a fan of statistics and politics as I am) I’ve come across &lt;a href=&#34;http://opinionator.blogs.nytimes.com/2012/08/08/hear-all-ye-people-hearken-o-earth/&#34;&gt;an opinion article&lt;/a&gt; on the New York Times’ page that discusses whether the font or handwriting style that is used to convey information has any impact on whether we believe that information. It’s worth a read, as is the follow up and the preceding article (an essay and a quiz). There’s a lot of really interesting stuff in there, but one that really leaps out is the ATLAS slides from the presentation about the Higgs Boson. Comic Sans is used to convey fun, light-heartedness, etc. and as far as I’m concerned it simply does not belong in academia. The article goes on to do some analysis of the previous article’s quiz and shows that Baskerville is the font with the most &lt;em&gt;gravitas&lt;/em&gt;. Rather than having me summarise the article here (it’s quite long) it’s probably better to just go and read it. If you’ve ever wondered about whether you should use a particular font (personally, Times New Roman is boring and Cambria is ugly) to convey a particular feeling in your article then this is food for thought. I use LaTeX to write papers and read a lot of papers typeset in LaTeX. As such, my eyes tend to see a lot of &lt;a href=&#34;http://en.wikipedia.org/wiki/Computer_Modern&#34;&gt;Computer Modern&lt;/a&gt;, which has a bit of a reputation as being an academic font. I wouldn’t publish a school newsletter in Computer Modern, of course, but for “serious” writing, CM is it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bibtexbrowser</title>
+      <link>/./2012/08/06/bibtexbrowser/</link>
+      <pubDate>Mon, 06 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/06/bibtexbrowser/</guid>
+      <description>&lt;p&gt;Does anyone have any experience with &lt;a href=&#34;http://www.monperrus.net/martin/bibtexbrowser&#34;&gt;this&lt;/a&gt;? The list of &lt;a href=&#34;http://www.ilaqh.qut.edu.au/Misc/Publicat.htm&#34;&gt;ILAQH publications&lt;/a&gt; is a bit of a mess and I’d like to use it for my own page as well. I suspect ILAQH might need a new website. I notice there’s a &lt;a href=&#34;http://wordpress.org/extend/plugins/wp-publications/&#34;&gt;Wordpress plugin&lt;/a&gt; for it as well, which is nice. Edit: Two relevant links: &lt;a href=&#34;http://wpmu.org/wordpress-com-vs-self-hosted-wordpress-what-you-need-to-know/&#34;&gt;WordPress.com vs. Self-Hosted WordPress - What You Need To Know&lt;/a&gt; and &lt;a href=&#34;http://smallbusiness.chron.com/convert-hosted-wordpress-blog-selfhosted-35266.html&#34;&gt;How to Convert a Hosted WordPress Blog to Self-Hosted&lt;/a&gt;. I suspect I’ll need to convert to a self-hosted installation to install bibtexbrowser, or at least fork out some money with Wordpress for the ability to install plugins (is that an option?) Edit 2: I might also have to drop $8.95/month on hosting (and $3.85/month for a unique IP) to set up Wordpress but at least my host/domain company offers it with a one click install.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First arXived paper</title>
+      <link>/./2012/06/19/first-arxived-paper/</link>
+      <pubDate>Tue, 19 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/19/first-arxived-paper/</guid>
+      <description>&lt;p&gt;Given that I’ve had to submit a manuscript for ISBA 2012 I figured I should put it on arXiv just in case anything happens. It’d also be good to point people to it at the conference to get a better idea from the poster that I’m presenting. I’ve put a link to it on my &lt;a href=&#34;http://samclifford.info/publications/&#34; title=&#34;Publications&#34;&gt;publications&lt;/a&gt; page, but the direct link is &lt;a href=&#34;http://arxiv.org/abs/1206.3833&#34;&gt;here&lt;/a&gt; to save you a click. I found the arXiv submission process very easy to use and am very impressed with its LaTeX processing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Just a few quick thoughts</title>
+      <link>/./2012/06/19/just-a-few-quick-thoughts/</link>
+      <pubDate>Tue, 19 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/19/just-a-few-quick-thoughts/</guid>
+      <description>&lt;p&gt;I’m setting up a laptop to take to ISBA with me as I have lots of thesis work to do. I must say, I’m really impressed with GitHub for Windows in regards to how simple it is to set up. It’s a matter of installing the program itself, then entering your github details. Cloning your GitHub repositories to your local machine is as simple as pressing a button. I haven’t had to faff about with ssh, pageant, etc. Now I just have to finish setting up remote INLA (which will require faffing about with ssh), installing LaTeX and figuring out if I can use X forwarding without X-Win. I also have to finish my ISBA poster and organise for it to be printed. Then there’s the two talks I am giving at Healthy Buildings 2012 which need writing and the Student Program work. I leave for Japan on Sunday. I should probably look at train travel from Osaka to Kyoto, find my travel money card, passport, etc. I uploaded a paper to arXiv yesterday. I’ll post about it here when it appears.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LaTeX and git</title>
+      <link>/./2012/06/13/latex-and-git/</link>
+      <pubDate>Wed, 13 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/13/latex-and-git/</guid>
+      <description>&lt;p&gt;At the request of ihrhove I’ve decided to talk a little bit about using git and LaTeX together. I currently have two private git repositories; one for the Finnish paper and the other for all of my thesis work. I’ve talked previously about the Finnish paper so I’ll give a brief overview of how I use it with my thesis but you’ll need to keep in mind that I don’t have it shared with anyone because my supervisors don’t use git and nor do they edit the documents I work on directly (two print out draft papers and write on them, the third (who has used CVS/SVN in the past) uses Foxit to annotate PDFs directly and send them back to me. To start (and possibly end, if you’re easily convinced) with, LaTeX is just code. So to me there’s no reason why you can’t use any service you’d normally use for code for LaTeX. Everything that is directly being used in a paper comes under my version control with git. Each paper in my thesis repository has its own folder. Within that folder there is a LaTeX subfolder, where I keep everything needed for the writing of the paper, and an R or MATLAB folder depending on what program I’m using to do the modelling (and all the code goes into the repository). Within the LaTeX folder I have a whole bunch of .tex files and a folder where I store the images to be included in the paper. One of my favourite commands in LaTeX is . Every section in a paper has its own LaTeX source file. I find that this helps me navigate my work when I’m writing, especially when making corrections. Each file gets worked on separately and I save frequently. If I’m finished dealing with a section or I’m heading off for a break I will save everything and commit the current changes with a note about which section I’ve been focussing on. I picked this based writing up in my Honours degree when I got sick of having screen after screen of text. If I want to omit a section in a draft I can just comment out the line. Reorganising sections and maybe even subsections, becomes an issue of swapping two or three lines of LaTeX rather than copying and pasting giant blocks of text. I’m a sucker for vector graphics so I will use PDF graphs and pdflatex wherever I can. Occasionally I succumb to using PGF/TikZ for a while but usually have to generate so many different styles of plots that I don’t bother. So anyway, PDF graphics. These are really quite small and can be stored in git no trouble at all. I know git’s more or less useless for version control and revision of binary files (but PDF and EPS files are quite different) but I find it useful to be able to overwrite my graphs and still have the older versions available through reverting to a previous commit rather than making endless folders called “oldgraphics”. The root of my thesis repository has a folder called “Bibliography” which is where a monolithic bibtex file called “allpapers.bib” is stored. Because I will cite the same references across multiple papers I find the idea of having separate bibliography databases a bit silly. I use JabRef to edit this, by the way. All my \bibliography commands point to ../../Bibliography/allpapers.bib. I’ve even got a template for papers with that line in it so that I don’t even have to think about how I do my referencing. With regards to the Finnish paper, this compartmentalisation reduces, even further, the risk of conflicts. Committing changes to one section at a time means the commit messages are often quite descriptive without having to be quite long. The mixture of a few lines of changes and a brief summary means it’s easy to see what’s happened in the changelog. I also use git to keep track of side projects that have popped up during my thesis. Coworkers will often come to me with a question about some data analysis or if I can write a script to make a certain repetitive task as automatic as possible. Each coworker gets a subfolder within a /Side Projects/ folder and within those there are folders for each little project. If I worked in a group where use of git was widespread I would consider making a separate project for each person and inviting them as a collaborator. I kind of wish that QUT had a git server (the school of IT had a subversion server but I really dislike SVN after discovering git) and that scientists were encouraged to use R/MATLAB/SAS for their statistics and modelling instead of Excel. I think it’d a great way to foster collaboration and have people be able to work on a project and make changes, share their code with their coworkers, etc. without sending code and draft papers around via email. Actually a private git server without the account level limitations that github imposes would be an invaluable tool, especially if you could just open up your repositories to the QUT community to show what you’re doing and provide colleagues with usable code for statistical analysis, image manipulation tools, etc. And if someone within the university came across your work and liked it, you would potentially have another paper to work on within the uni.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Charts and infographics</title>
+      <link>/./2012/05/29/charts-and-infographics/</link>
+      <pubDate>Tue, 29 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/29/charts-and-infographics/</guid>
+      <description>&lt;p&gt;One of my supervisors, Sama Low Choy, is always up for a chat about the role of visualisation in statistics and data analysis. An acolyte of &lt;a href=&#34;http://www.edwardtufte.com/tufte/&#34;&gt;Tufte&lt;/a&gt;, Sama is quite passionate about appropriate methods of presenting data. 3D pie charts, needless to say, are public enemy number one. We were having a chat this afternoon about how &lt;a href=&#34;http://conidialcoleopticide.wordpress.com/&#34;&gt;a friend of mine&lt;/a&gt; who’s about to start a Masters in biology/statistics is a bit of a nerd when it comes to the presentation of data and copy. Talk turned to how easy it is to use LaTeX and how there’s a need for better visualisation in scientific results (something I’ve talked to some of my ILAQH colleagues about at length). Infographics are quite a popular thing at the moment, despite not always being particularly informative nor warranted, and I mentioned &lt;a href=&#34;http://chartsnthings.tumblr.com&#34;&gt;a blog about the process that the New York Times crew go through when developing infographics&lt;/a&gt; and other visualisation tools. Sama has forwarded me an email containing some of her favourite links that deal with the field of “data journalism”.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Times in US provide some inspiration: &lt;a href=&#34;http://blog.visual.ly/20-great-visualizations-of-2011&#34; class=&#34;uri&#34;&gt;http://blog.visual.ly/20-great-visualizations-of-2011&lt;/a&gt;/ Even on a topic that some science &amp;amp; engineerings students may become engaged with: &lt;a href=&#34;http://blog.visual.ly/best-beer-infographics-and-data-visualizations&#34; class=&#34;uri&#34;&gt;http://blog.visual.ly/best-beer-infographics-and-data-visualizations&lt;/a&gt; Someone else’s selection of highlights from their Infographics &lt;a href=&#34;http://www.smallmeans.com/new-york-times-infographics&#34; class=&#34;uri&#34;&gt;http://www.smallmeans.com/new-york-times-infographics&lt;/a&gt; Here is a link to a website about a new (free) handbook on data journalism: &lt;a href=&#34;http://datadrivenjournalism.net/news_and_analysis/A_peek_inside_the_Data_Journalism_Handbook#When:07:28:52Z&#34; class=&#34;uri&#34;&gt;http://datadrivenjournalism.net/news_and_analysis/A_peek_inside_the_Data_Journalism_Handbook#When:07:28:52Z&lt;/a&gt; Here’s a link to some videos (showing some software, doing some intuitive roll-up roll-down exploration &amp;amp; aggregation of data): &lt;a href=&#34;http://www.panopticon.com/videos&#34; class=&#34;uri&#34;&gt;http://www.panopticon.com/videos&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You might also enjoy &lt;a href=&#34;http://infosthetics.com/archives/2011/12/amanda_cox_talks_about_developing_infographics_at_the_new_york_times_graphics.html&#34;&gt;these videos of Amanda Cox&lt;/a&gt;, a woman behind some of the more innovative visualisation pieces at the NYT, talking about the processes of making good quality visualisations.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

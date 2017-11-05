@@ -1,0 +1,12 @@
+---
+title: A proud moment
+author: Sam Clifford
+date: 2013-04-17
+tags: ["blog","Blog","git","latex","papers"]
+---
+
+Today a collaborator of mine started the outline of a new paper in LaTeX, put it on our git repository and emailed it as a PDF file to other people who will be co-authors on this paper. The text of the email included:
+
+> I wrote this in LaTeX, which generates pdf files. Therefore, I do not have a Word document for this. Apologies for any inconvenience this may cause.
+
+I've been working with this collaborator to get them using Github, R and LaTeX . There was the denial, the anger, bargaining, depression and ultimately acceptance. Watching this collaborator send this email I felt like a proud father watching their child graduate.

@@ -1,0 +1,11 @@
+---
+title: Posterior Samples
+author: Sam Clifford
+date: 2012-10-19
+tags: ["blog","Blog","posterior samples"]
+---
+
+*   [Why casual sexism in science matters](http://boingboing.net/2012/10/18/why-casual-sexism-in-science-m.html)
+*   [Google Maps for some Elsevier journals](http://www.elsevier.com/wps/find/intro.cws_home/googlemaps)
+*   [QUT's annual "Open Access Week" next week](https://www.library.qut.edu.au/events/details/open-access-week-2/)
+*   [Research grant money (hundreds of millions of dollars) frozen by the Australian government set to be unfrozen](http://www.abc.net.au/news/2012-10-18/medical-research-grants-to-be-unfrozen/4321662)

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Science Communication on Sam Clifford </title>
+    <link>/./tags/science-communication/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-07-30 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2014/07/30/posterior-samples/</link>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/07/30/posterior-samples/</guid>
+      <description>&lt;p&gt;Interested in collaborative use of R, MATLAB, etc. for analysis and visualisation within a webpage? &lt;a href=&#34;http://nbviewer.ipython.org/gist/msund/403910de45e282d658fa&#34;&gt;Combining plotly and iPython&lt;/a&gt; can help you with that. Cosmopolitan (yes, &lt;em&gt;that&lt;/em&gt; Cosmopolitan) has &lt;a href=&#34;http://www.cosmopolitan.com/career/news/a29534/get-that-life-emily-graslie-science/&#34;&gt;a great article&lt;/a&gt; interviewing Emily Graslie, Chief Curiosity Officer at the Field Museum in Chicago. She discusses being an artist and making the transition into science, science education and YouTube stardom. A few of the PhD students in my lab have asked if I could run an introduction to R session. I’d mentioned the CAR workshop that I’d be doing but the cost had put them off. Luckily, there are alternatives like &lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-r&#34;&gt;Datacamp&lt;/a&gt;, &lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt; and &lt;a href=&#34;http://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html&#34;&gt;Lynda&lt;/a&gt;. Coursera’s next round of “Data Science”, delivered by Johns Hopkins University, starts next Monday (Course 1 - &lt;a href=&#34;https://www.coursera.org/specialization/jhudatascience/1&#34;&gt;R Programming&lt;/a&gt;). So get in there and learn some R! I’m considering recommending some of these Coursera courses to my current SEB113 students who want to go a bit further with R, but the approach that they take in these online modules is quite different to what we do in SEB113 and I don’t want them to confuse themselves.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/03/05/posterior-samples/</link>
+      <pubDate>Wed, 05 Mar 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/03/05/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ntnu.edu/&#34;&gt;NTNU&lt;/a&gt; in Trondheim, Norway, has &lt;a href=&#34;https://sites.google.com/a/r-inla.org/www/events/openphd-grants&#34;&gt;five PhD fellowships&lt;/a&gt; open. Visualising homicide rates in Mexico &lt;a href=&#34;http://lcolladotor.github.io/2014/02/26/excited-by-willingness-to-help-get-things-done/&#34;&gt;using R and GitHub&lt;/a&gt; (via &lt;a href=&#34;http://www.statisticsblog.com/2014/03/the-week-in-stats-mar-3rd-edition/&#34;&gt;Probability and Statistics Blog&lt;/a&gt;). If you’re in Melbourne, Australia, you should consider popping along to &lt;a href=&#34;http://thelaborastory.com/&#34;&gt;Laborastory&lt;/a&gt; at the Cider House (Brunswick), where five scientists get up on the first Tuesday of the month to tell the stories of the heroes and history of their field. A friend of mine went along this week and enjoyed it immensely. SEB113 has started again. I’ve already done 5 workshops (I have three a week). Introducing a whole new cohort of students to R, RStudio and ggplot. We did some paper plane throwing last week and had a look at how simple usage of faceting, colouring and stacking histograms can reveal both overall variation and group-to-group variation. A few students are still bewildered by the idea of writing code to make pictures but they recognise that it’s just a case of needing practice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/12/17/posterior-samples/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/17/posterior-samples/</guid>
+      <description>&lt;p&gt;Today’s collection of links have the loose theme of engagement between the public and science. Grist, an environmental news service I used to read every single day, have an &lt;a href=&#34;http://grist.org/climate-energy/reddits-science-forum-banned-climate-deniers-why-dont-all-newspapers-do-the-same/&#34;&gt;interesting article&lt;/a&gt; about how on reddit the science subreddit has banned out and out climate denial (more accurately: conspiracy theories) from their discussion. The author, a moderator of the subreddit, wonders why mainstream news services don’t just do the same given that the science is in. If you’re unconvinced about the science, or are convinced that it’s right but are unsure about the specifics, &lt;a href=&#34;http://www.npr.org/blogs/13.7/2013/12/16/251437395/global-warming-explained-in-about-a-minute&#34;&gt;NPR has a short article and animation&lt;/a&gt; about the mechanisms of global warming. The authors raise the point that the general public find science a bit daunting, particularly when it’s something as complex as global climate systems. Charlotte Pezaro, a PhD student at the University of Queensland, is &lt;a href=&#34;http://cpezaro.wordpress.com/2013/12/17/making-decisions-in-personally-relevant-contexts-of-science/&#34;&gt;doing research&lt;/a&gt; into how science education plays a role in preparing people to evaluate evidence rather than just preparing them to do science or to memorise scientific facts. Pezaro argues that more than this, a focus of science education should be to develop scientific literacy in the making of decisions in a personally relevant context of science, such as health, nutrition and the use of technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Science as storytelling</title>
+      <link>/./2013/11/06/science-as-storytelling/</link>
+      <pubDate>Wed, 06 Nov 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/11/06/science-as-storytelling/</guid>
+      <description>&lt;p&gt;I used to not be a very confident public speaker. I remember getting up at a community meeting in 2007 and stammering some words out to a group of residents; it was a disaster. Motivated for the desire for some money to augment my Youth Allowance payments I applied to be a tutor with the School of Mathematics (QUT) during my final years of undergrad and found that I became a bit better at talking to people. My Honours seminar was still a nervous affair but it was much less disastrous than the community meeting. After Honours I had a job teaching mathematics to a group of video game programmers, developing the curriculum to suit their needs and interests and it’s here that I became far more comfortable with speaking. I was coming up with my own material and delivering it to people who I knew were interested in it. That’s a world away from teaching university students, where many may not see the point in learning what I’m teaching. This is especially the case in service mathematics and statistics units. During my PhD studies I got interested in improvised theatre as a creative alternative to the mathematics, statistics and science that was my day. My reputation as someone not afraid to get up in front of 100 people and perform lead to my being asked by one of my PhD supervisors if I’d like to be a tutor in the brand new SEB113 course. Teaching students how to use R for their data analysis? Of course I’m interested! After the end of a very enjoyable, if somewhat disjointed, semester I was asked if I’d consider lecturing the smaller second semester re-run. I jumped at the chance. Restructuring the subject from the way it was run in first semester meant we could focus on the way the material flowed and see if we could smooth out some of the jumps in style, making the unit more consistent and easier to understand. We had to do a lot of work rejigging the slides, writing new workshops and computer laboratory worksheets to accommodate the use of ggplot rather than a combination of base, lattice and MASS graphics. The result was a subject that introduces a diverse list of topics in a much more sensible manner:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Measurement and variation&lt;/li&gt;
+&lt;li&gt;Visualisation&lt;/li&gt;
+&lt;li&gt;Summary statistics and confidence intervals&lt;/li&gt;
+&lt;li&gt;Inference and sample size, hypothesis tests&lt;/li&gt;
+&lt;li&gt;Regression lines of best fit&lt;/li&gt;
+&lt;li&gt;Regression with a categorical variable&lt;/li&gt;
+&lt;li&gt;Non-linear regression based on process models&lt;/li&gt;
+&lt;li&gt;Multivariate summary statistics and regression&lt;/li&gt;
+&lt;li&gt;Mathematical modelling of process models&lt;/li&gt;
+&lt;li&gt;Linear algebra, including the guts of how linear regression works&lt;/li&gt;
+&lt;li&gt;Writing scientifically, revisiting the scientific method&lt;/li&gt;
+&lt;li&gt;Writing about numbers, conditional probability for understanding hypothesis tests&lt;/li&gt;
+&lt;li&gt;Revisiting visualisation&lt;/li&gt;
+&lt;li&gt;An introduction to advanced quantitative methods&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It became apparent around week 8-9 that what we were doing was telling a story of how to get from calculating means to understanding how to develop a model to either model a process or emulate that process. The discussions about writing scientifically became about how the quantitative reports were telling a story. The first step, the introduction, is like meeting the characters for the first time and understanding their relationships with each other. As we move through the methods and analysis we see the action of the story unfold. The conclusion is the consequences of the action and by relating the analysis back to the motivating aim we can see the arc of the story and understand more about these characters. Now that the teaching is over and the marking of the quantitative workbooks is coming to a close, I’ve got a bit more space in my head to process my thoughts about improvisation and storytelling (we do a weekly show and I’m still doing workshops on the weekend). I’ve picked up a book on my Kindle by scientist-turned-filmmaker Randy Olson, entitled “&lt;a href=&#34;http://www.amazon.com/gp/product/B00FASMHP8/ref=oh_d__o00_details_o00__i00?ie=UTF8&amp;amp;psc=1&#34;&gt;Connection: Hollywood Storytelling meets Critical Thinking&lt;/a&gt;”. Olson’s book is all about how any intellectual topic can be made interesting and accessible by treating its presentation as telling a story. He states that we, as humans, engage with stories far more than we do with dry information as we feel stories it in our hearts, guts and sexual organs rather than just in our brains. Not only is the communication of scientific results storytelling but lecturing is storytelling. I’ve thought this semester that lecturing is definitely a style of performance, but the idea that the topics in a unit should follow an arc and tell a unified story means that part of the academic’s role is telling a story in the classroom. For me, that means that elements of comedy, pantomime and suspense make their way into my lectures. Storytelling in science is a very interesting topic and I look forward to making my way through the remainder of the book over the end of year break, ready to start a new semester with a revised narrative arc and better storyboarding, maybe even a few new characters.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BRAG for 2013</title>
+      <link>/./2013/02/07/brag-for-2013/</link>
+      <pubDate>Thu, 07 Feb 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/02/07/brag-for-2013/</guid>
+      <description>&lt;p&gt;The fornightly meetings for my stats group, BRAG, started up again two weeks ago and I’ve put my hand up to chair the meetings. I totally flubbed it this morning by forgetting we’d switched the start times to 10.30 instead of 11. Today’s meeting was less of a formal meeting and more of an exploration of QUT“s”&lt;a href=&#34;http://www.thecube.qut.edu.au/&#34;&gt;The Cube&lt;/a&gt;“, a new resource provided in the Science and Engineering Faculty’s new building. [caption id=“attachment_781” align=“aligncenter” width=“300”][&lt;img src=&#34;cubit1.jpg?w=300&#34; alt=&#34;CubIT, a unique system at the Cube that allows the general public to collaborate with and access research content shared by QUT’s students and academics. Photo copyright QUT.&#34; /&gt;](&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2013/02/cubit1.jpg&#34; class=&#34;uri&#34;&gt;http://samcliffordinfo.files.wordpress.com/2013/02/cubit1.jpg&lt;/a&gt;) CubIT, a unique system at the Cube that allows the general public to collaborate with and access research content shared by QUT’s students and academics. Photo copyright QUT.[/caption] Marcus Rittenbruch showed us a bit about what CubIT is, how it works and what the plans are for the future. There are a bunch of touch screens that the public can interact with as part of The Cube, and CubIT is the system that allows you to use it. If you’re a QUT student or staff member you can &lt;a href=&#34;http://cubit.thecube.qut.edu.au/users/sign_in&#34;&gt;register an account&lt;/a&gt; and upload media (photos, text notes, video) through either the mobile web interface or the iPhone app. Then you swipe in using the card readers at the bottom of the screens and move your media around the screens, including dragging to the top bar so you can make a slideshow on the large non-touch screen. There are plans to include PDF and HTML support so you can run through presentation slides and refer to web pages when necessary. I think that’d be a pretty neat way to give a presentation. There’s a booking system which is yet to be made available online but when that’s up and running it’d be an interesting way to show potential collaborators what we can do. Over the next few meetings in BRAG we’ll be presenting on visualisation, similar to the computational talks that featured in the second half of last year. While not strictly Bayesian in nature, the talks will give examples of how to visualise different types of data and methods of analysis. I’ve put my hand up with Sama Low Choy to talk about some of the guiding principles of data visualisation that Tufte came up with. I know they’ve certainly helped when I’ve been writing papers and hopefully we can come up with a nice little talk that discusses the principles and gives some examples of good and bad graphs and discuss how we can apply the principles to make the graphs better. I’m very interested to see how others approach visualisation, particularly the common issues we have such as parameter summaries and then the specific issues such as visualising mixtures, high dimensional data, spatial information, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/01/27/posterior-samples/</link>
+      <pubDate>Sun, 27 Jan 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/01/27/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://tenhundredwordsofscience.tumblr.com/&#34;&gt;Ten Hundred Words of Science&lt;/a&gt; is a really neat Tumblr inspired by the &lt;a href=&#34;http://xkcd.com/1133/&#34;&gt;XKCD explanation of the Up-goer five (Saturn V)&lt;/a&gt;, for attempting to explain quite complex ideas in the ten hundred most common words of the English language (“thousand” did not make the list). &lt;a href=&#34;http://tenhundredwordsofscience.tumblr.com/post/41236467291/my-work-is-to-look-at-the-air-around-schools-to&#34;&gt;I have submitted an explanation of my own research&lt;/a&gt;. &lt;a href=&#34;http://bragqut.wordpress.com/&#34;&gt;My stats reseach group&lt;/a&gt; has decided to do a series of talks at its fortnightly meetings where presenters talk about visualisation. We’ve got a lot of people working on a variety of topics so it will be interesting to see how they present their data and data analysis. I’ve put my hand up (and my #3 supervisor’s) to do a talk about the principles of data visualisation. We’ve both read Tufte’s book and have a number of ideas about what constitutes a good graph. We’re considering a brief talk about the actual design principles and then some audience interaction where small groups are given a task such as critiquing a particular graph and suggesting changes. Good graph design and communication of ideas can always be focussed on. &lt;a href=&#34;http://www.economist.com/blogs/graphicdetail/2013/01/daily-chart-11&#34;&gt;The Economist has a terrible graph&lt;/a&gt; for what looks like the top 20 polluted cities but is actually a polluted city from the world’s 20 largest economies. In addition to being clearer about that, the graph should explicitly show the WHO standards and be on a log scale.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/12/27/posterior-samples/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/27/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://andrewgelman.com/2012/12/textbook-for-data-visualization/&#34;&gt;Gelman recommends&lt;/a&gt; Cleveland’s “&lt;a href=&#34;http://books.google.com.au/books/about/The_elements_of_graphing_data.html?id=Y2pqAAAAMAAJ&#34;&gt;The Elements of Graphing Data&lt;/a&gt;” over Tufte’s work for someone looking to put together a data analysis and visualisation couse. I’ll see if I can grab a copy from the library, it sounds interesting.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/video/2012/12/24/science/100000001947354/wrights-law.html&#34;&gt;Jeffrey Wright uses wacky experiments to teach children about the universe, but it is his own personal story that teaches them the true meaning of life.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quora.com/Google/What-do-statisticians-do-at-Google&#34;&gt;Quora - What do statisticians do at Google?&lt;/a&gt; Some of the answer is deliberately vague, but the answer appears to be “Figure out whether the engineers have made the search algorithms better” and “Try to quantify whether changes to the way ads work have been positive”.&lt;/li&gt;
+&lt;li&gt;I work in an aerosol science group which has studied tobacco smoke. Something I can’t find in our publication history is a study on marijuana smoke. NORML have &lt;a href=&#34;http://norml.org/library/health-reports/item/norml-s-marijuana-health-mythology&#34;&gt;a page&lt;/a&gt; dedicated to disputing some of the myths surrounding marijuana that come from both the pro- and anti-marijuana camps. The review was done in 1994 so I’d be interested to see how the epidemiological evidence has changed as our equipment has improved. I don’t know that the Queensland government (or QUT) would let us purchase any marijuana to do the study.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hmm. Are bullet points really the way to do this? Merry Christmas!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presenting data and mathematical ideas</title>
+      <link>/./2012/12/15/presenting-data-and-mathematical-ideas/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/15/presenting-data-and-mathematical-ideas/</guid>
+      <description>&lt;p&gt;I was hanging out with some friends the other night and the topic of conversation turned to an infographic that one of the guys was working on for a friend of his, &lt;a href=&#34;http://onceround.com/2012/12/11/red-dwarf-smeg-count/&#34;&gt;the number of times the word “smeg” (or a variant) appears in each episode&lt;/a&gt; of &lt;a href=&#34;http://www.imdb.com/title/tt0094535/&#34;&gt;Red Dwarf&lt;/a&gt; (made in &lt;a href=&#34;http://processing.org/&#34;&gt;Processing&lt;/a&gt;). We got chatting about data visualisation and ended up talking about Edward Tufte and his approach to the various aspects of using data to show information. Apparently his brother have him a copy of &lt;a href=&#34;http://www.edwardtufte.com/tufte/books_vdqi&#34;&gt;Tufte’s book&lt;/a&gt; last year and he was kind enough to loan it to me. &lt;a href=&#34;http://staff.qut.edu.au/staff/lowchoy/&#34;&gt;One of my supervisors&lt;/a&gt; is a huge fan of Tufte’s approach and it’s worn off on me. Throughout my thesis I’ve moved away from giant scatter plots of the data to summary plots that don’t use more “ink” than is necessary to show the information. An example he gives in the book is the boxplot, which typically contains a lot of redundant information. The image below shows Tufte’s stripped down boxplot and the default R boxplot for the same data. In the more traditional boxplot, the maximum of the data (within 1.5 IQR) is represented by the end of the whisker as well as a hinge. The hinge isn’t necessary and neither is the box which marks the 25th and 75th percentiles as the other end of the whisker represents these. With no box, there’s no need for a horizontal stripe for the median, so it can be represented as a dot.&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2012/12/boxplots.png&#34;&gt;&lt;img src=&#34;boxplots.png?w=300&#34; alt=&#34;boxplots&#34; /&gt;&lt;/a&gt; There are some plots in my thesis papers of which I’m quite proud and I will upload some of them here once the papers are finalised. My Tufte-mad supervisor has even commented on how my plots have become quite minimalist, something she attributes to the 2000s/10s despite Tufte’s work dating back to the 1970s. I’ve noticed that the R packages I’ve tended to use (&lt;a href=&#34;http://r-inla.org/&#34;&gt;R-INLA&lt;/a&gt;, &lt;a href=&#34;http://cran.r-project.org/web/packages/mgcv/index.html&#34;&gt;mgcv&lt;/a&gt;) have quite simple graphics. While there are some fantastic plotting packages such as &lt;a href=&#34;http://ggplot2.org/&#34;&gt;ggplot2&lt;/a&gt; that make it quite easy to produce very pretty graphics, I feel far more familiar mucking around with the base graphics system to add points, lines and polygons to a blank plot. If you take the approach that Tufte does, that the ink on the page should represent data, and that there should be no extraneous elements to your plot (such as cross-hatching a barplot or colour where it doesn’t convey information) then it’s not hard to shy away from packages that do a lot of very nice, but ultimately data-poor, plotting. But graphs on the printed page are not the only way to represent data or mathematical or statistical concepts. The &lt;a href=&#34;http://www.youtube.com/watch?v=jK7xPo1YXzY&#34;&gt;Museum of Mathematics&lt;/a&gt; in New York looks to have a lot of really cool displays of a wide range of mathematical concepts, for example. My Advanced Calculus lecturer, Dr Jack Wrigley, had a background in education and often used props in class to illustrate ideas, such as holding pieces of paper against a balloon to give us a visual representation of a tangent and normal surfaces. I don’t often have props when doing improvised theatre but academic presentation is, at the end of the day, just another type of performance. Part of the work I’ve been doing on modelling temporal trends from split panel design data involves modelling penalised random walks where the random walk is on a torus that represents a joint term for the hour of the day and the day of the week. This “hour of the week” term has 168 unique values, but we want to smooth both in the day to day and hour to hour direction, rather than just looking at the circle formed by gluing Saturday 11pm to Midnight and then Sunday 1am. Some people might be very good at visualising Markov random fields through their precision matrix but there will be many people in my PhD final seminar audience who are not postgraduate level statisticians. For the purpose of explaining one of the key ideas in my thesis, I am considering bringing an inflatable pool ring and a marker in order to draw the smoothing directions on the torus that represents the product of two circular spaces. If this doesn’t make up for the conceded pass I got in Jack Wrigley’s class I have no idea what will.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/12/11/posterior-samples/</link>
+      <pubDate>Tue, 11 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/11/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://www.statisticsblog.com/2012/12/information-graphics/&#34;&gt;Nice infographic of Mars missions&lt;/a&gt; showing all attempts and planned attempts&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;As much as I love using .csv files to send data back and forth, especially on GitHub, apparently I should &lt;a href=&#34;http://www.win-vector.com/blog/2012/12/pleases-stop-using-excel-like-formats-to-exchange-data/&#34;&gt;stop using Excel-like files to exchange data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;There are some really lovely visualisations of quite profound and complex scientific ideas among &lt;a href=&#34;http://www.wired.com/wiredscience/2012/12/science-figures-2012/&#34;&gt;The best scientific figures of 2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;As someone who espouses the beauty of LaTeX and &lt;a href=&#34;http://samclifford.info/2012/08/12/credibility-of-information-given-font-choice/&#34;&gt;the importance of proper font choice&lt;/a&gt;, &lt;a href=&#34;http://typeanatomy.com/&#34;&gt;The Anatomy of Type&lt;/a&gt; is a book I’m considering buying. Maybe I should get it for my sister for Christmas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sydneypadua.com/2dgoggles/lovelace-the-origin-2/&#34;&gt;A charming comic with an origin story for Ada Lovelace&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And, yes, I do plan on writing more about what I’m actually doing! I’m just working on thesis stuff a lot and trying to organise my final seminar. I’ve got some thoughts on presentations that I’m writing up, so stay tuned. One more &lt;a href=&#34;http://exp.lore.com/post/37688902608/60-seconds-of-awe-in-this-timelapse-of-the&#34;&gt;* Stunning time lapse photography of the eclipse.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/23/posterior-samples/</link>
+      <pubDate>Fri, 23 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/23/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://littlestat.com/&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;LittleStat is an online R tool for simple data analysis&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.readmatter.com&#34;&gt;Matter&lt;/a&gt; is a new essay-based science/tech publication that got its start on &lt;a href=&#34;http://www.kickstarter.com/projects/readmatter/matter/&#34;&gt;Kickstarter&lt;/a&gt; - this issue is about people who feel like they have an extra limb.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://0fps.wordpress.com/2012/11/19/conways-game-of-life-for-curved-surfaces-part-1/&#34;&gt;Conway’s Game of Life as a smooth PDE system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://statisticalsocietyaustralia.wordpress.com/2012/11/20/november-question/&#34;&gt;SSAI wants to know what the biggest challenges in modern Bayesian statistics are&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.r-bloggers.com/RUG/2012/11/video-simpler-tricks-and-tools-help-debugging-git-latex-and-workflow-with-r-by-prof-rob-hyndman/&#34;&gt;SimpleR tricks and tools: Help, debugging, git, LaTeX, and workflow with R by Prof Rob Hyndman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/16/posterior-samples/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/16/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nature.com/spoton/2012/11/spoton-london-2012-why-old-female-science-professors-should-blog/&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;Why old, female science professors should blog&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www2.qut.edu.au/sci-eng-centre/project/&#34;&gt;QUT’s new Science and Engineering Centre opened on Friday. I had a walk through with Luisa. There’s some nice stuff but it’s a little &lt;em&gt;too&lt;/em&gt; open plan for my taste.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://xianblog.wordpress.com/2012/11/16/the-bugs-book/&#34;&gt;A new book on BUGS/WinBUGS by the authors of WinBUGS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rspb.royalsocietypublishing.org/content/early/2011/07/07/rspb.2011.0932.full&#34;&gt;Cornell study discovers parrots name their chicks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Infographics</title>
+      <link>/./2012/08/28/infographics/</link>
+      <pubDate>Tue, 28 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/28/infographics/</guid>
+      <description>&lt;p&gt;Kasia Piekut has written &lt;a href=&#34;http://mark-making.com/blog/27-communication/240-how-to-get-your-mind-around-infographic-design-and-data-visualisation&#34;&gt;an article on&lt;/a&gt; Mark Making about infographics and some of the most important things to remember. It’s accompanied by a cute infographic about infographics themselves. The potential to make high quality infographics is huge these days, as we have some very clever designers with very good software. But it’s important to remember that infographics aren’t just about pretty design but effectively communicating information in an accessible and entertaining manner. There are some pretty terrible infographics out there, where colour is used to pretty the graphs up without actually conveying information. I try to tell my coworkers to avoid the uninformative use of colour because people will look at a multicoloured graph and ask “What does this change of colour mean?” Often a table or simple plot will do in place of an infographic. As researchers we must resist the temptation to make our graphs so punchy and full of colour that we obscure the meaning of the data. Infographics are a tool for conveying information; we should be careful that we don’t end up with pictures for the sake of pictures. We should also be careful that we don’t end up with graphics that obscure the data and its implications. Edit: I don’t know that this is worthy of its own post so I’ll add it here. &lt;a href=&#34;http://themonkeycage.org/blog/2012/08/28/choices-in-graphing-parallel-time-series&#34;&gt;Andrew Gelman has blogged at The Monkey Cage&lt;/a&gt; about choosing plot styles and how different representations of the same data can be used to give the punchy dramatic message and then give that message a bit more context.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Credibility of information given font choice</title>
+      <link>/./2012/08/12/credibility-of-information-given-font-choice/</link>
+      <pubDate>Sun, 12 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/12/credibility-of-information-given-font-choice/</guid>
+      <description>&lt;p&gt;Thanks to the &lt;a href=&#34;http://themonkeycage.org/blog/2012/08/11/potpourri-80&#34;&gt;Monkey Cage blog&lt;/a&gt; (a very good read if you’re a fan of statistics and politics as I am) I’ve come across &lt;a href=&#34;http://opinionator.blogs.nytimes.com/2012/08/08/hear-all-ye-people-hearken-o-earth/&#34;&gt;an opinion article&lt;/a&gt; on the New York Times’ page that discusses whether the font or handwriting style that is used to convey information has any impact on whether we believe that information. It’s worth a read, as is the follow up and the preceding article (an essay and a quiz). There’s a lot of really interesting stuff in there, but one that really leaps out is the ATLAS slides from the presentation about the Higgs Boson. Comic Sans is used to convey fun, light-heartedness, etc. and as far as I’m concerned it simply does not belong in academia. The article goes on to do some analysis of the previous article’s quiz and shows that Baskerville is the font with the most &lt;em&gt;gravitas&lt;/em&gt;. Rather than having me summarise the article here (it’s quite long) it’s probably better to just go and read it. If you’ve ever wondered about whether you should use a particular font (personally, Times New Roman is boring and Cambria is ugly) to convey a particular feeling in your article then this is food for thought. I use LaTeX to write papers and read a lot of papers typeset in LaTeX. As such, my eyes tend to see a lot of &lt;a href=&#34;http://en.wikipedia.org/wiki/Computer_Modern&#34;&gt;Computer Modern&lt;/a&gt;, which has a bit of a reputation as being an academic font. I wouldn’t publish a school newsletter in Computer Modern, of course, but for “serious” writing, CM is it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Science communication</title>
+      <link>/./2012/07/22/science-communication/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/22/science-communication/</guid>
+      <description>&lt;p&gt;A field within science that has been getting a little attention recently is science communication. Science can be hard to understand. Even if one is a scientist, attempting to come to terms with something outside your field can be very tricky. So if scientists have difficulty explaining their work to each other (try being a statistician talking to applied scientists) then what hope does the general public have in terms of understanding science? As an example, ask people about the significance of the CERN announcements a few weeks ago regarding the search for the Higgs boson. Apart from the awful slides that the ATLAS team presented, the slides by CMS were very information dense, overcrowded and undigestible. &lt;a href=&#34;http://themonkeycage.org/blog/2012/07/18/on-communicating-scientific-findings/&#34;&gt;Arthur Lupia puts the blame on the researchers&lt;/a&gt;. In a nice analogy about getting you and your lost friend out of the woods that you know well, Lupia’s main point is that there are two things you need to know to help your friend get out of the woods:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;the woods (your field of work)&lt;/li&gt;
+&lt;li&gt;where your friend is (what your audience know)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In terms of communicating your results to your audience, it’s no good only being an expert; you also need to know what level of literacy your audience has when it comes to the topic. There are some academics who are quite good public speakers and give public lectures about both the science they are working on and the philosophy of science. I’ve seen Field’s medal winner &lt;a href=&#34;http://terrytao.wordpress.com/&#34;&gt;Terry Tao&lt;/a&gt; give a good public talk about science (mainly astrophysics) and &lt;a href=&#34;http://www.griffith.edu.au/environment-planning-architecture/centre-environment-population-health/staff/ian-lowe&#34;&gt;Ian Lowe&lt;/a&gt; and &lt;a href=&#34;http://www.ies.unsw.edu.au/staff/mark.html&#34;&gt;Mark Diesendorf&lt;/a&gt; are also fantastic speakers, particularly about the issues surrounding climate change. I’d say that these people, all eminent scientists, are good readers of their audience. But people tend not to get their news and information from public seminars by eminent scientists who are good presenters, or even from television programs like PBS’s “&lt;a href=&#34;http://www.pbs.org/wgbh/nova/&#34;&gt;Nova&lt;/a&gt;”. There are some rare exceptions, such as David Attenborough’s very popular documentaries about nature. Attenborough is a master entertainer and makes geology, zoology and botany very accessible. Part of this is that the natural world, plants and animals are much more concrete than abstract ideas of physics and chemistry and there’s also the fact that animals and plants can look pretty. A chemical, on the other hand, no matter how integral to life on earth, is often still just a solid, liquid or gas. Science reporting in the media is generally fairly poor, at least from my point of view as a statistician. Misinterpretation of relative risk, odds ratios, p values, “significance”, etc. abound. Our newspapers generally do not employ scientists or science communicators to write articles about scientific discoveries. &lt;a href=&#34;http://understandinguncertainty.org/10-best-practice-guidelines-reporting-science-health-stories&#34;&gt;One of the outcomes of the Leveson inquiry into the UK media is a list of guidelines for science reporting&lt;/a&gt;.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;State the source of the story - e.g. interview, conference, journal article, a survey from a charity or trade body, etc. - ideally with enough information for readers to look it up or a web link.&lt;/li&gt;
+&lt;li&gt;Specify the size and nature of the study - e.g. who/what were the subjects, how long did it last, what was tested or was it an observation? If space, mention the major limitations.&lt;/li&gt;
+&lt;li&gt;When reporting a link between two things, indicate whether or not there is evidence that one causes the other.&lt;/li&gt;
+&lt;li&gt;Give a sense of the stage of the research - e.g. cells in a laboratory or trials in humans - and a realistic time-frame for any new treatment or technology.&lt;/li&gt;
+&lt;li&gt;On health risks, include the absolute risk whenever it is available in the press release or the research paper - i.e. if ‘cupcakes double cancer risk’ state the&lt;/li&gt;
+&lt;li&gt;outright risk of that cancer, with and without cupcakes.&lt;/li&gt;
+&lt;li&gt;Especially on a story with public health implications, try to frame a new finding in the context of other evidence - e.g. does it reinforce or conflict with previous studies? If it attracts serious scientific concerns, they should not be ignored.&lt;/li&gt;
+&lt;li&gt;If space, quote both the researchers themselves and external sources with appropriate expertise. Be wary of scientists and press releases over-claiming for studies.&lt;/li&gt;
+&lt;li&gt;Distinguish between findings and interpretation or extrapolation; don’t suggest health advice if none has been offered.&lt;/li&gt;
+&lt;li&gt;Remember patients - don’t call something a ‘cure’ that is not a cure.&lt;/li&gt;
+&lt;li&gt;Headlines should not mislead the reader about a story’s contents and quotation marks should not be used to dress up overstatement.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If these are adopted they will go some way to addressing what I see as the flaws in current science reporting. Even the Australian government’s ABC News sometimes publishes poor quality articles about new science. The ABC has done well in shows about science, particularly “Quantum”, hosted by mathematician/comedian/radio presenter Adam Spencer, and its replacement “Catalyst”. The online news team could probably do with some better science reporters. It’s all well and good to talk about a need for science communicators but how do we find them? How does one become one? The Australian National University has a &lt;a href=&#34;http://studyat.anu.edu.au/programs/7614XMSCOM;overview.html&#34;&gt;Masters of Science Communication&lt;/a&gt;. The course involves &lt;a href=&#34;http://studyat.anu.edu.au/interests/75&#34;&gt;subjects across a wide variety of topics&lt;/a&gt; such as the use of technology in communication, engagement with the public, teaching, ethics, etc. QUT is currently restructuring its Bachelor of Applied Science degree around a handful of majors and many coherent comajors, one of which is science communication. Introducing the ideas of science communication in undergrad is, in my mind, a good idea. Training our scientists to not just be good at chemistry, biology, mathematics, etc. but to be good at communicating their work will help the penetration of their work within their workplace. If the student goes on to postgraduate research then they will likely end up a good public speaker with expertise in a certain field. If the student exits academia after undergrad then they will be able to better make their case and improve the penetration of scientific ideas in their workplace.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

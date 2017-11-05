@@ -1,0 +1,16 @@
+---
+title: Research position with QUT's Applied Data Mining group
+author: Sam Clifford
+date: 2012-10-16
+tags: ["bayesian statistics","blog","Blog","data mining","IT","jobs","machine learning","nonparametrics","qut"]
+---
+
+The [Applied Data Mining group](http://www.applieddatamining.info/) has an opening for a one year position as a research officer with the group, working on topics in data mining and machine learning (which appears to be a less rigorous Bayesian non-parametrics). So if you or someone you know is finishing a PhD in statistics, machine learning or computer science and knows how to do scientific computation/data mining for big data and wouldn't mind working in lovely, subtropical Brisbane, Australia for a year, email [Associate Professor Richi Nayak](mailto:r.nayak@qut.edu.au) this week. Some selection criteria are under the cut. The successful application should have:
+
+*   Completed the PhD (or nearly completed) with success as evidenced by publications in proceedings of important conferences and journals in the field of machine learning/ data mining;
+*   Acquired a profound knowledge and practical experience in machine learning, data mining and information retrieval; experience with Big Data is an advantage.
+*   Good programming skills (e.g., Java, C++, MATLAB, Python);
+*   Experience with data mining tools such as WEKA, SAS, MSQLServer;
+*   Excellent English language skills (written and spoken);
+*   Good communication skills especially for interacting with industry partners;
+*   The capability to work independently and in a team;

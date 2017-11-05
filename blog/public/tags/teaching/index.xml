@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Teaching on Sam Clifford </title>
+    <link>/./tags/teaching/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2015-12-21 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/./2015/12/21/r-markdown/</link>
+      <pubDate>Mon, 21 Dec 2015 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2015/12/21/r-markdown/</guid>
+      <description>&lt;p&gt;I’ve been spending a bit of time over the last few days making an R tutorial for the members of my air quality research group. Rather than being a very general introduction to the use of R, e.g. file input/output, loops, making objects, I’ve decided to show a very applied workflow that involves the actual data analysis and explaining ideas as we go along. Part of this philosophy is that I’m not going to write a statistics tutorial, opting instead to point readers to textbooks that deal with first year topics such as regression models and hypothesis tests. It’s been a very interesting experience, and it’s meant having to deal with challenges along the way such as PDF graphs that take up so much file space for how (un-)important they are to the overall guide and, thinking about how to structure the tutorial so that I can assume zero experience with R but some experience with self-directed learning. The current version can be seen &lt;a href=&#34;https://samcliffordinfo.files.wordpress.com/2015/12/tutorial-20151221.pdf&#34; title=&#34;tutorial-20151221&#34;&gt;here&lt;/a&gt;. One of the ideas that Sama Low Choy had for SEB113 when she was unit coordinator and lecturer and I was just a tutor, was to write a textbook for the unit because there wasn’t anything that really covered our approach. Since seeing computational stats classes in the USA being hosted as repositories on GitHub I think it might be possible to use R Markdown or GitBook to write an R Markdown project that could be compiled either as a textbook with exercises or as a set of slides.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Science as storytelling</title>
+      <link>/./2013/11/06/science-as-storytelling/</link>
+      <pubDate>Wed, 06 Nov 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/11/06/science-as-storytelling/</guid>
+      <description>&lt;p&gt;I used to not be a very confident public speaker. I remember getting up at a community meeting in 2007 and stammering some words out to a group of residents; it was a disaster. Motivated for the desire for some money to augment my Youth Allowance payments I applied to be a tutor with the School of Mathematics (QUT) during my final years of undergrad and found that I became a bit better at talking to people. My Honours seminar was still a nervous affair but it was much less disastrous than the community meeting. After Honours I had a job teaching mathematics to a group of video game programmers, developing the curriculum to suit their needs and interests and it’s here that I became far more comfortable with speaking. I was coming up with my own material and delivering it to people who I knew were interested in it. That’s a world away from teaching university students, where many may not see the point in learning what I’m teaching. This is especially the case in service mathematics and statistics units. During my PhD studies I got interested in improvised theatre as a creative alternative to the mathematics, statistics and science that was my day. My reputation as someone not afraid to get up in front of 100 people and perform lead to my being asked by one of my PhD supervisors if I’d like to be a tutor in the brand new SEB113 course. Teaching students how to use R for their data analysis? Of course I’m interested! After the end of a very enjoyable, if somewhat disjointed, semester I was asked if I’d consider lecturing the smaller second semester re-run. I jumped at the chance. Restructuring the subject from the way it was run in first semester meant we could focus on the way the material flowed and see if we could smooth out some of the jumps in style, making the unit more consistent and easier to understand. We had to do a lot of work rejigging the slides, writing new workshops and computer laboratory worksheets to accommodate the use of ggplot rather than a combination of base, lattice and MASS graphics. The result was a subject that introduces a diverse list of topics in a much more sensible manner:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Measurement and variation&lt;/li&gt;
+&lt;li&gt;Visualisation&lt;/li&gt;
+&lt;li&gt;Summary statistics and confidence intervals&lt;/li&gt;
+&lt;li&gt;Inference and sample size, hypothesis tests&lt;/li&gt;
+&lt;li&gt;Regression lines of best fit&lt;/li&gt;
+&lt;li&gt;Regression with a categorical variable&lt;/li&gt;
+&lt;li&gt;Non-linear regression based on process models&lt;/li&gt;
+&lt;li&gt;Multivariate summary statistics and regression&lt;/li&gt;
+&lt;li&gt;Mathematical modelling of process models&lt;/li&gt;
+&lt;li&gt;Linear algebra, including the guts of how linear regression works&lt;/li&gt;
+&lt;li&gt;Writing scientifically, revisiting the scientific method&lt;/li&gt;
+&lt;li&gt;Writing about numbers, conditional probability for understanding hypothesis tests&lt;/li&gt;
+&lt;li&gt;Revisiting visualisation&lt;/li&gt;
+&lt;li&gt;An introduction to advanced quantitative methods&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It became apparent around week 8-9 that what we were doing was telling a story of how to get from calculating means to understanding how to develop a model to either model a process or emulate that process. The discussions about writing scientifically became about how the quantitative reports were telling a story. The first step, the introduction, is like meeting the characters for the first time and understanding their relationships with each other. As we move through the methods and analysis we see the action of the story unfold. The conclusion is the consequences of the action and by relating the analysis back to the motivating aim we can see the arc of the story and understand more about these characters. Now that the teaching is over and the marking of the quantitative workbooks is coming to a close, I’ve got a bit more space in my head to process my thoughts about improvisation and storytelling (we do a weekly show and I’m still doing workshops on the weekend). I’ve picked up a book on my Kindle by scientist-turned-filmmaker Randy Olson, entitled “&lt;a href=&#34;http://www.amazon.com/gp/product/B00FASMHP8/ref=oh_d__o00_details_o00__i00?ie=UTF8&amp;amp;psc=1&#34;&gt;Connection: Hollywood Storytelling meets Critical Thinking&lt;/a&gt;”. Olson’s book is all about how any intellectual topic can be made interesting and accessible by treating its presentation as telling a story. He states that we, as humans, engage with stories far more than we do with dry information as we feel stories it in our hearts, guts and sexual organs rather than just in our brains. Not only is the communication of scientific results storytelling but lecturing is storytelling. I’ve thought this semester that lecturing is definitely a style of performance, but the idea that the topics in a unit should follow an arc and tell a unified story means that part of the academic’s role is telling a story in the classroom. For me, that means that elements of comedy, pantomime and suspense make their way into my lectures. Storytelling in science is a very interesting topic and I look forward to making my way through the remainder of the book over the end of year break, ready to start a new semester with a revised narrative arc and better storyboarding, maybe even a few new characters.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Response to a student on p values</title>
+      <link>/./2013/10/18/response-to-a-student-on-p-values/</link>
+      <pubDate>Fri, 18 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/18/response-to-a-student-on-p-values/</guid>
+      <description>&lt;p&gt;My students are working on their 25% assessment pieces, the Quantitative Workbook. These are group assignments that require students do a quantitative analysis from start to finish on some ecology data we’ve given them. A few students are struggling with the p value concept, particularly what it means in the R summary.lm() output. I responded to the student with the following statement. It’s a bit more verbose than I might have liked but I think it’s important to try to step it through from start to finish. It took me ages to get this as an undergrad.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The hypothesis test that R does and gives you in the regression summary asks:&lt;/p&gt;
+&lt;p&gt;What is the probability of seeing a test statistic (third column in the output) at least as extreme as what we have if the true value of the parameter were actually zero (this is our null hypothesis)?&lt;/p&gt;
+&lt;p&gt;Our best estimates of the parameters given the data we are using with our model (first column in the output) are found by minimising the sum of squares of the errors between the observed values and the fitted values (see the Normal equations slides from the linear algebra week). Our uncertainty about those estimates is given to us with the standard error of the estimate (second column in the output) which is related to the size of the standard deviation of the residuals. More uncertainty in our fitted values reflects uncertainty in our parameter estimates. If the standard error is comparable in size to the estimate, then perhaps our uncertainty may mean we can’t reject the idea that the true value of the parameter is zero (i.e. we may not be able to detect that this variable has an effect).&lt;/p&gt;
+&lt;p&gt;The test statistic (third column) is assumed to come from a t distribution whose degrees of freedom is the number of data points we started with minus the number of parameters we’ve observed. The idea of the test statistic coming from a t distribution reflects the notion that our data is a finite sample of all the data that could have been collected if the experiment were repeated an infinite number of times under the same conditions. If the test statistic is really far away from zero, then it’s very improbable that we would observe sampled data like this if the true value of this parameter were zero (i.e. the relevant variable plays no role in explaining the variation in the response variable).&lt;/p&gt;
+&lt;p&gt;It’s traditional in science to use a cutoff for the p value of 0.05, corresponding to whether a 95% confidence interval covers zero. This is saying “we accept that in 1 out of every 20 identically conducted experiments we may see no observable effect, the rest of the time we see it”. If your p value, the probability of seeing a test statistic at least as extreme as this if the true value of the parameter is zero, is less than 0.05 then you’ve got evidence to reject the null hypothesis. Sometimes we want to be really confident and we choose a cutoff of 0.01, corresponding to whether a 99% CI covers zero. If the p value is less than 0.01 (where only at most 1 in 100 experiments show us a zero effect) then we have evidence to reject the null hypothesis at our 0.01 level. Sometimes we will accept a less confident cutoff of 0.1 (1 in 10 experiments). Whatever level we choose must be stated up front.&lt;/p&gt;
+&lt;p&gt;So in summary the hypothesis we are testing is “The true value of the parameter is zero”, the p value is a probabilistic statement that says “If I assume the true value is zero, what’s the probability of seeing a test statistic (that represents how uncertain I am about my estimate) at least as big as this?”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian splines</title>
+      <link>/./2012/03/26/bayesian-splines/</link>
+      <pubDate>Mon, 26 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/26/bayesian-splines/</guid>
+      <description>&lt;p&gt;The statistics group that I’m part of is publishing a book that details how we do Bayesian statistics, what it’s used for and how people can use it. I wrote a chapter on Bayesian splines which is basically a few recipes for splines with some illustrative examples with small data sets. The work in the book chapter is currently being extended into something more useful as part of my PhD but the chapter itself does a decent job of introducing a few simple spline types and shows how you can generate the basis and use them in an adaptive Metropolis-Hastings framework to fit a univariate regression model. The director of my stats group is one of the editors of the book and has asked me to give a small lecture to her Bayesian Data Analysis class, an honours level unit. I’ll be walking the students through the chapter and hoping that they’re familiar enough with the idea of priors to understand that a prior doesn’t just have to mean “I think this parameter has this value”. The idea of a prior being used to inform the values of the difference between spline coefficients [1] is a really nice Bayesian analogue of the frequentist approach (and does away with GCV, instead maximising the posterior density) [2] and I think makes a lot more sense than attempting to do a grid-based GCV approach, incorporating the amount of smoothing into the MCMC sampler (or INLA fitting). It’ll be good fun. [1] Lang, S. and Brezger, A. (2004): Bayesian P-Splines. &lt;em&gt;Journal of Computational and Graphical Statistics&lt;/em&gt;, 13, 183-212. &lt;a href=&#34;http://www.uibk.ac.at/statistics/personal/lang/publications/lang_brezger_jcgs2004.pdf&#34;&gt;Download&lt;/a&gt; [2] Eilers, P. H. C. and Marx, B. D. (1996): Flexible smoothing with B-splines and penalties. &lt;em&gt;Statistical Science&lt;/em&gt;, 11 (2), 89-121. &lt;a href=&#34;http://projecteuclid.org/DPubS?service=UI&amp;amp;version=1.0&amp;amp;verb=Display&amp;amp;handle=euclid.ss/1038425655&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

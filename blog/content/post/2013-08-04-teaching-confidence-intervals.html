@@ -1,0 +1,23 @@
+---
+title: Teaching confidence intervals
+author: Sam Clifford
+date: 2013-08-07
+tags: ["bayesian statistics","blog","Blog","seb113","statistics"]
+---
+
+
+
+<p>I was having a chat with two colleagues from the School of Maths this morning, as we all stared at our coffees to start the day, about how teaching in SEB113 is going. I mentioned the challenge of teaching confidence intervals to first year science students. The main things that make this difficult are:</p>
+<ul>
+<li>I do not use confidence intervals in my research</li>
+<li>confidence intervals are new to these students</li>
+<li>confidence intervals are counter-intuitive</li>
+</ul>
+<p>While most of my undergraduate statistics classes were 100% frequentist, my postgrad has been almost entirely Bayesian. The credible interval is how Bayesians summarise likely values that the parameter of interest might take. It is based on the quantiles of the posterior distribution, often obtained by sampling from the posterior and finding the 2.5th and 97.5th percentiles of the samples. It is explicitly a combination of the data and the prior and says “these are the most likely values of the parameter”.</p>
+<p>The confidence interval, by contrast, is based on the idea repeating the experiment an infinite number of times and that the true value of the parameter is covered by these intervals, say, 95% of the time. The idea of infinity is difficult enough without asking students to imagine partitioning an infinitely large set. We can’t say that with 95% probability the true value of the quantity of interest lies in the 95% confidence interval calculated from a particular sample but we can say that we are 95% confident that the 95% confidence interval calculated from a particular sample contains the true value.</p>
+<p>In frequentist statistics the parameter is fixed and the confidence interval is random, based on the sample, and the probability that the true value is contained within a particular confidence interval is either 0 or 1, as the parameter is non-random. In Bayesian statistics the parameter has a distribution based on the fixed data and the prior and interval summarises the range of the most likely values.</p>
+<p>The meaning of a 95% confidence interval is <strong>not</strong> that there is a 95% chance that the true value lies in the interval.</p>
+<p>That the parameter is fixed and the intervals random can be quite a confusing concept, and the subtleties of the probabilistic statements are not readily understood by those who are only now taking their first steps into statistical data analysis. Maths B is not a pre-requisite for this subject, so some students are entering with only Maths A and may not have been exposed to the Normal distribution, hypothesis testing or any of the other ideas that are intrinsically linked to confidence intervals.</p>
+<p>Below are two plots showing the results of our experiment in this week’s workshops, where we each flipped a coin ten times and recorded the number of heads observed. We expect to see 95% of these intervals covering p=0.5. On Tuesday we saw 20 of 22 covering 0.5 and Wednesday was 12 out of 13 (but I had replotted Ruth’s and mine from Tuesday). All up, 91% of our intervals covered p=0.5, which is pretty close to what we would expect to see. For a few students, visualising the confidence intervals like this helped with the idea of the sampling variability and the confidence interval being based on the data observed rather than the theoretical model (p=0.5).</p>
+<p>[caption id=“attachment_974” align=“aligncenter” width=“450”][<img src="tuesdaycis.jpg?w=450" alt="95% confidence intervals for p(heads) from a Binomial(10, p) distribution. Tuesday’s class." />](<a href="http://samcliffordinfo.files.wordpress.com/2013/08/tuesdaycis.jpg" class="uri">http://samcliffordinfo.files.wordpress.com/2013/08/tuesdaycis.jpg</a>) 95% confidence intervals for p(heads) from a Binomial(10, p) distribution. Tuesday’s class.[/caption][caption id=“attachment_975” align=“aligncenter” width=“450”]<a href="http://samcliffordinfo.files.wordpress.com/2013/08/wednesdaycis.jpg"><img src="wednesdaycis.jpg?w=450" alt="95% confidence intervals for p(heads) from a Binomial(10, p) distribution. Wednesday’s class." /></a> 95% confidence intervals for p(heads) from a Binomial(10, p) distribution. Wednesday’s class.[/caption]</p>
+<p>Next week we move on to the Normal distribution and the ideas of taking a large enough sample that you can observe the effect you are interested in. There’s no workshop due to the Ekka holiday, so I need to meet with Ben tomorrow to discuss how we incorporate what we need to in the computing lab.</p>

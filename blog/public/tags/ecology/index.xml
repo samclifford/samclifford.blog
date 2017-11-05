@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Ecology on Sam Clifford </title>
+    <link>/./tags/ecology/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-10-04 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/04/posterior-samples/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/04/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://dynamicecology.wordpress.com/2013/09/26/wiwacs-vs-zombie-ideas/&#34;&gt;Zombie ideas in ecology&lt;/a&gt; make it difficult to publish results that go against them, but how prevalent are they? &lt;a href=&#34;http://mathesaurus.sourceforge.net/octave-r.html&#34;&gt;R for MATLAB users&lt;/a&gt;. This would have been handy in SEB113 if we were still using MATLAB. Perhaps we should give it as a general resource for stats classes in the mathematics program at QUT. The US government shutdown is having &lt;a href=&#34;http://edition.cnn.com/2013/10/03/opinion/urry-nasa-shutdown/index.html?hpt=hp_c2&#34;&gt;quite severe effects on science&lt;/a&gt;, such as threatening the launch of the next &lt;a href=&#34;http://edition.cnn.com/2013/10/03/us/shutdown-mars-mission/index.html&#34;&gt;Mission to Mars&lt;/a&gt;. This is pretty awful given it was &lt;a href=&#34;http://www.news.com.au/technology/sci-tech/happy-birthday-nasa-shut-it-down/story-fn5fsgyc-1226731242175&#34;&gt;NASA’s 50th birthday&lt;/a&gt; earlier this week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/15/posterior-samples/</link>
+      <pubDate>Wed, 15 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/15/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://andrewgelman.com/2013/05/14/gpstuff-bayesian-modeling-with-gaussian-processes&#34;&gt;GPStuff 4.1 has been released recently&lt;/a&gt;. I’d like to work with Aki Vehtari’s group. I should really learn more about different inference approaches like EM, EP, VB. Some advice for my SEB113 students who may struggle with the workload of first semester university comes from the sagest of equines, &lt;span class=&#34;citation&#34;&gt;[@horse_ebooks]&lt;/span&gt;(&lt;a href=&#34;https://twitter.com/horse_ebooks&#34; class=&#34;uri&#34;&gt;https://twitter.com/horse_ebooks&lt;/a&gt;).&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2013/05/tumblr_mmjxritaln1qfgro5o1_500h.jpg&#34;&gt;&lt;img src=&#34;tumblr_mmjxritaln1qfgro5o1_500h.jpg?w=450&#34; alt=&#34;horseebooks&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.biology.uq.edu.au/staff/hugh-possingham&#34;&gt;Hugh Possingham&lt;/a&gt;’s &lt;a href=&#34;http://brisscience.wordpress.com/2013/04/20/monday-20-may-2013/&#34;&gt;talking on Monday&lt;/a&gt; about the mathematics and economics of conservation as part of the &lt;a href=&#34;http://brisscience.wordpress.com/&#34;&gt;BrisScience&lt;/a&gt; seminar series. I’ve been meaning to make it to a Possingham talk for a while.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistics in Ecology</title>
+      <link>/./2012/12/12/statistics-in-ecology/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/12/statistics-in-ecology/</guid>
+      <description>&lt;p&gt;The author of this post argues that 1) ecology is bad at prediction and 2) ecology needs to get better at prediction. I’d expand this beyond ecology to air quality and most other sciences based on observations of environmental phenomenon. I’ve railed against ANOVA previously but haven’t spent as much time as the author delving into the philosophy of science. I like that they suggest GAMs. I don’t like the focus on only p values, R-squared and effect sizes but I do note that they’ve mentioned AIC, so perhaps this isn’t aimed at people getting PhDs in statistical modelling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/09/posterior-samples/</link>
+      <pubDate>Fri, 09 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/09/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/34563838584/computing-for-data-analysis-simply-statistics-edition&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;Content from very popular online R course run through Coursera to be published online soon&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.statisticsblog.com/2012/10/recommendation-of-the-week/&#34;&gt;Convinced your fancy analysis technique is the right approach? Run it on noise and see what you get&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://scienceseeker.org/&#34;&gt;Science news from science newsmakers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://statisfaction.wordpress.com/2012/11/06/just-for-the-fun-of-it/&#34;&gt;Should ecologists become Bayesians?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you’ve got a colour graph but want to print it black and white, make sure you check what it looks like first. &lt;a href=&#34;http://i.imgur.com/krzQu.jpg&#34;&gt;Otherwise you might struggle to make your point.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2012/11/poll-aggregation-and-election-forecasting/&#34;&gt;Andrew Gelman on poll aggregation and election forecasting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/The-Signal-Noise-Predictions-Fail-but/dp/159420411X/ref=zg_bs_books_2&#34;&gt;Nate Silver’s book is #2 on the Amazon best-seller list at the moment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/34635539704/on-weather-forecasts-nate-silver-and-the&#34;&gt;Speaking of Nate Silver, here’s a blog post on the politicisation of statistical literacy. (Bonus round: Ctrl-F “Schwimmer”. Extra bonus round: Andrew Gelman comments, saying “I wrote about this on my blog”, just like everyone else on the internet)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Julian Caley</title>
+      <link>/./2012/03/16/julian-caley/</link>
+      <pubDate>Fri, 16 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/16/julian-caley/</guid>
+      <description>&lt;p&gt;I went to quite an interesting talk this afternoon by &lt;a href=&#34;http://data.aims.gov.au/staffcv/jsf/external/view.jspx;jsessionid=BC0E61EB624F8D24FAE7FCD8F225C067?partyId=900000428&#34;&gt;Dr Julian Caley from the Australian Institute of Marine Science&lt;/a&gt;. Julian’s visiting us at QUT for a few weeks and presented some interesting work he and his colleagues have done on estimating marine biodiversity (they estimate somewhere between 500,000 and 2,000,000 species) and the statistical and ecological issues faced. At least one QUT Bayesian Statistics PhD graduate has ended up at AIMS, &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.1890/07-1886.1&#34;&gt;Dr Rebecca O’Leary&lt;/a&gt;. Some of the work members of BRAG have done with AIMS involve expert elicitation around the issues of fish population but Julian said today that fish and coral populations, commonly used as a proxy for biodiversity, only account for about 2% of the total species in marine environments. Some of the expert elicitation involves not only quantifying the named species and the discovered but unnamed species but quantifying the prevalence of undiscovered species. Apparently the place to be working isn’t in fish and coral species (which are already well known and quite easy to study) but in &lt;a href=&#34;http://en.wikipedia.org/wiki/Nematode&#34;&gt;nematodes&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Isopods&#34;&gt;isopods&lt;/a&gt; which are expected to have many undiscovered species. Julian talked about some very interesting ways of estimating the prevalence of unobserved species by looking at which Orders are present (higher level taxa) that cover the species you’re interested in, which other species in the same taxa are prevalent (cross-taxa) or which species are present in the genus you’re interested in (subset taxa). Not having a huge amount of experience in classification and regression trees I wasn’t entirely sure about how one would go about working through these various methods but I could see it being quite an interesting way of estimating biodiversity and quantifying the uncertainty. After Julian’s talk and some afternoon tea a few members of BRAG stayed back to do a brief workshop on the statistical issues in ecology and to try to match up which methods we’re good at with what the problems in marine ecology are, in an effort to stimulate some work that could be started while Julian visits us. I’m sure there’s also a lot of spatial modelling and NP Bayes to be done with the data that AIMS has available to them, so I’ll have to keep an eye out on positions they have going.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

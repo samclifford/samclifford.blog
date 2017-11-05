@@ -1,0 +1,8 @@
+---
+title: Indian Buffet process
+author: Sam Clifford
+date: 2012-03-28
+tags: ["blog","Blog","chinese restaurant process","clustering","code","indian buffet process","nonparametrics","qut","statistics"]
+---
+
+The NP Bayes reading group that I started is currently working through Griffiths and Ghahramani's paper on the Indian Buffet process [1], an infinite latent feature model which is used in topic modelling, document clustering, pattern recognition, etc. It's been pretty hard going because QUT doesn't teach a lot of combinatorics and we've had some patchy attendance recently so we've had to go over things a few times (especially the Chinese Restaurant process, the left-ordering function). It's been a very interesting paper and I am looking forward to the possibility of using it with some survey data. No doubt I'll get a better understanding of it when I head to ISBA later in the year ([Nils Hjort has organised a session](http://www2.e.u-tokyo.ac.jp/~isba2012/stsessions.html) on Beta processes that will include talks from Yongdai Kim, Tamara Broderick and Sinead Williamson). If you're interested in reading about it, we've been making notes on our Wiki. You can start from [here](https://wiki.qut.edu.au/display/npbayes/2012/03/) as it's taken us all of this month so far. I've written some code snippets to do some of the things the paper mentions. [1] [Griffiths, T. L., and Ghahramani, Z. "Infinite Latent Feature Models and the Indian Buffet Process", _Advances in Neural Information Processing Systems_, 2005, **18**, 475-82](http://cocosci.berkeley.edu/tom/papers/ibptr.pdf)

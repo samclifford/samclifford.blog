@@ -1,0 +1,8 @@
+---
+title: Posterior Samples
+author: Sam Clifford
+date: 2013-09-11
+tags: ["bayesian statistics","Blog","gender","government","jeff leek","politics","posterior samples","programming","python","R","roger peng","science","statistics","video"]
+---
+
+Roger Peng and Jeff Leek are going to be [re-offering their Coursera courses](http://simplystatistics.org/2013/08/29/the-return-of-the-stat-computing-for-data-analysis-data-analysis-back-on-coursera/) on data analysis, including the use of R. A Creative Commons-licensed textbook on Bayesian statistics that teaches in Python rather than mathematics? Sure. [Have this one](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf). [Let's discuss gender bias in STEM fields](http://www.youtube.com/watch?v=fCuZ5UUrKrM). Australia has a new government and [that new government has flagged](http://www.abc.net.au/science/articles/2013/09/10/3845442.htm) that it will be keeping a closer eye on the Australian Research Council's grants process in order to "crack down on Labor's (the former government) addition to waste by auditing increasingly ridiculous research grants". The Liberal-National Party coalition government has a history of doing this; former Minister for Education, Brendan Nelson, [personally vetoed grants for humanities projects](http://www.themonthly.com.au/issue/2006/may/1294984634/gideon-haigh/nelson-touch) that had been approved through the ARC's independent peer review process.

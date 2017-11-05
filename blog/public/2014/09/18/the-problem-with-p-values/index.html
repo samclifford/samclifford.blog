@@ -1,0 +1,119 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - The problem with p values</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2014/09/18/the-problem-with-p-values/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2014/09/18/the-problem-with-p-values/">The problem with p values</a></h1>
+	        <div class="post-time">September 18 2014</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/jags">jags</a>              
+	            
+	                <a href="/./tags/r">R</a>              
+	            
+	                <a href="/./tags/science">science</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>A coworker sent me <a href="http://theconversation.com/the-problem-with-p-values-how-significant-are-they-really-20029?utm_medium=email&amp;utm_campaign=Latest+from+The+Conversation+for+12+November+2013&amp;utm_content=Latest+from+The+Conversation+for+12+November+2013+CID_036de2eab3f9b92457ea3d5b919247bc&amp;utm_source=campaign_monitor&amp;utm_term=The%20problem%20with%20p%20values%20how%20significant%20are%20they%20really">this article</a> about alternatives to the default 0.05 p value in hypothesis testing as a way to improve the corpus of published articles so that we can actually expect reproducability and have a bit more faith that these results are meaningful. The article is based on a paper published in the <a href="http://www.pnas.org/content/early/2013/10/28/1313476110.abstract">Proceedings of the National Academy of Sciences</a> which talks about mapping Bayes Factors to p values for hypothesis tests so that there’s a way to think about the strength of the evidence. The more I do and teach statistics the more I detest frequentist hypothesis testing (including whether a regression coefficient is zero) as a means of describing whether or not something plays a “significant” role in explaining some physical phenomenon. In fact, the entire idea of statistical significance sits ill with me because the way we tend to view it is that 0.051 is not significant and 0.049 is significant, even though there’s only a very small difference between the two. I guess if you’re dealing with cutoffs you’ve got to put the cutoff somewhere, but turning something which by its very nature deals with uncertainty into a set of rigid rules about what’s significant and what’s not seems pretty stupid. <span style="line-height:1.714285714;font-size:1rem;">My distaste for frequentist methods means that even for simple linear regressions I’ll fire up JAGS in R and fit a Bayesian model because I fundamentally disagree with the idea of an unknown but fixed true parameter. Further to this, the nuances of p values being distributed uniformly under the Null hypothesis means that we can very quickly make incorrect statements.</span> I agree with the author of the article that shifting hypothesis testing p value goal posts won’t achieve what we want and I’ll have a bit closer a read of the paper. For the time being, I’ll continue to just mull this over and grumble when people say “statistically significant” without any reference to a significance level. NB: this post has been in an unfinished state since last November, when the paper started getting media coverage.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2014/09/24/posterior-samples/">Prev</a>
+			<a class="next" href="/./2014/09/18/approximations/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

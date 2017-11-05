@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Women in Science on Sam Clifford </title>
+    <link>/./tags/women-in-science/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-07-30 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2014/07/30/posterior-samples/</link>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/07/30/posterior-samples/</guid>
+      <description>&lt;p&gt;Interested in collaborative use of R, MATLAB, etc. for analysis and visualisation within a webpage? &lt;a href=&#34;http://nbviewer.ipython.org/gist/msund/403910de45e282d658fa&#34;&gt;Combining plotly and iPython&lt;/a&gt; can help you with that. Cosmopolitan (yes, &lt;em&gt;that&lt;/em&gt; Cosmopolitan) has &lt;a href=&#34;http://www.cosmopolitan.com/career/news/a29534/get-that-life-emily-graslie-science/&#34;&gt;a great article&lt;/a&gt; interviewing Emily Graslie, Chief Curiosity Officer at the Field Museum in Chicago. She discusses being an artist and making the transition into science, science education and YouTube stardom. A few of the PhD students in my lab have asked if I could run an introduction to R session. I’d mentioned the CAR workshop that I’d be doing but the cost had put them off. Luckily, there are alternatives like &lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-r&#34;&gt;Datacamp&lt;/a&gt;, &lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt; and &lt;a href=&#34;http://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html&#34;&gt;Lynda&lt;/a&gt;. Coursera’s next round of “Data Science”, delivered by Johns Hopkins University, starts next Monday (Course 1 - &lt;a href=&#34;https://www.coursera.org/specialization/jhudatascience/1&#34;&gt;R Programming&lt;/a&gt;). So get in there and learn some R! I’m considering recommending some of these Coursera courses to my current SEB113 students who want to go a bit further with R, but the approach that they take in these online modules is quite different to what we do in SEB113 and I don’t want them to confuse themselves.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/16/posterior-samples/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/16/posterior-samples/</guid>
+      <description>&lt;p&gt;Christian Robert gives &lt;a href=&#34;https://xianblog.wordpress.com/2013/10/14/statistics-for-spatio-temporal-data-book-review/&#34;&gt;a brief review&lt;/a&gt; of the latest version of Noel Cressie’s book on spatial statistics. I met Cressie once a few years ago and have found the 1993 edition of his book really useful in my PhD. I may just have to get my hands on this new version. Sometimes in your analysis there’ll be an overall trend which is apparent but when you look at subgroups of the data all of them have a trend going the opposite way. This is called Simpson’s paradox and is explained with an interactive tool &lt;a href=&#34;http://vudlab.com/simpsons/&#34;&gt;here&lt;/a&gt;. A &lt;a href=&#34;http://simplystatistics.org/2013/10/14/why-did-lars-peter-hansen-win-the-nobel-prize-generalized-method-of-moments-explained/&#34;&gt;primer&lt;/a&gt; about why Lars Peter Hansen won the Nobel Prize for Economics. This is probably as close as we can get to a Nobel Prize for Statistics (do the Fields Medal and Abel Prize count?). &lt;a href=&#34;http://lipmag.com/featured/where-have-all-the-wiki-ladies-gone/&#34;&gt;Lip Mag interview&lt;/a&gt; with Kelly Wong about women in science. Wong’s a Brisbane-based PhD student whose supervisor has worked with my supervisor, so I guess we’re like research cousins once removed. The interview raises questions about the recognition of women in science on Wikipedia. This is all related to &lt;a href=&#34;http://www.theguardian.com/technology/2013/oct/15/nerd-cabaret-wikipedia-ada-lovelace-day-2013?CMP=twt_fd&#34;&gt;Ada Lovelace Day&lt;/a&gt; (Lovelace was the first computer programmer), which will feature wikipedia edit-a-thons to ensure that our big online repository of human knowledge and history reflects the achievements of women in STEM.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

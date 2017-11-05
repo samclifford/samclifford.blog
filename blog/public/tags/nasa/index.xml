@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Nasa on Sam Clifford </title>
+    <link>/./tags/nasa/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-10-04 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/04/posterior-samples/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/04/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://dynamicecology.wordpress.com/2013/09/26/wiwacs-vs-zombie-ideas/&#34;&gt;Zombie ideas in ecology&lt;/a&gt; make it difficult to publish results that go against them, but how prevalent are they? &lt;a href=&#34;http://mathesaurus.sourceforge.net/octave-r.html&#34;&gt;R for MATLAB users&lt;/a&gt;. This would have been handy in SEB113 if we were still using MATLAB. Perhaps we should give it as a general resource for stats classes in the mathematics program at QUT. The US government shutdown is having &lt;a href=&#34;http://edition.cnn.com/2013/10/03/opinion/urry-nasa-shutdown/index.html?hpt=hp_c2&#34;&gt;quite severe effects on science&lt;/a&gt;, such as threatening the launch of the next &lt;a href=&#34;http://edition.cnn.com/2013/10/03/us/shutdown-mars-mission/index.html&#34;&gt;Mission to Mars&lt;/a&gt;. This is pretty awful given it was &lt;a href=&#34;http://www.news.com.au/technology/sci-tech/happy-birthday-nasa-shut-it-down/story-fn5fsgyc-1226731242175&#34;&gt;NASA’s 50th birthday&lt;/a&gt; earlier this week.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

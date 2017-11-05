@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Economics on Sam Clifford </title>
+    <link>/./tags/economics/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-10-16 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/16/posterior-samples/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/16/posterior-samples/</guid>
+      <description>&lt;p&gt;Christian Robert gives &lt;a href=&#34;https://xianblog.wordpress.com/2013/10/14/statistics-for-spatio-temporal-data-book-review/&#34;&gt;a brief review&lt;/a&gt; of the latest version of Noel Cressie’s book on spatial statistics. I met Cressie once a few years ago and have found the 1993 edition of his book really useful in my PhD. I may just have to get my hands on this new version. Sometimes in your analysis there’ll be an overall trend which is apparent but when you look at subgroups of the data all of them have a trend going the opposite way. This is called Simpson’s paradox and is explained with an interactive tool &lt;a href=&#34;http://vudlab.com/simpsons/&#34;&gt;here&lt;/a&gt;. A &lt;a href=&#34;http://simplystatistics.org/2013/10/14/why-did-lars-peter-hansen-win-the-nobel-prize-generalized-method-of-moments-explained/&#34;&gt;primer&lt;/a&gt; about why Lars Peter Hansen won the Nobel Prize for Economics. This is probably as close as we can get to a Nobel Prize for Statistics (do the Fields Medal and Abel Prize count?). &lt;a href=&#34;http://lipmag.com/featured/where-have-all-the-wiki-ladies-gone/&#34;&gt;Lip Mag interview&lt;/a&gt; with Kelly Wong about women in science. Wong’s a Brisbane-based PhD student whose supervisor has worked with my supervisor, so I guess we’re like research cousins once removed. The interview raises questions about the recognition of women in science on Wikipedia. This is all related to &lt;a href=&#34;http://www.theguardian.com/technology/2013/oct/15/nerd-cabaret-wikipedia-ada-lovelace-day-2013?CMP=twt_fd&#34;&gt;Ada Lovelace Day&lt;/a&gt; (Lovelace was the first computer programmer), which will feature wikipedia edit-a-thons to ensure that our big online repository of human knowledge and history reflects the achievements of women in STEM.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/10/10/posterior-samples/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/10/10/posterior-samples/</guid>
+      <description>&lt;p&gt;Open Access publishing is an exciting new development but like any new industry there are those who would seek to unethically make a quick fortune by providing a sub-par service. &lt;em&gt;Science&lt;/em&gt; did some research into this by submitting a fake article with a number of glaring errors (such as non-existent institutions) in it to a number of journals around the world to see who’d accept it. &lt;a href=&#34;http://www.npr.org/blogs/health/2013/10/03/228859954/some-online-journals-will-publish-fake-science-for-a-fee?ft=1&amp;amp;f=1001&#34;&gt;The results are quite interesting&lt;/a&gt;. I know of a few instances of work published in a respectable journal being plagiarised and published in one of these scam journals and one case where the authors hastily retracted their submission once they found out the journal wasn’t anywhere near as prestigious as the editors made out. I support the goals of Open Access and web-based publication but be careful. I’ve been poking around the QUT Wiki looking for information on graduation. In the Higher Degree Research portal there’s a link to a brilliant article (three years old) on &lt;a href=&#34;http://www.timeshighereducation.co.uk/news/how-not-to-write-a-phd-thesis/410208.article&#34;&gt;how not to write a thesis&lt;/a&gt;. Probably good advice for any PhD student looking to graduate sooner rather than later. Elizabeth C. Matsui has been working with Roger Peng for several years; she has &lt;a href=&#34;http://simplystatistics.org/2013/10/08/the-care-and-feeding-of-the-biostatistician/&#34;&gt;some advice on how to cultivate a successful relationship with the biostatistician&lt;/a&gt; you’ve brought on to your medical science project. I think some of these could be adapted to be more general to cover dealing with statisticians. One of the biggest things I could add here is that you need to recognise that asking someone to “help with the statistics” means dedicating some serious time and effort to figuring out a conceptual model (which will be converted into a quantitative model) that addresses the scientific questions you wish to ask. Asking a statistician to “calculate the correlations” or even more broadly “do the statistics” is like asking a scientist to just “run an experiment” or “do the science”. These things all take time, energy and communication. Further to this, don’t just ask for p-values if you’re dealing with a statistician. P-values represent some probabilistic statement, such as “What is the probability of seeing a test statistic at least as extreme as this if the true value of the parameter was zero?”. Sure, you can do simple tests like ANOVA or Chi-Squared goodness of fit but the real value in working with a statistician is being able to develop models that represent assumptions about the data and then assessing whether those assumptions are justified and looking at the inferences that they provide. As my unit co-ordinator for SEB113 pointed out to me the other day, default hypothesis tests of H&lt;sub&gt;0&lt;/sub&gt;: β = 0 at a 5% significance level may not always be sensible and may not even answer the question you’re interested in answering. And finally here’s &lt;a href=&#34;http://www.youtube.com/watch?v=QPKKQnijnsM&#34;&gt;a video that’s almost a year old&lt;/a&gt; that shows a very interesting case of eliciting a distribution from the American public about what they perceive the distribution of wealth in their country is and what they think it is. Turns out the ideal is as far away from the perception as the perception is from the reality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/15/posterior-samples/</link>
+      <pubDate>Wed, 15 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/15/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://andrewgelman.com/2013/05/14/gpstuff-bayesian-modeling-with-gaussian-processes&#34;&gt;GPStuff 4.1 has been released recently&lt;/a&gt;. I’d like to work with Aki Vehtari’s group. I should really learn more about different inference approaches like EM, EP, VB. Some advice for my SEB113 students who may struggle with the workload of first semester university comes from the sagest of equines, &lt;span class=&#34;citation&#34;&gt;[@horse_ebooks]&lt;/span&gt;(&lt;a href=&#34;https://twitter.com/horse_ebooks&#34; class=&#34;uri&#34;&gt;https://twitter.com/horse_ebooks&lt;/a&gt;).&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2013/05/tumblr_mmjxritaln1qfgro5o1_500h.jpg&#34;&gt;&lt;img src=&#34;tumblr_mmjxritaln1qfgro5o1_500h.jpg?w=450&#34; alt=&#34;horseebooks&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.biology.uq.edu.au/staff/hugh-possingham&#34;&gt;Hugh Possingham&lt;/a&gt;’s &lt;a href=&#34;http://brisscience.wordpress.com/2013/04/20/monday-20-may-2013/&#34;&gt;talking on Monday&lt;/a&gt; about the mathematics and economics of conservation as part of the &lt;a href=&#34;http://brisscience.wordpress.com/&#34;&gt;BrisScience&lt;/a&gt; seminar series. I’ve been meaning to make it to a Possingham talk for a while.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An argument for why careful coding in R is better than an Excel spreadsheet</title>
+      <link>/./2013/04/18/an-argument-for-why-careful-coding-in-r-is-better-than-an-excel-spreadsheet/</link>
+      <pubDate>Thu, 18 Apr 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/04/18/an-argument-for-why-careful-coding-in-r-is-better-than-an-excel-spreadsheet/</guid>
+      <description>&lt;p&gt;I spend a fair amount of energy encouraging my coworkers to use R because you can write reusable code that means checking for errors is simple and you can re-run it on different data sets without having to manually copy and paste all your data and fix up any indexing if it’s the wrong length. There’s been a bit of buzz recently about how two economists really dropped the ball when they published a paper showing that high levels of national debt as a percentage of GDP slows economic growth. I won’t write any more about it because it’s been done by better writers and statisticians, but I’d like to bring your attention to the following articles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://www.nber.org/papers/w15639.pdf&#34;&gt;The original working paper&lt;/a&gt; (National Bureau of Economic Research)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.peri.umass.edu/236/hash/31e2ff374b6377b2ddec04deaa6388b1/publication/566/&#34;&gt;Replicating the results&lt;/a&gt; (Political Economy Research Institute) &lt;a href=&#34;http://www.nextnewdeal.net/rortybomb/researchers-finally-replicated-reinhart-rogoff-and-there-are-serious-problems&#34;&gt;was only possible by making huge methodological and data selection mistakes&lt;/a&gt; (Next New Deal)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.guardian.co.uk/commentisfree/2013/apr/16/unemployment-reinhart-rogoff-arithmetic-cause&#34;&gt;This may have led to massive avoidable unemployment around the world&lt;/a&gt; (The Guardian)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2013/04/16/memo-to-reinhart-and-rogoff-i-think-its-best-to-admit-your-errors-and-go-on-from-there/&#34;&gt;The authors should gracefully retract, admit they were wrong and move on&lt;/a&gt; (Andrew Gelman’s blog)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2013/04/17/data-problems-coding-errors-what-can-be-done/?utm_source=feedly&#34;&gt;And to use R&lt;/a&gt; (Phil at Gelman’s blog) &lt;a href=&#34;http://andrewgelman.com/2013/04/17/excel-bashing/?utm_source=feedly&#34;&gt;rather than Excel&lt;/a&gt; (Andrew Gelman)&lt;/li&gt;
+&lt;li&gt;There are many reasons to not use Excel, such as it providing the wrong answer for &lt;a href=&#34;http://people.stern.nyu.edu/jsimonof/classes/1305/pdf/excelreg.pdf&#34;&gt;paired t-tests&lt;/a&gt; and &lt;a href=&#34;http://or.nps.edu/faculty/PaulSanchez/oa4333/handouts/Excel/excel2000.pdf&#34;&gt;being terrible at generating Normal random numbers&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/10/27/posterior-samples/</link>
+      <pubDate>Sat, 27 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/27/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;&lt;a href=&#34;http://www.theatlantic.com/technology/archive/2012/10/scientists-recover-the-sounds-of-19th-century-music-and-laughter-from-the-oldest-playable-american-recording/264147/&#34;&gt;A group at the Lawrence Berkeley National Laboratory manage to digitally model an 1878 recording from one of Edison’s phonographs.&lt;/a&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.priceonomics.com/post/33713850223/a-dragnet-for-pee-wee&#34;&gt;Using economics to reduce bike theft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themonkeycage.org/blog/2012/10/25/steven-levitt-says-that-he-has-a-good-indicator-that-aaron-edlin-noah-kaplan-nate-silver-and-i-are-not-so-smart/&#34;&gt;Andrew Gelman responds to Steven Levitt’s criticism of people who vote thinking that their vote matters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

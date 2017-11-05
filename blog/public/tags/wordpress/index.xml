@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Wordpress on Sam Clifford </title>
+    <link>/./tags/wordpress/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-08-06 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Bibtexbrowser</title>
+      <link>/./2012/08/06/bibtexbrowser/</link>
+      <pubDate>Mon, 06 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/06/bibtexbrowser/</guid>
+      <description>&lt;p&gt;Does anyone have any experience with &lt;a href=&#34;http://www.monperrus.net/martin/bibtexbrowser&#34;&gt;this&lt;/a&gt;? The list of &lt;a href=&#34;http://www.ilaqh.qut.edu.au/Misc/Publicat.htm&#34;&gt;ILAQH publications&lt;/a&gt; is a bit of a mess and I’d like to use it for my own page as well. I suspect ILAQH might need a new website. I notice there’s a &lt;a href=&#34;http://wordpress.org/extend/plugins/wp-publications/&#34;&gt;Wordpress plugin&lt;/a&gt; for it as well, which is nice. Edit: Two relevant links: &lt;a href=&#34;http://wpmu.org/wordpress-com-vs-self-hosted-wordpress-what-you-need-to-know/&#34;&gt;WordPress.com vs. Self-Hosted WordPress - What You Need To Know&lt;/a&gt; and &lt;a href=&#34;http://smallbusiness.chron.com/convert-hosted-wordpress-blog-selfhosted-35266.html&#34;&gt;How to Convert a Hosted WordPress Blog to Self-Hosted&lt;/a&gt;. I suspect I’ll need to convert to a self-hosted installation to install bibtexbrowser, or at least fork out some money with Wordpress for the ability to install plugins (is that an option?) Edit 2: I might also have to drop $8.95/month on hosting (and $3.85/month for a unique IP) to set up Wordpress but at least my host/domain company offers it with a one click install.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

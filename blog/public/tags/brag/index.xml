@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Brag on Sam Clifford </title>
+    <link>/./tags/brag/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-06-27 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Stop, collaborate and listen</title>
+      <link>/./2013/06/27/stop-collaborate-and-listen/</link>
+      <pubDate>Thu, 27 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/27/stop-collaborate-and-listen/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://simplystatistics.org/2013/06/25/doing-statistical-research/&#34;&gt;Roger Peng posted at Simply Statistics&lt;/a&gt; about what it is to &lt;a href=&#34;http://stattrak.amstat.org/2013/06/01/how-to-do-statistical-research/&#34;&gt;do statistical research&lt;/a&gt; and how research is essentially solving problems that can’t be solved with the current methods. The message I took from Peng’s post is that often you can 90% solve a problem with current methods and that a lot of the time this is “good enough” and you can come back to the problem later with some new approaches that go beyond the current methods. As part of the UPTECH project I’ve been doing a lot of work with Bayesian hierarchical linear models. While our data has been collected from a panel design (25 schools, two weeks at each) it’s not always appropriate to use a full-blown spatial model. For example, the microbiological work I’ve been doing with my Finnish collaborator is mostly solvable by using exchangeable means priors to estimate classroom level and school level effects. Recently I’ve also had to start looking at clustering techniques, meta-analysis, spatial modelling of high-resolution data, estimating personal exposure, large surveys, and many other applied science problems that require a novel statistical approach. This sort of collaboration/consulting work, according to Terry Speed (whose post Peng is discussing), is a chance to meet lots of people and work on some interesting problems. For me, it has involved learning about existing techniques and trying to figure out how my collaborators and I can apply them to our data to do the best inference we can. With the UPTECH work, there’s always going to be a large list of authors due to the size of the project and the number of people involved in collecting data. Authorship will always be an issue with our papers, both in terms of inclusion and ordering, and we’ve got a decent process in place which makes people aware of papers as they’re finishing up (but not yet ready for submission). My personal belief is that one should always be able to point to a published paper and say “I did that”. Collaboration in applied physics and chemistry seems to be a very different beast to collaboration in statistics and mathematics. Many of the postgraduate students I know in Mathematics have tended to write methods papers with their supervisor(s) and that’s it. There’s the occasional collaboration to apply the method to a problem, but unless you’re working on cross-disciplinary modelling work or a large project involving numerical simulation there doesn’t appear to be much scope for multi-author work. Look back at some of the foundational statistical papers and you’ll see they’ve been written by a single author (some (non-parametric) Bayesian foundations spring to mind: &lt;a href=&#34;http://www.numdam.org/item?id=AIHP_1937__7_1_1_0&#34;&gt;de Finetti, 1937&lt;/a&gt;; &lt;a href=&#34;http://projecteuclid.org/DPubS?service=UI&amp;amp;version=1.0&amp;amp;verb=Display&amp;amp;handle=euclid.pjm/1102992601&#34;&gt;Kingman, 1967&lt;/a&gt;; and &lt;a href=&#34;http://projecteuclid.org/DPubS?service=UI&amp;amp;version=1.0&amp;amp;verb=Display&amp;amp;handle=euclid.aos/1176342360&#34;&gt;Ferguson, 1973&lt;/a&gt;). The question of when to collaborate, with whom, and what it will add is part and parcel of modern science but there are some fields where collaboration is rare and keeping the author list short &lt;a href=&#34;http://andrewgelman.com/2013/06/25/is-there-too-much-coauthorship-in-economics-and-science-more-generally-or-too-little/&#34;&gt;can lead to problems&lt;/a&gt;. Statistical research is necessary when there’s a problem to be solved that is 0% solvable with the current methods. Some of what I’m doing is novel, within the context of aerosol science, but I haven’t done as much stats research in my postdoc as in my PhD. This is no doubt a result of my doing as much collaboration as I am. I get to work on a lot of problems but there’s not much original statistical work in these papers; if I’m lucky I get to do some of the “10%” research. It’s hard to do statistical research in a physics group, especially as the only statistician here. I think if we had a second statistician in the group there’d be a lot more statistics being done both in terms of collaboration/consultation with the scientists and the methods we use to solve problems. The “Airports of the Future” project has quite a number of statisticians working on, among other things, Bayesian Networks, and they’re extending the BN methodology as well as applying it to a novel problem. Two of the members of this team gave a talk at BRAG this morning about visualisation of BN results. This is something I’ll no doubt need to learn about sooner or later as we plan on using BNs with another project that ILAQH is putting together. Four and a half years ago I was under the impression I was joining a physics group to do computational fluid dynamics. Since then I have been learning statistics almost constantly. It’s opened up many more opportunities for collaboration than CFD would have. The trick for me now is to try and put myself in a position where I’m working with other statisticians on statistics. We’ve got some work coming up soon with a more senior statistician at &lt;a href=&#34;http://www.ihbi.qut.edu.au/&#34;&gt;IHBI&lt;/a&gt;, which I hope will bring with it some opportunities for more statistical methodology work. Unrelated PS: The &lt;a href=&#34;http://andrewgelman.com/2013/06/26/dont-buy-bayesian-data-analysis/&#34;&gt;3rd edition of Gelman’s Bayesian Data Analysis&lt;/a&gt; is being released soon, with contributions from David Dunson and Aki Vehtari.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/23/posterior-samples/</link>
+      <pubDate>Thu, 23 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/23/posterior-samples/</guid>
+      <description>&lt;p&gt;Some people make their visualisations in Excel, I make mine in R and others still use things like Processing or InDesign. Bret Victor &lt;a href=&#34;http://vimeo.com/66085662&#34;&gt;shows us&lt;/a&gt; how the various ideas from each approach can be combined to make dynamic visualisations. It’s written with a view to &lt;a href=&#34;http://andrewgelman.com/2013/05/17/how-can-statisticians-help-psychologists-do-their-research-better/&#34;&gt;the interaction between statisticians and psychologists&lt;/a&gt; but it applies just as much to statisticians helping scientists with their statistics, which is basically my job at the moment. Two of my colleagues in BRAG gave &lt;a href=&#34;http://bragqut.wordpress.com/2013/05/21/geospatial-visualisation/&#34;&gt;a really neat talk&lt;/a&gt; about using R to visualise spatial data. Maybe &lt;a href=&#34;http://phenomena.nationalgeographic.com/2013/05/07/charlemagnes-dna-and-our-universal-royalty/&#34;&gt;Europe’s genetic history&lt;/a&gt; isn’t as diverse as we’d previously thought. They’re not all Habsburgs but there’s a little bit of Charlemagne in all of us. I helped a colleague hand in her PhD thesis recently; perhaps she should have read this beforehand: “&lt;a href=&#34;http://thesiswhisperer.com/2013/05/22/how-not-to-hand-in-your-phd/&#34;&gt;How not to hand in your PhD&lt;/a&gt;”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>There is so much I don&#39;t know that I wish I did</title>
+      <link>/./2013/05/09/there-is-so-much-i-dont-know-that-i-wish-i-did/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/09/there-is-so-much-i-dont-know-that-i-wish-i-did/</guid>
+      <description>&lt;p&gt;There are things I’ve heard of and never followed up like Expectation Maximisation (and Variational Bayes, for that matter), Expectation Propagation and Hamiltonian Monte Carlo. Things I once learned about and forgot because I didn’t have the background at the time such as Importance Sampling, Rejection Sampling, Slice Sampling. Then there’s things that are the cutting edge of statistical research that aren’t necessarily statistical methods but means of implementing them and are transforming the way we do statistics, such as CUDA. I’ve managed to pick up a few little statistical novelties along the way such as nonparametric Bayes, hierarchical linear models and some of the theory behind GMRFs and Gaussian Processes but I feel like I’m lagging behind where I want to be. This could be a consequence of being based in a group with no other statisticians. Were I doing my postdoc in a statistics group I’d be more deeply immersed in a group with a culture of doing statistics research rather than doing scientific research which requires statistics I already know.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BRAG for 2013</title>
+      <link>/./2013/02/07/brag-for-2013/</link>
+      <pubDate>Thu, 07 Feb 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/02/07/brag-for-2013/</guid>
+      <description>&lt;p&gt;The fornightly meetings for my stats group, BRAG, started up again two weeks ago and I’ve put my hand up to chair the meetings. I totally flubbed it this morning by forgetting we’d switched the start times to 10.30 instead of 11. Today’s meeting was less of a formal meeting and more of an exploration of QUT“s”&lt;a href=&#34;http://www.thecube.qut.edu.au/&#34;&gt;The Cube&lt;/a&gt;“, a new resource provided in the Science and Engineering Faculty’s new building. [caption id=“attachment_781” align=“aligncenter” width=“300”][&lt;img src=&#34;cubit1.jpg?w=300&#34; alt=&#34;CubIT, a unique system at the Cube that allows the general public to collaborate with and access research content shared by QUT’s students and academics. Photo copyright QUT.&#34; /&gt;](&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2013/02/cubit1.jpg&#34; class=&#34;uri&#34;&gt;http://samcliffordinfo.files.wordpress.com/2013/02/cubit1.jpg&lt;/a&gt;) CubIT, a unique system at the Cube that allows the general public to collaborate with and access research content shared by QUT’s students and academics. Photo copyright QUT.[/caption] Marcus Rittenbruch showed us a bit about what CubIT is, how it works and what the plans are for the future. There are a bunch of touch screens that the public can interact with as part of The Cube, and CubIT is the system that allows you to use it. If you’re a QUT student or staff member you can &lt;a href=&#34;http://cubit.thecube.qut.edu.au/users/sign_in&#34;&gt;register an account&lt;/a&gt; and upload media (photos, text notes, video) through either the mobile web interface or the iPhone app. Then you swipe in using the card readers at the bottom of the screens and move your media around the screens, including dragging to the top bar so you can make a slideshow on the large non-touch screen. There are plans to include PDF and HTML support so you can run through presentation slides and refer to web pages when necessary. I think that’d be a pretty neat way to give a presentation. There’s a booking system which is yet to be made available online but when that’s up and running it’d be an interesting way to show potential collaborators what we can do. Over the next few meetings in BRAG we’ll be presenting on visualisation, similar to the computational talks that featured in the second half of last year. While not strictly Bayesian in nature, the talks will give examples of how to visualise different types of data and methods of analysis. I’ve put my hand up with Sama Low Choy to talk about some of the guiding principles of data visualisation that Tufte came up with. I know they’ve certainly helped when I’ve been writing papers and hopefully we can come up with a nice little talk that discusses the principles and gives some examples of good and bad graphs and discuss how we can apply the principles to make the graphs better. I’m very interested to see how others approach visualisation, particularly the common issues we have such as parameter summaries and then the specific issues such as visualising mixtures, high dimensional data, spatial information, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Aren&#39;t Women Choosing Science Careers?</title>
+      <link>/./2012/12/19/why-arent-women-choosing-science-careers/</link>
+      <pubDate>Wed, 19 Dec 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/12/19/why-arent-women-choosing-science-careers/</guid>
+      <description>&lt;p&gt;[youtube &lt;a href=&#34;http://www.youtube.com/watch?v=WMwvNZMqUw0&#34; class=&#34;uri&#34;&gt;http://www.youtube.com/watch?v=WMwvNZMqUw0&lt;/a&gt;] One of my favourite video bloggers, Laci Green, talking about why women aren’t going into STEM fields. I’m quite fortunate to work with two research groups headed by women. There’s no sexism coming from the top of these groups and there are roughly even numbers of men and women in each group. Still, I know that not every university, nor every group within my university, has this sort of balance. Whether overt or covert there are still institutional barriers to equality of opportunity for women. P.S. that EC video campaign is terrible&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Looking at microbes with BUGS</title>
+      <link>/./2012/10/15/looking-at-microbes-with-bugs/</link>
+      <pubDate>Mon, 15 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/15/looking-at-microbes-with-bugs/</guid>
+      <description>&lt;p&gt;I’m working on a paper with &lt;a href=&#34;http://www.uku.fi/hallinto/viestinta/alumni/alumnijuttu3.shtml&#34;&gt;Heidi&lt;/a&gt; &lt;a href=&#34;http://www.linkedin.com/pub/heidi-salonen/20/1b5/677&#34;&gt;Salonen&lt;/a&gt;, a Finnish microbiologist who’s been with us for quite some time and is working on the microbiological (e.g. fungi, bacteria) aspects of the UPTECH project. Due to the timeframes of our presence at each school and the amount of time it takes to measure microbiological activity, we only have a handful of measurements at each school. This represents a perfect opportunity to do some very simple Bayesian hierarchical modelling in order to estimate a distribution of possible microbe concentrations at each school. It’s not a particularly taxing task (it’s more or less the kind of thing that you might find in Gelman’s textbook) but it’s still a nice example of how you can use Bayesian modelling to estimate the mean of a bunch of schools by assuming that the mean and standard deviation at each school are themselves drawn from a distribution of means and standard deviations. I’ve done the modelling, sure, but the next step is to explain it to Heidi and the other co-authors in such a way that they feel comfortable putting something in the paper that’s a little beyond taking the mean of the data and standard deviation of the data as summaries for the microbial concentrations at each school. So it was nice to dust off the old &lt;a href=&#34;http://www.openbugs.info/w/&#34;&gt;OpenBUGS&lt;/a&gt; and write out a simple model with prediction within each school based on the repeated sampling available to us. We hope to use this simple model as the basis of a model which includes covariates and perhaps a bit more random effects modelling. So I don’t have to keep manually copying and pasting data from Excel files I’ll be looking at getting back into using &lt;a href=&#34;http://cran.r-project.org/web/packages/rjags/index.html&#34;&gt;rjags&lt;/a&gt;, &lt;a href=&#34;http://cran.r-project.org/web/packages/R2jags/index.html&#34;&gt;r2jags&lt;/a&gt;, &lt;a href=&#34;http://cran.r-project.org/web/packages/BRugs/index.html&#34;&gt;BRugs&lt;/a&gt; and &lt;a href=&#34;http://cran.r-project.org/web/packages/R2WinBUGS/index.html&#34;&gt;R2WinBUGS&lt;/a&gt;. One of my colleagues in BRAG thinks I should just write my own sampler in MATLAB for this as it’ll be faster, but with so few observations (6-15 at each of 25 schools) speed’s not a huge issue here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unfinnished business</title>
+      <link>/./2012/08/30/unfinnished-business/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/30/unfinnished-business/</guid>
+      <description>&lt;p&gt;I’ve just heard from Kerrie Mengersen that the Finnish paper got rejected by BA for not being novel enough to publish there. So now I’m in a situation where I’ve got a paper which is too methodological for an applied stats journal (and far too methodological for an atmospheric science journal) and not a novel enough methodology for a journal as theoretical as BA. If BA don’t think it’s novel enough and it’s not the first time this data’s been published we’ll struggle to get it into something like &lt;a href=&#34;http://www.rss.org.uk/site/cms/contentviewarticle.asp?article=876&#34;&gt;JRSS B&lt;/a&gt; (IF: 3.645), &lt;a href=&#34;http://rsif.royalsocietypublishing.org/&#34;&gt;JRS: Interface&lt;/a&gt; (IF: 4.402) or &lt;a href=&#34;http://www.plosone.org&#34;&gt;PLoS One&lt;/a&gt; (IF: 4.092). Our options, then, seem to be trying an Elsevier journal like &lt;a href=&#34;http://www.journals.elsevier.com/environmental-modelling-and-software/&#34;&gt;EMS&lt;/a&gt; (IF: 3.114) or &lt;a href=&#34;http://www.journals.elsevier.com/computational-statistics-and-data-analysis/&#34;&gt;CSDA&lt;/a&gt; (IF: 1.028), which I’m not keen to do, somewhere like &lt;a href=&#34;http://www.jstatsoft.org&#34;&gt;JSS&lt;/a&gt; (IF: 2.647) or a more applied journal like &lt;a href=&#34;http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-9876&#34;&gt;JRSS C&lt;/a&gt; (IF: 0.828, which is quite low). I’d like to put this in a statistics journal because I want to have a career as a statistician rather than just someone who can only work in aerosols. That’s one of the reasons I’m not keen to publish this somewhere like Atmospheric Environment (where both my article and Bjarke’s, the bases of this work, were published). I’m really kicking myself now for not submitting an abstract for this as a contributed talk at ISBA. I would’ve got a BA article out of it. In happier news, I gave a presentation with two other PhD students to BRAG this morning where we talked about INLA. It went well and I think we’ve convinced a few of the others that INLA is pretty cool and worth using. Edit: and I’m getting a lot of mileage out of the Finnish/finish pun.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Summary of the last week&#39;s Christian Robert visit</title>
+      <link>/./2012/08/24/summary-of-the-last-weeks-christian-robert-visit/</link>
+      <pubDate>Fri, 24 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/24/summary-of-the-last-weeks-christian-robert-visit/</guid>
+      <description>&lt;p&gt;I didn’t have any one on one meetings with Professor Robert but he did address two of my stats research group’s meetings and gave two seminars as part of his AMSI talk. In addition to this, there was a few hours one afternoon where QUT statisticians presented some of the Bayesian computation that is worked on here. Christian’s first talk to BRAG focused on model choice and comparison and &lt;a href=&#34;http://samclifford.info/2012/08/16/a-few-things-from-today/&#34;&gt;I wrote about it last week&lt;/a&gt;. The second talk to BRAG (&lt;a href=&#34;http://storify.com/samclifford/christian-robert-s-second-brag-talk&#34;&gt;Storify&lt;/a&gt;) was to finish off the themes on improving MCMC methods that he mentioned. We picked up where we left off, with a discussion of simulated tempering. The choice of &lt;em&gt;α&lt;/em&gt; is probably the key concept here, and Christian recommends choosing a scale based on the number of data points (if π&lt;sub&gt;0&lt;/sub&gt; is the original likelihood, try using π = π&lt;sub&gt;0&lt;/sub&gt;&lt;em&gt;e&lt;/em&gt;&lt;sup&gt;1/&lt;em&gt;n&lt;/em&gt;&lt;/sup&gt; for &lt;em&gt;n&lt;/em&gt; data points). Allowing &lt;em&gt;α&lt;/em&gt; to take multiple values (or even have a distribution) means that we now have a space of target posteriors. By moving around in this space of posteriors we are less likely to end up with sticky Markov chains because a sharply peaked posterior in one posterior will likely not be as sharply peaked in another posterior. Robert gave a reference to a paper by Radford Neal which deals with tempering [1]. Another way to ensure movement throughout the posterior space is to either subsample the data or to perturb the data with a small amount of noise. These will again change the posterior (ever so slightly) and help exploration of the space to find the modes. A change of variable is another way to flatten out the posterior. Parallel computation is another option; running the same model with different starting values and using the posterior density (a one dimensional value for each simulation) to get a sense of what the maximum value of the posterior might be. Low density models can be dropped in this way as they are not near the global mode of the posterior. I find this approach quite interesting and if I had a bit more time I’d try implementing it. Some exploration of low density modes is burn-in, but if the exploration is trapped at a local mode (and tempering, etc. aren’t getting it out of there) then perhaps it ought to be dropped. Robert then went on to talk about using auxiliary variables to create joint densities where we can move along level sets of the posterior to get large jumps in the parameter of interest. This is probably where I got lost, but I did manage to get that there’s a paper by Girolami and Calderhead [2] where this is formalised as Langevin and Hamiltonian Monte Carlo. Some of the members of BRAG will be presenting LMC/HMC at a future meeting and I look forward to it. It’s always interesting to find out that so much Bayesian computation started out as a branch of physics (the Metropolis(-Hastings) algorithm as a solution for the Ising/Potts model, for example). I’ve used Storify to publish my notes from the two AMSI sessions (&lt;a href=&#34;http://samclifford.info/2012/08/21/christian-roberts-talk-on-simulation/&#34; title=&#34;Christian Robert&amp;#39;s talk on simulation&#34;&gt;simulation&lt;/a&gt;, &lt;a href=&#34;http://samclifford.info/2012/08/22/christian-roberts-talk-on-abc-for-model-choice-and-open-floor-on-bayesian-computation-2/&#34; title=&#34;Christian Robert&amp;#39;s talk on ABC for Model Choice and open floor on Bayesian computation&#34;&gt;ABC for model choice&lt;/a&gt;) that were part of Christian’s tour. I missed the one at UQ about Rao-Blackwellisation, unfortunately. Some of his slides from his talks are available online at &lt;a href=&#34;http://www.slideshare.net/xianblog/presentations&#34;&gt;Slideshare&lt;/a&gt;. The open floor after the ABC talk was quite good as it gave me a chance to see what people are working on. While I have seen a few pyMCMC talks before there seems to be quite a lot of energy from Chris Strickland and Clair Alston for the development of new models in the pyMCMC framework. I’ve previously spoken with Chris about how to go about using it for spline models and spatial modelling and I hope that once I finish my PhD I’ve got some time to check out pyMCMC in greater depth. If you want to have a look, you can clone it from the &lt;a href=&#34;https://bitbucket.org/christophermarkstrickland/pymcmc/&#34;&gt;git repository on bitbucket&lt;/a&gt;. It was also interesting to see the work Ewan Cameron and Tony Pettitt have been doing on ABC for astronomical data (evolution of galaxies, etc.) and the work of Chris Drovandi, James McGree, Liz Ryan and others on using Sequential Monte Carlo with ABC for adaptive clinical study design. All in all a good week of seminars with lots of interesting ideas. &lt;a href=&#34;http://bayesian.org/forums/conferences/3606&#34;&gt;Bayes on the Beach 2012&lt;/a&gt; is &lt;a href=&#34;http://bragqut.wordpress.com/beachbayes2012/&#34;&gt;coming up&lt;/a&gt;. This is one of my favourite events of the year because it’s a chance to get away from uni with a bunch of statisticians and discuss some interesting problems and do little workshops. The beach is also quite a nice part of it and there’s usually some sort of games night (last year I contributed a game which is basically Chinese Whispers mixed with Pictionary and we all had a lot of fun trying to figure out what was going on). It’s also a really good chance for early PhD students to present a poster in a very friendly environment so they can get used to talking to others about their work. I’ve also managed to land myself on the list of presenters for the School of Mathematical Sciences’ “Postgrad Day”. While not a member of the school, two of my supervisors are and I’ve been working on statistical methods during my PhD. I will present the work I’ve been doing with my Finnish collaborators in a 20 minute slot. This will be a sort of practice run for my final seminar and is what I should have submitted to ISBA 2012 (but when abstracts closed we weren’t nearly ready enough). It’ll be good to have an audience of mathematicians and statisticians, because I always feel awkward explaining statistical research to aerosol scientists, chemists, physicists and microbiologists. Perhaps I need to focus a bit more on pitching a particular aspect of my work to the audience I’ve got. [1] [Neal, R. M., (1996) “Sampling from Multimodal Distributions using Tempered Transitions”, &lt;em&gt;Statistics and Computing&lt;/em&gt; 6, pp. 353-366](&lt;a href=&#34;http://www.springerlink.com/content/x6417mm4h7845735/&#34; class=&#34;uri&#34;&gt;http://www.springerlink.com/content/x6417mm4h7845735/&lt;/a&gt;). [2] [Girolami, M., and Calderhead, B., (2011) “Riemann manifold Langevin and Hamiltonian Monte Carlo methods”, &lt;em&gt;Journal of the Royal Statistical Society - Series B&lt;/em&gt; 73(2), pp. 1-37.](&lt;a href=&#34;http://people.stat.sfu.ca/~cao/Research/GirolamiCalderhead.pdf&#34; class=&#34;uri&#34;&gt;http://people.stat.sfu.ca/~cao/Research/GirolamiCalderhead.pdf&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Christian Robert addressing BRAG about improving MCMC</title>
+      <link>/./2012/08/23/christian-robert-addressing-brag-about-improving-mcmc/</link>
+      <pubDate>Thu, 23 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/23/christian-robert-addressing-brag-about-improving-mcmc/</guid>
+      <description>&lt;p&gt;Christian took some time to finish off the abridged meeting from last week so he could give us a few more leads about how to improve MCMC mixing and convergence.&lt;/p&gt;
+&lt;div class=&#34;sfy-html&#34;&gt;
+&lt;div class=&#34;s-story noborder&#34; style=&#34;margin:0 auto;padding:0;background:#fff;color:#333;font-size:15px;line-height:18px;border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;min-width:280px;&#34;&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+An extra special meeting of my research group to have #xian tell us a bit more about improving MCMC. Tempering to flatten target density.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:06:44
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238442112058806273&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238442112058806273&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Radford Neal 1996 paper on tempering &lt;a href=&#34;http://www.cs.toronto.edu/~radford/ttrans-pub.abstract.html#ref-ttrans-pub&#34; class=&#34;uri&#34;&gt;http://www.cs.toronto.edu/~radford/ttrans-pub.abstract.html#ref-ttrans-pub&lt;/a&gt; #xian
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:10:51
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238443150660730881&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238443150660730881&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Run parallel chains with diff starting values and look at posterior density as you go to check convergence and importance of region #xian
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:27:25
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238447319324962816&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238447319324962816&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Change of variable to map posterior space to a hypercube may lead to concentration in small dots but you have a more compact space #xian
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:31:34
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238448363475984384&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238448363475984384&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Introducing an auxiliary variable z so that a prior on x becomes a prior on (x,z) can allow the prior on x to be discovered quicker #xian
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:36:12
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238449527697313792&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238449527697313792&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Idea of energy in MCMC and looking at level sets (isocontours of posterior density) means “large” jumps possible &lt;a href=&#34;http://www.stat.sfu.ca/~cao/Research/GirolamiCalderhead.pdf&#34; class=&#34;uri&#34;&gt;http://www.stat.sfu.ca/~cao/Research/GirolamiCalderhead.pdf&lt;/a&gt; #xian
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:42:33
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238451126343725056&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238451126343725056&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Question: a lot of knowledge about low density rejected MH steps. How do we use this info to avoid these regions? #xian
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:47:12
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238452296512577536&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238452296512577536&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Answer: we can use this to develop jumping rules. #xian We want to know about this region but we can’t use it without thinking abt acc. rate
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503592bc822a1ea03002d9cd&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Wed, Aug 22 2012 18:50:00
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=238452999993827328&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=238452999993827328&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Christian Robert&#39;s talk on simulation</title>
+      <link>/./2012/08/21/christian-roberts-talk-on-simulation/</link>
+      <pubDate>Tue, 21 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/21/christian-roberts-talk-on-simulation/</guid>
+      <description>&lt;p&gt;This morning I went to see &lt;a href=&#34;http://www.amsi.org.au/research-a-higher-education/rhenews/828-prof-christian-robert-lecture-tour&#34;&gt;Christian Robert&lt;/a&gt; talk at QUT about the use of &lt;a href=&#34;http://xianblog.wordpress.com/2012/07/10/simulation-an-ubiquitous-tool/&#34;&gt;simulation as a tool in statistics&lt;/a&gt; (contains the slides from the talk). Overall it was quite an interesting talk although it was aimed at a less statistical audience than it was received by (mostly PhD students from Kerrie Mengersen’s BRAG group). I livetweeted the talk using the hashtags &lt;a href=&#34;https://twitter.com/#!/search/%23xian&#34;&gt;#xian&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/#!/search/%23amsi&#34;&gt;#amsi&lt;/a&gt; and have tried scraping my tweets using the tool described &lt;a href=&#34;http://mashe.hawksey.info/2011/11/twitter-how-to-archive-event-hashtags-and-visualize-conversation/&#34;&gt;here&lt;/a&gt;. So I’ve now got a handy little archive of the tweets that I made. Turns out #xian is a poor choice of hashtag as it’s a region in China. Edit: I’ve replaced the scraped tweets with a Storify thingo instead.&lt;/p&gt;
+&lt;div class=&#34;sfy-html&#34;&gt;
+&lt;div class=&#34;s-story noborder&#34; style=&#34;margin:0 auto;padding:0;background:#fff;color:#333;font-size:15px;line-height:18px;border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;min-width:280px;&#34;&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+In a room full of nerds #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 16:59:35
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237700439557148672&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237700439557148672&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-element-content s-image&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:5px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford/status/237700816302116865&#34;&gt;&lt;img src=&#34;alwhet&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;s-image-info&#34; style=&#34;padding:5px;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34; style=&#34;padding-top:5px;&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Simulation: an ubiquitous tool for statistical computation #amsi #xian &lt;a href=&#34;http://twitpic.com/alwhet&#34; class=&#34;uri&#34;&gt;http://twitpic.com/alwhet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:01:05
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237700816302116865&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237700816302116865&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Simulation useful for reproducing “chance” on a computer e.g. forecasting hurricane paths #amsi #xian
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:03:42
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237701472593264640&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237701472593264640&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Simulation also used to produce randomness in computer games such as World of Warcraft #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:05:39
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237701965038100481&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237701965038100481&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Simulation can be used to approximate the area under a curve, i.e. an integral. This is taught in high school Maths. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:10:54
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237703285874765824&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237703285874765824&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Christian Robert giving us a teaser of his ABC talk later this afternoon. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:14:38
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237704227328229376&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237704227328229376&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Evolution of a population from a most recent common ancestor requires statistical inference for any meaningful analysis. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:17:03
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237704832310444032&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237704832310444032&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Not just the topology of the tree of life but the length of the branches are important for understanding how species are related #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:18:24
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237705174276272129&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237705174276272129&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+The uniform(0,1) pseudorandom generator is the building block of statistical simulation. Yes. The. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:21:45
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237706018719670274&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237706018719670274&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Intel working on true random generators but these may harm reproducibility and it’s not certain that they remain purely random. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:29:17
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237707914306023425&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237707914306023425&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+The idea of finding pi by counting number of bivariate U(0,1) draws within the unit circle is the key to statistical simulation #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:36:40
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237709771594149888&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237709771594149888&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Given a probability density f how can we produce randomness according to f which is fast but not based on approximation? #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:38:04
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237710123102007296&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237710123102007296&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-element-content s-image&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:5px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford/status/237710690910076929&#34;&gt;&lt;img src=&#34;alwsub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;s-image-info&#34; style=&#34;padding:5px;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34; style=&#34;padding-top:5px;&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Generating dots within the brown region similar to the unit circle approach produces random values from f #xian #amsi &lt;a href=&#34;http://twitpic.com/alwsub&#34; class=&#34;uri&#34;&gt;http://twitpic.com/alwsub&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:40:19
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237710690910076929&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237710690910076929&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Accept-reject algorithm uses a function g which is a “hat” for f with a bounded ratio. Generate dots for g. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:42:56
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237711349701046272&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237711349701046272&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+If f is complex we may not be able to find a hat g. Slice sampling uses random walk based only on values of f ratherthan density #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:45:08
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237711900455079936&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237711900455079936&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Slice sampling does random jumps in vert and horiz directions to discover the shape of f, making sure we don’t jump outside. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:47:07
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237712399413698561&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237712399413698561&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Metropolis-Hastings useful where slice sampler fails. Explores locally to understand global picture, like in Civilisation V #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:50:22
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237713220796833793&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237713220796833793&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Using standard Maths techniques to find minimum on a lumpy surface can be very difficult. Stochastic methods explore whole space #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:52:16
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237713697840197632&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237713697840197632&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Travelling salesman problem requires minimising use of a resource over a huge number of possibilities. NP-complete. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:54:37
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237714288050061312&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237714288050061312&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Simulation can be used to randomly perturb salesman circuit and accept changes probabilistically. #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 17:56:18
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237714712987594752&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237714712987594752&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Christian Robert wraps up his talk with an illustration of using Metropolis algorithms to solve Sudoku problems fairly easily #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 18:01:55
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237716125000007680&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237716125000007680&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;s-element-container&#34; style=&#34;max-width:500px;margin:0 auto;-webkit-transition:.1s border-color;-moz-transition:.1s border-color;transition:.1s border-color;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ddd;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;background:#fff;&#34;&gt;
+&lt;div class=&#34;s-quote s-element-content&#34; style=&#34;overflow:hidden;font-size:14px;color:#333;position:relative;padding:10px;background:url(&amp;#39;http://storify.com/public/img/quote-bg.png&amp;#39;) right top no-repeat;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:left;&#34;&gt;
+&lt;div class=&#34;s-quote-content&#34;&gt;
+&lt;div class=&#34;s-quote-avatar s-quote-avatar-twitter&#34; style=&#34;float:left;margin:0 10px 0 0;&#34;&gt;
+&lt;img src=&#34;cftqgm2dexqctcqlrlp2_normal.jpeg&#34; alt=&#34;samclifford&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-quote-text linkify&#34; style=&#34;margin-left:62px;line-height:1.5em;padding-left:21px;background:url(&amp;#39;http://storify.com/public/img/avatar-bubble.png&amp;#39;) left top no-repeat;min-height:52px;font-family:&amp;#39;Georgia&amp;#39;, serif;font-size:16px;&#34;&gt;
+Question about what makes a good random generator. Entire conferences dedicated to the topic, battery of tests to pass #xian #amsi
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;actions&#34; style=&#34;display:none;&#34;&gt;
+&lt;div class=&#34;s-share-dropdown&#34; style=&#34;display:none;position:absolute;top:34px;right:5px;background:#f7f7f7;border:1px solid #ddd;-webkit-border-radius:5px 0 5px 5px;-moz-border-radius:5px 0 5px 5px;border-radius:5px 0 5px 5px;-webkit-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 #ddd;box-shadow:0 1px 0 #ddd;padding:10px;z-index:98;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share on Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Share by email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-attribution&#34; style=&#34;clear:both;padding:10px 0 0;font-size:11px;font-family:&amp;#39;Lucida Grande&amp;#39;, sans-serif;color:#aaa;&#34;&gt;
+&lt;div class=&#34;s-author&#34; style=&#34;float:left;font-weight:bold;margin-right:8px;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://stats.storify.com/record/click?sid=503302ca63da872c4a1e66ad&amp;amp;redirect=http://twitter.com/samclifford&#34;&gt;クリフヅ サム&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-posted&#34; style=&#34;color:#666;float:right;line-height:16px;&#34;&gt;
+&lt;div class=&#34;timestamp&#34;&gt;
+Mon, Aug 20 2012 18:05:41
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-actions&#34; style=&#34;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);float:left;-webkit-transition:.1s opacity;-moz-transition:.1s opacity;transition:.1s opacity;line-height:16px;&#34;&gt;
+&lt;a href=&#34;http://twitter.com/intent/tweet?in_reply_to=237717074481397760&amp;amp;related=storify&#34; title=&#34;Reply&#34;&gt;Reply&lt;/a&gt;&lt;a href=&#34;http://twitter.com/intent/retweet?tweet_id=237717074481397760&amp;amp;related=storify&#34; title=&#34;Retweet&#34;&gt;Retweet&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;s-element-stats hide&#34; style=&#34;border-top:1px dotted #ddd;text-align:center;font-size:10px;line-height:1em;padding:6px;color:#999;cursor:pointer;display:none;&#34;&gt;
+&lt;div class=&#34;s-element-stats-likes hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; likes
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;s-element-stats-sep hide&#34; style=&#34;display:none;&#34;&gt; · &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;s-element-stats-comments hide&#34; style=&#34;display:none;&#34;&gt;
+&lt;strong&gt;0&lt;/strong&gt; comments
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Where to start if you&#39;re going to revise statistics</title>
+      <link>/./2012/07/13/where-to-start-if-youre-going-to-revise-statistics/</link>
+      <pubDate>Fri, 13 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/13/where-to-start-if-youre-going-to-revise-statistics/</guid>
+      <description>&lt;p&gt;I’d like to think it was my plenary speech that has spurred this, but given that they didn’t see it I’m not sure that it was, but one of the academics in my lab has decided it’s time to refresh their statistical knowledge. I think this is great, because they got their PhD a long time ago and have probably been using the same statistical methods for at least the last ten years. The book they’ve decided to use is the &lt;a href=&#34;http://www.amazon.com/Schaums-Outline-Statistics-Murray-Spiegel/dp/0070602816&#34;&gt;Schaum’s Outline of Statistics&lt;/a&gt;. I’ve used books from this range before to revise linear algebra, differential equations, etc. and have even taught small courses (privately) based on the topics they cover and in the order they cover them. A flick through the book confirmed that it was full of frequentist testing and other similar statistical methods that I spent my talk saying were a good start but not the end of the analysis when writing a scientific paper. The book’s online summary says it covers the use of MINITAB. I’m glad to see that it discusses the use of software other than Excel to perform analysis but I recommend people use books in Springer’s “&lt;a href=&#34;http://www.springer.com/series/6991?detailsPage=titles&#34;&gt;Use R!&lt;/a&gt;” range because R is free (in terms of both speech and beer) and is much more flexible than MINITAB in terms of programming it and running different types of analysis. Where MINITAB is based on a point and click GUI, making it great for a first year statistics class where students may not be familiar with programming, R is driven by the command line and is more easily scripted. Learning to use R means giving yourself the opportunity to use the many &lt;a href=&#34;http://cran.r-project.org/web/packages/available_packages_by_name.html&#34;&gt;packages&lt;/a&gt; that extend its functionality. The books I’ve used in the Use R! range include &lt;a href=&#34;http://www.springer.com/statistics/computational+statistics/book/978-0-387-93836-3&#34;&gt;A Beginner’s Guide to R&lt;/a&gt; and &lt;a href=&#34;http://www.springer.com/statistics/statistical+theory+and+methods/book/978-0-387-92297-3&#34;&gt;Bayesian Computation with R&lt;/a&gt;. While I’d definitely recommend these Use R! books, as they’re aimed at people wanting to use R to do better analysis, there are a few others that I’ve found incredibly useful. It’s important for me to point out that my background differs from my colleague’s so they may not find the books as relevant or accessible. &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/book/&#34;&gt;Gelman et. al - Bayesian Data Analysis&lt;/a&gt;. Around my stats group, this book is called “The Bible”. It’s probably the best textbook I’ve come across. It’s full of information, tutorials, detailed descriptions of the theory and methods and how they can be applied. This is certainly a graduate level statistics textbook, though, and it assumes calculus at what I’d say is probably a second year mathematics degree level. You may find this book difficult if you don’t feel comfortable with multiplying integrals together (which is really what Bayesian analysis is). I sent my colleague a link to &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/AOS259.pdf&#34;&gt;Gelman’s Annals of Applied Statistics article on ANOVA&lt;/a&gt;. Might as well plug &lt;a href=&#34;http://andrewgelman.com/&#34;&gt;Gelman’s blog&lt;/a&gt; while I’m talking about him. &lt;a href=&#34;http://www.amazon.com/Biostatistics-Bayesian-Introduction-Probability-Statistics/dp/0471468428&#34;&gt;Woodworth - Biostatistics: a Bayesian introduction&lt;/a&gt;. I found this very useful in giving a more applied approach to introductory Bayesian statistics. There’s a good review of the book &lt;a href=&#34;http://www.theannals.com/content/39/7/1376.2.full&#34;&gt;here&lt;/a&gt; and I agree with the reviewers about the importance of the preface in that it talks about the philosophy of statistics in science and discusses the differences between frequentist and Bayesian statistics. The book walks the reader through a lot of the topics which frequentist statistics deals with but in a Bayesian setting. I find this sort of comparison very useful (and appreciate when Mike Jordan says that a lot of machine learning techniques are just Bayesian statistics with a different name) as most people who have taken a statistics class will have seen linear modelling, ANOVA and a little about statistical design. The book also introduces the use of &lt;a href=&#34;http://www.openbugs.info/w/&#34;&gt;WinBUGS&lt;/a&gt; as a tool for Bayesian modelling. As an aside, I attended an introductory course run by my supervisor, Kerrie Mengersen, where she was teaching us how to use R to write a Gibbs sampler for a very simple problem and how to do it in WinBUGS as well. One of the other attendees, the leader of a medical science research group, had it in their head that they would use Excel to write the Gibbs sampler because it provides nice reports (summary stats, plots, etc.) through a plugin they had. Comparing the time it took WinBUGS and R to run the code against the Excel’s run time was probably what convinced me that Excel was one of the worst pieces of software that one could use for statistics. Great for spreadsheets, awful for statistics. A non-technical book which does a good job extending the philosophical discussion to the history of Bayesian statistics and its use in solving some very complex problems is &lt;a href=&#34;http://www.amazon.com/Theory-That-Would-Not-Die/dp/1452636850&#34;&gt;Sharon Bertsch McGrayne’s The Theory That Would Not Die&lt;/a&gt; (which I like to think of as the “A Brief History of Time” of Bayesian statistics). It’s very readable and really drives home the importance of Bayesian statistics and the profundity of Bayes and Laplace in developing this approach. I really don’t think there’s much use revising the basics of frequentism as I disagree with its interpretation of probability and find the idea of confidence intervals problematic. Hypothesis testing is also another problem that I have with frequentism and I think we’re going to see a lot of scientific papers in the near future converting the p values for their ANOVA into a “sigma” level as a result of CERN’s announcement of the 5 sigma certainty of their search for a new boson. Tony O’Hagan has &lt;a href=&#34;http://bayesian.org/forums/news/3648&#34;&gt;a good post&lt;/a&gt; about the “sigma” issue on the ISBA forums. Edited to add: TL;DR? Got a maths degree and some familiarity with stats? Read Gelman. Don’t have a maths degree? Read Woodworth. Want to understand what Bayesian stats is but don’t want to read a textbook? Read McGrayne. Want to know how to use R? Read a Use R! book. Once you’ve got a decent understanding of what statistics is, read papers for specific topics because there is almost never a book about what you want.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ad hoc collaboration</title>
+      <link>/./2012/06/05/ad-hoc-collaboration/</link>
+      <pubDate>Tue, 05 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/05/ad-hoc-collaboration/</guid>
+      <description>&lt;p&gt;Rbloggers have &lt;a href=&#34;http://www.r-bloggers.com/announcing-rpubs-a-new-web-publishing-service-for-r/&#34;&gt;announced the launch&lt;/a&gt; of &lt;a href=&#34;http://www.rpubs.com/&#34;&gt;RPubs&lt;/a&gt;, a free service which makes it easy to publish code and analysis on the web. It’s based on RStudio and the markdown package and looks like a great way for people to show analysis to co-workers who might not have R on their computers when you don’t feel like writing a report. I really like this idea and might end up using it in my office to show what we can do with statistics. Another thing I’ve been thinking about is the potential to use an Apple TV and its &lt;a href=&#34;http://www.apple.com/au/appletv/airplay/&#34;&gt;screen sharing&lt;/a&gt; capabilities to do presentation work from iPhones, iPads and Mac computers. A lot of people in my office have iPhones, so an Apple TV hooked up to a HDMI screen (surely universities just leave these lying around) might be a good way to get a group of people to take some notes or share prepared slides with a small room of people. For example, if people had a PDF version of slides on their iPhones they could take control of the Apple TV and use their iPhone to flick through the slides, allowing everyone to stay in their seats and control the slideshow from their own device. I was excited by Google Wave when it first launched, as it combined a lot of what I liked about Gmail, Google Docs and Google Chat with an extension system, making it an incredibly powerful and flexible platform for collaborative work. Unfortunately it was released prematurely and died off after a flurry of uptake. Google Plus doesn’t really make up for it, either. I really liked the idea of collaboratively writing a document and being able to add in a voting gadget to resolve whether a section should be included. I used it socially to determine the dates of picnics with friends, which was probably where most of my use was directed. Probably the best example of how useful I found it was in writing a manual of procedures with about ten other volunteers who would ask questions. As we answered the questions, we folded the answers into the main part of the document. This was much more useful than writing a static document and then having a separate email list for discussion, or using track changes in Microsoft Word to email around a huge document that kept on growing. I have high hopes for the internet in terms of &lt;em&gt;ad hoc&lt;/em&gt; collaboration, particularly academic collaboration. I find &lt;a href=&#34;http://github.com/&#34;&gt;GitHub&lt;/a&gt; really exciting because it allows me to work on a private project and then add a collaborator when they come on board. Once a project is finished and the paper published, that private repository can be made public and anyone can fork it and do with it what they will. If they’re intrigued by what’s been done, they could contact me and discuss what they’ve done and we can build a new project based on their fork of my work. With so much of my work being based on R or MATLAB and written up in LaTeX, I find this potential way of working quite sensible. Add in the fact that GitHub gives you a wiki system for each project and you’ve got a great tool at your disposal. A somewhat &lt;em&gt;ad hoc&lt;/em&gt; collaborative tool that I organised is the &lt;a href=&#34;https://wiki.qut.edu.au/display/npbayes/Home&#34;&gt;wiki for QUT’s Bayesian Non-parametrics reading group&lt;/a&gt;. This is a repository for the collective work of the group, including Q&amp;amp;A on the papers we’re reading, notes from the meetings, a list of papers read, code chunks, links to videos explaining what we’re working on, etc. It’s been a really useful tool and I’d hope that others interested in the same work could use it as a resource for their own learning. There’s a lot of really cool stuff out there. It’s a matter of finding useful tools that don’t have particularly high barriers to entry and allow non-experts to view expertly produced material (like on RPubs). The longer it’s been since one was a student, the less likely one seems to be to adopt new workflow practices. I’ve suggested git to my supervisors as a good way for our groups to work but I have a feeling that none of them are interested enough in distributed version control to put the effort in to learning how to use them. So for now it’s annotated PDFs or printed pages with scribbles on them rather than making the edits to a LaTeX source file and committing and pushing their changes to a shared repository.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Charts and infographics</title>
+      <link>/./2012/05/29/charts-and-infographics/</link>
+      <pubDate>Tue, 29 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/29/charts-and-infographics/</guid>
+      <description>&lt;p&gt;One of my supervisors, Sama Low Choy, is always up for a chat about the role of visualisation in statistics and data analysis. An acolyte of &lt;a href=&#34;http://www.edwardtufte.com/tufte/&#34;&gt;Tufte&lt;/a&gt;, Sama is quite passionate about appropriate methods of presenting data. 3D pie charts, needless to say, are public enemy number one. We were having a chat this afternoon about how &lt;a href=&#34;http://conidialcoleopticide.wordpress.com/&#34;&gt;a friend of mine&lt;/a&gt; who’s about to start a Masters in biology/statistics is a bit of a nerd when it comes to the presentation of data and copy. Talk turned to how easy it is to use LaTeX and how there’s a need for better visualisation in scientific results (something I’ve talked to some of my ILAQH colleagues about at length). Infographics are quite a popular thing at the moment, despite not always being particularly informative nor warranted, and I mentioned &lt;a href=&#34;http://chartsnthings.tumblr.com&#34;&gt;a blog about the process that the New York Times crew go through when developing infographics&lt;/a&gt; and other visualisation tools. Sama has forwarded me an email containing some of her favourite links that deal with the field of “data journalism”.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Times in US provide some inspiration: &lt;a href=&#34;http://blog.visual.ly/20-great-visualizations-of-2011&#34; class=&#34;uri&#34;&gt;http://blog.visual.ly/20-great-visualizations-of-2011&lt;/a&gt;/ Even on a topic that some science &amp;amp; engineerings students may become engaged with: &lt;a href=&#34;http://blog.visual.ly/best-beer-infographics-and-data-visualizations&#34; class=&#34;uri&#34;&gt;http://blog.visual.ly/best-beer-infographics-and-data-visualizations&lt;/a&gt; Someone else’s selection of highlights from their Infographics &lt;a href=&#34;http://www.smallmeans.com/new-york-times-infographics&#34; class=&#34;uri&#34;&gt;http://www.smallmeans.com/new-york-times-infographics&lt;/a&gt; Here is a link to a website about a new (free) handbook on data journalism: &lt;a href=&#34;http://datadrivenjournalism.net/news_and_analysis/A_peek_inside_the_Data_Journalism_Handbook#When:07:28:52Z&#34; class=&#34;uri&#34;&gt;http://datadrivenjournalism.net/news_and_analysis/A_peek_inside_the_Data_Journalism_Handbook#When:07:28:52Z&lt;/a&gt; Here’s a link to some videos (showing some software, doing some intuitive roll-up roll-down exploration &amp;amp; aggregation of data): &lt;a href=&#34;http://www.panopticon.com/videos&#34; class=&#34;uri&#34;&gt;http://www.panopticon.com/videos&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You might also enjoy &lt;a href=&#34;http://infosthetics.com/archives/2011/12/amanda_cox_talks_about_developing_infographics_at_the_new_york_times_graphics.html&#34;&gt;these videos of Amanda Cox&lt;/a&gt;, a woman behind some of the more innovative visualisation pieces at the NYT, talking about the processes of making good quality visualisations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISBA update - logistics</title>
+      <link>/./2012/05/10/isba-update---logistics/</link>
+      <pubDate>Thu, 10 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/10/isba-update---logistics/</guid>
+      <description>&lt;p&gt;This morning I booked my flights to Osaka ($670 return, a very good deal) and am in the process of organising accommodation with &lt;a href=&#34;http://www.stat.berkeley.edu/~tab/&#34;&gt;Tamara Broderick&lt;/a&gt;. I’m getting excited about catching up with the various people that I met at the BNP conference last year and it’s even more exciting to see their names on the list of people giving talks. Tamara will be talking about Beta processes and Sergio Bacallado is giving a talk alongside Sonia Petrone and Yee Whye Teh, two of the big names in Bayesian non-parametrics. A few QUT people are talking as well. Nicole White and Susanna Cramb will be talking about spatio-temporal disease modelling. One of my supervisors, Sama Low Choy, will be talking about combining subjective priors (expert elicitation) and another, Kerrie Mengersen, is organising that session and co-author on a few papers that are being presented by people in her BRAG group, as well as posters (such as mine). I’m also looking forward to seeing presentations on INLA, spatial modelling, non-parametric estimation and environmental modelling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian splines</title>
+      <link>/./2012/03/26/bayesian-splines/</link>
+      <pubDate>Mon, 26 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/26/bayesian-splines/</guid>
+      <description>&lt;p&gt;The statistics group that I’m part of is publishing a book that details how we do Bayesian statistics, what it’s used for and how people can use it. I wrote a chapter on Bayesian splines which is basically a few recipes for splines with some illustrative examples with small data sets. The work in the book chapter is currently being extended into something more useful as part of my PhD but the chapter itself does a decent job of introducing a few simple spline types and shows how you can generate the basis and use them in an adaptive Metropolis-Hastings framework to fit a univariate regression model. The director of my stats group is one of the editors of the book and has asked me to give a small lecture to her Bayesian Data Analysis class, an honours level unit. I’ll be walking the students through the chapter and hoping that they’re familiar enough with the idea of priors to understand that a prior doesn’t just have to mean “I think this parameter has this value”. The idea of a prior being used to inform the values of the difference between spline coefficients [1] is a really nice Bayesian analogue of the frequentist approach (and does away with GCV, instead maximising the posterior density) [2] and I think makes a lot more sense than attempting to do a grid-based GCV approach, incorporating the amount of smoothing into the MCMC sampler (or INLA fitting). It’ll be good fun. [1] Lang, S. and Brezger, A. (2004): Bayesian P-Splines. &lt;em&gt;Journal of Computational and Graphical Statistics&lt;/em&gt;, 13, 183-212. &lt;a href=&#34;http://www.uibk.ac.at/statistics/personal/lang/publications/lang_brezger_jcgs2004.pdf&#34;&gt;Download&lt;/a&gt; [2] Eilers, P. H. C. and Marx, B. D. (1996): Flexible smoothing with B-splines and penalties. &lt;em&gt;Statistical Science&lt;/em&gt;, 11 (2), 89-121. &lt;a href=&#34;http://projecteuclid.org/DPubS?service=UI&amp;amp;version=1.0&amp;amp;verb=Display&amp;amp;handle=euclid.ss/1038425655&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Julian Caley</title>
+      <link>/./2012/03/16/julian-caley/</link>
+      <pubDate>Fri, 16 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/16/julian-caley/</guid>
+      <description>&lt;p&gt;I went to quite an interesting talk this afternoon by &lt;a href=&#34;http://data.aims.gov.au/staffcv/jsf/external/view.jspx;jsessionid=BC0E61EB624F8D24FAE7FCD8F225C067?partyId=900000428&#34;&gt;Dr Julian Caley from the Australian Institute of Marine Science&lt;/a&gt;. Julian’s visiting us at QUT for a few weeks and presented some interesting work he and his colleagues have done on estimating marine biodiversity (they estimate somewhere between 500,000 and 2,000,000 species) and the statistical and ecological issues faced. At least one QUT Bayesian Statistics PhD graduate has ended up at AIMS, &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.1890/07-1886.1&#34;&gt;Dr Rebecca O’Leary&lt;/a&gt;. Some of the work members of BRAG have done with AIMS involve expert elicitation around the issues of fish population but Julian said today that fish and coral populations, commonly used as a proxy for biodiversity, only account for about 2% of the total species in marine environments. Some of the expert elicitation involves not only quantifying the named species and the discovered but unnamed species but quantifying the prevalence of undiscovered species. Apparently the place to be working isn’t in fish and coral species (which are already well known and quite easy to study) but in &lt;a href=&#34;http://en.wikipedia.org/wiki/Nematode&#34;&gt;nematodes&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Isopods&#34;&gt;isopods&lt;/a&gt; which are expected to have many undiscovered species. Julian talked about some very interesting ways of estimating the prevalence of unobserved species by looking at which Orders are present (higher level taxa) that cover the species you’re interested in, which other species in the same taxa are prevalent (cross-taxa) or which species are present in the genus you’re interested in (subset taxa). Not having a huge amount of experience in classification and regression trees I wasn’t entirely sure about how one would go about working through these various methods but I could see it being quite an interesting way of estimating biodiversity and quantifying the uncertainty. After Julian’s talk and some afternoon tea a few members of BRAG stayed back to do a brief workshop on the statistical issues in ecology and to try to match up which methods we’re good at with what the problems in marine ecology are, in an effort to stimulate some work that could be started while Julian visits us. I’m sure there’s also a lot of spatial modelling and NP Bayes to be done with the data that AIMS has available to them, so I’ll have to keep an eye out on positions they have going.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using R</title>
+      <link>/./2012/03/12/using-r/</link>
+      <pubDate>Mon, 12 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/12/using-r/</guid>
+      <description>&lt;p&gt;I am the only statistician in my aerosol science research group; everyone else is either a physicist, chemist, environmental scientist, engineer or some other physical scientist. Most of the people in the group do their data analysis and/or plotting in Excel or custom software like IGOR or Origin. One or two people in the group have used MATLAB in the past but there’s some sort of opportunity cost effect where it’s easier to use the Data Analysis plug-in in Excel than to load up MATLAB and remember how to fit a GLM or perform ANOVA. My background in computational mathematics and a bit of statistics means I’ve been exposed to other mathematics and statistics software and I’ve grown accustomed, through my stats research group, to seeing novel statistical methods and data analysis done in appropriate software packages (R, MATLAB, WinBUGS, and a Python package called &lt;a href=&#34;http://www.ccdamc.org.au/files/beachbayes/ChrisStrickland.pdf&#34;&gt;pyMCMC&lt;/a&gt; that some of &lt;a href=&#34;http://eprints.qut.edu.au/43469/&#34;&gt;my colleagues&lt;/a&gt; are working on). As such, it saddens me to see my fellow PhD students doing their stats and plotting in Excel (which has certainly come in leaps and bounds but is still not a good piece of statistical software). I’ve really been pushing &lt;a href=&#34;http://cran.r-project.org/&#34;&gt;R&lt;/a&gt; as a way of doing better data analysis and making better looking graphs (which can easily be exported as PDF or EPS files) over the last year or so and have been heartened to see that a) it’s recognised as a good tool and b) some people are using the scripts I have written for them to do things like randomly sample from a list of strings. One of the other PhD students has found an R package that will make our lives much easier, &lt;a href=&#34;http://www.openair-project.org/&#34;&gt;openair&lt;/a&gt;, and has even started investigating how to use R to do repeated calculations of summary statistics from SMPS data rather than writing the formula in a spreadsheet cell in Excel and choosing “fill down”. The risk here, of course, is that we will be asked to write all the statistics code for everyone else. In addition to this, one of the PhD students in the stats research group decided to run a short course in using R (with RStudio, which I’m now attempting to use instead of Notepad++ and NppToR) to manipulate data and do some simple plotting in ggplot2 and most of the (eight) students in my room went to the course. They all got various things out of going but all agreed that using R is the way to go. Some still find more advanced data analysis than t-tests, ANOVA and linear regression a bit daunting but will soldier on with the short courses that are being organised. There’s a bit of a feeling among the aerosol science PhD students that I should teach them data analysis in R, as I’m familiar with both what they’re working on (and thus have some idea of what they need to learn) and with them as people so I’ve got an idea of the sort of level of statistics and mathematics they’ve got. Now’s probably not the time for me to start teaching (PhD to finish) but it looks like I might be around for a little while so if I can help build the capacity of the group then I’d be more than happy to show everyone how to do their favourite data analysis in R and perhaps extend them a little further as scientists. While everyone brings their own strengths to the group in terms of skill sets and bodies of knowledge, I believe that every scientist should be able to do their own data analysis and that they should be able to do it in statistical software rather than something which has been developed for generating accounting reports and has later had scripting and statistical routines shoe-horned on to it (and while widely available isn’t free and “free”).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non-parametrics reading group</title>
+      <link>/./2012/03/01/non-parametrics-reading-group/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/01/non-parametrics-reading-group/</guid>
+      <description>&lt;p&gt;At the &lt;a href=&#34;http://bnpworkshop.org/&#34;&gt;8th Bayesian Non-parametrics workshop&lt;/a&gt; in Veracruz, Mexico, last year I met a very enthusiastic grad student from UC Berkeley, &lt;a href=&#34;http://www.stat.berkeley.edu/~tab/&#34;&gt;Tamara Broderick&lt;/a&gt;. I spent a lot of time hanging out with Tamara and a bunch of the other PhD students attending the conference and I got to know about the reading group that she’d set up within the UC Berkeley Statistics Graduate Student Association (of which she is co-president). Tam’s reading group, “Classics of NP Bayes”, are working their way through a lot of the foundational papers of Bayesian non-parametric statistics, the papers that are always cited but seldom read. Inspired by this and hungry for more knowledge about NP Bayes (my only real experience at the time being semi-parametric regression with splines) I asked around the Bayesian stats group at QUT if anyone was interested in setting up a similar group here. In August 2011 the QUT NP Bayes reading group held its first meeting to decide a structure, meeting frequency, and discuss what kind of papers we wanted to read. Six or seven months later we have made our way through a number of papers, theoretical and applied, and learned quite a lot along the way. This morning I will be giving a presentation to the Bayesian stats group about our progress and writing the slides has really made me realise just how far we’ve all come together. Our little group consists mostly of PhD students, with backgrounds as varied as applied stats, computational maths, econometrics, environmental statistics, computer science, and we now have an electrical engineer from outside the School of Mathematics joining us to get more of a background in the techniques he’s using (Latent Dirichlet Allocation and Hierarchical Dirichlet Processes). We’ve covered measure theory, the Poisson process (as a completely random measure), the Dirichlet process, infinite mixture models and density estimation, the Polya urn formulation of the DP, MCMC methods for DP models, the Gaussian process and its relationship with GMRFs, non-parametric covariance regression and will spend our next few meetings on the Chinese Restaurant and Indian Buffet processes. I’m really glad with the way things have turned out, and if you’re interested in reading more about the topics we’ve covered you can check out the &lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2012/03/npbayes.pdf&#34;&gt;NP Bayes review slides&lt;/a&gt; or our &lt;a href=&#34;https://wiki.qut.edu.au/display/npbayes/Home&#34;&gt;wiki&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

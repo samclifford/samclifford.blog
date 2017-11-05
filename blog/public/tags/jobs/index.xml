@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Jobs on Sam Clifford </title>
+    <link>/./tags/jobs/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-06-14 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Applying for jobs</title>
+      <link>/./2013/06/14/applying-for-jobs/</link>
+      <pubDate>Fri, 14 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/14/applying-for-jobs/</guid>
+      <description>&lt;p&gt;I just sent in my application for QUT’s &lt;a href=&#34;http://www.hrd.qut.edu.au/jobs/ecard/&#34;&gt;ECARD&lt;/a&gt; (Early Career Academic Recruitment and Development) program. The program is an ongoing attempt by QUT to recruit young researchers and train them as lecturers and academics who will sustain the university as the more senior academics retire. It’s not just a staff hiring program, though, as it requires that those recruited into the program undertake a postgraduate course in tertiary education and engage themselves with the administrative aspects of the university as well. This round there are 11 positions in the Science and Engineering Faculty, two of which are with maths/stats. I’m hoping to get selected for one of these two positions. I’ve spent the last 4.5 years with an aerosol science research group learning how to be a statistician. It’s been a bit of a weird experience and reminds me of Professor Ian Turner (my Linear Algebra and Computational Mathematics lecturer) who has a PhD in Engineering yet does research into numerical algorithms for solving matrix systems and their mathematical properties. The prospect of moving back to the School of Mathematics doesn’t feel like I’d be going “home” so much as finding a new group of people to work with. I did my undergrad and honours in mathematics but my primary Honours supervisor has moved to the School of Public Health and most of my cohort have either moved on to other universities or gone into industry. The people, location, organisational structure, units, etc. have all changed since I left. Despite all these changes it’s still the QUT School of Mathematical Sciences and there are other Bayesian statisticians over there, something I can’t really say for the School of Chemistry, Physics and Mechanical Engineering (where I am now). Of course, I could remain employed in an applied sciences group and still collaborate with other statisticians (as I do now) but there’s a world of difference between my little office in M block with the other ILAQH members and a quarter of a floor full of mathematicians and statisticians in the new Science and Engineering Centre. For all my love of using Git and LaTeX to collaboratively write papers with people half a world away, you really can’t beat proximity to others like you to continually inspire and challenge you. There are a few other jobs that I’m looking at, both in Brisbane and overseas. I got some very good advice from a friend of mine who’s currently working in Northern Europe; you should aim to find a job that:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;is interesting&lt;/li&gt;
+&lt;li&gt;has good people&lt;/li&gt;
+&lt;li&gt;is in a good place.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first is clearly the most important in terms of job satisfaction. Working on a project you don’t care about (but can competently do) sounds soul-destroying. Working with people you don’t get along with and who don’t value what you do will lead to stress, conflict, etc. and working in a place which has nothing going for it will prevent you from being able to enjoy your time away from work. I think an ECARD position within the School of Mathematical Sciences would fit the all three of these, particularly if I end up lecturing one of the new ST01 units and have some discretion over the sort of research I do.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Where do I want to go?</title>
+      <link>/./2012/11/01/where-do-i-want-to-go/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/01/where-do-i-want-to-go/</guid>
+      <description>&lt;p&gt;As my PhD draws to a close, I’m beginning to spend some time thinking about where I want to go to work after QUT. I applied for, have been offered and now accepted, a 0.5 full time equivalent position for one year with the NHMRC Centre for Air quality and health Research and evaluation (CAR) which will start when I submit my PhD. ILAQH will contribute the remaining 0.5 FTE so that I’ve got full time employment, jointly between CAR and QUT, and I’ll be based in Brisbane. The next year is going to be a flurry of paper writing, collaboration and reviewing the work the group does. I’ve been talking about moving overseas for work for quite some time. I’ve been at QUT since I started undergrad in 2002 and while I’ve done a few subjects here and there at other universities (computational physics at UQ, some climatology at USQ) and taught maths at &lt;a href=&#34;http://www.kromestudios.com/&#34;&gt;Krome Studios&lt;/a&gt; for about a year (one or two sessions a week) I’ve been at QUT almost constantly. This wouldn’t necessarily be a permanent move overseas, I am open to coming back to Australia (after all, it’s where my family is) after a few years of postdoctoral work overseas. The list below is a few places I’ve been considering and have previously checked their websites for postdoc work. I would like to continue working on Bayesian statistical applications but also perhaps continue to go further into methodology and work a bit more on the computational statistics side of things as I feel my undergrad/honours skills are getting a bit rusty.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.helsinki.fi/bsg/&#34;&gt;University of Helsinki - Bayesian Statistics Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://becs.aalto.fi/en/research/bayes/&#34;&gt;Aalto University - Bayesian Statistical Methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sph.umn.edu/biostatistics/ourfaculty/bayesian/&#34;&gt;University of Minnesota - Biostatistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.stat.osu.edu/&#34;&gt;Ohio State University - Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.isds.duke.edu/&#34;&gt;Duke University - Statistical Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.stat.colostate.edu/&#34;&gt;Colorado State University (Boulder) - Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.samsi.info/&#34;&gt;Statistical and Applied Mathematical Sciences Institute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ncar.ucar.edu/&#34;&gt;National Center for Atmospheric Research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m undecided as to whether I should apply to work at Berkeley, Stanford, MIT, Harvard, or any other big name places. Sure, they’re prestigious but I got some advice from a friend a few months ago that what you want in a job is&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;good people to work with&lt;/li&gt;
+&lt;li&gt;a project that interests you&lt;/li&gt;
+&lt;li&gt;a project that’s interesting to others (which means they can hire you next)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and don’t want to end up slogging my way through six to twelve months of interesting work with someone at a big name institution that I don’t really want to work with.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research position with QUT&#39;s Applied Data Mining group</title>
+      <link>/./2012/10/16/research-position-with-quts-applied-data-mining-group/</link>
+      <pubDate>Tue, 16 Oct 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/10/16/research-position-with-quts-applied-data-mining-group/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://www.applieddatamining.info/&#34;&gt;Applied Data Mining group&lt;/a&gt; has an opening for a one year position as a research officer with the group, working on topics in data mining and machine learning (which appears to be a less rigorous Bayesian non-parametrics). So if you or someone you know is finishing a PhD in statistics, machine learning or computer science and knows how to do scientific computation/data mining for big data and wouldn’t mind working in lovely, subtropical Brisbane, Australia for a year, email &lt;a href=&#34;mailto:r.nayak@qut.edu.au&#34;&gt;Associate Professor Richi Nayak&lt;/a&gt; this week. Some selection criteria are under the cut. The successful application should have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Completed the PhD (or nearly completed) with success as evidenced by publications in proceedings of important conferences and journals in the field of machine learning/ data mining;&lt;/li&gt;
+&lt;li&gt;Acquired a profound knowledge and practical experience in machine learning, data mining and information retrieval; experience with Big Data is an advantage.&lt;/li&gt;
+&lt;li&gt;Good programming skills (e.g., Java, C++, MATLAB, Python);&lt;/li&gt;
+&lt;li&gt;Experience with data mining tools such as WEKA, SAS, MSQLServer;&lt;/li&gt;
+&lt;li&gt;Excellent English language skills (written and spoken);&lt;/li&gt;
+&lt;li&gt;Good communication skills especially for interacting with industry partners;&lt;/li&gt;
+&lt;li&gt;The capability to work independently and in a team;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biopesticide research programs at QUT</title>
+      <link>/./2012/09/21/biopesticide-research-programs-at-qut/</link>
+      <pubDate>Fri, 21 Sep 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/09/21/biopesticide-research-programs-at-qut/</guid>
+      <description>&lt;p&gt;The email below the cut details three PhD programs that are based on the level above me in the Biopesticides lab at QUT. All projects involve collaboration with researchers in the UK; the mathematics project involves collaborating with &lt;a href=&#34;http://www.maths.ox.ac.uk/contact/details/whites&#34;&gt;researchers at Oxford&lt;/a&gt; and the other two with researchers at &lt;a href=&#34;http://www.cabi.org&#34;&gt;CABI&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&#34;&gt;Chemistry&lt;/a&gt; - The interaction between insect cuticular chemistry and pathology and gene expression in Metarhizium anisopliae&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&#34;&gt;Mathematics&lt;/a&gt; - Development of mathematical models of insect pathogen dynamics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&#34;&gt;Genetics&lt;/a&gt; - Colonisation of the rhizosphere by entomopathogenic fungi: gene expression, metabolite translocation and impacts on invertebrate pests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you’re interested in these, contact &lt;a href=&#34;http://staff.qut.edu.au/staff/hauxwell/&#34;&gt;Associate Professor Caroline Hauxwell&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear all I’m looking for applicants for 3 PhD students in the current round. Please would you pass this on to anyone you think might be interested? Applications to QUT’s research scholarships &lt;strong&gt;close Oct 12 2012.&lt;/strong&gt; Interested applicants should first send a CV and expression of interest stating how your skills and experience will help you to address the research questions to A/Prof Hauxwell &lt;strong&gt;by 5th October at the latest&lt;/strong&gt;. Details of QUT’s scholarships and full application requirements (due 12th October) can be found here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.qut.edu.au/research/scholarships-and-funding/research-scholarships&#34; class=&#34;uri&#34;&gt;http://www.qut.edu.au/research/scholarships-and-funding/research-scholarships&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Outlines of the three projects can be found here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks carrie Dr Caroline Hauxwell Associate Professor Queensland University of Technology&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

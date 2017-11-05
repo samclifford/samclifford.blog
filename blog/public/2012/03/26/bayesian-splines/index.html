@@ -1,0 +1,119 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Bayesian splines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2012/03/26/bayesian-splines/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2012/03/26/bayesian-splines/">Bayesian splines</a></h1>
+	        <div class="post-time">March 26 2012</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/brag">brag</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/teaching">teaching</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>The statistics group that I’m part of is publishing a book that details how we do Bayesian statistics, what it’s used for and how people can use it. I wrote a chapter on Bayesian splines which is basically a few recipes for splines with some illustrative examples with small data sets. The work in the book chapter is currently being extended into something more useful as part of my PhD but the chapter itself does a decent job of introducing a few simple spline types and shows how you can generate the basis and use them in an adaptive Metropolis-Hastings framework to fit a univariate regression model. The director of my stats group is one of the editors of the book and has asked me to give a small lecture to her Bayesian Data Analysis class, an honours level unit. I’ll be walking the students through the chapter and hoping that they’re familiar enough with the idea of priors to understand that a prior doesn’t just have to mean “I think this parameter has this value”. The idea of a prior being used to inform the values of the difference between spline coefficients [1] is a really nice Bayesian analogue of the frequentist approach (and does away with GCV, instead maximising the posterior density) [2] and I think makes a lot more sense than attempting to do a grid-based GCV approach, incorporating the amount of smoothing into the MCMC sampler (or INLA fitting). It’ll be good fun. [1] Lang, S. and Brezger, A. (2004): Bayesian P-Splines. <em>Journal of Computational and Graphical Statistics</em>, 13, 183-212. <a href="http://www.uibk.ac.at/statistics/personal/lang/publications/lang_brezger_jcgs2004.pdf">Download</a> [2] Eilers, P. H. C. and Marx, B. D. (1996): Flexible smoothing with B-splines and penalties. <em>Statistical Science</em>, 11 (2), 89-121. <a href="http://projecteuclid.org/DPubS?service=UI&amp;version=1.0&amp;verb=Display&amp;handle=euclid.ss/1038425655">Download</a></p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2012/03/27/science-phd-without-any-statistics/">Prev</a>
+			<a class="next" href="/./2012/03/22/scope---dirty-science/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

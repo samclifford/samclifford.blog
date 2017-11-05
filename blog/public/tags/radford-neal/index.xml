@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Radford Neal on Sam Clifford </title>
+    <link>/./tags/radford-neal/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-06-24 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/06/24/posterior-samples/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/24/posterior-samples/</guid>
+      <description>&lt;p&gt;I was a bit disappointed that it wasn’t about machines doing automatic analysis for us, but this article, “&lt;a href=&#34;http://simplystatistics.org/2013/06/14/the-vast-majority-of-statistical-analysis-is-not-performed-by-statisticians/&#34;&gt;The vast majority of statistical analysis is not performed by statisticians&lt;/a&gt;”, is a bit of a wake-up call for those statisticians who haven’t realised that we need to improve the way we teach statistics and interact with non-statisticians. I don’t think we have enough statisticians in the world to do all the analysis that needs doing, so we need to focus on training scientists and others better so that we don’t leave them stuck in a culture of bad regression and t-tests in Excel. Gianluca Baio (UCL) has &lt;a href=&#34;http://www.statistica.it/gianluca/Talks/INLA.pdf&#34;&gt;a really nice introduction&lt;/a&gt; to &lt;a href=&#34;http://www.r-inla.org/&#34;&gt;INLA&lt;/a&gt; with a comparison to &lt;a href=&#34;http://mcmc-jags.sourceforge.net/&#34;&gt;JAGS&lt;/a&gt;. I started using JAGS when WinBUGS/OpenBUGS was becoming too slow for the analysis I was doing but the major paper of my thesis uses INLA for spatio-temporal analysis. I still use both programs and when faced with a new problem will usually start in JAGS as it’s quite flexible in the way you set up priors. INLA has its advantages as well, one of them being that it will fit a Poisson likelihood to non-integer data very well. There’s &lt;a href=&#34;http://blogs.plos.org/attheinterface/2013/06/19/why-art-and-science/&#34;&gt;a neat little article on the PLoS blog&lt;/a&gt; about linkages between art and science and how the involvement of art in research (beyond making prettier plots, which is really more an issue of design than art) can lead to better scientific outcomes. Radford Neal has just announced &lt;a href=&#34;http://radfordneal.wordpress.com/2013/06/22/announcing-pqr-a-faster-version-of-r/&#34;&gt;pqR&lt;/a&gt;, “pretty quick R”, which is designed to make use of multiple cores wherever possible and avoid unnecessarily onerous computation. It’s not available for Mac/Windows yet, so I won’t be able to look at it for the time being. I wonder if QUT’s HPC group would consider making it available on the supercomputer.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

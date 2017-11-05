@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Microbiology on Sam Clifford </title>
+    <link>/./tags/microbiology/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-08-17 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>New papers on the way</title>
+      <link>/./2013/08/17/new-papers-on-the-way/</link>
+      <pubDate>Sat, 17 Aug 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/08/17/new-papers-on-the-way/</guid>
+      <description>&lt;p&gt;In addition to the Endotoxin paper which was accepted after revisions earlier this week, we are very close to submitting papers on the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;trends in and ratios of indoor and outdoor PNC in the UPTECH schools&lt;/li&gt;
+&lt;li&gt;24 hour personal sampling and dose metrics for children in the UPTECH schools&lt;/li&gt;
+&lt;li&gt;modern Bayesian spatial statistical techniques&lt;/li&gt;
+&lt;li&gt;particle losses by size in diffusion dryers and thermodenuders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition to these, a few papers are nearing completion but are not yet ready for submission. These include&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fungus concentrations in the UPTECH schools&lt;/li&gt;
+&lt;li&gt;flame retardants in dust in the UPTECH schools&lt;/li&gt;
+&lt;li&gt;particle emission and deposition rates for indoor sources in the UPTECH schools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, yes, my plate has been rather full recently with all the various research activities in which I’ve been enlisted. These are all fascinating examples of the interaction of statistics and science and have all required different approaches to quantify what’s going on. Some of these have been fairly obvious modifications to things I’ve already done and some have required me to look quite deeply into new approaches and figure out both what the model is and how we go about implementing it. I am particularly happy with coming to terms with the combination of a Poisson regression model for total counts and a multinomial for proportions within that count, particularly when some of the classes in the multinomial may have zero counts. That model was a challenge but and I think the paper that it gets used in is much stronger than similar papers which have just taken a very naive approach to analysing the data. One of the biggest challenges with this particular paper has been communicating with the scientists I’m working with. These people are definitely not Bayesian statisticians and don’t come from a medical science background, which tends to be more accepting of complex models that replace ANOVA. I’ve had to write a few paragraphs for the flame retardants in dust paper that describe the model we’re using. Hopefully that helps make the analysis more accessible to the co-authors but also those reading the paper who haven’t got postgraduate qualifications in statistics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conference posters and an accepted paper</title>
+      <link>/./2013/08/09/conference-posters-and-an-accepted-paper/</link>
+      <pubDate>Fri, 09 Aug 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/08/09/conference-posters-and-an-accepted-paper/</guid>
+      <description>&lt;p&gt;Thomas Lumley &lt;a href=&#34;http://notstatschat.tumblr.com/post/57747270796/speed-sessions-at-jsm-2013&#34;&gt;has some thoughts&lt;/a&gt; on poster sessions at JSM 2013. Healthy Buildings 2012 had something I hadn’t seen before - poster presenters were given two minutes at the end of the technical session most relevant to their poster to describe the work they are presenting in the poster session immediately after the talk slot. This gave poster presenters a small taste of presenting at a conference without them needing to prepare a full talk. QUT’s Nano and Molecular Sciences discipline had a poster session during its one day symposium a few months ago and the posters were run off &lt;a href=&#34;http://www.thecube.qut.edu.au/&#34;&gt;The Cube&lt;/a&gt;, which allowed people to zoom and rotate a static image of their poster (PDF preferred). Our group will have a few posters at the &lt;a href=&#34;http://eac2013.cz/&#34;&gt;European Aerosol Conference&lt;/a&gt; in a few weeks. Mandana Mazaheri and I have been discussing the issues of transporting posters back and forth internationally, including whether or not to print on cloth and the unwieldy nature of poster tubes. I am a big fan of mailing your poster home once it’s presented but a cloth poster can be folded up and put in your luggage and you can just give it a quick iron before presenting it. I’ve also seen way too many posters that are too busy and have gradient backgrounds. Hopefully by teaching SEB113 students about the principles of good visualisation of data QUT can produce graduates who know not to make ugly posters. &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/es4023706&#34;&gt;Our endotoxin paper got accepted in Environmental Science &amp;amp; Technology&lt;/a&gt; after a frantic couple of days of finalising amendments and responses to reviewer comments. This paper gave me a much better understanding of Bayesian hierarchical linear models and I’m very happy with how the paper turned out. The next step is to resubmit our fungus paper, which includes similar modelling but also uses a Multinomial model with Dirichlet prior to look at the proportions of different fungal genera across the UPTECH schools. There’s yet another paper looking at chemicals in floor dust which we’re also finalising that uses a similar methodology to the fungus paper but has its own subtleties due to some chemicals not being present across all schools.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stop, collaborate and listen</title>
+      <link>/./2013/06/27/stop-collaborate-and-listen/</link>
+      <pubDate>Thu, 27 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/27/stop-collaborate-and-listen/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://simplystatistics.org/2013/06/25/doing-statistical-research/&#34;&gt;Roger Peng posted at Simply Statistics&lt;/a&gt; about what it is to &lt;a href=&#34;http://stattrak.amstat.org/2013/06/01/how-to-do-statistical-research/&#34;&gt;do statistical research&lt;/a&gt; and how research is essentially solving problems that can’t be solved with the current methods. The message I took from Peng’s post is that often you can 90% solve a problem with current methods and that a lot of the time this is “good enough” and you can come back to the problem later with some new approaches that go beyond the current methods. As part of the UPTECH project I’ve been doing a lot of work with Bayesian hierarchical linear models. While our data has been collected from a panel design (25 schools, two weeks at each) it’s not always appropriate to use a full-blown spatial model. For example, the microbiological work I’ve been doing with my Finnish collaborator is mostly solvable by using exchangeable means priors to estimate classroom level and school level effects. Recently I’ve also had to start looking at clustering techniques, meta-analysis, spatial modelling of high-resolution data, estimating personal exposure, large surveys, and many other applied science problems that require a novel statistical approach. This sort of collaboration/consulting work, according to Terry Speed (whose post Peng is discussing), is a chance to meet lots of people and work on some interesting problems. For me, it has involved learning about existing techniques and trying to figure out how my collaborators and I can apply them to our data to do the best inference we can. With the UPTECH work, there’s always going to be a large list of authors due to the size of the project and the number of people involved in collecting data. Authorship will always be an issue with our papers, both in terms of inclusion and ordering, and we’ve got a decent process in place which makes people aware of papers as they’re finishing up (but not yet ready for submission). My personal belief is that one should always be able to point to a published paper and say “I did that”. Collaboration in applied physics and chemistry seems to be a very different beast to collaboration in statistics and mathematics. Many of the postgraduate students I know in Mathematics have tended to write methods papers with their supervisor(s) and that’s it. There’s the occasional collaboration to apply the method to a problem, but unless you’re working on cross-disciplinary modelling work or a large project involving numerical simulation there doesn’t appear to be much scope for multi-author work. Look back at some of the foundational statistical papers and you’ll see they’ve been written by a single author (some (non-parametric) Bayesian foundations spring to mind: &lt;a href=&#34;http://www.numdam.org/item?id=AIHP_1937__7_1_1_0&#34;&gt;de Finetti, 1937&lt;/a&gt;; &lt;a href=&#34;http://projecteuclid.org/DPubS?service=UI&amp;amp;version=1.0&amp;amp;verb=Display&amp;amp;handle=euclid.pjm/1102992601&#34;&gt;Kingman, 1967&lt;/a&gt;; and &lt;a href=&#34;http://projecteuclid.org/DPubS?service=UI&amp;amp;version=1.0&amp;amp;verb=Display&amp;amp;handle=euclid.aos/1176342360&#34;&gt;Ferguson, 1973&lt;/a&gt;). The question of when to collaborate, with whom, and what it will add is part and parcel of modern science but there are some fields where collaboration is rare and keeping the author list short &lt;a href=&#34;http://andrewgelman.com/2013/06/25/is-there-too-much-coauthorship-in-economics-and-science-more-generally-or-too-little/&#34;&gt;can lead to problems&lt;/a&gt;. Statistical research is necessary when there’s a problem to be solved that is 0% solvable with the current methods. Some of what I’m doing is novel, within the context of aerosol science, but I haven’t done as much stats research in my postdoc as in my PhD. This is no doubt a result of my doing as much collaboration as I am. I get to work on a lot of problems but there’s not much original statistical work in these papers; if I’m lucky I get to do some of the “10%” research. It’s hard to do statistical research in a physics group, especially as the only statistician here. I think if we had a second statistician in the group there’d be a lot more statistics being done both in terms of collaboration/consultation with the scientists and the methods we use to solve problems. The “Airports of the Future” project has quite a number of statisticians working on, among other things, Bayesian Networks, and they’re extending the BN methodology as well as applying it to a novel problem. Two of the members of this team gave a talk at BRAG this morning about visualisation of BN results. This is something I’ll no doubt need to learn about sooner or later as we plan on using BNs with another project that ILAQH is putting together. Four and a half years ago I was under the impression I was joining a physics group to do computational fluid dynamics. Since then I have been learning statistics almost constantly. It’s opened up many more opportunities for collaboration than CFD would have. The trick for me now is to try and put myself in a position where I’m working with other statisticians on statistics. We’ve got some work coming up soon with a more senior statistician at &lt;a href=&#34;http://www.ihbi.qut.edu.au/&#34;&gt;IHBI&lt;/a&gt;, which I hope will bring with it some opportunities for more statistical methodology work. Unrelated PS: The &lt;a href=&#34;http://andrewgelman.com/2013/06/26/dont-buy-bayesian-data-analysis/&#34;&gt;3rd edition of Gelman’s Bayesian Data Analysis&lt;/a&gt; is being released soon, with contributions from David Dunson and Aki Vehtari.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistics and microbiology</title>
+      <link>/./2013/05/21/statistics-and-microbiology/</link>
+      <pubDate>Tue, 21 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/21/statistics-and-microbiology/</guid>
+      <description>&lt;p&gt;I’ve picked up a hobby over the last few months that is paying delicious dividends: homebrewing. It’s something I’d been wanting to try since about this time last year and I finally dropped the money (a cooking store voucher) on a cider homebrewing kit in February. My first batch was an apple cider that came with the kit and it’s been improving with age since the first bottle was opened in late February/early March. The second batch was a pear cider that a friend asked me to make for her; it was divided into two batches after primary fermentation so that I could try something different with the “excess”. The resulting pear and berry cider will make its debut quite soon, as it’s been patiently settling and aging over the last three weeks or so. While I haven’t been keeping time series of the specific gravity, temperature and colour of the cider as it brews, there is certainly grounds to do so. Brewing and statistics have a history which goes back at least as far as William Sealy Gosset, who developed the t-distribution (and test) under the name “Student” while working at the Guinness brewery in 1908. Brewing involves balancing complex ecosystems of a whole lot of different things (depending on what you’re making) and is essentially a giant biochemical experiment. To get properly into brewing requires an understanding of botany, chemistry, microbiology, physics and statistics as you attempt to turn your basic ingredients into something which is tasty, non-toxic and perhaps even effervescent. I would like to start brewing beer at home soon, which will no doubt lead to me reading a lot more about hops, malt, wort, grains and yeasts and taking more fastidious notes. So my exposure to microbiology has been twofold over the last year; working with a Finnish colleague on papers dealing with fungus and endotoxin counts in the UPTECH project and brewing my own alcoholic cider at home. The main fungus paper has been submitted and we’re checking the modelling on the endotoxin paper so that it can be submitted before this colleague leaves in the next few days. I can’t think of a more fitting thing to bring to her farewell party than a drinkable microbiology experiment. Bonus link: &lt;a href=&#34;http://www.reddit.com/r/Homebrewing/comments/1eghjq/op_delivers_wild_harvested_some_microbes_and_made/&#34;&gt;Homebrewing redditor who works in a microbiology lab discovers a new strain of fungus which produces the best beer he’s ever homebrewed&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis? Meta-regression?</title>
+      <link>/./2013/05/14/meta-analysis-meta-regression/</link>
+      <pubDate>Tue, 14 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/14/meta-analysis-meta-regression/</guid>
+      <description>&lt;p&gt;Meta-analysis with a covariate feels really weird. I’m wanting to compare the relationship between the distributions of the mean concentration of endotoxin in the air and in dust samples across 50 locations. I wasn’t sure I did it the right way but the posterior estimates are consistent with my naïve approach of regressing the means of the air and dust samples. It’s important to account for the variability when doing this sort of &lt;em&gt;post hoc&lt;/em&gt; analysis because a point estimate of the mean doesn’t reflect anywhere near the full set of knowledge you have about your parameters of interest. On an unrelated note, another UPTECH paper has been &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/es400041r&#34;&gt;published&lt;/a&gt;. This one’s looking at spatial variation of particle number concentration in the school environment. Congratulations to Farhad Salimi, the first author of this paper, on the publication of his first paper. Farhad’s one of the PhD students on the UPTECH project and is due to finish his thesis later this year. I’ve worked with him on two of his papers (this one and another which has been submitted) and he’s really thrown himself into learning how to use R. This has not only made it easier for me to collaborate with him but it’s also made his analysis possible.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I know the impact factor&#39;s not the be all and end all, but...</title>
+      <link>/./2013/05/09/i-know-the-impact-factors-not-the-be-all-and-end-all-but.../</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/09/i-know-the-impact-factors-not-the-be-all-and-end-all-but.../</guid>
+      <description>&lt;p&gt;In Australia, at least, the impact factor of the journals you publish in plays a large role in your advance in academia. Universities are always under pressure to publish their research in more prestigious journals, conflating the impact factor of the journal and the impact of the research published in it. There are many ways journals can game their impact factor, many ways researchers can game the indices that describe the impact of their work, etc. That said, it’s always good to aim to produce research that will be accepted in a high quality journal. I’ve been excited about the PLoS journals since their launch and I believe QUT is a subscribing member, which means our publication fees are covered. It’s one of the best Open Access journal groups around and doesn’t appear to be a cash grab like some other publishers who are attempting to use Open Access as a business model to increase profits rather than because they believe in the free dissemination of research. UPTECH collected fungi and endotoxin data at the 25 schools, and we’re about to submit the fungi paper (which means work must continue on the endotoxin paper). I was considering whether we should submit to &lt;a href=&#34;http://www.plosone.org/&#34;&gt;PLoS One&lt;/a&gt; (IF 2011: 4.092) and then had a look at what other journals they have which may be an appropriate home. I really think once we get the clinical data from &lt;a href=&#34;http://www.woolcock.org.au/&#34;&gt;our Southern collaborators&lt;/a&gt; we should aim to do the best statistical modelling we can. I’m heartened by the fact that the head of the clinical group we’re working with has a strong background in stats and a desire to learn more Bayesian statistics. I don’t know if we can pull it off, but the prospect of having something investigating the role of fungi and endotoxin on child health published in &lt;a href=&#34;http://www.plospathogens.org/&#34;&gt;PLoS Pathogens&lt;/a&gt; (IF 2011: 9.172) is exhilarating.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Something I&#39;ve learned for BUGS/JAGS</title>
+      <link>/./2013/03/19/something-ive-learned-for-bugs/jags/</link>
+      <pubDate>Tue, 19 Mar 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/03/19/something-ive-learned-for-bugs/jags/</guid>
+      <description>&lt;p&gt;Just quickly, I’m using JAGS with rjags to run some models for this fungal concentration paper I’m writing with our Finnish visitor (who leaves in a few months!). There are three levels of hierarchy in the experiment&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;school (i = 1 to 25)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;measurement site within school (j = 1 to 3)&lt;/li&gt;
+&lt;li&gt;sample number at measurement site (k = 1 to K&lt;sub&gt;j&lt;/sub&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;which mean that I was constructing my data frame as a three dimensional array, y[i,j,k] where there were uneven numbers of samples at each site within each school. Furthermore, modelling y[i,j,k] ~ dnorm(mu[i,j,k],tau.y) was giving me problems because I couldn’t tell JAGS to monitor a three dimensional parameter. I figured out that it’d just be easier to treat the levels of measurement site and sample number as covariates that I could use as index counters in JAGS. I’ve got much simpler code now and JAGS is monitoring mu[i] (i = 1 to 261). Edit: It’s been a busy month. I hope to finally publish that blog post about SEB113 soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Major achievements this week</title>
+      <link>/./2013/02/08/major-achievements-this-week/</link>
+      <pubDate>Fri, 08 Feb 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/02/08/major-achievements-this-week/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;final draft of final thesis paper ready to be submitted (pending feedback from one co-author)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;final draft of thesis ready to be submitted (pending feedback from one supervisor)&lt;/li&gt;
+&lt;li&gt;got the code working properly for a paper I’m second author on, looking at deposition of ultrafine particles within the lung. While not as big a coding task as the Finnish paper this has been a major slog over the last few weeks.&lt;/li&gt;
+&lt;li&gt;pretty much sorted out the analysis and graphs for the paper on fungal counts indoor and outdoor in the UPTECH (for which I’m author some way down the line)&lt;/li&gt;
+&lt;li&gt;appointment form submitted for my postdoc.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biopesticide research programs at QUT</title>
+      <link>/./2012/09/21/biopesticide-research-programs-at-qut/</link>
+      <pubDate>Fri, 21 Sep 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/09/21/biopesticide-research-programs-at-qut/</guid>
+      <description>&lt;p&gt;The email below the cut details three PhD programs that are based on the level above me in the Biopesticides lab at QUT. All projects involve collaboration with researchers in the UK; the mathematics project involves collaborating with &lt;a href=&#34;http://www.maths.ox.ac.uk/contact/details/whites&#34;&gt;researchers at Oxford&lt;/a&gt; and the other two with researchers at &lt;a href=&#34;http://www.cabi.org&#34;&gt;CABI&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&#34;&gt;Chemistry&lt;/a&gt; - The interaction between insect cuticular chemistry and pathology and gene expression in Metarhizium anisopliae&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&#34;&gt;Mathematics&lt;/a&gt; - Development of mathematical models of insect pathogen dynamics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&#34;&gt;Genetics&lt;/a&gt; - Colonisation of the rhizosphere by entomopathogenic fungi: gene expression, metabolite translocation and impacts on invertebrate pests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you’re interested in these, contact &lt;a href=&#34;http://staff.qut.edu.au/staff/hauxwell/&#34;&gt;Associate Professor Caroline Hauxwell&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear all I’m looking for applicants for 3 PhD students in the current round. Please would you pass this on to anyone you think might be interested? Applications to QUT’s research scholarships &lt;strong&gt;close Oct 12 2012.&lt;/strong&gt; Interested applicants should first send a CV and expression of interest stating how your skills and experience will help you to address the research questions to A/Prof Hauxwell &lt;strong&gt;by 5th October at the latest&lt;/strong&gt;. Details of QUT’s scholarships and full application requirements (due 12th October) can be found here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.qut.edu.au/research/scholarships-and-funding/research-scholarships&#34; class=&#34;uri&#34;&gt;http://www.qut.edu.au/research/scholarships-and-funding/research-scholarships&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Outlines of the three projects can be found here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___chemistry.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___maths.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&#34; class=&#34;uri&#34;&gt;https://fileshare.qut.edu.au/public/hauxwell/Higher_Degrees_Research_Projects_Proposal_Form___roots.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks carrie Dr Caroline Hauxwell Associate Professor Queensland University of Technology&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bioaerosols and lab reorganisation</title>
+      <link>/./2012/05/22/bioaerosols-and-lab-reorganisation/</link>
+      <pubDate>Tue, 22 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/22/bioaerosols-and-lab-reorganisation/</guid>
+      <description>&lt;p&gt;Yesterday I had a meeting with my supervisor and two colleagues about looking at the microbiological measurements we’ve been taking as part of UPTECH. It was an interesting meeting if only for the chance to really see how the four of us are approaching this paper from the point of view of our backgrounds. Heidi Salonen, who has been working on microbiology with us since Caroline Duchaine went back to Canada, will be the lead author on the paper. She’s got a background in OH&amp;amp;S and this was really clear when she was talking about the need to quantify safe levels of microbiology. I was sitting there asking the questions that will shape the data analysis, like what sort of relationships we anticipate. Mandana Mazaheri was focussing on making use of the rest of the UPTECH data as best we can (we have a huge Access database) and Lidia Morawska was making sure none of us got carried away and that we could agree on an approach. I’m going to use this paper as an opportunity to push R as our statistical engine rather than Excel (which is all that scientists seem to use). I’m being brought on as the statistician and really don’t want to about learning how to use Excel and write VBA to do the things that can be done trivially in R. R’s plots are a lot better than what we tend to see in Excel and Mandana and I have been learning how polygon() works so we can shade the region between two particle diameter distributions in a plot for a report she’s working on. Mandana’s actually been quite good about learning R and seems to have stuck with it more than a lot of the other PhD students (except for Farhad Salimi, who is doing some really interesting work). I’d really like to use this paper as an opportunity to have people use git but Mandana and Heidi aren’t programmers, and I think even using R is going to stretch them. A &lt;a href=&#34;windows.github.com&#34;&gt;Windows GUI for git&lt;/a&gt; was released recently and I’m finding it better for committing and pushing than TortoiseGit or the command line git client as neither of these deal with my ssh keys particularly well. I don’t know what the deal is there. Perhaps it’s better under a more modern version of Windows. I also spent some time in the lab today helping reorganise it. Me being in the lab is a rarer event than the &lt;a href=&#34;http://www.bbc.co.uk/news/18141625&#34;&gt;recent annular eclipse&lt;/a&gt;. I don’t work in the lab and so am not responsible for the mess left over from experiments and not putting things away when I’m done, but I do rely on the lab’s monitoring data so it’s only fair that I help out from time to time. Just don’t ask me to help out with any of the science.&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;a href=&#34;http://knowyourmeme.com/photos/234739-i-have-no-idea-what-im-doing&#34;&gt;&lt;img src=&#34;fa5.jpg&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bioaerosols</title>
+      <link>/./2012/05/17/bioaerosols/</link>
+      <pubDate>Thu, 17 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/17/bioaerosols/</guid>
+      <description>&lt;p&gt;One of our researchers asked me to come along to a meeting next week to discuss my potential involvement on a paper as “the statistician”. It’s part of the UPTECH project but it’s not the spatial distribution of outdoor aerosols, which is what I’ve been working on for my PhD. &lt;a href=&#34;http://www.uku.fi/vaitokset/2009/ISBN978.951.802.908.6salonen.htm&#34;&gt;Heidi Salonen&lt;/a&gt;, a visiting researcher from Finland, is working on UPTECH looking at the concentration of microbiological agents in indoor air. Luckily I don’t have to be &lt;a href=&#34;http://en.wikipedia.org/wiki/Egon_Spengler&#34;&gt;an expert on spores, moulds and fungus&lt;/a&gt; but it’ll be interesting to pick up a bit more knowledge from the quite broad field of aerosols. I’ve been asked a few times to be involved with some ILAQH projects but at the moment it’s been limited to helping write the statistical methodology for grant applications or discussing an approach for data from another part of the UPTECH project. As far as I recall, this is the first time that someone from ILAQH has come and said “Hey, I want you to be a co-author on this paper”. This sort of thing is what I’ve been looking forward to as I finish off my PhD, the chance to get out of my specific topic and start looking at other peoples’ work. I’ll probably try to recommend a non-parametric regression technique but I have a feeling it’ll be a classically designed experiment and that all we’ll need is some t-tests.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

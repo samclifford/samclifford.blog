@@ -1,0 +1,8 @@
+---
+title: Just a few quick thoughts
+author: Sam Clifford
+date: 2012-06-19
+tags: ["arxiv","blog","Blog","conferences","git","hpc","Japan","latex","open access","papers","qut","science","statistics","travel"]
+---
+
+I'm setting up a laptop to take to ISBA with me as I have lots of thesis work to do. I must say, I'm really impressed with GitHub for Windows in regards to how simple it is to set up. It's a matter of installing the program itself, then entering your github details. Cloning your GitHub repositories to your local machine is as simple as pressing a button. I haven't had to faff about with ssh, pageant, etc. Now I just have to finish setting up remote INLA (which will require faffing about with ssh), installing LaTeX and figuring out if I can use X forwarding without X-Win. I also have to finish my ISBA poster and organise for it to be printed. Then there's the two talks I am giving at Healthy Buildings 2012 which need writing and the Student Program work. I leave for Japan on Sunday. I should probably look at train travel from Osaka to Kyoto, find my travel money card, passport, etc. I uploaded a paper to arXiv yesterday. I'll post about it here when it appears.

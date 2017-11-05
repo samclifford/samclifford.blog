@@ -1,0 +1,123 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Graphs again</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2012/11/19/graphs-again/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2012/11/19/graphs-again/">Graphs again</a></h1>
+	        <div class="post-time">November 19 2012</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/aerosols">aerosols</a>              
+	            
+	                <a href="/./tags/anova">anova</a>              
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/qut">qut</a>              
+	            
+	                <a href="/./tags/science">science</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	                <a href="/./tags/visualisation">visualisation</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>Now that I’ve handed a draft of my final thesis paper to my supervisors/co-authors, I’ve got a little head space to work on another paper that’s been sitting on my to do list for a while. One of the challenges with this paper is coming up with a way to represent data relating to a total of over 100 students at 24 schools. Summarising at the school level ignores a lot of the within-school variation but attempting to use standard plotting approaches can lead to some very complex and visually busy graphs. Add to this that we can’t really use colour and it’s getting a bit tricky. I’ve had a few more looks at the <a href="http://www.stat.columbia.edu/~gelman/research/published/dodhia.pdf">Gelman, Pasarica and Dodhia paper</a> <a href="http://samclifford.info/2012/10/30/turning-tables-into-graphs/" title="Turning tables into graphs">that I’ve previously talked about</a>. While it doesn’t have an example of what I actually want to plot, it does make me think more about what kind of data I’ve got, whether they’re continuous, categorical or count, what their ranges are and what sort of variation occurs. With 24 schools it’s possible to do a 4 x 6 or 6 x 4 grid of sub-plots, and within those subplots we can generally get across what sort of variation there is at the school level. Not everyone likes such a layout, though, so I’ve been looking into grouped/stacked barplots, changing the ordering of the grouping (variable by school vs school by variable) and combining time series and barplots in the same graph (which is actually quite a good way of visualising the data we have, but can’t be done for 100 students). In the end, it’s going to come down to being creative enough to come up with a few alternatives and asking my co-authors which version they think sells the message best. I pretty much refuse to resort to pie graphs (because the scaling in area can be misleading) and feel really uncomfortable about using box-plots to summarise school-level variation. I have nothing against box plots, but for the size of the data we have at each school, summarising with a minimum, maximum and the 25th, 50th and 75th percentiles is going to be very difficult without shifting to a <a href="http://samclifford.info/2012/10/25/anova-again/" title="ANOVA again">Bayesian ANOVA</a>. Still, it’s a really interesting piece of science with some quite unique challenges in terms of the analysis and representation of that analysis (and the raw data). Edit: and it also makes me appreciate what designers (including my two housemates) have to go through, with people saying “No, I don’t like it” but not always having some constructive advice that’s actually possible to put into practice. Edit 2: <a href="http://andrewgelman.com/2012/11/tradeoffs-in-information-graphics/">Relevant new Gelman blog post</a>.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2012/11/21/github/">Prev</a>
+			<a class="next" href="/./2012/11/16/posterior-samples/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+

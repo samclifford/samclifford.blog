@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Elections on Sam Clifford </title>
+    <link>/./tags/elections/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-11-09 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2012/11/09/posterior-samples/</link>
+      <pubDate>Fri, 09 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/09/posterior-samples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/34563838584/computing-for-data-analysis-simply-statistics-edition&#34;&gt;&lt;span style=&#34;line-height:12px;&#34;&gt;Content from very popular online R course run through Coursera to be published online soon&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.statisticsblog.com/2012/10/recommendation-of-the-week/&#34;&gt;Convinced your fancy analysis technique is the right approach? Run it on noise and see what you get&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://scienceseeker.org/&#34;&gt;Science news from science newsmakers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://statisfaction.wordpress.com/2012/11/06/just-for-the-fun-of-it/&#34;&gt;Should ecologists become Bayesians?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you’ve got a colour graph but want to print it black and white, make sure you check what it looks like first. &lt;a href=&#34;http://i.imgur.com/krzQu.jpg&#34;&gt;Otherwise you might struggle to make your point.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com/2012/11/poll-aggregation-and-election-forecasting/&#34;&gt;Andrew Gelman on poll aggregation and election forecasting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/The-Signal-Noise-Predictions-Fail-but/dp/159420411X/ref=zg_bs_books_2&#34;&gt;Nate Silver’s book is #2 on the Amazon best-seller list at the moment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://simplystatistics.org/post/34635539704/on-weather-forecasts-nate-silver-and-the&#34;&gt;Speaking of Nate Silver, here’s a blog post on the politicisation of statistical literacy. (Bonus round: Ctrl-F “Schwimmer”. Extra bonus round: Andrew Gelman comments, saying “I wrote about this on my blog”, just like everyone else on the internet)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

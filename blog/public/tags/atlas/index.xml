@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Atlas on Sam Clifford </title>
+    <link>/./tags/atlas/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-08-12 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Credibility of information given font choice</title>
+      <link>/./2012/08/12/credibility-of-information-given-font-choice/</link>
+      <pubDate>Sun, 12 Aug 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/08/12/credibility-of-information-given-font-choice/</guid>
+      <description>&lt;p&gt;Thanks to the &lt;a href=&#34;http://themonkeycage.org/blog/2012/08/11/potpourri-80&#34;&gt;Monkey Cage blog&lt;/a&gt; (a very good read if you’re a fan of statistics and politics as I am) I’ve come across &lt;a href=&#34;http://opinionator.blogs.nytimes.com/2012/08/08/hear-all-ye-people-hearken-o-earth/&#34;&gt;an opinion article&lt;/a&gt; on the New York Times’ page that discusses whether the font or handwriting style that is used to convey information has any impact on whether we believe that information. It’s worth a read, as is the follow up and the preceding article (an essay and a quiz). There’s a lot of really interesting stuff in there, but one that really leaps out is the ATLAS slides from the presentation about the Higgs Boson. Comic Sans is used to convey fun, light-heartedness, etc. and as far as I’m concerned it simply does not belong in academia. The article goes on to do some analysis of the previous article’s quiz and shows that Baskerville is the font with the most &lt;em&gt;gravitas&lt;/em&gt;. Rather than having me summarise the article here (it’s quite long) it’s probably better to just go and read it. If you’ve ever wondered about whether you should use a particular font (personally, Times New Roman is boring and Cambria is ugly) to convey a particular feeling in your article then this is food for thought. I use LaTeX to write papers and read a lot of papers typeset in LaTeX. As such, my eyes tend to see a lot of &lt;a href=&#34;http://en.wikipedia.org/wiki/Computer_Modern&#34;&gt;Computer Modern&lt;/a&gt;, which has a bit of a reputation as being an academic font. I wouldn’t publish a school newsletter in Computer Modern, of course, but for “serious” writing, CM is it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

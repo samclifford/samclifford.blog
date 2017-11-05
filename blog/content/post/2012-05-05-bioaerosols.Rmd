@@ -1,0 +1,8 @@
+---
+title: Bioaerosols
+author: Sam Clifford
+date: 2012-05-17
+tags: ["aerosols","blog","Blog","finland","ilaqh","microbiology","nonparametrics","papers","qut","science","statistics"]
+---
+
+One of our researchers asked me to come along to a meeting next week to discuss my potential involvement on a paper as "the statistician". It's part of the UPTECH project but it's not the spatial distribution of outdoor aerosols, which is what I've been working on for my PhD. [Heidi Salonen](http://www.uku.fi/vaitokset/2009/ISBN978.951.802.908.6salonen.htm), a visiting researcher from Finland, is working on UPTECH looking at the concentration of microbiological agents in indoor air. Luckily I don't have to be [an expert on spores, moulds and fungus](http://en.wikipedia.org/wiki/Egon_Spengler) but it'll be interesting to pick up a bit more knowledge from the quite broad field of aerosols. I've been asked a few times to be involved with some ILAQH projects but at the moment it's been limited to helping write the statistical methodology for grant applications or discussing an approach for data from another part of the UPTECH project. As far as I recall, this is the first time that someone from ILAQH has come and said "Hey, I want you to be a co-author on this paper". This sort of thing is what I've been looking forward to as I finish off my PhD, the chance to get out of my specific topic and start looking at other peoples' work. I'll probably try to recommend a non-parametric regression technique but I have a feeling it'll be a classically designed experiment and that all we'll need is some t-tests.

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Gaussian Process on Sam Clifford </title>
+    <link>/./tags/gaussian-process/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-05-15 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/05/15/posterior-samples/</link>
+      <pubDate>Wed, 15 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/15/posterior-samples/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://andrewgelman.com/2013/05/14/gpstuff-bayesian-modeling-with-gaussian-processes&#34;&gt;GPStuff 4.1 has been released recently&lt;/a&gt;. I’d like to work with Aki Vehtari’s group. I should really learn more about different inference approaches like EM, EP, VB. Some advice for my SEB113 students who may struggle with the workload of first semester university comes from the sagest of equines, &lt;span class=&#34;citation&#34;&gt;[@horse_ebooks]&lt;/span&gt;(&lt;a href=&#34;https://twitter.com/horse_ebooks&#34; class=&#34;uri&#34;&gt;https://twitter.com/horse_ebooks&lt;/a&gt;).&lt;a href=&#34;http://samcliffordinfo.files.wordpress.com/2013/05/tumblr_mmjxritaln1qfgro5o1_500h.jpg&#34;&gt;&lt;img src=&#34;tumblr_mmjxritaln1qfgro5o1_500h.jpg?w=450&#34; alt=&#34;horseebooks&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.biology.uq.edu.au/staff/hugh-possingham&#34;&gt;Hugh Possingham&lt;/a&gt;’s &lt;a href=&#34;http://brisscience.wordpress.com/2013/04/20/monday-20-may-2013/&#34;&gt;talking on Monday&lt;/a&gt; about the mathematics and economics of conservation as part of the &lt;a href=&#34;http://brisscience.wordpress.com/&#34;&gt;BrisScience&lt;/a&gt; seminar series. I’ve been meaning to make it to a Possingham talk for a while.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revision, revised</title>
+      <link>/./2012/07/15/revision-revised/</link>
+      <pubDate>Sun, 15 Jul 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/07/15/revision-revised/</guid>
+      <description>&lt;p&gt;I just quickly want to plug the videolectures.net website, as it’s a great repository of talks about a wide range of topics. In particular, I want to plug the following two reviews of Bayesian statistics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Christopher Bishop (Microsoft Research) - &lt;a href=&#34;http://videolectures.net/mlss09uk_bishop_ibi/&#34;&gt;Introduction to Bayesian Inference&lt;/a&gt; (MLSS 2009)&lt;/li&gt;
+&lt;li&gt;Carl Edward Rasmussen (Max Planck Institute) - &lt;a href=&#34;http://videolectures.net/mlss07_rasmussen_bigp/&#34;&gt;Bayesian Inference and Gaussian Processes&lt;/a&gt; (MLSS 2007)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first, three hours long, gives a good overview of what Bayesian stats is, conceptually, and introduces a few key terms and some examples. The second one, five hours long, goes deeper into the difference between frequentist and Bayesian statistics and builds towards the use of Gaussian process models, a very important class of models that have a wide variety of applications. If you’ve got eight hours to kill, even if it’s spread over a few weeks, these appear to form a very good introduction to Bayesian statistics which progresses logically and introduces what’s needed when it’s needed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

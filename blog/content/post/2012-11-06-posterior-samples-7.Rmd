@@ -1,0 +1,12 @@
+---
+title: Posterior samples
+author: Sam Clifford
+date: 2012-11-23
+tags: ["blog","Blog","cellular automata","git","latex","posterior samples","publishing","R","science communication","ssai","video"]
+---
+
+*   [<span style="line-height:12px;">LittleStat is an online R tool for simple data analysis</span>](https://littlestat.com/)
+*   [Matter](https://www.readmatter.com) is a new essay-based science/tech publication that got its start on [Kickstarter](http://www.kickstarter.com/projects/readmatter/matter/) - this issue is about people who feel like they have an extra limb.
+*   [Conway's Game of Life as a smooth PDE system](http://0fps.wordpress.com/2012/11/19/conways-game-of-life-for-curved-surfaces-part-1/)
+*   [SSAI wants to know what the biggest challenges in modern Bayesian statistics are](http://statisticalsocietyaustralia.wordpress.com/2012/11/20/november-question/)
+*   [SimpleR tricks and tools: Help, debugging, git, LaTeX, and workflow with R by Prof Rob Hyndman](http://www.r-bloggers.com/RUG/2012/11/video-simpler-tricks-and-tools-help-debugging-git-latex-and-workflow-with-r-by-prof-rob-hyndman/)

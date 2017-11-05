@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Cider on Sam Clifford </title>
+    <link>/./tags/cider/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-05-21 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Statistics and microbiology</title>
+      <link>/./2013/05/21/statistics-and-microbiology/</link>
+      <pubDate>Tue, 21 May 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/05/21/statistics-and-microbiology/</guid>
+      <description>&lt;p&gt;I’ve picked up a hobby over the last few months that is paying delicious dividends: homebrewing. It’s something I’d been wanting to try since about this time last year and I finally dropped the money (a cooking store voucher) on a cider homebrewing kit in February. My first batch was an apple cider that came with the kit and it’s been improving with age since the first bottle was opened in late February/early March. The second batch was a pear cider that a friend asked me to make for her; it was divided into two batches after primary fermentation so that I could try something different with the “excess”. The resulting pear and berry cider will make its debut quite soon, as it’s been patiently settling and aging over the last three weeks or so. While I haven’t been keeping time series of the specific gravity, temperature and colour of the cider as it brews, there is certainly grounds to do so. Brewing and statistics have a history which goes back at least as far as William Sealy Gosset, who developed the t-distribution (and test) under the name “Student” while working at the Guinness brewery in 1908. Brewing involves balancing complex ecosystems of a whole lot of different things (depending on what you’re making) and is essentially a giant biochemical experiment. To get properly into brewing requires an understanding of botany, chemistry, microbiology, physics and statistics as you attempt to turn your basic ingredients into something which is tasty, non-toxic and perhaps even effervescent. I would like to start brewing beer at home soon, which will no doubt lead to me reading a lot more about hops, malt, wort, grains and yeasts and taking more fastidious notes. So my exposure to microbiology has been twofold over the last year; working with a Finnish colleague on papers dealing with fungus and endotoxin counts in the UPTECH project and brewing my own alcoholic cider at home. The main fungus paper has been submitted and we’re checking the modelling on the endotoxin paper so that it can be submitted before this colleague leaves in the next few days. I can’t think of a more fitting thing to bring to her farewell party than a drinkable microbiology experiment. Bonus link: &lt;a href=&#34;http://www.reddit.com/r/Homebrewing/comments/1eghjq/op_delivers_wild_harvested_some_microbes_and_made/&#34;&gt;Homebrewing redditor who works in a microbiology lab discovers a new strain of fungus which produces the best beer he’s ever homebrewed&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

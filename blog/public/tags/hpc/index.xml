@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Hpc on Sam Clifford </title>
+    <link>/./tags/hpc/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-06-24 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2013/06/24/posterior-samples/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/24/posterior-samples/</guid>
+      <description>&lt;p&gt;I was a bit disappointed that it wasn’t about machines doing automatic analysis for us, but this article, “&lt;a href=&#34;http://simplystatistics.org/2013/06/14/the-vast-majority-of-statistical-analysis-is-not-performed-by-statisticians/&#34;&gt;The vast majority of statistical analysis is not performed by statisticians&lt;/a&gt;”, is a bit of a wake-up call for those statisticians who haven’t realised that we need to improve the way we teach statistics and interact with non-statisticians. I don’t think we have enough statisticians in the world to do all the analysis that needs doing, so we need to focus on training scientists and others better so that we don’t leave them stuck in a culture of bad regression and t-tests in Excel. Gianluca Baio (UCL) has &lt;a href=&#34;http://www.statistica.it/gianluca/Talks/INLA.pdf&#34;&gt;a really nice introduction&lt;/a&gt; to &lt;a href=&#34;http://www.r-inla.org/&#34;&gt;INLA&lt;/a&gt; with a comparison to &lt;a href=&#34;http://mcmc-jags.sourceforge.net/&#34;&gt;JAGS&lt;/a&gt;. I started using JAGS when WinBUGS/OpenBUGS was becoming too slow for the analysis I was doing but the major paper of my thesis uses INLA for spatio-temporal analysis. I still use both programs and when faced with a new problem will usually start in JAGS as it’s quite flexible in the way you set up priors. INLA has its advantages as well, one of them being that it will fit a Poisson likelihood to non-integer data very well. There’s &lt;a href=&#34;http://blogs.plos.org/attheinterface/2013/06/19/why-art-and-science/&#34;&gt;a neat little article on the PLoS blog&lt;/a&gt; about linkages between art and science and how the involvement of art in research (beyond making prettier plots, which is really more an issue of design than art) can lead to better scientific outcomes. Radford Neal has just announced &lt;a href=&#34;http://radfordneal.wordpress.com/2013/06/22/announcing-pqr-a-faster-version-of-r/&#34;&gt;pqR&lt;/a&gt;, “pretty quick R”, which is designed to make use of multiple cores wherever possible and avoid unnecessarily onerous computation. It’s not available for Mac/Windows yet, so I won’t be able to look at it for the time being. I wonder if QUT’s HPC group would consider making it available on the supercomputer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Just a few quick thoughts</title>
+      <link>/./2012/06/19/just-a-few-quick-thoughts/</link>
+      <pubDate>Tue, 19 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/19/just-a-few-quick-thoughts/</guid>
+      <description>&lt;p&gt;I’m setting up a laptop to take to ISBA with me as I have lots of thesis work to do. I must say, I’m really impressed with GitHub for Windows in regards to how simple it is to set up. It’s a matter of installing the program itself, then entering your github details. Cloning your GitHub repositories to your local machine is as simple as pressing a button. I haven’t had to faff about with ssh, pageant, etc. Now I just have to finish setting up remote INLA (which will require faffing about with ssh), installing LaTeX and figuring out if I can use X forwarding without X-Win. I also have to finish my ISBA poster and organise for it to be printed. Then there’s the two talks I am giving at Healthy Buildings 2012 which need writing and the Student Program work. I leave for Japan on Sunday. I should probably look at train travel from Osaka to Kyoto, find my travel money card, passport, etc. I uploaded a paper to arXiv yesterday. I’ll post about it here when it appears.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LaTeX and git</title>
+      <link>/./2012/06/13/latex-and-git/</link>
+      <pubDate>Wed, 13 Jun 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/06/13/latex-and-git/</guid>
+      <description>&lt;p&gt;At the request of ihrhove I’ve decided to talk a little bit about using git and LaTeX together. I currently have two private git repositories; one for the Finnish paper and the other for all of my thesis work. I’ve talked previously about the Finnish paper so I’ll give a brief overview of how I use it with my thesis but you’ll need to keep in mind that I don’t have it shared with anyone because my supervisors don’t use git and nor do they edit the documents I work on directly (two print out draft papers and write on them, the third (who has used CVS/SVN in the past) uses Foxit to annotate PDFs directly and send them back to me. To start (and possibly end, if you’re easily convinced) with, LaTeX is just code. So to me there’s no reason why you can’t use any service you’d normally use for code for LaTeX. Everything that is directly being used in a paper comes under my version control with git. Each paper in my thesis repository has its own folder. Within that folder there is a LaTeX subfolder, where I keep everything needed for the writing of the paper, and an R or MATLAB folder depending on what program I’m using to do the modelling (and all the code goes into the repository). Within the LaTeX folder I have a whole bunch of .tex files and a folder where I store the images to be included in the paper. One of my favourite commands in LaTeX is . Every section in a paper has its own LaTeX source file. I find that this helps me navigate my work when I’m writing, especially when making corrections. Each file gets worked on separately and I save frequently. If I’m finished dealing with a section or I’m heading off for a break I will save everything and commit the current changes with a note about which section I’ve been focussing on. I picked this based writing up in my Honours degree when I got sick of having screen after screen of text. If I want to omit a section in a draft I can just comment out the line. Reorganising sections and maybe even subsections, becomes an issue of swapping two or three lines of LaTeX rather than copying and pasting giant blocks of text. I’m a sucker for vector graphics so I will use PDF graphs and pdflatex wherever I can. Occasionally I succumb to using PGF/TikZ for a while but usually have to generate so many different styles of plots that I don’t bother. So anyway, PDF graphics. These are really quite small and can be stored in git no trouble at all. I know git’s more or less useless for version control and revision of binary files (but PDF and EPS files are quite different) but I find it useful to be able to overwrite my graphs and still have the older versions available through reverting to a previous commit rather than making endless folders called “oldgraphics”. The root of my thesis repository has a folder called “Bibliography” which is where a monolithic bibtex file called “allpapers.bib” is stored. Because I will cite the same references across multiple papers I find the idea of having separate bibliography databases a bit silly. I use JabRef to edit this, by the way. All my \bibliography commands point to ../../Bibliography/allpapers.bib. I’ve even got a template for papers with that line in it so that I don’t even have to think about how I do my referencing. With regards to the Finnish paper, this compartmentalisation reduces, even further, the risk of conflicts. Committing changes to one section at a time means the commit messages are often quite descriptive without having to be quite long. The mixture of a few lines of changes and a brief summary means it’s easy to see what’s happened in the changelog. I also use git to keep track of side projects that have popped up during my thesis. Coworkers will often come to me with a question about some data analysis or if I can write a script to make a certain repetitive task as automatic as possible. Each coworker gets a subfolder within a /Side Projects/ folder and within those there are folders for each little project. If I worked in a group where use of git was widespread I would consider making a separate project for each person and inviting them as a collaborator. I kind of wish that QUT had a git server (the school of IT had a subversion server but I really dislike SVN after discovering git) and that scientists were encouraged to use R/MATLAB/SAS for their statistics and modelling instead of Excel. I think it’d a great way to foster collaboration and have people be able to work on a project and make changes, share their code with their coworkers, etc. without sending code and draft papers around via email. Actually a private git server without the account level limitations that github imposes would be an invaluable tool, especially if you could just open up your repositories to the QUT community to show what you’re doing and provide colleagues with usable code for statistical analysis, image manipulation tools, etc. And if someone within the university came across your work and liked it, you would potentially have another paper to work on within the uni.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/./2012/05/16/linux/</link>
+      <pubDate>Wed, 16 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/16/linux/</guid>
+      <description>&lt;p&gt;I swear, when I finish this PhD and start my new position I’ll either be asking for a Mac or installing Linux on my current computer. A lot of my work at the moment revolves around remotely connecting to the university’s supercomputer and using git to do version control for documents stored locally. Both of these require decent ssh and X forwarding and I am sick to death of the way Windows XP deals with both of these .The faculty was going to upgrade us all to Windows 7 but then it got merged with another faculty and I guess it slipped down the list of priorities. I’ve used Mac OS X and/or Linux as my home operating system for quite a while now (must be at least ten years) and while I’m generally okay to use Windows and there are some nice implementations of the programs I need to use (LaTeX, MATLAB, RStudio), the fact is that these programs are available on other operating systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dear Mr Supercomputer</title>
+      <link>/./2012/04/17/dear-mr-supercomputer/</link>
+      <pubDate>Tue, 17 Apr 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/04/17/dear-mr-supercomputer/</guid>
+      <description>&lt;p&gt;After ensuring that my colleagues were pushing their results to our git repository it’s now all steam ahead on this Finnish paper. I’ve got my MATLAB code running on the QUT supercomputer right now. It’s all very exciting watching it go and not run out of memory. Hopefully I can get these results sorted, do some model comparison, plotting and then send the document around for some final drafting within the next two or three weeks (the bulk of the theory section of the paper is finished). It would’ve been nice to be able to present this work at ISBA but I think I’d rather talk about the applied paper that discusses the spatio-temporal trends from the UPTECH project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t forget to clean up</title>
+      <link>/./2012/04/07/dont-forget-to-clean-up/</link>
+      <pubDate>Sat, 07 Apr 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/04/07/dont-forget-to-clean-up/</guid>
+      <description>&lt;p&gt;I just noticed I’m using 11GB of storage space on QUT’s HPC server. Almost all of that will be results from remotely running R-INLA over the last few weeks while writing my second paper. The INLA objects are usually tens of megabytes but sometimes hundreds depending on the model I fit (with ~50,000 rows of data) and I think I’d be pushing my relationship with the HPC team if I didn’t clean this up every so often. Thanks heaps to Håvard Rue and Dan Simpson for their help with getting me sorted out with remote R-INLA. Edit: if you’re at QUT and want to run R-INLA remotely, &lt;a href=&#34;https://docs.google.com/document/d/1gcZ-6mfFh0R1WuprSM3PWyRDjUZ7z048RS_bFXnFXU8/edit&#34;&gt;here are the instructions&lt;/a&gt; that have been worked out by me, Dan, Håvard and QUT HPC’s Ashley Wright.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

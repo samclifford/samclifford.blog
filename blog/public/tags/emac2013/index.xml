@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Emac2013 on Sam Clifford </title>
+    <link>/./tags/emac2013/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2013-12-04 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>EMAC2013 semi-wrap</title>
+      <link>/./2013/12/04/emac2013-semi-wrap/</link>
+      <pubDate>Wed, 04 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/04/emac2013-semi-wrap/</guid>
+      <description>&lt;p&gt;Today’s the final day of EMAC2013, starting with Joe Monaghan’s talk on numerical methods for the dynamics of fluids that contain particles (in 20 minutes, so I’ll be brief). I attended yesterday’s “Education” session and saw some interesting things about how maths education is going around the country. The University of Tasmania is engaging with TasTAFE to deliver maths courses to engineering diploma students in order to prepare them for the mathematics they’ll encounter in their bachelor’s degrees. UTS is doing some interesting analysis of their maths course results to rejig the prerequisite pathways for their maths courses. A particularly interesting case was the use of a first year linear algebra course as a predictor of performance in a second year stochastic models subject that previously only had a first year probability course as its prerequisite. I chaired and presented in yesterday’s “Environment” session, presenting the mathematics behind the &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/es403721w&#34;&gt;personal sampling&lt;/a&gt; that we’ve been working on with the UPTECH project. I got quite a number of good questions and was overall quite happy with the talk I gave. The other talks in the session were about: using approximations to a sum of Pareto distributions, developed by actuaries, to determine whether extreme values in biomass luminescence were real or artifacts from the new sensors; and incorporating insolation into global climate models. Josef Barnes (Griffith) won the student prize (for, I assume, his talk on cardiac geometries), with honorable mentions for Kristen Harley and Lisa Mayo (QUT) and Laith Hermez. Bill Blyth, for whom the prize is named, pointed out the quality of the student talks at EMAC2013 is getting higher year after year. This can only be good news for the applied mathematics sector in Australia (and New Zealand) as these students will likely go on to academic positions and generate high quality research. David Lovell gave a great talk yesterday about multi-, inter-, trans- and ante-disciplinary research. I’m reading &lt;a href=&#34;http://www.ploscompbiol.org/article/info:doi/10.1371/journal.pcbi.0010006&#34;&gt;the article&lt;/a&gt; he referred to yesterday about the way disciplines will have to deal with each other and knowledge sharing over the coming years. And I’m off.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posterior Samples</title>
+      <link>/./2013/12/02/posterior-samples/</link>
+      <pubDate>Mon, 02 Dec 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/12/02/posterior-samples/</guid>
+      <description>&lt;p&gt;Thiago Martins has posted &lt;a href=&#34;http://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/&#34;&gt;a neat little tutorial&lt;/a&gt; about using R to calculate and visualise Principle Components Analysis, using Fisher’s Iris data. PCA is something I’ve struggled with as I’ve gone further into statistics, as it comes across as being based on mathematics rather than statistics. I’d like to learn more about the Indian Buffet Process and associated non-parametric Bayesian methods but if I’m going to be looking at long and wide data sets (say, UPTECH questionnaire data) I’d like to have somewhere to start. It looks like this may provide that. Rasmus Bååth’s done &lt;a href=&#34;http://www.sumsar.net/blog/2013/11/easy-laplace-approximation/&#34;&gt;a tutorial on Laplace Approximations in R&lt;/a&gt; (hat tip to Matt Moores for this one). Laplace Approximations are an alternative to MCMC simulation that can provide good approximations to well-behaved posterior densities in a fraction of the time. The tutorial deals with the issue of reparameterisation for when you’ve got parameters which have bounded values (such as binomial proportions). As a piece of trivia, Thiago (above) is based at NTNU where &lt;a href=&#34;http://www.r-inla.org/&#34;&gt;R-INLA&lt;/a&gt; is developed. I’m at the &lt;a href=&#34;http://emac2013.com.au/&#34;&gt;emac2013&lt;/a&gt; conference this week. We’re about half way through day one of the talks (of three) and there’s already been some fascinating stuff. Professor Robert Mahony (ANU) gave a talk that shows that the development of more advanced unmanned aerial vehicles (UAVs, drones) involves some quite complex but elegant mathematics, involving Lie group symmetries, rather than just coming up with cooler robots. Hasitha Nayanajith Polwaththe Gallage (QUT) showed some really interesting particle method (mesh-free) modelling where forces and energies were used to determine the shape of a red blood cell that had just ejected its nucleus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some good news</title>
+      <link>/./2013/11/29/some-good-news/</link>
+      <pubDate>Fri, 29 Nov 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/11/29/some-good-news/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/es403721w&#34;&gt;Our personal sampling paper got accepted for publication&lt;/a&gt; &lt;span style=&#34;line-height:1.714285714;font-size:1rem;&#34;&gt;quite quickly once we’d made the changes the reviewers required. This paper came from almost nothing about a year and a half ago to a really nice piece of mathematical and statistical modelling that will give us a lot to work with in future UPTECH papers, where we’ll be looking at the relationship between inhaled dose and child health. I’m presenting this work at the EMAC2013 conference next week (gotta write slides!) so it’s good to have the paper online now.&lt;/span&gt; My current post-doc is drawing to a close at the end of the year but I’ve got the contract in the email for my position for the next few years. After that, who knows? We got a grant under an international exchange program which means I may be off overseas for a few weeks/months during my next appointment. I’m looking forward to being able to spend some time outside the country at another university, having got a bit more experience now than when I went to Finland about two years in to my PhD. And it looks like I’m about to get my second PhD student to co-supervise.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

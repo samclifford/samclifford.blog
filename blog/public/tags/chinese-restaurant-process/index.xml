@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Chinese Restaurant Process on Sam Clifford </title>
+    <link>/./tags/chinese-restaurant-process/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-03-28 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Indian Buffet process</title>
+      <link>/./2012/03/28/indian-buffet-process/</link>
+      <pubDate>Wed, 28 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/28/indian-buffet-process/</guid>
+      <description>&lt;p&gt;The NP Bayes reading group that I started is currently working through Griffiths and Ghahramani’s paper on the Indian Buffet process [1], an infinite latent feature model which is used in topic modelling, document clustering, pattern recognition, etc. It’s been pretty hard going because QUT doesn’t teach a lot of combinatorics and we’ve had some patchy attendance recently so we’ve had to go over things a few times (especially the Chinese Restaurant process, the left-ordering function). It’s been a very interesting paper and I am looking forward to the possibility of using it with some survey data. No doubt I’ll get a better understanding of it when I head to ISBA later in the year (&lt;a href=&#34;http://www2.e.u-tokyo.ac.jp/~isba2012/stsessions.html&#34;&gt;Nils Hjort has organised a session&lt;/a&gt; on Beta processes that will include talks from Yongdai Kim, Tamara Broderick and Sinead Williamson). If you’re interested in reading about it, we’ve been making notes on our Wiki. You can start from &lt;a href=&#34;https://wiki.qut.edu.au/display/npbayes/2012/03/&#34;&gt;here&lt;/a&gt; as it’s taken us all of this month so far. I’ve written some code snippets to do some of the things the paper mentions. [1] [Griffiths, T. L., and Ghahramani, Z. “Infinite Latent Feature Models and the Indian Buffet Process”, &lt;em&gt;Advances in Neural Information Processing Systems&lt;/em&gt;, 2005, &lt;strong&gt;18&lt;/strong&gt;, 475-82](&lt;a href=&#34;http://cocosci.berkeley.edu/tom/papers/ibptr.pdf&#34; class=&#34;uri&#34;&gt;http://cocosci.berkeley.edu/tom/papers/ibptr.pdf&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

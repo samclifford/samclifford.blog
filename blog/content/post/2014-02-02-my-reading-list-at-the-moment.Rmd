@@ -1,0 +1,8 @@
+---
+title: My reading list at the moment
+author: Sam Clifford
+date: 2014-02-17
+tags: ["bayesian statistics","Blog","books","statistics"]
+---
+
+While it continues to grow longer and longer, I have a stack of books on my desk that I hope to get through in a timely manner. Always on the lookout for a good general reference for Bayesian statistics, I've borrowed a copy of Congdon's "Bayesian Statistical Modelling". This has some really nice examples in it and covers topics I'm interested in such as spatial statistics and splines. I want to try my hand at understanding Variational Bayes, as I think it'll be useful for a Discovery Project we're submitting. To this end, the monolithic "Probabilistic Graphical Models" is sitting there, taunting me. One of my PhD students is taking his first steps into advanced statistics, having completed a Coursera course in data analysis (his second course starts today). Jim Albert's "Bayesian Computation in R" kind-of assumes you'll be writing code rather than using packages but I found it a useful way to wrap my head around some concepts. And as an early birthday present I got a copy of Nate Silver's "The Signal and the Noise". I'm already about 30 pages in and am quite impressed with how upfront he is about his belief in subjective Bayesianism as a means of inferring and predicting. [Christian Robert reviewed the book](xianblog.wordpress.com/2013/02/27/the-signal-and-the-noise-2/) a year ago and has some interesting thoughts on Silver's approach to statistics. I want to get a copy of Gelman's BDA v3.

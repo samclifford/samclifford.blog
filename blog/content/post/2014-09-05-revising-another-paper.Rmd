@@ -1,0 +1,8 @@
+---
+title: Revising another paper
+author: Sam Clifford
+date: 2014-09-11
+tags: ["aerosols","blog","Blog","ilaqh","papers","science","statistics"]
+---
+
+We got a paper back from the reviewers a few days ago and there are some comments requesting revisions to the explanation of the statistical methods and the analysis. It's interesting coming back to this paper, about a year after I last saw it (it's been sent around to a few different journals to try to find a home for it). The PhD student who is the main author got into R and ggplot2 last year and has done some good work with linear mixed effects models and visualisation but some of the plots are the same sort of thing one might do in Excel (lots of boxplots next to each other rather than making use of small multiples). So now I get to delve back into some data and analysis that's about a year old with fresh eyes. Having done more with ggplot2 over the last 12 months, there are some things that I will definitely change about this. The student and I had a chat this morning about how to tackle it, and we're trying to choose the best way to split up our data for visualisation: 6 treatments, 4 measurement blocks, two different measures (PM2.5 mass concentration and PNC), a total of 48 boxplots, density plots or histograms. A paper with another PhD student has had its open discussion finalised now, which means more writing is probably going to happen. I find [ACP](http://www.atmos-chem-phys.net/)'s model quite interesting. The articles are peer reviewed, published for discussion, and then revised by the authors for final publication. I guess it spreads the review work out a bit and allows for multiple voices to be heard before final publication, each with a different approach and background.

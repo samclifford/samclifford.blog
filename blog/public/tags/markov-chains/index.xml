@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Markov Chains on Sam Clifford </title>
+    <link>/./tags/markov-chains/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-09-24 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Posterior samples</title>
+      <link>/./2014/09/24/posterior-samples/</link>
+      <pubDate>Wed, 24 Sep 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/09/24/posterior-samples/</guid>
+      <description>&lt;p&gt;SEB113 students really seemed to enjoy looking at mathematical modelling last week. &lt;a href=&#34;http://books.google.com.au/books?id=nM_X1PTccloC&amp;amp;lpg=PA111&amp;amp;ots=dCzeaDpIeb&amp;amp;dq=lotka%20volterra%20fulford%20and%20barnes&amp;amp;pg=PA106#v=onepage&amp;amp;q=lotka%20volterra%20fulford%20and%20barnes&amp;amp;f=false&#34;&gt;The Lotka-Volterra equations&lt;/a&gt; continue to be a good teaching tool. A student pointed out that when reviewing the limit idea for derivatives it’d be useful to show it with approximating the circumference of a circle using a polygon. So I knocked this up: &lt;a href=&#34;https://samcliffordinfo.files.wordpress.com/2014/09/approximations.png&#34;&gt;&lt;img src=&#34;approximations.png?w=300&#34; alt=&#34;approximations&#34; /&gt;&lt;/a&gt; Are you interested in big data and/or air quality? &lt;a href=&#34;https://www.qut.edu.au/research/our-research/student-topics/big-data-and-nanoparticles-modelling-complex-spatio-temporal-variation&#34;&gt;Consider doing a PhD with me&lt;/a&gt;. This week I showed in the workshop how Markov chains are a neat application of linear algebra for dealing with probability. We used &lt;a href=&#34;http://setosa.io/blog/2014/07/26/markov-chains/&#34;&gt;this interactive visualisation&lt;/a&gt; to investigate what happens as the transition probabilities change. Zoubin Ghahramani has written &lt;a href=&#34;http://rsta.royalsocietypublishing.org/content/371/1984/20110553.abstract&#34;&gt;a really nice review paper&lt;/a&gt; of Bayesian non-parametrics that I really recommend checking out if you’re interested in the new modelling techniques that have been coming out in the last few years for complex data sets. &lt;a href=&#34;http://www.wired.com/2014/09/exercism/&#34;&gt;Exercism.io&lt;/a&gt; is a new service for learning how to master programming by getting feedback on exercises.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

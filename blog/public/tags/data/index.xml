@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Data on Sam Clifford </title>
+    <link>/./tags/data/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-05-29 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Charts and infographics</title>
+      <link>/./2012/05/29/charts-and-infographics/</link>
+      <pubDate>Tue, 29 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/29/charts-and-infographics/</guid>
+      <description>&lt;p&gt;One of my supervisors, Sama Low Choy, is always up for a chat about the role of visualisation in statistics and data analysis. An acolyte of &lt;a href=&#34;http://www.edwardtufte.com/tufte/&#34;&gt;Tufte&lt;/a&gt;, Sama is quite passionate about appropriate methods of presenting data. 3D pie charts, needless to say, are public enemy number one. We were having a chat this afternoon about how &lt;a href=&#34;http://conidialcoleopticide.wordpress.com/&#34;&gt;a friend of mine&lt;/a&gt; who’s about to start a Masters in biology/statistics is a bit of a nerd when it comes to the presentation of data and copy. Talk turned to how easy it is to use LaTeX and how there’s a need for better visualisation in scientific results (something I’ve talked to some of my ILAQH colleagues about at length). Infographics are quite a popular thing at the moment, despite not always being particularly informative nor warranted, and I mentioned &lt;a href=&#34;http://chartsnthings.tumblr.com&#34;&gt;a blog about the process that the New York Times crew go through when developing infographics&lt;/a&gt; and other visualisation tools. Sama has forwarded me an email containing some of her favourite links that deal with the field of “data journalism”.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Times in US provide some inspiration: &lt;a href=&#34;http://blog.visual.ly/20-great-visualizations-of-2011&#34; class=&#34;uri&#34;&gt;http://blog.visual.ly/20-great-visualizations-of-2011&lt;/a&gt;/ Even on a topic that some science &amp;amp; engineerings students may become engaged with: &lt;a href=&#34;http://blog.visual.ly/best-beer-infographics-and-data-visualizations&#34; class=&#34;uri&#34;&gt;http://blog.visual.ly/best-beer-infographics-and-data-visualizations&lt;/a&gt; Someone else’s selection of highlights from their Infographics &lt;a href=&#34;http://www.smallmeans.com/new-york-times-infographics&#34; class=&#34;uri&#34;&gt;http://www.smallmeans.com/new-york-times-infographics&lt;/a&gt; Here is a link to a website about a new (free) handbook on data journalism: &lt;a href=&#34;http://datadrivenjournalism.net/news_and_analysis/A_peek_inside_the_Data_Journalism_Handbook#When:07:28:52Z&#34; class=&#34;uri&#34;&gt;http://datadrivenjournalism.net/news_and_analysis/A_peek_inside_the_Data_Journalism_Handbook#When:07:28:52Z&lt;/a&gt; Here’s a link to some videos (showing some software, doing some intuitive roll-up roll-down exploration &amp;amp; aggregation of data): &lt;a href=&#34;http://www.panopticon.com/videos&#34; class=&#34;uri&#34;&gt;http://www.panopticon.com/videos&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You might also enjoy &lt;a href=&#34;http://infosthetics.com/archives/2011/12/amanda_cox_talks_about_developing_infographics_at_the_new_york_times_graphics.html&#34;&gt;these videos of Amanda Cox&lt;/a&gt;, a woman behind some of the more innovative visualisation pieces at the NYT, talking about the processes of making good quality visualisations.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

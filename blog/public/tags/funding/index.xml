@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Funding on Sam Clifford </title>
+    <link>/./tags/funding/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2014-11-05 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Two pieces of good news this week</title>
+      <link>/./2014/11/05/two-pieces-of-good-news-this-week/</link>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2014/11/05/two-pieces-of-good-news-this-week/</guid>
+      <description>&lt;p&gt;The full paper from the EMAC2013 conference last year is now available online. If you’re interested in the statistical methodology we used for estimating the inhaled dose of particles by students in the UPTECH project, you should check out our paper at the &lt;a href=&#34;http://journal.austms.org.au/ojs/index.php/ANZIAMJ/article/view/7819&#34;&gt;ANZIAM Journal&lt;/a&gt; (click the link that says “PDF” down the bottom under Full Text). More importantly, though, we were successful in applying for an ARC Discovery Project! This project will run for three years and combines spatio-temporal statistical modelling, sensor miniaturisation and mobile phone technologies to allow people to minimise their exposure to air pollution. Our summary of the project, from &lt;a href=&#34;http://www.arc.gov.au/pdf/DP15/DP15_Listing_by_State_and_Org.pdf&#34;&gt;the list of successful projects&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This interdisciplinary project aims to develop a personalised air pollution exposure monitoring system, leveraging the ubiquitousness and advancements in mobile phone technology and state of the art miniaturisation of monitoring sensors, data transmission and analysis. Airborne pollution is one of the top contemporary risks faced by humans; however, at present individuals have no way to recognise that they are at risk or need to protect themselves. It is expected that the outcome will empower individuals to control and minimise their own exposures. This is expected to lead to significant national socioeconomic benefits and bring global advancement in acquiring and utilising environmental information.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Other people at ILAQH were also successful in getting a Discovery Project grant looking at new particle formation and cloud formation in the Great Barrier Reef. I won’t be involved in that project but it sounds fascinating.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trips interstate</title>
+      <link>/./2013/06/06/trips-interstate/</link>
+      <pubDate>Thu, 06 Jun 2013 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2013/06/06/trips-interstate/</guid>
+      <description>&lt;p&gt;I’m writing this morning while sitting in the corridor at the Woolcock Institute of Medical Research, Glebe NSW. I’m down here visiting some collaborators from the UPTECH project, working on reconciling the survey data from the 600 or so surveys that were sent home with school children during the UPTECH project. It’s different work to anything I’ve done because it involves sitting at a desk with another person and working together for the entire day. We’re double checking everything, sorting out our method and then implementing it where normally I’d just be mucking around and seeing what worked. We have a very disjoint set of skills as I’ve got a background in statistical computation and my colleague is an epidemiologist in a medical science group. This has its pros and cons, of course, because we can’t work in SAS/Access (what she’s used to) nor in R/MATLAB (what I’m used to). So a lot of it’s being done in Excel and custom add-ins for the time being. I have a feeling that today will be the day we start rifling through the boxes of paper surveys and comparing them to the double entered electronic versions. I’m staying with my sister-in-law in Botany while I’m in Sydney this week, which requires about an hour commute each way (if I get the right bus). Long commutes is apparently just what people do in Sydney. My sister-in-law works in Liverpool and drives 1-1.5 hours each way rather than spending two hours on public transport. It’s been a while since I’ve been in Sydney and I forget just how spread out the urban area is. I’m used to staying in Pymble and getting trains everywhere or crashing at friends’ places in the Inner West and being able to walk. It’s two buses from Botany to Glebe and the bus home can take a very long time to get out of the CBD and inner suburbs. Still, it’s nice to be able to walk around Glebe Point at lunch time. On Friday we’ll probably be visited by a few academics that I met last Friday a the &lt;a href=&#34;http://car-cre.org.au/&#34;&gt;CAR&lt;/a&gt; Investigators’ meeting in Melbourne. The meeting was the first time I’d met the group that are funding my 0.75FTE postdoctoral fellowship. It was great to meet the other post-docs (Christine Cowie, Martine Dennekamp, Yuming Guo) and see what they’re all working on. It’s quite a diverse group of people and projects in CAR and everyone was very excited about the prospect of even more collaboration withing the centre. This is the first time I’ve had any real contact with the centre; there are monthly seminars that are hosted using Adobe Connect but I’ve always been tutoring SEB113 when they’ve been on, so I haven’t had a chance to make it to any of them. I’ve caught up with Steve, a friend from undergrad maths at QUT who now lives down here and is doing computational statistics for an HIV research group. We had a drink and dinner last night (Tipple Bar and Bistro and Yulli’s vegetarian restaurant). We seem to have developed quite similar views on the role of stats in science and Bayesian statistics. We should keep in touch more, though, because it totally slipped my mind that he got married. The colleague I’m visiting here took me out to dinner in Newtown last night with her partner, where we stuffed ourselves full of Thai food and then decided to get some pastizzi but to go for a walk before attempting to eat them. I managed to eat two of them once I finally got home, and there’s a cherry cheese one waiting in my bag for morning tea once we earn ourselves a break (we’re using the Pomodoro technique to great effect). I’m not drinking as much coffee while I’m down here, which is partly due to my brother and sister-in-law not drinking coffee and the Woolcock Institute not being located within a university.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thesis update</title>
+      <link>/./2012/11/28/thesis-update/</link>
+      <pubDate>Wed, 28 Nov 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/11/28/thesis-update/</guid>
+      <description>&lt;p&gt;It feels like it’s been a very long time since I posted a substantial update here. Last week was incredibly stressful and had me working on my thesis as well as on three other papers that I’m writing with colleagues here at ILAQH. My primary supervisor is back as of this week and it’s going to be a huge push to get this thesis finished, which means not much time for other projects. Since importing papers into my thesis document and expanding my literature review and introduction these past few days my thesis document has grown from about 50 to about 160 pages. Of course, the page and word count is unimportant in the end; what matters is that I write good work that is viewed favourably by the panel. I realised that I hadn’t announced it here but the &lt;a href=&#34;http://www.car-cre.org.au/&#34;&gt;Centre for Air quality &amp;amp; health Research and evaluation (CAR)&lt;/a&gt; has granted me a post-doctoral fellowship worth 75% of a full time equivalent load. This is about twice what I get as an APA(I) scholarship holder, lasts for a year, and will keep me fed and clothed while I work on a variety of papers regarding statistical modelling of air quality.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

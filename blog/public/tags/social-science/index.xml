@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Social Science on Sam Clifford </title>
+    <link>/./tags/social-science/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-09-20 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>P(roblematic) values</title>
+      <link>/./2012/09/20/problematic-values/</link>
+      <pubDate>Thu, 20 Sep 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/09/20/problematic-values/</guid>
+      <description>&lt;p&gt;I can’t always write a nuanced post about something I come across online. So here’s a link to a paper I saw on Reddit that is a good review of the problems of relying on p values to establish the credibility of a study. It focuses on the social sciences, a discipline which is infamous for its obsession with p values. What’s the way we beat this? As always, better statistical education in our universities and ongoing statistical training for researchers. &lt;a href=&#34;http://www.ejwagenmakers.com/2007/pValueProblems.pdf&#34;&gt;E.-J. Wagenmakers, A practical solution to the pervasive problem of p values, &lt;em&gt;Psychonomic Bulletin and Review&lt;/em&gt;, 2007, 14 (5), 779-804.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

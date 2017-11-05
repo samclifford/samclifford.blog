@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Indian Buffet Process on Sam Clifford </title>
+    <link>/./tags/indian-buffet-process/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2012-05-10 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>ISBA update - logistics</title>
+      <link>/./2012/05/10/isba-update---logistics/</link>
+      <pubDate>Thu, 10 May 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/05/10/isba-update---logistics/</guid>
+      <description>&lt;p&gt;This morning I booked my flights to Osaka ($670 return, a very good deal) and am in the process of organising accommodation with &lt;a href=&#34;http://www.stat.berkeley.edu/~tab/&#34;&gt;Tamara Broderick&lt;/a&gt;. I’m getting excited about catching up with the various people that I met at the BNP conference last year and it’s even more exciting to see their names on the list of people giving talks. Tamara will be talking about Beta processes and Sergio Bacallado is giving a talk alongside Sonia Petrone and Yee Whye Teh, two of the big names in Bayesian non-parametrics. A few QUT people are talking as well. Nicole White and Susanna Cramb will be talking about spatio-temporal disease modelling. One of my supervisors, Sama Low Choy, will be talking about combining subjective priors (expert elicitation) and another, Kerrie Mengersen, is organising that session and co-author on a few papers that are being presented by people in her BRAG group, as well as posters (such as mine). I’m also looking forward to seeing presentations on INLA, spatial modelling, non-parametric estimation and environmental modelling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Indian Buffet process - I&#39;m full</title>
+      <link>/./2012/04/06/indian-buffet-process---im-full/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/04/06/indian-buffet-process---im-full/</guid>
+      <description>&lt;p&gt;My little NP Bayes reading group finally finished with the &lt;a href=&#34;http://samclifford.info/2012/03/28/indian-buffet-process/&#34;&gt;IBP&lt;/a&gt; paper &lt;a href=&#34;https://wiki.qut.edu.au/display/npbayes/2012/04/04/Week+12+Summary&#34;&gt;this week&lt;/a&gt;, having spent five weeks going over it. It’s quite a neat paper which introduces some very interesting approaches to latent feature modelling, such as generating binary matrices which are explicitly in a certain form and using combinatorics to figure out how many other matrices can be reordered into that form. Another neat mathematical trick is the use of the Sherman-Morrison formula to update the inverse of Z’Z (part of the posterior covariance). Each row of Z represents an observation’s latent feature presence and absence. The exchangeable IBP allows us to reorder the observations however we want, so we can sequentially sample rows in Z and then perform the rank one update, rather than block sampling (regenerating the entire Z matrix) and computing the inverse of quite a dense matrix. It turns out that inference for infinite binary matrices can be performed by considering the finite case and recognising that the infinitely many zero columns won’t contribute to the posterior. The example they give, image analysis, is quite effective in illustrating the use of the IBP. One of us suggested that we could spend the next few weeks coding up the Metropolis within Gibbs MCMC sampler and applying it to Fisher’s iris data. We’ve looked at the iris data with the DP for allocating flowers to clusters but perhaps some latent feature analysis will better unearth the underlying species.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Indian Buffet process</title>
+      <link>/./2012/03/28/indian-buffet-process/</link>
+      <pubDate>Wed, 28 Mar 2012 00:00:00 UTC</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>/./2012/03/28/indian-buffet-process/</guid>
+      <description>&lt;p&gt;The NP Bayes reading group that I started is currently working through Griffiths and Ghahramani’s paper on the Indian Buffet process [1], an infinite latent feature model which is used in topic modelling, document clustering, pattern recognition, etc. It’s been pretty hard going because QUT doesn’t teach a lot of combinatorics and we’ve had some patchy attendance recently so we’ve had to go over things a few times (especially the Chinese Restaurant process, the left-ordering function). It’s been a very interesting paper and I am looking forward to the possibility of using it with some survey data. No doubt I’ll get a better understanding of it when I head to ISBA later in the year (&lt;a href=&#34;http://www2.e.u-tokyo.ac.jp/~isba2012/stsessions.html&#34;&gt;Nils Hjort has organised a session&lt;/a&gt; on Beta processes that will include talks from Yongdai Kim, Tamara Broderick and Sinead Williamson). If you’re interested in reading about it, we’ve been making notes on our Wiki. You can start from &lt;a href=&#34;https://wiki.qut.edu.au/display/npbayes/2012/03/&#34;&gt;here&lt;/a&gt; as it’s taken us all of this month so far. I’ve written some code snippets to do some of the things the paper mentions. [1] [Griffiths, T. L., and Ghahramani, Z. “Infinite Latent Feature Models and the Indian Buffet Process”, &lt;em&gt;Advances in Neural Information Processing Systems&lt;/em&gt;, 2005, &lt;strong&gt;18&lt;/strong&gt;, 475-82](&lt;a href=&#34;http://cocosci.berkeley.edu/tom/papers/ibptr.pdf&#34; class=&#34;uri&#34;&gt;http://cocosci.berkeley.edu/tom/papers/ibptr.pdf&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

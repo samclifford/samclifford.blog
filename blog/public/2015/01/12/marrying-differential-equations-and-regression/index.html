@@ -1,0 +1,127 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - Marrying differential equations and regression</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="/./2015/01/12/marrying-differential-equations-and-regression/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Sam Clifford">    
+
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Oswald';
+}
+</style>
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/2015/01/12/marrying-differential-equations-and-regression/">Marrying differential equations and regression</a></h1>
+	        <div class="post-time">January 12 2015</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	                <a href="/./tags/bayesian-statistics">bayesian statistics</a>              
+	            
+	                <a href="/./tags/blog">blog</a>              
+	            
+	                <a href="/./tags/blog">Blog</a>              
+	            
+	                <a href="/./tags/differential-equations">differential equations</a>              
+	            
+	                <a href="/./tags/fabrizio-ruggeri">fabrizio ruggeri</a>              
+	            
+	                <a href="/./tags/jags">jags</a>              
+	            
+	                <a href="/./tags/programming">programming</a>              
+	            
+	                <a href="/./tags/r">R</a>              
+	            
+	                <a href="/./tags/seb113">seb113</a>              
+	            
+	                <a href="/./tags/statistics">statistics</a>              
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        <p>Professor Fabrizio Ruggeri (Milan) visited the Institute for Future Environments for a little while in late 2013. He has been appointed as Adjunct Professor to the Institute and gave a public talk with a brief overview of a few of his research interests. Stochastic modelling of physical systems is something I was exposed to in undergrad when a good friend of mine, Matt Begun (<a href="http://www.sphcm.med.unsw.edu.au/research/infectious-diseases/phd-candidates">who it turns out is doing a PhD</a> under Professor Guy Marks, with whom ILAQH collaborates), suggested we do a joint Honours project where we each tackled the same problem but from different points of view, me as a mathematical modeller, him as a Bayesian statistician. It didn’t eventuate but it had stuck in my mind as an interesting topic. In SEB113 we go through some non-linear regression models and the mathematical models that give rise to them. Regression typically features a fixed equation and variable parameters and the mathematical modelling I’ve been exposed to features fixed parameters (elicited from lab experiments, previous studies, etc.) and numerical simulation of a differential equation to solve the system (as analytic methods aren’t always easy to employ). I found myself thinking “I wonder if there’s a way of doing both at once” and then shelved the thought because there was no way I would have the time to go and thoroughly research it. Having spent a bit of time thinking about it, I’ve had a crack at solving an ODE within a Bayesian regression model (Euler’s method in JAGS) for logistic growth and the Lotka-Volterra equations. I’ve started having some discussions with other mathematicians about how we marry these two ideas and it looks like I’ll be able to start redeveloping my mathematical modelling knowledge. This is somewhere I think applied statistics has a huge role to play in applied mathematical modelling. Mathematicians shouldn’t be constraining themselves to iterating over a grid of point estimates of parameters, then choosing the one which minimises some L<sup><em>p</em></sup>-norm (at least not without something like Approximate Bayesian Computation). I mean, why explore regions of the parameter space that are unlikely to yield simulations that match up with the data? If you’re going to simulate a bunch of simulations, it should be done with the aim of not just finding the most probable values but characterising uncertainty in the parameters. A grid of values representing a very structured form of non-random prior won’t give you that. Finding the maximum with some sort of gradient-based method will give you the most probable values but, again, doesn’t characterise uncertainty. Sometimes we don’t care about that uncertainty, but when we do we’re far better off using statistics and using it properly.</p>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			<a class="prev" href="/./2015/05/28/alp-wants-to-teach-kids-how-to-program-and-i-agree/">Prev</a>
+			<a class="next" href="/./2015/01/01/lorem-ipsum/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Built with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>
+
