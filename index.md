@@ -131,6 +131,10 @@ I still collaborate with colleagues at ILAQH on a variety of topics including oc
 ---------------------------------------------------------
 Citation                 Description
 ------------------------ --------------------------------
+@uptechmain              Main UPTECH paper detailing the inflammatory and pulmonary response to ultrafine particles
+
+@MORAWSKA201775          Indoor sources of exposure in the home, office, school and aged care facilities
+
 @rahman2017nox           Land use regression modelling with variable selection of NO$_\mathrm{x}$ and NO$_2$ concentrations
 
 @rahman2017estimate      Bayesian GAMs used to model urban background particle concentrations and the contribution of new particle formation
