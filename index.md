@@ -4,12 +4,19 @@
 
 
 
-# Bio
-
 
 <aside>
 <a href="http://staff.qut.edu.au/staff/cliffosj/"><img src="170309QUT_SEF_Sam Clifford_007_640x480.jpg"></a>
+
+* <a href="https://github.com/samclifford">GitHub</a>
+* <a href="http://samclifford.info">Blog</a>
+* <a href="https://eprints.qut.edu.au/view/person/Clifford,_Sam.html">QUT ePrints</a>
+* <a href="https://scholar.google.com.au/citations?hl=en&user=KbrnxeoAAAAJ&view_op=list_works">Google Scholar</a>
+* <a href="http://orcid.org/0000-0002-3774-3882">ORCID</a>
+
 </aside>
+
+# Bio
 
 I'm a statistician working at <a href="http://www.qut.edu.au">Queensland University of Technology</a> on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students in the unit [SEB113 - Quantitative Methods in Science](https://www.qut.edu.au/study/unit?unitCode=SEB113).
 
@@ -17,17 +24,13 @@ My undergrad was in applied and computational mathematics, focussing on fluid dy
 
 Occasionally, I blog about my research and you can find more about my publication history at QUT eprints and Google Scholar. Occasionally I publish useful code, including a package for tidying MCMC output from `coda` or `rjags` entitled [`mmcc`](http://mmcc.njtierney.com/).
 
-<aside>
-<a href="https://github.com/samclifford">GitHub</a><br>
-<a href="http://samclifford.info">Blog</a><br>
-<a href="https://eprints.qut.edu.au/view/person/Clifford,_Sam.html">QUT eprints</a><br>
-<a href="https://scholar.google.com.au/citations?hl=en&user=KbrnxeoAAAAJ&view_op=list_works">Google Scholar</a><br>
-<a href="http://orcid.org/0000-0002-3774-3882">ORCID</a>
-</aside>
+
 
 # ACEMS 
 
+
 From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of the ARC Centre of Excellence for Mathematical and Statistical Frontiers, working on a variety of environmental statistics problems such as coral cover in the Great Barrier Reef and jaguar conservation in Peru.
+
 
 <aside>
 2016- : <a href="http://acems.org.au/">ARC Centre of Excellence for Mathematical and Statistical Frontiers</a>
@@ -35,7 +38,13 @@ From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of t
 
 ## Dengue 
 
-I am working with colleagues at QUT and <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">QIMR</a> to investigate the spread of Dengue fever.
+
+I am working with colleagues at QUT and <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">QIMR</a> to investigate the replication and spread of Dengue fever.
+
+
+<aside>
+2017-: <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">Dengue fever (QIMR)</a>
+</aside>
 
 ## Great Barrier Reef
 
