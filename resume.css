@@ -1,6 +1,6 @@
 /* Whole document: */
   body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', serif;
     padding: 2%;
     font-size: 12pt;
     max-width: 1200;
@@ -11,16 +11,16 @@
   }
 /* Headers */
   h1{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 24pt;
     font-weight: bold;
 }
 
 h2,h3,h4,h5,h6{
     font-size: 18pt;
-    font-family: 'Oswald', sans-serif;
-    font-weight: lighter;
-    font-style: italic;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 #TOC {
