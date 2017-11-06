@@ -146,8 +146,6 @@ I still collaborate with colleagues at ILAQH on a variety of topics including oc
 ---------------------------------------------------------
 Citation                 Description
 ------------------------ --------------------------------
-@uptechmain              Main UPTECH paper detailing the inflammatory and pulmonary response to ultrafine particles
-
 @MORAWSKA201775          Indoor sources of exposure in the home, office, school and aged care facilities
 
 @rahman2017nox           Land use regression modelling with variable selection of NO$_\mathrm{x}$ and NO$_2$ concentrations
@@ -187,6 +185,8 @@ The bulk of my postdoctoral work at ILAQH was related to the UPTECH project. The
 ---------------------------------------------------------
 Citation                 Description
 ------------------------ --------------------------------
+@uptechmain              Main UPTECH paper detailing the inflammatory and pulmonary response to ultrafine particles
+
 @rusdinpaper1            The relationship between indoor and outdoor air quality in primary schools
 
 @ezz2015                 Methods paper for the UPTECH project
