@@ -33,11 +33,11 @@ From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of t
 2016- : <a href="http://acems.org.au/">ARC Centre of Excellence for Mathematical and Statistical Frontiers</a>
 </aside>
 
-## Dengue fever transmission
+## Dengue 
 
 I am working with colleagues at QUT and <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">QIMR</a> to investigate the spread of Dengue fever.
 
-## Coral cover on the Great Barrier Reef 
+## Great Barrier Reef
 
 The Monitoring Through Many Eyes project is a collaboration between scientists, data analysts and marine explorers, working together to document, analyse and predict the health of the Great Barrier Reef. The aim is to tap into the power of Citizen Scientists by collating thousands of underwater images take by recreational divers and snorkelers on the Reef each year.
 
@@ -53,7 +53,7 @@ Citation                 Description
 
 --------------------------------------------------------
 
-## Jaguar conservation in the Peruvian Amazon
+## Jaguars
 
 The world needs new ways to do conservation. There is no time for endangered animals and their environments. We need an evidence base to make informed decisions, and we need it now. We are addressing this problem by combining traditional conservation with virtual reality technology, mathematical and statistical modelling, local knowledge and international expertise. 
 
@@ -73,7 +73,7 @@ Citation                 Description
 
 --------------------------------------------------------
 
-## Bayesian spike sorting
+## Spike sorting
 
 I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zoé van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans.
 
@@ -84,6 +84,33 @@ Citation                 Description
 @zoe2017ofmdpm           Overfitted mixtures and Dirichlet process mixtures for spike classification
 
 --------------------------------------------------------
+
+## ECR Retreat
+
+As an early career researcher (ECR) at ACEMS I helped organise the [ECR Retreat](https://github.com/ACEMS/ECRretreat2017Nov) as part of the November 2017 ACEMS retreat. The ECR retreat used a blend of talks and [UnConference](https://en.wikipedia.org/wiki/Unconference) style collaborative sessions to foster collaboration between the ECRs at the [various nodes](https://acems.org.au/about-us) and to make ourselves known and avaialble to the ACEMS PhD students.
+
+# Teaching
+
+Since 2013 I have been involved in the development and delivery of *SEB113 - Quantitative Methods for Science* as part of the ST01 Bachelor of Science course at Queensland University of Technology. The course covers a variety of mathematical and statistical topics taught through scientific case studies and makes use of the R language for all computation.
+
+<aside>
+2013: Tutor <br>
+2013-: Associate Lecturer <br>
+2014-: Unit Coordinator
+</aside>
+
+In 2015, the teaching team was the recipient of the Vice Chancellor's Performance Award for innovation in redesiging the unit for student success through encouraging engagement with multiple technologies.
+
+
+---------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@herdsa2016              Redesign of a first year unit with blended learning to improve student engagement and success
+
+---------------------------------------------------------
+
+
+
 
 # ILAQH 
 
@@ -161,10 +188,10 @@ Citation                 Description
 ---------------------------------------------------------
 
 
-## Education
+# Education
 
 
-### PhD Thesis outputs
+## Thesis outputs
 
 
 <aside>
@@ -187,9 +214,11 @@ Citation                 Description
 
 @Clifford2011            Using GAMs to model temporal trends and covariate effects for PNC in Helsinki, Finland
 
+@honours                  Honours thesis on dispersion of a compount in shear-augmented flow 
+
 ---------------------------------------------------------
 
-### Other publications
+## Other publications
 
 Papers represent work undertaken during the PhD, typically with other PhD students within ILAQH
 
@@ -201,8 +230,6 @@ Citation                 Description
 @molgaard2013             Work that came out of a visit to Helsinki, Finland, using Bayesian GAMs with autocorrelated errors to understand air quality in multiple European cities
 
 @farhadpaper              Spatial variation of air quality within primary schools
-
-@honours                  Honours thesis on dispersion of a compount in shear-augmented flow 
 
 ---------------------------------------------------------
 
@@ -237,26 +264,6 @@ Citation                 Description
 
 ---------------------------------------------------------
 
-
-# Teaching
-
-Since 2013 I have been involved in the development and delivery of *SEB113 - Quantitative Methods for Science* as part of the ST01 Bachelor of Science course at Queensland University of Technology. The course covers a variety of mathematical and statistical topics taught through scientific case studies and makes use of the R language for all computation.
-
-<aside>
-2013: Tutor <br>
-2013-: Associate Lecturer <br>
-2014-: Unit Coordinator
-</aside>
-
-In 2015, the teaching team was the recipient of the Vice Chancellor's Performance Award for innovation in redesiging the unit for student success through encouraging engagement with multiple technologies.
-
-
----------------------------------------------------------
-Citation                 Description
------------------------- --------------------------------
-@herdsa2016              Redesign of a first year unit with blended learning to improve student engagement and success
-
----------------------------------------------------------
 
 
 # References
