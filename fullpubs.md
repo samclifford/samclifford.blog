@@ -3,7 +3,6 @@
 
 
 
-
 For a more detailed biography and list of current projects, go [home](index.html).
 
 # ACEMS
