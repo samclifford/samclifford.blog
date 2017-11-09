@@ -4,20 +4,6 @@
 
 
 
-
-<aside>
-<a href="http://staff.qut.edu.au/staff/cliffosj/"><img src="170309QUT_SEF_Sam Clifford_007_640x480.jpg"></a>
-
-* <a href="https://github.com/samclifford">GitHub</a>
-    * [`mmcc`](http://mmcc.njtierney.com/)
-    * [`mgcv.helper`](https://github.com/samclifford/mgcv.helper)
-* <a href="http://samclifford.info">Blog</a>
-* <a href="https://eprints.qut.edu.au/view/person/Clifford,_Sam.html">QUT ePrints</a>
-* <a href="https://scholar.google.com.au/citations?hl=en&user=KbrnxeoAAAAJ&view_op=list_works">Google Scholar</a>
-* <a href="http://orcid.org/0000-0002-3774-3882">ORCID</a>
-
-</aside>
-
 For a more detailed biography and list of current projects, go [home](index.html).
 
 # ACEMS

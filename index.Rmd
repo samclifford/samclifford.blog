@@ -20,8 +20,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+# Bio
+
+I'm a statistician working at <a href="http://www.qut.edu.au">Queensland University of Technology</a> on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students in the unit [SEB113 - Quantitative Methods in Science](https://www.qut.edu.au/study/unit?unitCode=SEB113).
+
+My undergrad was in applied and computational mathematics, focussing on fluid dynamics in my honours year. Over time, I drifted towards Bayesian statistical modelling, where I use semi-parametric regression and hierarchical modelling for spatial, temporal, and spatio-temporal modelling.
+
 <aside>
-<a href="http://staff.qut.edu.au/staff/cliffosj/"><img src="170309QUT_SEF_Sam Clifford_007_640x480.jpg"></a>
 
 * <a href="https://github.com/samclifford">GitHub</a>
     * [`mmcc`](http://mmcc.njtierney.com/)
@@ -30,14 +35,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * <a href="https://eprints.qut.edu.au/view/person/Clifford,_Sam.html">QUT ePrints</a>
 * <a href="https://scholar.google.com.au/citations?hl=en&user=KbrnxeoAAAAJ&view_op=list_works">Google Scholar</a>
 * <a href="http://orcid.org/0000-0002-3774-3882">ORCID</a>
-
 </aside>
-
-# Bio
-
-I'm a statistician working at <a href="http://www.qut.edu.au">Queensland University of Technology</a> on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students in the unit [SEB113 - Quantitative Methods in Science](https://www.qut.edu.au/study/unit?unitCode=SEB113).
-
-My undergrad was in applied and computational mathematics, focussing on fluid dynamics in my honours year. Over time, I drifted towards Bayesian statistical modelling, where I use semi-parametric regression and hierarchical modelling for spatial, temporal, and spatio-temporal modelling.
 
 Occasionally, I blog about my research and you can find more about my publication history at QUT eprints and Google Scholar. Occasionally I publish useful code, including a package for tidying MCMC output from `coda` or `rjags` entitled [`mmcc`](http://mmcc.njtierney.com/), and a package to bring some of the common linear model diagnostics like variance inflation factors and tables of confidence intervals to GAMs from `mgcv` in [`mgcv.helper`](https://github.com/samclifford/mgcv.helper).
 
