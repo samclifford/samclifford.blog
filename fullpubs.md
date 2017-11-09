@@ -125,6 +125,8 @@ Citation                 Description
 ------------------------ --------------------------------
 @zoe2017ofmdpm           Overfitted mixtures and Dirichlet process mixtures for spike classification
 
+@colinbrt                Application of boosted regression trees to agricultural data from multiple sources
+
 @herdsa2016              Redesign of a first year unit with blended learning to improve student engagement and success
 
 @falk                    Review paper on modern statistical methods for analysing spatial data
