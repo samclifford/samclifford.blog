@@ -17,10 +17,10 @@ Much of my work makes use of the following techniques, which one could consider 
 * Exposure-response models
 
 
-From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of the **ARC Centre of Excellence for Mathematical and Statistical Frontiers**, working on a variety of environmental statistics problems such as coral cover in the Great Barrier Reef and jaguar conservation in Peru.
+
+From 2016 I have been employed as a **Postdoctoral Fellow** at the QUT node of the **ARC Centre of Excellence for Mathematical and Statistical Frontiers**, working on a variety of environmental statistics problems such as coral cover in the Great Barrier Reef and jaguar conservation in Peru as well as the dynamics of dengue fever.
 
 <aside>
-2017-: <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">Dengue fever (QIMR)</a>
 2016- : <a href="http://acems.org.au/">ARC Centre of Excellence for Mathematical and Statistical Frontiers</a>
 </aside>
 
@@ -67,7 +67,11 @@ A selected list of publications is shown below, indicating recent projects I've 
 
 # Biostatistics for virus dynamics
 
-I am working with colleagues at QUT and <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">QIMR</a> to investigate the replication and spread of Dengue fever.
+I am working with colleagues at QUT and <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">QIMR</a> to investigate the replication and spread of Dengue fever. The work involves mathematical and statistical modelling of the dynamics of the virus cell, the host and transmission within the population.
+
+<aside>
+2017-: <a href="http://www.qimrberghofer.edu.au/diseases/mosquito-borne-viruses/">Dengue fever (QIMR)</a>
+</aside>
 
 # Citizen science for spatial statistics
 
@@ -154,9 +158,9 @@ Citation                 Description
 ------------------------ --------------------------------
 @salimi2017nocturnal     New particle formation typically occurs during daylight; here we investigate evidence of night time events
 
-@rohanpm10               Predictive model for whether or not midday new particle formation events will occur based on morning PM$_{10}$ and visibility
-
 @rivas2017identification Identification of problems with DustTrak performance seen during measurement campaigns -- indicating conditions under which this instrument shouldn't be used
+
+@rohanpm10               Predictive model for whether or not midday new particle formation events will occur based on morning PM$_{10}$ and visibility
 
 @thermodenuder           Semi-parametric regression used to model particle losses in aerosol measuring equipment
 ---------------------------------------------------------
