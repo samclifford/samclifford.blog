@@ -1,18 +1,6 @@
----
-title: "Sam Clifford - Research profile"
-date: "19 Feb 2018"
-output: 
-  tufterhandout::html_tufte_handout:
-    self_contained: false
-    keep_md: true
-    css: ["resume.css", "tufterhandout.css"]
-    toc: true
-    toc_depth: 2
-    includes:
-      in_header: header.html
-bibliography: resume.bib
-link-citations: yes
----
+# Sam Clifford - Research profile
+`r format(Sys.Date(), '%d %b %Y')`  
+
 
 
 
@@ -148,7 +136,7 @@ Citation                 Description
 
 # Non-parametric modelling of time series data
 
-I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr Zoé van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans. Early work in my PhD focussed on modelling temporal variation without spatial structure.
+I am currently working on simulation studies for two papers with a former ACEMS PhD student, Dr ZoÃ© van Havre, where we are looking at finite and infinite mixture modelling methods for classifying action potential data from EEG scans. Early work in my PhD focussed on modelling temporal variation without spatial structure.
 
 ---------------------------------------------------------
 Citation                 Description
