@@ -1,5 +1,18 @@
-# Sam Clifford - Full publication list
-`r format(Sys.Date(), '%d %b %Y')`  
+---
+title: "Sam Clifford - Full publication list"
+date: "19 Feb 2018"
+output: 
+  tufterhandout::html_tufte_handout:
+    self_contained: false
+    keep_md: true
+    css: ["resume.css", "tufterhandout.css"]
+    toc: true
+    toc_depth: 2
+    includes:
+      in_header: header.html
+bibliography: resume.bib
+link-citations: yes
+---
 
 
 
