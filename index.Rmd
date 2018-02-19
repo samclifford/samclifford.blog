@@ -1,4 +1,3 @@
-
 ---
 title: "Sam Clifford - Research profile"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
