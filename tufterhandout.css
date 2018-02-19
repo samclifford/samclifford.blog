@@ -80,3 +80,17 @@ li {
   width: 680px;
 }
 
+body a:link,
+     a:visited {
+	/*border-bottom: 1px solid #E4C9F8;
+    box-shadow: inset 0 -2px 0 #E4C9F8;*/
+    color: #735489;
+	
+}
+
+/* mouse over link */
+body a:hover, 
+     a:active {
+    background-color: #E4C9F8;
+	color: #735489;
+}
