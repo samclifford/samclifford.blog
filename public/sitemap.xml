@@ -3,73 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2018/02/21/progress-tests/</loc>
+    <loc>/public/2018/02/21/progress-tests/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/public/about/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/cv/</loc>
+    <loc>/public/cv/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pubs/</loc>
+    <loc>/public/pubs/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/02/14/uptech-paper-complete/</loc>
+    <loc>/public/2018/02/14/uptech-paper-complete/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/aerosol-science/</loc>
-    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+    <loc>/public/categories/aerosol-science/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/research/</loc>
+    <loc>/public/categories/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/public/post/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/seb113/</loc>
+    <loc>/public/categories/research/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/public/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/public/categories/seb113/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/uptech/</loc>
+    <loc>/public/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/public/categories/uptech/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
