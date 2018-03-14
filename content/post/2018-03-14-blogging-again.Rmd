@@ -1,0 +1,12 @@
+---
+title: Blogging again
+author: Sam Clifford
+date: '2018-03-14'
+slug: blogging-again
+categories: ["meta"]
+tags: []
+---
+
+I've been wrestling with the idea of moving to a blogdown site rather than having a handful of static pages squatting in a github page. After hemming and hawwing about it, I've finally set up a hugo blog, found a nice theme and [a way of pushing the changes up](https://hjdskes.github.io/blog/update-deploying-hugo-on-personal-gh-pages/). Disqus comments aren't working yet but I'm figuring out how to get that, so that it's actually possible to engage in a discussion.
+
+The major themes for the blog, like my old Wordpress site, will be research, teaching and collections of interesting links. I've downloaded the XML tree for the old Wordpress blog and am looking at tools for converting them to markdown files so that I can port them across. If there's no simple way of automating it, I might just pick out the greatest hits and pull them across manually.
