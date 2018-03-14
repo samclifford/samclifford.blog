@@ -1,0 +1,65 @@
+<!-- Syntax highlighting -->
+{{ partial "highlight.html" . }}
+
+<!-- Pure css -->
+<!---<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> --->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/combine/npm/purecss@1.0.0/build/base-min.css,npm/purecss@1.0.0/build/grids-min.css">
+
+<!-- Fonts -->
+<!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"> -->
+<!-- <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'> -->
+
+ 
+  <!-- Google fonts -->
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|{{ .Site.Params.font.body }}|{{ .Site.Params.font.heading }}|{{ .Site.Params.font.blockquote }}|{{ .Site.Params.font.nav }}|{{ .Site.Params.font.paragraph }}' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: '{{ replace .Site.Params.font.body "+" " "}}';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: '{{ replace .Site.Params.font.heading "+" " "}}';
+}
+
+blockquote {
+    font-family: '{{ replace .Site.Params.font.blockquote "+" " "}}';
+
+}
+
+section {
+    font-family: '{{ replace .Site.Params.font.body "+" " "}}';
+
+}
+
+.dropdown a {
+    font-family: '{{ replace .Site.Params.font.nav "+" " "}}'
+
+}
+.post-content p {
+    font-family: '{{ replace .Site.Params.font.paragraph "+" " "}}'
+}
+</style>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+<!-- Bootstrap stuff -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+<!-- Main CSS file based on Pure blog layout -->
+<link rel="stylesheet" href="{{ "/css/tuftesque.css" | relURL }}">
+{{ partial "backgroundColor.html" . }}
+
+
+<!-- Will load google analytics code if you have it. 
+     Open themes/tuftesque/layouts/partials/googleAnalytics.html to see how to work this 
+-->
+{{ partial "googleAnalytics.html" . }}
+

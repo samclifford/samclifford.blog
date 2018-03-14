@@ -1,0 +1,11 @@
+<header class="navbar-nav navbar-light flex-column bd-navbar" id="navbar-main">
+  <h1><a clas="navbar-brand" href="{{  .Site.BaseURL | relURL  }}">{{ .Site.Title }}</a></h1>
+    <div class="navbar-nav flex-row" id="navbarNav">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+	  {{ range .Site.Menus.main  }}
+	  <li class="nav-item"><a class="nav-link p-2" href="{{ .URL }}">{{ .Name }}</a></li>
+	  {{ end }}
+    </ul>
+  </div>
+</header>
+

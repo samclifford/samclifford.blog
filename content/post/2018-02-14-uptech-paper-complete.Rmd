@@ -1,0 +1,29 @@
+---
+title: UPTECH paper complete
+author: Sam Clifford
+date: '2018-02-14'
+slug: uptech-paper-complete
+categories: ["research",  "aerosol science", "uptech"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+disableComments: true
+---
+
+After what seems like a lifetime, the UPTECH paper I've been working on is undergoing final proofing [@uptechmain]. The paper looks at classic spirometry outcomes like FEV<sub>1</sub> and FVC, markers of inflammation like the fraction of exhaled nitric oxide and the amount of C-reactive protein in the blood. Through a health history and demographics questionniare that got sent home with the 655 participating students we have information about their coughing, wheezing and asthma status over the last 12 months, as well as whether the home's been flooded or had mould in that period, the presence of gas cooktops, pets, a garage, carpet, air conditioning, cigarette smoking, and many other variables which didn't make it into the final models. 
+
+
+## Modeling challenges
+
+The exposure assessment for the final clinical models required us to estimate the annual exposure to ultrafine particles and nitrogen dioxide as well as estimating the amount of cigarette exposure based on blood cotinine values and smoking status at home. The aerosol exposure modelling was done through land use regression, looking at the relationship between the school-based measurements (and a central monitoring site at QUT) and the geographical features such as distances to, and amounts of, major and minor roads nearby, the zoning of residential, commercial, etc. land, and topography such as the distances to the coast and airport and elevation above sea level.
+
+My PhD student, Bijan Yeganeh, did a great job with the GIS processing and early exposure modelling. Dr Farhad Salimi, who came through the UPTECH project PhD student cohort with me, continued the exposure assessment to simplify things a bit regarding school exposure. Through doing this project I've been able to extend my knowledge about LUR models and this has led to a few papers with others in the group including one on nitrous oxides [@rahman2017nox] and a forthcoming paper looking at size-fractionated particle number concentration and new particle formation events.
+
+One of the bigger modelling challenges was attempting to estimate cigarette exposure. Not all students consented to having bloodwork done, and so for approximately 1/3 of our students we didn't have measurements of cotinine (a metabolite of nicotine which indicates exposure to tobacco smoke). So that we didn't lose these students and their data from the analysis, I built an imputation model that used the questionnaire data on home smoking status so we could characterise the possible values that unobserved cotinine concentrations would take. Because there's more places to be exposed to cigarette smoke in the home, and not every parent wants to own up to smoking in front of their kids, we built a zero-inflated Gamma regression model and used the output to sample unobserved cotinine values at each step of the MCMC sampler we used to fit the clinical model [@eacclifford].
+
+## Looking forward
+
+One of the things I'd liked to have done is to include the personal sampling that was done as part of the UPTECH project [@mandanantpaper] to give us data about particle number concentration away from the stationary monitoring sites. I think this is the logical next step for analysis of the UPTECH data, along with doing dose-response analysis for short term health effects of exposure to ultrafines using the personal sampling data and our model of inhaled dose [@emacpaper]. I'm still doing work on personal exposure monitoring and modelling with Dr Mandana Mazaheri, so there's definitely scope for figuring out how to include personal observation data alongside the stationary monitoring data to improve spatio-temporal prediction.
+
+## References

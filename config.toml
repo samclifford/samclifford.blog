@@ -1,0 +1,70 @@
+baseURL = "/"
+languageCode = "en-au"
+title = "Sam Clifford - Bayesian Statistics"
+googleAnalytics = ""
+disqusShortname = "samclifford"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib.*"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Main"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/About/"
+    weight = 2
+[[menu.main]]
+    name = "CV"
+    url = "/CV/"
+    weight = 3
+[[menu.main]]
+    name = "List of Publications"
+    url = "/Pubs/"
+    weight = 4
+
+[params]
+    description = "A website built through Hugo and blogdown."
+	showPoweredBy = true
+    copyrightHolder = "Sam Clifford"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+   [params.logo]
+    url = "logo.png"
+    width = 0
+    height = 0
+    alt = "Logo"
+	
+	# social icons used in footer
+	# can use any font awesome icon: http://fontawesome.io/icons/
+    [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    link = "https://github.com/samclifford"
+    [[params.social]]
+    name = "Twitter"
+    icon = "twitter"
+    link = "https://twitter.com/samclifford"
+    [[params.social]]
+    name = "LinkedIn"
+    icon = "linkedin-square"
+    link = "https://www.linkedin.com/in/samclifford/"
+
+[params.font]
+    # Some example fonts: Domine, Raleway, "Gentium Basic", Lato
+
+    body = "Roboto Condensed"
+    heading = "Roboto Condensed"
+    blockquote = "Roboto Condensed"
+    nav = "Roboto Condensed"
+    paragraph = "Roboto Condensed"
