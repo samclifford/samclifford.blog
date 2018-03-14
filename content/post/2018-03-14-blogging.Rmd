@@ -9,6 +9,9 @@ link-citations: yes
 hasMath: true
 ---
 
+``` {r, include=FALSE}
+library(tufte)
+```
 
 I've been wrestling with the idea of moving to a blogdown site rather than having a handful of static pages squatting in a github page. After hemming and hawwing about it, I've finally set up a hugo blog, found a nice theme and [a way of pushing the changes up](https://hjdskes.github.io/blog/update-deploying-hugo-on-personal-gh-pages/). Disqus comments aren't working yet but I'm figuring out how to get that, so that it's actually possible to engage in a discussion.
 
