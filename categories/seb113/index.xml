@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seb113 on Sam Clifford - Bayesian Statistics</title>
+    <link>/public/categories/seb113/</link>
+    <description>Recent content in Seb113 on Sam Clifford - Bayesian Statistics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/public/categories/seb113/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Progress, anxiety and context</title>
+      <link>/public/2018/02/21/progress-tests/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/public/2018/02/21/progress-tests/</guid>
+      <description>One of the challenges when teaching first year students with a diverse range of maths backgrounds is that you’ll encounter students with maths anxiety. Exactly what it sounds like, maths anxiety prevents students from being able to engage with material that would be otherwise within their grasp. Whether they’re Maths A students who have always struggled, Maths B students who got through without really understanding how, or mature age students for whom high school maths is a distant yet painful memory, some students will almost refuse to attempt anything new.</description>
+    </item>
+    
+  </channel>
+</rss>
