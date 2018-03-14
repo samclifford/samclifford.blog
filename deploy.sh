@@ -34,4 +34,4 @@ pushd public
 git add *
 git commit -m "$MESSAGE"
 popd
-git push origin master
+git push origin HEAD:master
