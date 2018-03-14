@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sam Clifford - Bayesian Statistics</title>
-    <link>/public/</link>
+    <link>/</link>
     <description>Recent content on Sam Clifford - Bayesian Statistics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Progress, anxiety and context</title>
-      <link>/public/2018/02/21/progress-tests/</link>
+      <link>/2018/02/21/progress-tests/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/public/2018/02/21/progress-tests/</guid>
+      <guid>/2018/02/21/progress-tests/</guid>
       <description>One of the challenges when teaching first year students with a diverse range of maths backgrounds is that you’ll encounter students with maths anxiety. Exactly what it sounds like, maths anxiety prevents students from being able to engage with material that would be otherwise within their grasp. Whether they’re Maths A students who have always struggled, Maths B students who got through without really understanding how, or mature age students for whom high school maths is a distant yet painful memory, some students will almost refuse to attempt anything new.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/public/about/</link>
+      <link>/about/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/public/about/</guid>
+      <guid>/about/</guid>
       <description>Bio
 I’m a statistician working at Queensland University of Technology on a range of environmental and environmental health problems such as jaguar conservation, reef conservation, and air pollution and its health impacts. In addition, I teach mathematics and statistics to first year science students in the unit SEB113 - Quantitative Methods in Science.
 Methodologically, my research interests are
@@ -34,30 +34,30 @@ Methodologically, my research interests are
     
     <item>
       <title>Curriculum Vitae</title>
-      <link>/public/cv/</link>
+      <link>/cv/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/public/cv/</guid>
+      <guid>/cv/</guid>
       <description>This page contains selected references from major projects including doctoral and postdoctoral work. For the most up to date publication list, please check Google Scholar and ORCID.
 A three page CV listing recent employment and key publications can be found here</description>
     </item>
     
     <item>
       <title>List of Publications</title>
-      <link>/public/pubs/</link>
+      <link>/pubs/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/public/pubs/</guid>
+      <guid>/pubs/</guid>
       <description>This page contains selected references from major projects including doctoral and postdoctoral work. For the most up to date publication list, please check Google Scholar and ORCID.
 ThesesCitationDescriptionS. Clifford (2013)Spatio-temporal modelling of ultrafine particle number concentration - Using the Generalised Additive Model to model temporal trends in ultrafine particle number concentration with penalised splines and spatial trends with Gaussian Markov Random fields.</description>
     </item>
     
     <item>
       <title>UPTECH paper complete</title>
-      <link>/public/2018/02/14/uptech-paper-complete/</link>
+      <link>/2018/02/14/uptech-paper-complete/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/public/2018/02/14/uptech-paper-complete/</guid>
+      <guid>/2018/02/14/uptech-paper-complete/</guid>
       <description>After what seems like a lifetime, the UPTECH paper I’ve been working on is undergoing final proofing (Clifford et al. 2018). The paper looks at classic spirometry outcomes like FEV1 and FVC, markers of inflammation like the fraction of exhaled nitric oxide and the amount of C-reactive protein in the blood. Through a health history and demographics questionniare that got sent home with the 655 participating students we have information about their coughing, wheezing and asthma status over the last 12 months, as well as whether the home’s been flooded or had mould in that period, the presence of gas cooktops, pets, a garage, carpet, air conditioning, cigarette smoking, and many other variables which didn’t make it into the final models.</description>
     </item>
     
