@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Sam Clifford - Bayesian Statistics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blogging again</title>
+      <link>/2018/03/14/blogging-again/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/14/blogging-again/</guid>
+      <description>I’ve been wrestling with the idea of moving to a blogdown site rather than having a handful of static pages squatting in a github page. After hemming and hawwing about it, I’ve finally set up a hugo blog, found a nice theme and a way of pushing the changes up. Disqus comments aren’t working yet but I’m figuring out how to get that, so that it’s actually possible to engage in a discussion.</description>
+    </item>
     
     <item>
       <title>Progress, anxiety and context</title>
