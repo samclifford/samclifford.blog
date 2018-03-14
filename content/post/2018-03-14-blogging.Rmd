@@ -5,8 +5,6 @@ date: '2018-03-14'
 slug: blogging
 categories: [meta]
 tags: []
-bibliography: ../resume.bib
-csl: ../chicago-author-date.csl
 link-citations: yes
 hasMath: true
 ---
