@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-au"
 title = "Sam Clifford - Bayesian Statistics"
 googleAnalytics = ""
-disqusShortname = "www-samclifford-info.disqus.com"
+disqusShortname = "www-samclifford-info"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib.*"]
 
 [permalinks]
