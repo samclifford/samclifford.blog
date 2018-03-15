@@ -1,0 +1,27 @@
+---
+title: Use R abstract
+author: Sam Clifford
+date: '2018-03-16'
+slug: use-r-abstract
+categories: ["research",  "conference"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+---
+
+I've submitted an abstract for the [Use R! 2018](https://user2018.r-project.org/) conference
+
+*Title*: "Classes without dependencies"
+
+*Author*: Sam Clifford, Iwona Czaplinski, Brett Fyfield, Sama Low Choy, Belinda Spratt, Amy Stringer, Nicholas Tierney
+
+Although important, learning statistics isn't generally why students choose to study science. To engage a cohort of first year Bachelor of Science students with diverse backgrounds and interests, we decided to design their core first year quantitative methods unit (with no math or programming prerequisites) around R.
+
+The course is designed to be practical; using RStudio and tidyverse packages rather than statistical tables, students can quickly engage in visualisation, data wrangling, writing functions, and modelling as part of a coherent workflow for scientific inquiry.
+
+In this talk, we discuss the learning and teaching principles and activities, outlining the use of blended and problem based learning to teach both the quantitative topic and the use of R, developing students' data analysis skills and confidence.
+
+We discuss how workshop activities , quizzes, problem solving tasks, and the final project (a collaborative scientific article) not only assess students''' skills but prepare them for work as a professional scientist. We will discuss students' feedback on their experience in their journey from novice student to young scientist.
+
+
