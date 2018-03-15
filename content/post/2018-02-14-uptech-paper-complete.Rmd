@@ -8,7 +8,6 @@ bibliography: ../resume.bib
 csl: ../chicago-author-date.csl
 link-citations: yes
 hasMath: true
-disableComments: true
 ---
 
 After what seems like a lifetime, the UPTECH paper I've been working on is undergoing final proofing [@uptechmain]. The paper looks at classic spirometry outcomes like FEV<sub>1</sub> and FVC, markers of inflammation like the fraction of exhaled nitric oxide and the amount of C-reactive protein in the blood. Through a health history and demographics questionniare that got sent home with the 655 participating students we have information about their coughing, wheezing and asthma status over the last 12 months, as well as whether the home's been flooded or had mould in that period, the presence of gas cooktops, pets, a garage, carpet, air conditioning, cigarette smoking, and many other variables which didn't make it into the final models. 
