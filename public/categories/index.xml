@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sam Clifford - Bayesian Statistics</title>
-    <link>/categories/</link>
+    <link>/public/categories/</link>
     <description>Recent content in Categories on Sam Clifford - Bayesian Statistics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/public/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Aerosol Science</title>
-      <link>/categories/aerosol-science/</link>
+      <link>/public/categories/aerosol-science/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/aerosol-science/</guid>
+      <guid>/public/categories/aerosol-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>/categories/meta/</link>
+      <link>/public/categories/meta/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/meta/</guid>
+      <guid>/public/categories/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>/categories/research/</link>
+      <link>/public/categories/research/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/research/</guid>
+      <guid>/public/categories/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seb113</title>
-      <link>/categories/seb113/</link>
+      <link>/public/categories/seb113/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/seb113/</guid>
+      <guid>/public/categories/seb113/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uptech</title>
-      <link>/categories/uptech/</link>
+      <link>/public/categories/uptech/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/uptech/</guid>
+      <guid>/public/categories/uptech/</guid>
       <description></description>
     </item>
     
