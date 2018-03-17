@@ -48,6 +48,8 @@ Citation                 Description
 ------------------------ --------------------------------
 @uptechmain              Main UPTECH paper detailing the inflammatory and pulmonary response to ultrafine particles
 
+@airbeam                 Personal exposure assessment for home, office, commuting and other exposure
+
 @MORAWSKA201775          Indoor sources of exposure in the home, office, school and aged care facilities
 
 @rahman2017nox           Land use regression modelling with variable selection of NO$_\mathrm{x}$ and NO$_2$ concentrations
@@ -73,6 +75,8 @@ Citation                 Description
 ---------------------------------------------------------
 Citation                 Description
 ------------------------ --------------------------------
+@bernard                 Functional data analysis to compare the impact of two different training programs for athletes
+
 @zoe2017ofmdpm           Overfitted mixtures and Dirichlet process mixtures for spike classification
 
 @bayesiansplineschapter  A book chapter on various implementations of Bayesian spline regression
