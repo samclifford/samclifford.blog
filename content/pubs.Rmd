@@ -8,7 +8,6 @@ bibliography: resume.bib
 csl: chicago-author-date.csl
 link-citations: yes
 disableComments: true
-link-citations: yes
 ---
 
 This page contains selected references from major projects including doctoral and postdoctoral work. For the most up to date publication list, please check [Google Scholar](https://scholar.google.com.au/citations?user=KbrnxeoAAAAJ) and [ORCID](http://orcid.org/0000-0002-3774-3882).

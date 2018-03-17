@@ -8,3 +8,7 @@ static/\.DS_Store
 data/\.DS_Store
 
 layouts/\.DS_Store
+
+content/resume\.bib\.bak
+
+content/resume\.bib\.sav
