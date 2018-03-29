@@ -61,4 +61,4 @@ Apart from calculus as a tool for understanding statistics, calculus is also a t
 
 There's absolutely a paper in this work with the diagnostic and preparing for future study. With a few cohorts having gone through the entire science degree, I'd be very interested to do some analysis of the relationship between grades in SEB113 and grades in second year quantitative units. We might even be able to model outcomes based on how well students did in individual pieces of assessment based on the topic being assessed.
 
-# References
+## References
