@@ -16,11 +16,11 @@ Feedback from students at the end of semester always includes comments about how
 
 We want to make sure that students are at least prepared for their work as graduate scientists rather than being so scared that they avoid learning the skills they need to be competent scientists [@ecrecology]. The Australian Government does not provide any recommendations for improving the mathematical literacy of science graduates in Australia beyond improving teachers' mathematical capabilities [@isa2017], which is unfortunate. Ensuring access to highly trained science teachers is one thing, but if students aren't taking mathematics at the advanced and intermediate levels then they'll never have exposure to the topics they need.
 
-## Decline in mathematics at school
+# Decline in mathematics at school
 
 There's been a marked decrease in the number of students taking advanced level mathematics at high school [@quteprints73153], with many dropping down to intermediate level, and then students dropping from intermediate down to beginner level. The Australian Academy of Sciences recommends in its decadal plan that intermediate mathematics be reintroduced as a prerequisite for all science, engineering and commerce degrees [@aas2025]. There's probably a feedback mechanism at play here where a drop in mathematics preparedness has been compensated for at the university level by reducing entry requirements into engineering, science and other quantitative courses. As a result of this, students are probably getting the idea that they don't *need* to study mathematics to get into a quantitative degree. Once they're at university, lecturers have to work hard to make sure that they've got the skills needed to get through their degrees. Accreditation and student progress therefore become competing goals, and universities have to decide what the level of mathematics is that students can pass out of the degree with.
 
-## Physics and Chemistry
+# Physics and Chemistry
 
 The Australian Institute of Physics' [accrediation guidelines](http://aip.org.au/accreditation/AIPAccreditationRegs2013-17updatedFeb2018/) state that "a three year degree program should include appropriate problem solving skills in Pure and/or Applied Mathematics including Differential Equations, Vector Analysis, Linear Algebra and Complex Analysis". Physics has always been the most mathematical of the sciences, but timing of calculus education at university poses challenges for determining when certain topics, such as electromagnetism and dynamics, can be taught with sufficient mathematical rigour.
 
@@ -31,7 +31,7 @@ The Royal Australian Chemical Institute's report on the future of chemistry [@ra
 
 The American Chemical Society's accreditation guidelines require that "Certified graduates must complete course work equivalent to two semesters of calculus and two semesters of physics with laboratory. The Committee strongly recommends a calculus-based physics curriculum and study of multivariable calculus, linear algebra, and differential equations" [@acs2015]. That's certainly a lot of mathematics for a three year undergraduate degree in Australia, so embedding mathematical topics at appropriate points in the Chemistry major units is probably the best way to deal with this.
 
-## Life sciences
+# Life sciences
 
 Studies of graduate outcomes [@ecrecology] and indicate that American ecology graduates wanted a more quantitative structure to their degree. In its review of important skills [@usgsstats], the US Geological Survey considered the following topics should be completed by the end of an undegraduate degree in wildlife biology:  
 
@@ -56,4 +56,9 @@ Apart from calculus as a tool for understanding statistics, calculus is also a t
 * Estimation Procedures
 * Hypothesis Testing
 
+
+# Future work
+
 There's absolutely a paper in this work with the diagnostic and preparing for future study. With a few cohorts having gone through the entire science degree, I'd be very interested to do some analysis of the relationship between grades in SEB113 and grades in second year quantitative units. We might even be able to model outcomes based on how well students did in individual pieces of assessment based on the topic being assessed.
+
+# References
