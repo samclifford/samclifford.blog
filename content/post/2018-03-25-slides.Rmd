@@ -1,0 +1,26 @@
+---
+title: Slides
+author: Sam Clifford
+date: '2018-03-18'
+categories: ["teaching", "research"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+draft: true
+---
+
+* https://kieranhealy.org/blog/archives/2018/03/24/making-slides/
+* Redoing slides in R Markdown
+    - code chunks
+	- graphs look neat
+	- kable for outputting
+	- consistent theme
+	- references at end (used to do foonote in beamer directly)
+* Print out before class, annotate along the way
+    - don't transcribe
+	- don't highlight
+	- using a computer to replicate notes that already exist doesn't work!
+* Favourite presenters
+    - Graeme Pettet - a picture, hardly any maths, 3 slides for a 15 minute presentation
+	- Lessig - Supreme Court Qld, lots of stuff going on in the background, but only really flashing words to emphasise a point, very well timed sequence interspersed with images for examples of points
