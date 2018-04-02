@@ -24,9 +24,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib.*"]
     name = "List of Publications"
     url = "/Pubs/"
     weight = 4
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/samclifford"
+    weight = 5
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Sam Clifford | Bayesian Statistician"
 	showPoweredBy = true
     copyrightHolder = "Sam Clifford"
 
