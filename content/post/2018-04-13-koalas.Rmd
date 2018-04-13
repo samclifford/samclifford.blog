@@ -1,16 +1,17 @@
 ---
 title: Koalas
 author: Sam Clifford
-date: '2018-04-14'
+date: '2018-04-13'
+publishdate: '2018-04-13'
 slug: koalas
 categories: ["research"]
 bibliography: ../resume.bib
 csl: ../chicago-author-date.csl
 link-citations: yes
-hasMath: false
+hasMath: true
 ---
 
-`r tufte::margin_note("[![ACEMS VRES Students (YouTube)](https://img.youtube.com/vi/kxH_951aVbE/0.jpg)](https://www.youtube.com/watch?v=kxH_951aVbE)<br>ACEMS VRES Students (YouTube)")`For the last few months we've had a few [Vacation Research Experience Scheme students at ACEMS](https://acems.org.au/news/vres-koala-conservation) working on a project using drones and virtual reality technologies to monitor koalas. I'd not had much to do with the students over the time they'd been here other than occasionally sitting at the same table during lunch or a tea break. Now that they're up to the modelling stage of their work, I've been asked to help out with some advice and the occasional bit of coding.
+`r tufte::margin_note("[![ACEMS VRES Students (YouTube)](https://img.youtube.com/vi/kxH_951aVbE/0.jpg)](https://www.youtube.com/watch?v=kxH_951aVbE)<br>ACEMS VRES Students (YouTube)")`For the last few months we've had three [Vacation Research Experience Scheme students at ACEMS](https://acems.org.au/news/vres-koala-conservation) working on a project using drones and virtual reality technologies to monitor koalas. I'd not had much to do with the students over the time they'd been here other than occasionally sitting at the same table during lunch or a tea break. Now that they're up to the modelling stage of their work, I've been asked to help out with some advice and the occasional bit of coding.
 
 A lot of what they're working on is related to the jaguar paper [@jaguarspatial] that I spent a lot of time on in 2016. Rather than presence only data from interviews, they've got traditional survey data, drone-based surveying, and expert elicitation with virtual environments which was a large part of the jaguar and reef projects [@bednarz2016virtual; @reefaesthetics]. We're looking at ways of making spatial predictions by fusing all this data together with binomial GLMs and beta regression. This has meant that three applied maths undergrads are learning a lot of statistics very quickly, as well as how to use [RStudio](https://www.rstudio.com/) and [GitKraken](https://www.gitkraken.com/) to share the data wrangling, analysis and visualisation code with each other such that they can all work on it. They've done an admirable job of picking up these technologies as well as ArcGIS, LaTeX and one of them's showing an interest in using Sweave/R Markdown to automate report writing.
 
