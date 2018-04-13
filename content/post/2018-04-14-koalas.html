@@ -1,0 +1,36 @@
+---
+title: Koalas
+draft: yes
+author: Sam Clifford
+date: '2018-04-14'
+slug: koalas
+categories: ["research"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+---
+
+
+
+<p>For the last few months we’ve had a few <a href="https://acems.org.au/news/vres-koala-conservation">Vacation Research Experience Scheme students at ACEMS</a> working on a project using drones and virtual reality technologies to monitor koalas. I’d not had much to do with the students over the time they’d been here other than occasionally sitting at the same table during lunch or a tea break. Now that they’re up to the modelling stage of their work, I’ve been asked to help out with some advice and the occasional bit of coding.</p>
+<p>A lot of what they’re working on is related to the jaguar paper <span class="citation">(Mengersen et al. <a href="#ref-jaguarspatial">2017</a>)</span> that I spent a lot of time on in 2016. Rather than presence only data from interviews, they’ve got traditional survey data, drone-based surveying, and expert elicitation with virtual environments which was a large part of the jaguar and reef projects <span class="citation">(Bednarz et al. <a href="#ref-bednarz2016virtual">2016</a>; Vercelloni et al. <a href="#ref-reefaesthetics">2018</a>)</span>. We’re looking at ways of making spatial predictions by fusing all this data together with binomial GLMs and beta regression. This has meant that three applied maths undergrads are learning a lot of statistics very quickly, as well as how to use <a href="https://www.rstudio.com/">RStudio</a> and <a href="https://www.gitkraken.com/">GitKraken</a> to share the data wrangling, analysis and visualisation code with each other such that they can all work on it. They’ve done an admirable job of picking up these technologies as well as ArcGIS, LaTeX and one of them’s showing an interest in using Sweave/R Markdown to automate report writing.</p>
+<p>I’ve certainly noticed that my coding practice has changed since 2016 and I’m working more and more with tidyverse approaches to analysis, returning results for things as data frames rather than vectors, writing my modelling code in such a way that it’s ready for visualisation with <a href="http://ggplot2.tidyverse.org/">ggplot2</a><span class="newthought">If you’re not using ggplot2 by now what are you even doing?</span>. I’m glad I put the work in to write a few functions up and put them in mgcv.helper <span class="citation">(Clifford <a href="#ref-mgcv.helper">2017</a>)</span> as they’re making their way into this work and some other work I’m revising for air pollution exposure for office workers. So I’m brushing up on meta-analysis techniques and ensuring I’m writing code that simplifies things for me and is easier to follow for the students.</p>
+<p>The work is a really solid effort on the part of the students, and even with my short involvement I’ve seen them develop their skills very rapidly. They’ve received a fantastic experience from Erin Peterson (who I’ve worked with on reef and jaguar papers), Felipe Gonzalez (who I’ve worked with on air quality), Miles McBain and Jacinta Holloway (colleagues at ACEMS) to plan and execute the study and modelling.</p>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-bednarz2016virtual">
+<p>Bednarz, Tomasz, June Kim, Ross Brown, Allan James, Kevin Burrage, Sam Clifford, Jacqueline Davis, et al. 2016. “Virtual Reality for Conservation.” In <em>Proceedings of the 21st International Conference on Web3d Technology</em>, 177–78. ACM. <a href="https://doi.org/10.1145/2945292.2945319" class="uri">https://doi.org/10.1145/2945292.2945319</a>.</p>
+</div>
+<div id="ref-mgcv.helper">
+<p>Clifford, Sam. 2017. <em>Mgcv.helper: Helper Functions for Mgcv</em>. <a href="http://github.com/samclifford/mgcv.helper" class="uri">http://github.com/samclifford/mgcv.helper</a>.</p>
+</div>
+<div id="ref-jaguarspatial">
+<p>Mengersen, Kerrie, Erin E. Peterson, Samuel Clifford, Nan Ye, June Kim, Tomasz Bednarz, Ross Brown, et al. 2017. “Modelling Imperfect Presence Data Obtained by Citizen Science.” <em>Environmetrics</em> 28 (5). Wiley. <a href="https://doi.org/10.1002/env.2446/" class="uri">https://doi.org/10.1002/env.2446/</a>.</p>
+</div>
+<div id="ref-reefaesthetics">
+<p>Vercelloni, Julie, M. Julian Caley, Sam Clifford, Alan R. Pearse, Ross Brown, Allan James, Bryce Christensen, Tomasz Bednarz, Manuel Anthony Ken; González-Rivero, and Erin E. Mengersen Kerrie; Peterson. 2018. “Using Virtual Reality to Estimate Aesthetic Values of Coral Reefs.” <em>Royal Society Open Science</em> accepted.</p>
+</div>
+</div>
+</div>
