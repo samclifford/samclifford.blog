@@ -1,0 +1,19 @@
+---
+title: "Sports, go sports"
+author: Sam Clifford
+date: '2018-04-13'
+slug: sports-go-sports
+categories: ["research", "sport", "non-parametrics"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+---
+
+Being an applied statistician means you often get pulled on to strange projects that are a little outside what you normally do. Making the journey from spatio-temporal modelling of air quality to spatio-temporal modelling of reef coral cover wasn't such a huge jump. Based on my experience with using splines and other related semi- and non-parametric regression techniques, I was asked by [Chris Drovandi](https://chrisdrovandi.weebly.com/), a colleague at QUT, to help out on a paper being written by a PhD student at Curtin University for whom he was supervising the statistical work. [Bernard Liew](https://www.birmingham.ac.uk/research/activity/cpr-spine/profile.aspx?ReferenceId=140172&Name=dr-bernard-liew), who has since graduated and has moved on to Birmingham, was very keen to learn more about functional data analysis for [his thesis work](https://espace.curtin.edu.au/handle/20.500.11937/57365).
+
+It's not very often that air quality scientists get a chance to work with trained physiotherapists on sport training data, but this was a really interesting data set that required some interesting analysis. The data that Bernard had was time series of joint power during jumping and wanted to know whether there was a difference in improvement between iso-inertial resistance and speed-power training.`r tufte::margin_note("Main finding: Short-term isoinertial training improved countermovement jump height more than speed-power training. The principle adaptive difference between training modalities was at the level of hip, knee and foot power absorption")` We shared a bit of code back and forth over Dropbox, emailed each other and our co-authors questions about splines and biomechanics, and after a few rounds of revisions and targeting different journals we've published the work in PeerJ [@bernard]. PeerJ gives you the option of making your reviewers' comments and your feedback available to readers, so you can now see the discussion with our reviewers about Bayesian vs Frequentist methods and other approaches to this type of data.
+
+At times I struggled to give the paper the attention it deserved, due to it being one of many things on my plate, but Bernard's done a great job with the analysis and visualisation. With Chris Drovandi and [Paul Wu](https://acems.org.au/our-people/paul-wu)  starting to do [more sports data analysis](https://acems.org.au/maths-stats-sports-workshop) at QUT/ACEMS, it certainly seems like we're making in-roads to bridge the cultural gap between jocks and nerds that little bit more. `r tufte::margin_note("Not to diminish the work of the AIS and other groups who have been doing biomechanical data analysis for a long time.")`
+
+## References
