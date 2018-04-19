@@ -37,4 +37,9 @@ I've found myself writing functions when we want to do the same sort of thing (l
 
 Overall the workshop did a really nice job showing the statistics and the computational mathematics behind it. Detailing the differences between approaches and packages rather than showing us that there's a plethora of approaches and leaving us to figure out which one is best is very helpful, and I wish I'd had this workshop at the start of my PhD. 2009 was a very different time in terms of spatial and spatio-temporal stats, not to mention programming paradigms in R (plyr 0.1.5 was released a day after I started, dplyr was five years away, ggplot2 hadn't even hit 0.9). @cressie1993statistics was a good book, but @cressie2011statistics made huge leaps and bounds. I'm looking forward to the next Cressie-related iteration in spatio-temporal statistical modelling.
 
+![](../../../../images/zammit.jpg)
+
+Image Copyright Sam Clifford 2018
+
+
 ## References
