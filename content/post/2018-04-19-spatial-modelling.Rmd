@@ -1,0 +1,40 @@
+---
+title: Spatial modelling
+author: Sam Clifford
+date: '2018-04-19'
+publishdate: '2018-04-19'
+slug: spatial-modelling
+categories: ["learning", "spatio-temporal modelling", "visualisation"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+---
+
+I've spent the last two days at a spatio-temporal modelling workshop at the QUT Kelvin Grove campus, learning more about spatio-temporal modelling from [Andrew Zammit-Mangion](https://andrewzm.wordpress.com/), a researcher at the University of Wollongong's [National Institute for Applied Statistics Research Australia](https://niasra.uow.edu.au/index.html) who has worked on a variety of spatio-temporal modelling problems, such as modelling the flux field of atmospheric trace gases [@ZammitMangion2016194]. There was a mix of PhD students, postdocs and mid career researchers from around the ACEMS community, with a very diverse set of backgrounds and skills.
+
+The course is based on a book that Dr Zammit-Mangion is writing with Chris Wikle and Noel Cressie, for spatio-temporal modelling in R, and goes into a fair amount of detail of the linear algebra and statistics behind spatio-temporal modelling rather than just plugging some data sets into some general models. The detail about the statistics behind the modelling is really good, as it's important to understand things like the contributions to the covariance from space, time, and measurement error, conditional distributions for the hierarchical models, and the decomposition of the mean function into separable or non-separable spatio-temporal effects (including basis functions and random effects).
+
+## Realism in workshop activities
+
+There's a big focus on wrangling and visualising spatio-temporal data at the start, which is great, because according to a survey of spatial statisticians, about 60% of the time spent working on spatio-temporal modelling is cleaning and reshaping the data. There are *many* different approaches to visualising spatio-temporal data, and while I certainly appreciated the fine control I had over points and lines back when I only ever used base graphics, I think you'd be mad to not make use of [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html), as well as extensions such as [ggmap](https://cran.r-project.org/web/packages/ggmap/index.html) and [geofacet](https://github.com/hafen/geofacet).
+
+![](../../../../images/forbes.jpg)
+Image: [Forbes](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#389efe1d6f63)
+
+I've been to a number of workshops on statistics over the years, and this has been one of my favourites. There's a lot jammed into the two day programme, but rather than just being a set of lectures where we all sit and listen for hours at a time, we have lab exercises where we actually implement the methods we're learning. There's not enough time to finish every single exercise, which is good, because we get to cover more ground and there's enough information to get started and figure out how to finish off later. The data we use is a bit more realistic than in many introductory workshops, e.g. we have multiple data frames from the same source, each with their own `-99` type value to represent missingness.
+
+## Approach to coding
+
+Based on some of the work in the [\#TidyTuesday](https://twitter.com/hashtag/TidyTuesday) threads on Twitter, I'm trying to go a little further with the visualisation and programming style as I implement the ideas in the labs.  A lot of the code makes heavy use of tidyverse functions but there's the odd `*apply` function where its use makes sense, and sometimes we leave our data in time-wide or space-wide format when we've got regularity to our data, and long format when it's irregular across space-time [@pebesma2012spacetime].
+
+I've found myself writing functions when we want to do the same sort of thing (like filter on `-99` missing values that change from data frame to data frame), and moving to using purrr's `map` more often than I normally would. `r tufte::margin_note("For those unfamiliar with the power of purrr, see [Jenny Bryan's tutorial](https://github.com/jennybc/row-oriented-workflows/blob/master/ex06_runif-via-pmap.md
+) for functions with arguments in data frames")` I've tried to use animation in ggplot2 with [gganimate](https://github.com/dgrtwo/gganimate) but I'm having issues with ffmpeg and ImageMagick, which I suspect is down to the fact that I'm using a Windows machine. 
+
+`r tufte::margin_note("![](https://imgs.xkcd.com/comics/is_it_worth_the_time.png) <br>Image: [XKCD](https://xkcd.com/1205/)")`My honours supervisor might have called this obsession with function writing "Spending hours to save minutes" but if I'm going to be doing something frequently, I'd rather functionalise it with the purrr package's functions than copying, pasting and modifying. Part of that is only wanting to debug one line of code, and part of it is wanting to ensure that if I want to try the same approach to different data sets, or with different models, I don't have to write new code from scratch.
+
+## Summary
+
+Overall the workshop did a really nice job showing the statistics and the computational mathematics behind it. Detailing the differences between approaches and packages rather than showing us that there's a plethora of approaches and leaving us to figure out which one is best is very helpful, and I wish I'd had this workshop at the start of my PhD. 2009 was a very different time in terms of spatial and spatio-temporal stats, not to mention programming paradigms in R (plyr 0.1.5 was released a day after I started, dplyr was five years away, ggplot2 hadn't even hit 0.9). @cressie1993statistics was a good book, but @cressie2011statistics made huge leaps and bounds. I'm looking forward to the next Cressie-related iteration in spatio-temporal statistical modelling.
+
+## References
