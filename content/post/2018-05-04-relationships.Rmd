@@ -1,0 +1,33 @@
+---
+title: Relationships
+author: Sam Clifford
+date: '2018-05-04'
+publishdate: '2018-05-04'
+slug: relationships
+categories: ["machine-learning"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+---
+
+## Relationships in the data
+
+The more work I do as a statistician, the more machine learning I end up being exposed to [ @jaguarspatial, @colinbrt, @yeganeh2017satellite]. There are a number of really good books and other resources out there about what the various methods entail and why one would choose one approach over another [@hastie2009elements; @james2013introduction; @mcelreath2018statistical] but I always appreciate a succinct discussion and Frank Harrell has [a good discussion](http://www.fharrell.com/post/stat-ml/) about it. Had this existed two years ago we may have done things differently with our jaguar work, but it's never too late to start making more informed choices.
+
+## Relationships between researchers
+
+Our first year students in SEB113 are now at a point where they're giving serious consideration to their group project, the Collaborative Scientific Article. Groups need to organise a team, find a data set relevant to the natural sciences that can be modelled with linear regression, and collaboratively write a scientific article that has the structure of a journal article. In the workshops, the students learn about structured groupwork by allocating roles at the start of the class and working through that defined role. The aim is to show the collaborative nature of science, because the old cinematic model of a lone scientist working in their laboratory on a big breakthrough is no longer true (if it ever was!). [Roger Peng](https://simplystatistics.org/2018/04/30/relationships-in-data-analysis/) has a good write-up about the various models of relationship between data analyst and others; I've certainly experienced all of these roles in my postdoctoral work. Another good article in the [Harvard Business Review](https://hbr.org/2016/08/how-the-big-data-explosion-has-changed-decision-making) by Michael Schrage makes things a little more explicit using the RACI framework, 
+
+* **Responsible**. Who is completing the task?
+* **Accountable**. Who is making decisions and taking actions on the task?
+* **Consulted**. Who will be communicated with regarding decisions and tasks?
+* **Informed**. Who will be updated on decisions and actions during the project/process?
+
+The article is placed in the broader context of how big data changes decision making processes. We have a visitor at [ACEMS](https://acems.org.au/home) at the moment who works within the state government on assessing whether or not business is ready for incorporating big data analytics. I've not yet had to work in the space that represents the intersection of big data and big organisation (with a big list of stakeholders), with most of my complex data analysis being undertaken as part of a group of about 10 people who form the nucleus of a larger project. As I move towards larger and larger projects and teams, this will no doubt become a bigger part of my life as a researcher.
+
+## Relationships as a support network
+
+With my current contract at QUT coming to an end, I've been applying for work outside Australia. I've been offered a position, conditional on reference checks, and had to turn down another opportunity after discussing what's best for both of us in terms of time overseas, the nature of the work, and where we'd both be living. Once I've got more details confirmed I'll be able to share some very exciting news. A few co-workers are aware of the move, and we've informed family as well. I'll have to get in touch with some friends and former colleagues who live where we're looking at moving to, to get some advice, organise catching up, and make sure that we're not totally overwhelmed when we step off the plane.
+
+## References
