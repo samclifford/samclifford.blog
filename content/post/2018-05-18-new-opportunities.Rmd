@@ -1,0 +1,16 @@
+---
+title: New Opportunities
+author: Sam Clifford
+date: '2018-05-184'
+publishdate: '2018-05-18'
+slug: new-opportunities
+categories: ["machine-learning", "research"]
+bibliography: ../resume.bib
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+---
+
+
+
+## References
