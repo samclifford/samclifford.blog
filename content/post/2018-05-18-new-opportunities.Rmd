@@ -11,6 +11,12 @@ link-citations: yes
 hasMath: true
 ---
 
+I was unsucessful in applying for a permanent position at QUT at the end of last year, so started looking at positions at other universities in Brisbane, at other universities in Australia, and at other universities around the world.
 
+After a few rounds of waiting to hear back, and waiting, and being unsuccessful, and waiting, I had two interview requests occur at the same time for some positions in the UK. After a bit of back and forth about how to attend an interview on the other side of the world (hint: it's Skype, unless you're meant to do two days of interviews, meet and greet and seminars), I have been offered and accepted a position with the [London School of Hygiene and Tropical Medicine](http://www.lshtm.ac.uk/) for statistical and machine learning work on epidemiology data, looking at vaccine strategies.
+
+It's been really interesting working with my QIMR colleagues on the dengue project, and I've certainly been pushed to pick up more skills when it comes to parameter estimation in ODE models (which is sometimes known as model calibration), have learned a little molecular biology, and have got more experience working with a different type of scientist. Extending this to work on vaccine models and further epidemiology [@Flasche2017] is going to be really exciting, and I'll be picking up more machine learning skills in the process.
+
+I've also got the chance to develop some teaching material as part of a webinar series for mathematics for machine learning.
 
 ## References
