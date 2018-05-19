@@ -4,6 +4,7 @@ author: Sam Clifford
 date: '2018-05-184'
 publishdate: '2018-05-18'
 slug: new-opportunities
+citation_package: natbib
 categories: ["machine-learning", "research"]
 bibliography: ../resume.bib
 csl: ../chicago-author-date.csl
@@ -17,6 +18,10 @@ After a few rounds of waiting to hear back, and waiting, and being unsuccessful,
 
 It's been really interesting working with my QIMR colleagues on the dengue project, and I've certainly been pushed to pick up more skills when it comes to parameter estimation in ODE models (which is sometimes known as model calibration), have learned a little molecular biology, and have got more experience working with a different type of scientist. Extending this to work on vaccine models and further epidemiology [@Flasche2017] is going to be really exciting, and I'll be picking up more machine learning skills in the process.
 
-I've also got the chance to develop some teaching material as part of a webinar series for mathematics for machine learning.
+Part of the role involves teaching into some of the Masters courses; LSHTM in fact has no undergrad students As much as I've enjoyed teaching first year maths and stats to science students, teaching to those choosing to enrol in a Masters programme or undergoing continuing professional development is something I'd like to get more experience with. A few years ago I taught some colleagues of mine within [CAR](https://www.car-cre.org.au/) about Bayesian modelling of epidemiology data with JAGS, and talking through some statistics ideas with the QIMR folk has been worthwhile. I've also got the chance to develop some teaching material as part of a webinar series for mathematics for machine learning, looking at how concepts from calculus, linear algebra and statistics are used in machine learning. 
+
+This may be the push I need to learn a bit more about python, which seems to be the standard approach to problem solving in ML. Packages like [pytorch](https://pytorch.org/), [pandas](http://pandas.pydata.org/), or [scikit-learn](http://scikit-learn.org/stable/) seem to have a lot going for them, and it strikes me that while I can't follow every trend, not adapting with the field is a good way to end up without the skills that are valued. I've been meaning to look into *Statistical Rethinking* [@mcelreath2018statistical] and there's a [jupyter notebook](https://github.com/pymc-devs/resources/tree/master/Rethinking) version of the code for once I've finished learning more about how to use [rstan](http://mc-stan.org/users/interfaces/rstan).
+
+So yes, lots to learn and lots to organise in terms of moving to another country.
 
 ## References
