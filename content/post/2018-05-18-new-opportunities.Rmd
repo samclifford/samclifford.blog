@@ -22,6 +22,8 @@ Part of the role involves teaching into some of the Masters courses; LSHTM in fa
 
 This may be the push I need to learn a bit more about python, which seems to be the standard approach to problem solving in ML. Packages like [pytorch](https://pytorch.org/), [pandas](http://pandas.pydata.org/), or [scikit-learn](http://scikit-learn.org/stable/) seem to have a lot going for them, and it strikes me that while I can't follow every trend, not adapting with the field is a good way to end up without the skills that are valued. I've been meaning to look into *Statistical Rethinking* [@mcelreath2018statistical] and there's a [jupyter notebook](https://github.com/pymc-devs/resources/tree/master/Rethinking) version of the code for once I've finished learning more about how to use [rstan](http://mc-stan.org/users/interfaces/rstan).
 
+There's a little bit more work to be done on the UPTECH project, adapting some of the methodology of @uptechmain to look at inflammation of the peripheral airways.
+
 So yes, lots to learn and lots to organise in terms of moving to another country.
 
 ## References

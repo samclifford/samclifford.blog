@@ -3,6 +3,8 @@ public/\.DS_Store
 
 public/2018/03/14/blogging/index\.html
 
+content/post/*.html
+
 static/\.DS_Store
 
 data/\.DS_Store
