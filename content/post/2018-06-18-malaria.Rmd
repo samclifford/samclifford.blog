@@ -1,0 +1,178 @@
+---
+title: Mathematical modelling of Malaria
+author: Sam Clifford
+date: '2018-06-18'
+publishdate: '2018-06-18'
+slug: malaria
+citation_package: natbib
+categories: ["seminar", "research", "malaria"]
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+bibliography: childs.bib
+---
+
+
+Today I attended a talk at UQ by [Lauren Childs](https://www.math.vt.edu/people/lchilds/) from Virginia Tech on efforts to understand and combat malaria, work she'd done with [Caroline Buckee](https://www.hsph.harvard.edu/caroline-buckee/), [Olivia Prosper](https://math.as.uky.edu/users/ofpr222) and [Francisco Cai](https://www.hsph.harvard.edu/news/features/tackling-malaria-using-the-art-of-deception/). As someone working on dengue and about to move to London to work at the [LSHTM](http://www.lshtm.ac.uk/), epidemiological modelling of tropical diseases has got my attention.
+
+Malaria has been studied for a long time, at least as far back as its use as means of treating syphilis [@wagner1931verhutung]. For those in the audience not familiar with mathematical modelling of diseases, we got taken way back to @ross1911prevention and @macdonald1957epidemiology, who established early models of malaria. A lot of the subsequent models are based on this early work, with susceptible-infectious-recovered (or SIR) models being the most popular approach not just for malaria but for many other diseases [@Reiner2013].
+
+Despite decades of control measures, malaria remains a significant public health problem. And despite decades of mathematical and statistical work modelling the spread of mosquito-borne diseases, the modelling of individuals, as opposed to a well-mixed continuous concentration of populations, is quite rare.
+
+<!-- The models in the work presented involved coupling a Susceptible-Infectious-Susceptible model for humans (you can get malaria more than once) to a SI model for mosquitoes (who tend to die before getting the chance to recover).  -->
+
+<!-- * *Anopheles* spreads *plasmodium* -->
+<!-- * ~50% of the world's population lives in an area prone to Malaria -->
+<!-- * Mostly subsaharan Africa, Northern South America, India and South-East Asia -->
+
+<!-- * Ross and Macdonald (1911, 1957) compartment model -->
+<!-- * SIR model for humans and mosquitoes -->
+<!--      * SIS for humans -->
+<!--      * SEI for mosquitoes -->
+<!--          * no R state as mosquito dies before recovery -->
+
+<!-- * Reiner et al (2013) review in JRS Interface outlining the number of papers with models for diseases -->
+<!-- * Individual variation not often modelled -->
+
+Like dengue, malaria cycles between its two hosts. A mosquito bites a human, whereupon the parasites from the bite are transferred to the liver, spending days to years in the blood replicating both sexually and asexually. Sexually reproduced parasites are then able to spread to female mosquitoes via feeding, and the cycle continues. Malaria's not good. It can stay in your body for years as a low-level asymptomatic infection. One approach taken in this work is to look at an SIS model for humans (who can recover and become susceptible to malaria again) and an SI model for mosquitoes (who die before recovery can occur).
+
+<!-- # Malaria life cycle -->
+
+<!-- * Two host life cycle for mosquitoes, like dengue -->
+<!-- * Mosquito bites human, parasites transfer into liver, spend days to years in the blood where it replicates via sexual reproduction and asexual copying -->
+<!-- * Sexually reproduced parasites can be taken up by mosquito -->
+<!-- * Mosquitoes spread malaria to each other -->
+
+The talk focussed on three main topics
+
+1. Dissecting determinants of malaria chronicity
+2. Within-vector generation of diversity
+3. Disrupting malaria reproduction
+
+## Dissecting determinants of malaria chronicity
+
+Malaria infections tend to either be acute, characterised by a burst of parasitemia within the body that last tens of days, or a chronic, low-density infection that can last hundreds of days. Creating high efficacy vaccines for malaria is a real challenge, and tracking the progression of an outbreak through the population can be difficult as transmission is often not directly observed (we don't have sensors on mosquitoes). On top of that, the immune system is still not completely understood.
+
+In @Childs2015, the aim was to understand which host and pathogen properties were associated with chronic infections. Discrete delay-difference equations were developed to model the pathogen dynamics and the immune response. This results in a large system with a number of parameters needing to be estimated, meaning that much data is required for model calibration (or data fusion). Certainly a lot of work has been done on our end with dengue to ensure that the modelling gives realistic simulations. Whether this is by way of a Bayesian modelling framework that solves differential equation models within it or by using Latin Hypercube Sampling of parameters and calculating the distance to the observed data, marrying differential equations to data is hard.
+
+
+<!-- **Goal:** What are the host and pathogen properties associated with chronic infections? -->
+
+<!-- **Method:** Analyse simuations from a difference equation with immunity and pathogen dynamics -->
+
+<!-- * Asymptomatic infections hidden from clinicians -->
+<!-- * Can't track parasite transmission directly -->
+<!-- * Incomplete understanding of immunity during natural infection -->
+<!--     * vaccination difficult to get high efficacy -->
+    
+<!-- ### From the parasite's perspective -->
+
+For a virus to be successful in propagating, it needs to be virulent enough to spread but not so lethal that it kills the host and prevent transmission. Malaria has a number of tricks up its sleeve regarding the immune system, such as creating proteins on the surface of red blood cells and endothelium. As such the virus can avoid detection and trigger only certain immune responses that aid in replication but not in elimination (e.g. via the spleen). This persistence through variation is the key to its longevity in the body.
+
+<!-- * Maximum transmission, minimum symptoms -->
+<!-- * Pathogen creates surface proteins on red blood cells to evade the host's immune response and extend infection length -->
+<!-- * splenetic blood filtration removes cells, but the proteins that bind it to the endothelium prevent this clearance -->
+<!-- * **persistence through variation** -->
+
+<!-- A discrete model, with $\Delta t = 48$ hours -->
+
+<!-- $$ -->
+<!-- P(t+ \Delta t) = rP(t) (1 - I(t)) -->
+<!-- $$ -->
+
+<!-- where $I(t)$ is the immune response function -->
+
+<!-- 1. Fast acting non-specific innate immune response -->
+<!-- * Antibody-mediated adaptive responses which are one of: -->
+<!--     2. variant specific -->
+<!--     3. cross-reactive -->
+<!--     4. general adaptive -->
+
+
+<!-- * Fast acting non-specific innate immune response -->
+<!-- * Antibody-mediated adaptive response which is -->
+<!--     * variant specific -->
+<!--     * cross-reactive -->
+<!--     * general adaptive -->
+    
+<!-- $$ -->
+<!-- I(t) = \frac{A(t)^k}{A(t)^k + C^k} -->
+<!-- $$ -->
+
+<!-- and $k$ controls the steepness of these curves. -->
+
+
+<!-- Each variant of the protein gets its own copy of the models for variant growth, with 60 parasites there are ~300 equations. -->
+
+<!-- Different parts of the immune response contribute different dynamics of the overall parasitemia. -->
+
+<!-- * Innate immunity which controls overall initial peak height -->
+<!-- * Variant-specific and cross-reactive immunities which control the length of peaks and when they occur, and which variant is peaking -->
+<!-- * A general adaptive immunity which leads to an overall decrease in peak height as the infection progresses -->
+
+For this modelling, the parasite parameters end up being less important than the host immune response. In order to control the initial infection, you need a strong innate response at early time. The moderate responses from the variant-specific and cross-reactive responses control the long-term infection, the length of the peaks and which variant is peaking. A general adaptive immunity leads to successive decreases in the relative heights of the peaks as the infection progresses. In the absence of a strong immune system, chronic malaria infections can occur, which isn't much fun.
+
+<!-- * Host immune response dominates system behaviour re acute vs chronic infection -->
+<!--     * Parasite parameters are less important -->
+<!-- * Innate response must be strong to control initial infection -->
+<!-- * Moderate variant specific and cross-reactive responses control long-term infection and length of the peaks -->
+
+## Simulating within-vector generation
+
+Stochastic modelling of the adaptation of genetic sequences was used in @Childs2017 to understand how the genetic diversity of the parasite pool changes during sexual replication. The modelling occurred in two stages:
+
+1. Modelling the population dynamics of the different genotypes
+2. Simulating the replication and recombination processes that generate novel sequences
+
+<!-- **Methods:** Stochastic model of sequence adaptation -->
+
+<!-- * Stage 1: -->
+<!--     * model population dynamics of different genotypes -->
+<!-- * Stage 2: Simulate mechniams that generate novel sequences -->
+<!--     * how do the replication and recombination occur? -->
+    
+<!-- Miranda Teboh-Weungkem 2010 Infectious Disease Modelling Research Progress and Journal of Theoretical Biology -->
+
+This extends previous work [@TebohEwungkem2010; @teboh2010mathematical] looking at within-vector dynamics, and considers a transition matrix for a continuous time Markov chain that explains the progression of the gamete through to the oocyst stage and its eventual bursting. The parasites then travel from the midgut to salivary gland, with the number of parasites being Poisson and the successful transition being Binomial. In this way, stochasticity is introduce in a way which reflects the individual nature of the parasites rather than the assumption of a smooth, deterministic function which can take on any real, non-negative value.
+
+<!-- Transition matrix for continuous time Markov chain -->
+
+<!-- How do parasites get from midgut to salivary gland when the oocyst bursts? Poisson with rate $n_0$, and which ones make the transit is Binomial. -->
+
+Parents of the same genotype reproducing leads to children of the same genotype. New genotypes are produced when parents of different genotypes reproduce, and the offspring are assumed to have a fitness which is the average of the parents'. As the initial diversity of the initial parasite population changes, differences in outcome are seen. A bottleneck occurs due to only 10 or so parasites initially being transmitted in a bite, but the more diverse this initial population is, the higher the resulting diversity due to recombination.
+
+Perhaps it's feasible to collapse this diversity by introducing a drug resistance to one of the genotypes and delivering the drug to knock out the other genotypes. It may then be possible to control that one genotype of malaria in other ways. The talk didn't make any mention of defective interfering particles (DIs), a topic I've been working on at QIMR, but there has been work done on modelling the impact of DIs generally [@Kirkwood1994] as well as using DIs to stop the replication and transmission of malaria [@Urakami2017]. This may well be pie in the sky from someone who's not a biologist, but it seems that controlling the virus dynamics as well as their transmission from host to vector can be made to work together. A two-step intervention like this isn't necessarily a simple thing, of course.
+
+<!-- When parents of different genotypes reproduce, the offspring have the average fitness of the two. -->
+
+
+<!-- If we have a number of differences between initial parasites, we can see differences in the outcome.  -->
+
+<!-- When a mosquito bites a human, if transfers ~10 parasites.  As the number of initial genotypes of parasites increases, it's more likely to see diversity in the genetics of the transferred parasites. Even though the bottleneck of 10 parasites is very strong, we can see high diversity due to recombination of the transferred parasites. -->
+
+<!-- Perhaps introduce a drug-resistant allele to collapse the diversity by allowing it to persist in the presence of a drug which knocks down the other. -->
+
+## Disrupting mosquito reproduction and parasite development
+
+@Nilsson2015 focuses on replacing insecticide intervention (which prevents biting of humans) with the use of a particular hormone which is transmitted during mating. The idea behind this is that by tricking female mosquitoes into thinking that mating and egg-laying has occurred there is no need to try again in the relatively short life span of the mosquito. Not only are egg-laying and mating decreased, but it appears that susceptibility to malaria is decreased and mortality increased.
+
+This was the most fascinating part of the talk, as it proposes a really interesting alternative to insecticide use. My only issue with the proposal is that it requires large coverage of the human population to become effective, even with low malaria prevalence. This is how herd immunity for vaccination works but vaccination requires infrequent application to humans for long-term protection. The use of this hormone is a mosquito control approach and with mosquitoes having such a short lifespan (tens of days) it seems like it'd be tricky to keep the control in place without constant application. What was really neat was that after doing the modelling, it appeared that the use of this hormone lead to an increase in mosquito populations but on further investigation the increased population were uninfected young mosquitoes and there were relatively fewer old infected mosquitoes spreading the disease.
+
+Tarun and I asked about spatial and temporal homogeneity in the modelling, as the prevalence of a tropica disease and its vector population can be influenced by seasonal factors like temperature and humidity [@White2011; @Cairns2015] and that the movement of humans infected with an arbovirus is often on a greater scale than that of vectors [@Stoddard2009; @Acevedo2015]. The models here do assume a well-mixed population, so there's certainly scope for investigating things like cellular automata models or individual-based models with time-varying forces of infection driving the epidemiology.
+
+<!-- There's a hormone, 20E, transitted from males to females during mating. Can we replicate it to disrupt mating by tricking female mosquitoes into thinking that they've already mated and therefore there's no need to mate. Does this by reducing egg laying and mating, as well as enhancing mortality and reducing the mosquito's susceptibility to malaria. -->
+
+<!-- Discrete time model of mosquito population, including egg-larva-pupa-adult cycles with feeding, mating, resting activities. Exposure to the DBH chemical seems to increase population of mosquitoes until coverage is greater than 80%. Looking at breakdown of ages shows that we have lots of young,  non-infectious mosquitoes. -->
+
+<!-- Question (Me): Is this spatially homogenous? -- Yes, more data required but certainly doable. -->
+
+<!-- Question (Tarun): Is this temporally homogenous? -- Yes, we don't have seasonality but temperature and humidity certainly play a role. -->
+
+<!-- Question: Fitness -- Relative fitness of sequences, not attempting to tie fitness to SNPs. Instead we assume exchangeability (my words). Implemented as survival rate of stages related to parent lineage rather than exact positions of SNPs. -->
+
+# Summary
+
+While I'm moving away from arboviruses towards *pneumococcus* infections, the talk was very illuminating and it was very interesting to get another view on mosquito-borne diseases, particularly from a mathematical modelling approach. I had a brief chat with Prof Childs in the UQ Maths tea room after the talk, after a long chat with [Matthew Holden](https://smp.uq.edu.au/profile/3547/matthew-holden) about different approaches to interacting with biologists and science students when it comes to explaining mathematics.
+
+
+# References

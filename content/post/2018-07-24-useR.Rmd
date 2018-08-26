@@ -1,0 +1,59 @@
+---
+title: useR 2018
+author: Sam Clifford
+date: '2018-08-24'
+publishdate: '2018-08-24'
+slug: useR
+citation_package: natbib
+categories: ["seminar", "R"]
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+bibliography: childs.bib
+draft: false
+---
+
+
+It's been a while since the conference itself but I thought I might still put some of my thoughts down regarding [UseR! 2018](https://user2018.r-project.org/). This was my last academic event in Brisbane prior to departing for the UK, so it was good to catch up with some people I won't be seeing for a while, as well as being able to see some new R ideas, see presentations from some of the big names, and talk about R education in undergraduate teaching.
+
+
+## Chairing
+
+Chairing a session is such an underrated thing. You get to meet some great people and can shape the session a bit to ensure that things don't go on longer than they need to, e.g. an audience member having a conversation with the presenter during their Q&A that is more appropriate for the tea break than when there are three talks still to come. I had the pleasure of chairing the Teaching and Learning session, featuring François Michonneau ([The Carpentries](https://carpentries.org/)), Matthias Gehrke (FOM Hochscüle) and Mette Langaas (NTNU). Having three speakers to introduce whose names were not British/Irish in origin, I spent a little time with each speaker making sure I was introducing them correctly, giving the audience a bit of a humorous introduction to them, and asking them at what point they wanted alerts as to how long they'd been talking. These are simple things for a chair to do, and can help ensure the smooth running of the session so that it's not just a bunch of people getting up and talking until they're done.
+
+François gave [an overview](https://www.youtube.com/watch?v=kcw4BeCjbDQ) of the approach to teaching they use at The Carpentries and some lessons they'd learned from developing their R courses. If you're unfamiliar, the company is responsible for running Data Carpentry and Software Carpentry courses that help teach modern computing skills to researchers. François posed three question to the audience to encourage us to think about the processes of learning and teaching and how we design education activities:
+
+1. What are you skilled at?
+2. Which problem did you solve using this skill?
+3. Would a novice have approached the problem in the same way?
+
+Pointing out that learning things in R often takes more than a single three hour workshop, or watching a video, the Carpentries put on multi-day courses with face to face interation and live coding, and focuses on building up interlocking skills that provide the learner with the ability to not just use a handful of packages or the way you'd do something in C++ (how I learned R, lots of control flow) and the motivation and ability to seek out further help.
+
+Matthias Gehrke worked at FOM to [redesign their statistics programme](https://www.youtube.com/watch?v=zQ3Ki1PXJ3w) around the use of R. Having redesigned a single unit for science students that already had a solid foundation and modern philosophy, I can't imagine the uphill battle faced by trying to convince a school of statisticians that the focus of the introductory courses should be on statistical reasoning, problem-solving and decision making, computational techniques and data analysis as practiced in the real world. Some institutions have long histories with a particular approach and are reluctant to make huge changes, but statistical analysis is no longer hand-calculated ANOVA tables for small agricultural trials. The programme is still in its early days, somewhat, and it'll always be hard to gauge how good a big change like that is (as students don't do the same degree twice and every year's cohort is slightly different) but it looks like a good way to redesign a course and has given me things to think about.
+
+The last speaker in our session was [Mette Langaas](https://www.youtube.com/watch?v=lr9JybM5lww) whose courses at NTNU are largely in line with what we've tried to do with SEB113 at QUT. A traditional lecture is followed up later with an interactive/collaborative lecture where students work together in groups to solve problems and go through additional learning material. All her material is delivered via R Markdown (including the online notes) and we are making plans to keep in touch to swap ideas and resources. Her courses are in the advanced years of the degree, whereas mine has been at the beginning, so it's good to see how the ideas can be implemented once students have some statistics knowledge, a little experience with computing, and know how to learn. One of the big challenges we've faced with first year students is that they're neither subject matter experts nor experts at learning, so we have to spend some effort structuring their learning around introducing an idea, working through it, and then using it to solve a problem. I'll eventually be teaching MSc students, so Mette's approach gives me plenty of ideas as to how this can be done.
+
+## Presenting
+
+I got to present in the Community and Education session, where [Jono Carroll](https://twitter.com/carroll_jono) gave a [great talk](https://www.youtube.com/watch?v=8m5CDXwwaIM) about using the R community to identify gaps in package vignettes. Vignettes are how a lot of R users, myself included, learn how to use unfamiliar packages and see why a package developer has brought the package into existence. He had the community nominate which packages were most in need of a vignette so that he could build one as a volunteer. This led to a creative and productive conversation with package developers about bug fixes and documentation.
+
+Robin Hankin [spoke about](https://www.youtube.com/watch?v=zXVu6da8IGw) writing R tools for aiding teaching of relativity in a physics unit. Physics seems to use mostly MATLAB and C++, but MATLAB's expensive and C++ is a compiled language and might be a bit much for non-IT undergrads to take on without having specialist units focussing on its use for computation.
+
+At the end of the session [I got up and spoke](https://www.youtube.com/watch?v=TQa9pHS29Uk&t=81s) about our efforts in SEB113 at QUT to use the tidyverse packages to teach maths and stats units. It was good to present these ideas in a statistical computing conference, as we've spent most of our time talking to education conferences about the blended learning approach (which is already known). There were a few questions about the details of our approach and I had a good conversation with [Mette Langaas](https://www.ntnu.edu/employees/mette.langaas) about her approach in using R Markdown and blended learning for later year students.
+
+If you're interested in talking more about blended learning for statistics education, I'm very happy to go over some ideas, so get in touch [via email](https://lshtm.ac.uk/aboutus/people/clifford.sam) or on [Twitter](https://twitter.com/samclifford).
+
+## useR plenaries
+
+All of the plenary sessions I went to were very enjoyable and I'd encourage you to watch them. Rather than giving lengthy summaries:
+
+* [Steph de Silva](https://twitter.com/stephdesilva) - [Beyond Syntax](https://www.youtube.com/watch?v=27FxbDtCFoc): R is about communities with subcultures, not just a programming language ([slides](https://github.com/stephdesilva/useR))
+* [Thomas Lin Pedersen](https://twitter.com/thomasp85) - [The Grammar of Animation](https://www.youtube.com/watch?v=21ZWDrTukEs): gganimate extends the ideas of ggplot2 to facilitate building visualisations that are more engaging and informative
+* Bill Venables - [Adventures with R](https://www.youtube.com/watch?v=NNCD5g-wI9U): R enables us to tackle a variety of research problems from psycholinguistics to fisheries management; contains a great comparison of statistics and data science
+* [Roger Peng](https://twitter.com/rdpeng) - [Teaching R to new users](https://www.youtube.com/watch?v=5033jBHFiHE): This covers so much of what I have tried to do in SEB113 and gives a good technical overview of why R is the way it is ([blog post](https://simplystatistics.org/2018/07/12/use-r-keynote-2018/)).
+* [Danielle Navarro](https://twitter.com/djnavarro) - [R for Psychological Science?](https://www.youtube.com/watch?v=xFkEbYk0C0Q): Navarro accidentally wrote a textbook for psych students to use R. Really nice view of the state of statistical education and practice from outside the natural sciences. We can't know all the R, but we can work to improve our skills by taking advantage of the communities and teams around us.
+* [Jenny Bryan](https://twitter.com/JennyBryan) - [Code Smells and Feels](https://www.youtube.com/watch?v=7oyiPBjLAWY): Why does my code stink? It's because taste develops faster than ability. Bryan walks us through how to make our code stink less. I didn't get to see this talk but from all reports it was fantastic.
+
+## Summary
+
+I'd like to thank the organisers for putting on such a great conference, my SEB113 colleagues for their work building the unit and giving feedback on the presentation, and all the presenters who gave us a lot to think about.
