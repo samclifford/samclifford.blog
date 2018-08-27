@@ -1,0 +1,22 @@
+---
+title: R Foundation Summit
+author: Sam Clifford
+date: '2018-07-09'
+slug: r-foundation-summit
+citation_package: natbib
+categories: ["seminar", "R"]
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+draft: true
+bibliography: childs.bib
+---
+
+# R consortium
+
+With the User R 2018 conference coming to Brisbane, I found myself invited to the R Foundation Summit on the day before the conference opens. It was a great chance to get to meet some of the power behind the throne, so to speak, and to see some of the features that are being developed into R to ensure its longevity as a modern package.
+
+We started the day out with Luke Tierney (U Iowa), Michael Lawrence (Genentech) and Tomas Kalibera (Czech University of Technology in Prague) about alternative representations (altrep) for basic R structures. One of the most exciting take home messages was that by being smart about what particular objects represent, rather than what their value is, we can ensure that we don't have to make and store an object every time we want to do something to it. For example the vector `x = seq(1, 1e12)` is too large to store in memory, but we can tell R (if it's using the altrep approach) that `x` contains a sequence of integers of length $10^{12}$ that starts with 1 and increases 1 at a time. That way, when we ask for `head(x)` we only need to ask for a sequence of integers from 1 to 6.
+
+# References
+
