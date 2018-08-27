@@ -2,7 +2,6 @@
 title: Koalas
 author: Sam Clifford
 date: '2018-04-13'
-publishdate: '2018-04-13'
 slug: koalas
 categories: ["research"]
 bibliography: ../resume.bib
