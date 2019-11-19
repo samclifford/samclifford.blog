@@ -3,7 +3,7 @@ title: Recent publications
 author: Sam Clifford
 date: '2019-11-19'
 publishdate: '2019-11-19'
-slug: useR
+slug: recentpubs
 citation_package: natbib
 categories: ["research", "dengue", "ebola", "streptococcus", "aerosol science", "reef"]
 csl: ../chicago-author-date.csl
