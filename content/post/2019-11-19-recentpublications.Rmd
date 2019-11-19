@@ -1,0 +1,55 @@
+---
+title: Recent publications
+author: Sam Clifford
+date: '2019-11-19'
+publishdate: '2019-11-19'
+slug: useR
+citation_package: natbib
+categories: ["research", "dengue", "ebola", "streptococcus", "aerosol science", "reef"]
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+bibliography: recentpubs.bib
+draft: false
+---
+
+I just realised it's been over a year since I updated this and I haven't blogged once about the work I've been doing at [LSHTM](https://www.lshtm.ac.uk/). Below is a brief review of what's been happening in the last year in terms of publications. There's a lot of old projects which borne fruit and for a while I was getting multiple emails a week with accepted papers. There's a lot of stuff happening (or that has happened) on the teaching and outreach fronts, which I'm itching to write up too. 
+
+## Ebola
+
+Since joining the [Centre for Mathematical Modelling of Infectious Diseases](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases) I've done some work on Ebola, particularly on vaccine sentiment among health care workers in Sierra Leone [@jendrossek2019health] and with the WHO doing some data wrangling for the outbreak in North Kivu, DRC. The WHO work was a great opportunity to use some of the visualisation skills and data management to try to reconstruct contact networks based on case interviews.
+
+It was long and labourious doing the data entry, so when the [Bloomsbury SET](https://bloomsburyset.org.uk/) put out a call for proposals for using AI and Machine Learning to tackle problems in infectious disease, I put something together to look at whether it's feasible to algorithmically detect the names of people, places, their relationships, events and dates from the text and turn them into tidy data frames. We got a small amount of money, £1200, to investigate it and it turns out the tech isn't quite there yet to read French text and pull out Congolese names and come up with a database of things that could be places that aren't currently in any corpus. We didn't get the extension for an additional few tens of thousands of pound, but I am going to be helping out with [Noel Kennedy](https://www.rvc.ac.uk/about/our-people/noel-kennedy)'s project from the same funding round looking at using ML with vet health records.
+
+## Dengue
+
+In addition to work from Australia being published [@Mapder2019] I'm still doing some work on Dengue. At the moment, I'm preparing for a poster at [Epidemics 7](https://www.elsevier.com/events/conferences/international-conference-on-infectious-disease-dynamics) for work I've done looking at the cost-effectiveness of multiple testing of dengue serostatus prior to vaccination [@Pearson2019]. This is an offshoot of work I'm doing with Stefan Flasche and others here that extends their previous work [@Flasche2016] and combines some neat mathematical modelling with vaccine trial data [@Sridhar2018] to estimate the cost-effectiveness of different testing approaches. There'll be a report to a public health organisation and we'll investigate some additional scenarios that are beyond the scope of what we're currently going to present, but it looks like I'll be doing some travel next year to discuss this in further detail.
+
+## Streptococcus
+
+The main part of my job is working on serotype distributions of *streptococcus pneumoniae* in, at the moment, pre-vaccine settings. There's a systematic review we're so close to finishing (methods are done, data is collected, just waiting on confirmation of some things from a co-author) that will look at how the serotypes circulating around the world change across continent and over time. We've got a fairly close relationship with some other groups around the world looking into similar topics but in different settings (post-vaccine introduction) and in varying combinations of carriage and invasive disease. There's a need for some fancy stats here in dealing with estimating carriage of a serotype that's not been detected, particularly when there are 92 serotypes and tens to hundreds of participants in a given study (and multiple carriage is rare). It's an interesting challenge, to be sure. 
+
+I've got some colleagues in my office working on [Evidence to Policy pathway to Immunisation in China](https://www.lshtm.ac.uk/research/centres-projects-groups/modelling-economic-evaluation-vaccines#nihr-epic). One of these colleagues is likely to start a PhD next year, pending their interview today and a formal offer, with me as their primary supervisor. This will definitely be a new experience as I've only been an associate supervisor before, and I'm looking forward to helping them through their studies.
+
+In addition to *strep. pneumo.* I'm also doing some work with some colleagues at LSHTM on Group B *streptococcus*, a maternal health problem that can lead to meningitis, sepsis and other disease outcomes.
+
+## Spatial modelling
+
+### Conservation
+
+The paper from one of the big projects of my last years at QUT is published. We used data from government monitoring, professional surveys and citizen scientists to build a tool for predicting coral cover on the Great Barrier Reef. This was a really exciting piece of work to be involved with, and has resulted in [a website](https://www.virtualreef.org.au/) where citizen scientists (you!) can upload pictures from the GBR or help annotate images that others have provided in order to help improve the model predictions. We've also built a VR app to interview marine scientists, divers and the general public about what they find aesthetically pleasing in a reef.
+
+The paper [@peterson2019monitoring] is available for free until Jan 7 2020 at [Environmental Modelling & Software](https://authors.elsevier.com/c/1a4qX4sKhELBmE) and describes the statistical method we used and shows results of the modelling around user accuracy, how important each image source is, and prediction accuracy and uncertainty.
+
+The reef and jaguar papers [@mengersen2017modelling] led to some work using drones to do a [species survey of koalas](/2018/04/13/koalas/). The work has now been accepted for publication and soon you'll be able to read about the combination of expert elicitation, drone-collected data with uncertainty and GIS data to determine which areas in a suburban park are occupied by koalas [@KoalaPaper]. The three undergrad students working on this, Grace Cooper, Ella Wilson and Taylor Gregory, did a great job on the modelling and write-up and I'm always impressed by undergrad students who throw themselves into such complex research problems.
+
+### Air quality
+
+There's also a bunch of papers from ILAQH-related people that I've been working with for the last few years that have come out, particularly on using machine learning techniques for spatial prediction [@rahman2019new], exposure to air pollution in Heshan, China [@mazaheri2019characteristics], and spatio-temporal modelling with R-INLA for temporal trends across a number of short monitoring campaigns [@clifford2019bayesian].
+
+### Health access
+
+Nick Tierney, who's now at Monash University, has got his work on health facility access published earlier this year as well [@tierney2019evaluating]. Nick's done a lot of interesting stuff on visualisation of missing data,  the application of Bayesian statistics to a range of health issues, and the maximum coverage problem for resource allocation. We still have some work on occupational exposure to dust to be published, which looks at how workers' health changes over time based on regular check-ups and across the different classes of worker.
+
+
+## References
