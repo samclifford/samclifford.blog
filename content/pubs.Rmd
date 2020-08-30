@@ -23,6 +23,36 @@ Citation                 Description
 @honours                 Honours thesis on dispersion of a compount in shear-augmented flow
 ---------------------------------------------------------
 
+## COVID
+
+
+-----------------------------------------------------------------
+Citation                 Description
+------------------------ --------------------------------
+@quilty2020effectiveness         Traveller screening for symptoms
+
+@clifford2020effect      Traveller screening, sensitisation and contact tracing
+
+
+@russell2020effect               Risk of importing infections via air travel
+
+@clifford2020strategies          Traveller screening with PCR
+
+@quilty2020quarantine            Quarantine and PCR testing strategies in Test and Trace
+
+@quilty2020effect                Effect of travel restrictions in China
+
+@rees2020covid                   Length of stay in hospital
+
+@jombart2020inferring            Inferring cases from published data on deaths
+
+@10.5281/zenodo.3746662          Forecasting bed occupancy
+
+@liu2020modelling                Health care facility and community surveillance model
+-----------------------------------------------------------------
+
+
+
 
 ## Citizen science for spatial statistics
 

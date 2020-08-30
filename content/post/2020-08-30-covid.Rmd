@@ -1,0 +1,68 @@
+---
+title: COVID
+author: Sam Clifford
+date: '2020-08-30'
+publishdate: '2020-08-30'
+slug: covid
+citation_package: natbib
+categories: ["research", "covid"]
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+bibliography: covid.bib
+draft: false
+---
+
+I took some leave earlier in 2020 around the time I presented some Dengue work in Annecy at the Fondation Mérieux (check spelling). When I got back I was asked if I could help Billy Quilty (who I'm now supervising as a PhD student) with some analysis he was doing about traveller screening for the novel coronavirus that had appeared in China a few weeks prior. This ended up kicking off my involvement with the [CMMID COVID-19 Working Group](https://cmmid.github.io/topics/covid19/) (formerly nCoV-2019 Working Group).
+
+It's been a bit of a whirlwind over the last few months. I've been writing thousands of lines of code, writing papers, internally reviewing others' papers, getting brought on to others' papers, checking others' code, arguing about visualisation styles, trying to nail down terminology, and building apps to demonstrate our models. There's too much to cover but I thought I'd just highlight a few things I've been involved with.
+
+Basically the entirety of my research time is spent on COVID at the moment.
+
+## Syndromic screening
+
+@quilty2020effectiveness was the first piece of work that came out of the coronavirus working group. Using the best available information at the time, which wasn't much, we looked at how likely syndromic screening (thermal scanning and looking for symptoms) was to pick up travellers infected with SARS-CoV-2. We built an app that would allow users to vary the sensitivity of the syndromic screening to see how many passengers would arrive with an active infection. One of the big challenges with this work was, and still remains, accurate characterisation of the proportion of infections which are asymptomatic. 
+
+**Conclusion:** *syndromic screening is insufficient to reduce the number of imported infectious arrivals.*
+
+## Travel restrictions in China
+
+Billy Quilty and Charlie Diamond, two early career researchers at CMMID, did some outstanding work looking at the impact of internal travel restrictions around Lunar New Year in China [@quilty2020effect]. This involved a lot of work and assumptions regarding travel patterns and branching processes for transmission.
+
+**Conclusion:** *sustained transmission was likely occurring in four major cities prior to the introduction of restrictions and these restrictions likely only helped minor cities.*
+
+## Delaying an outbreak
+
+We updated the syndromic screening and combined it with some work by our colleagues on contact tracing [@Hellewell2020] to build a Poisson process for traveller arrivals [@clifford2020effectiveness]. Here we explicitly accounted for the increase in cases at the travel origin and considered how long it would take to reach the outbreak threshold under varying syndromic screening and contact tracing scenarios.
+
+**Conclusion:** *syndromic screening and effective contact tracing can buy you less than two weeks early in the outbreak.*
+
+## Risk of importation
+
+More recently I contributed some plots and code to work that looks at estimating the number of local cases in a country and then using OpenSky flight data to estimate how many infectious travellers are moving between countries [@russell2020effect]. We then calculated the number of imported infections as a fraction of local cases to determine which countries were at risk of triggering a second wave based on imported cases. 
+
+**Conclusion:** countries considering flight restrictions from countries where they have a lot of travel from and/or there is high prevalence of infection should also consider their local outbreak situtation and act accordingly.
+
+Of course, flight restrictions aren't the only non-pharmaceutical intervention you can apply when looking at risk of importation. The next step was to build a model of quarantine effectiveness to determine whether the use of PCR testing could give the same sort of performance as a 14 day quarantine period in the UK [@clifford2020strategies]. This involved combining CAA air travel data with prevalence estimates (as in the Russell work) and looking at the proportion of travellers who were asymptomatic, applying models to published data on PCR testing of nasopharyngeal swabs, and building clinical progression profiles for simulated travellers. This was a mammoth amount of work and is still under review but forms the basis for further work.
+
+**Conclusion:** *Double testing doesn't give you much benefit over single testing, and quarantine can be reduced by 5-7 days if you do a test a day before travellers exit quarantine.*
+
+## Local quarantine
+
+We are adapting our traveller quarantine work to look at the UK's Test and Trace programme to see if it's possible to reduce the amount of time that traced secondary contacts spend in quarantine. We've got a preprint that's been presented [@quilty2020quarantine] but are continuing to look into a few issues around adherence waning.
+
+**Conclusion:** *So far we have found that (if you assume perfect compliance and adherence to quarantine rules) you can reduce quarantine duration by a few days if you test at the end of quarantine.*
+
+## Other work
+
+In addition to work around traveller screening and quarantine I've also been involved with some work on hospital length of stay [@rees2020covid] and this has flowed through to work on bed occupancy [@10.5281/zenodo.3746662]. This is mostly with Thibaut Jombart, with whom I did some work looking at projecting early case numbers from deaths [@jombart2020inferring]. We are attempting to finish off a paper on the bed occupancy forecasting work.
+
+I've also done some work with Yang Liu on her paper about surveillance in hospitals and the community, determining where testing effort is best spent in terms of being able to pick up a signal for an outbreak [@liu2020modelling]. This was some really interesting work, and we had to revise the model a few times, and should be useful for countries or regions who have managed to get their outbreaks under control and are planning regular testing for detection of a second wave.
+
+## Other news
+
+Additionally, my wife and I found out she was pregnant around March this year, and we are expecting a daughter in the next few weeks. So interacting with the NHS has been difficult at times, as appointments get cancelled and rescheduled, and birth partners aren't allowed at routine scans. 
+
+In other happy news, I've been promoted to Assistant Professor and have just finished all the assessment for the first module of [PGCILT](https://www.lshtm.ac.uk/files/pgcilt-prog-spec-2019-20.pdf). PGCILT deserves its own write-up. Maybe I'll just upload my 3000 word reflection.
+
+## References
