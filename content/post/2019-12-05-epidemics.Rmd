@@ -1,0 +1,61 @@
+---
+title: Epidemics
+author: Sam Clifford
+date: '2019-12-05'
+publishdate: '2019-12-05'
+slug: epidemics
+citation_package: natbib
+categories: ["research", "dengue", "conference"]
+csl: ../chicago-author-date.csl
+link-citations: yes
+hasMath: true
+bibliography: epidemics.bib
+draft: false
+---
+
+## Denvax
+
+Tuesday night I presented [a poster](https://elsevier.conference-services.net/viewsecurePDF.asp?conferenceID=4267&loc=files&type=paper&abstractID=1065710) about the  [denvax](https://cran.r-project.org/package=denvax) R package and [our accompanying Shiny app](https://samclifford.shinyapps.io/Denvax_demo/) at Epidemics 7. So if you're interested in the work that we recently published [@Pearson2019] and want to play around with looking at how cost effectiveness changes with test, vaccine and secondary infection costs in a variety of seroprevalence settings, you can now do so without needing to be an R expert. Big thanks to Alex Richards at LSHTM and the rest of the participants in the hackathon/programmapalooza that she and Carl Pearson organised to make some intial progress on the app. 
+
+The work in that paper makes a few simplifying assumptions that I think are worth interrogating a bit more and perhaps modifying them to make more realistic bounds on the cost effectiveness. For the moment we consider a perfect test, which simplifies the calculations, and perhaps allowing the end user to adjust this downwards and look at how having an imperfect test can reduce cost effectiveness. We have also parameterised our seroprevalence model as a sum of power functions, $(1-\alpha)^t$, where a lot of other models consider exponential decay, $e^{-\lambda t}$, so perhaps we should consider multiple approaches to explaining the serosurvey data's curve over time. Whether or not there's a huge amount of difference is really arguing the toss, as both curves qualitatively look similar. Perhaps a mixture of asymptotic curves to a maximum rather than assuming that $\lim_{t \rightarrow \infty} p(t) = 1$.
+
+## Statistical modelling of infectious disease
+
+My favourite session so far has been the one on vector-borne diseases, which featured a lot of interesting spatial stats, e.g. [Lisa Koeppel](http://chicas.lancaster-university.uk/people/koeppel.html)'s work on disease outbreaks and Alex Perkins' work on Yellow Fever. The brilliantly named "Burden is in the eye of the beholder: Yellow fever burden estimates are highly sensitive to choices about data interpretation" considered a variety of different modelling approaches to perform spatial estimation of incidence of Yellow Fever in the presence of under-reporting. Perkins presented a little of the results of ten-fold cross-validation reporting more than just RMSE, which was refreshing. I'm always a little skeptical of cross-validation of spatial models, as special attention needs to be paid to whether the held out data are being treated as independent (and therefore sampled out as IID) when there's an assumption of spatial dependence. I had a chat with him about it during a break and we discussed the various ways of doing cross-validation spatially given how similar the work he presented is to the work that Billy Quilty (LSHTM) will be doing in his PhD next year.
+
+My colleague, Amanda Minter, has been involved with the development of a piece of software called [serosolver](https://github.com/seroanalytics/serosolver) [@Hay2019] which kicked off the Statistics session on Thursday afternoon. The model, and its software, considers how serum samples from individuals change over time, tracking the antibody titres against the various circulating strains. This allows a reconstruction of the timing of infection and identifying which particular strain was the most likely cause of infection. Incorporating spatial information allows estimation of spatial patterns of inference over time.
+
+In the same session, we've heard about [Rsero](https://github.com/nathoze/Rsero) which considers how time-varying probabilities of infection results in sero-histories varying with age/birth cohort, and its potential application to determining whether or not a disease is endemic in a region where no cases have ever been reported. After one speaker dropped out we had a talk on HIV from someone who couldn't make their session yesterday and then on to a talk about [OpenMalaria](https://github.com/SwissTPH/openmalaria/), a C++ program for investigating the effect of epidemiology on the effectiveness of a proposed intervention. It's been really good seeing people wrap up their models, or modelling approaches, as packages that allow people to make use of all that work without requiring them to implement a set of equations themselves, like we have with our denvax Shiny and with Ginny Pitzer's presentation where she outlined the [Take On Typhoid tool](https://www.coalitionagainsttyphoid.org/country-tools/) for looking at the optimal strategy for control of typhoid for a given country.
+
+Jim Koopman finished off the session with a talk that extended some of the stuff that Rebecca Grais touched on this morning in the plenary session. Grais spoke about whether or not a particular modelling approach was useful and operationalisable, and Koopman spoke about ensuring that the inference is robust and identifiable given the data we have and the model we seek to use (NB this is inference identifiability, not parameter identifiability). The overarching theme of these two talks is that policy goals must be clear, with the model being used to guide the decision as to whether to proceed or not with an operationalisable policy.
+
+1. Define a theory inference to be pursued
+2. Construct a parameter efficient model
+3. Constrain parameter space with data
+4. Describe policy decision boundaries in constrained space (go to: decide)
+
+After deciding, either the inference is the same across the constrained parameter space, and
+
+5. Relax assumptions with a more realistic or alternative model (go to: 3)
+
+Or the inference differs across constrained parameter space, and
+
+6. Find available unused data or generate new data, formulate a new theory and models (go to: 3)
+
+The above represents a scientific framework which is quite broad in its application but is discussed here in terms of public health intervention. Koopman argues that in the age of open data and public domain code, we should be looking to encourage groups to work to iteratively update each other's work and findings rather than everyone working on their own little project to try to push forward a little bit on large, important projects such as the global eradication of Polio. If we can't work together to refine the scientific theory and decisions we make, we'll be wasting a lot of time and energy.
+
+## Posters
+
+While the speakers have all been good, I have definitely enjoyed the poster sessions more as you get to chat one on one with a number of people and tease out the detail (both as a presenter and audience) whereas you don't get to get that much in a talk. It's a lot of work to do an hours long poster session and only so much you can jam on a piece of paper, but I did get to see some interesting work that I wouldn't normally go to a talk on, e.g. the link between obesity and H1N1 influenza symptoms by [Hannah Maier](https://twitter.com/hannahemaier/status/1199456148497326085), or work that uses similar methods to what I do but for a different problem, e.g. [Julia Ledien](http://www.sussex.ac.uk/profiles/456272)'s work predicting force of infection for Chagas disease in regions where you don't have data.
+
+I had a good chat with Australian PhD student Saritha Kodikara about her work looking at the transmission of disease across farms based on cattle movement with a combination of movement data, spatial modelling and genetic sequences. There's some similarity with the work I did at QUT on jaguar and koala species distribution modelling (koala paper is now formally accepted, by the way) so sent a link to the jaguar work [@mengersen2017modelling] and extended an invitation for follow-up questions.
+
+## Surveillance
+
+Thursday afternoon's programme had a typo in the app and our room had some tech issues with the projector, which resulted in me doing some crowd work while our chair was tracked down and we had to shuffle things around a bit based on whose tech issues were the least troublesome. Our chair arrived, I handed over and we got things mostly back on track due to the efforts of our speakers. Sen Pei gave a really interesting talk on selecting which sites to include in a surveillance network for forecasting influenza, and gave us some background linear algebra on how this is done.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s a bold person who shows us the linear algebra under the hood of their method at an epidemiology conference, but Sen Pei is doing a great job explaining why the eigenvalues of the system are important for reducing error propagation in surveillance site selection. <a href="https://twitter.com/hashtag/EPIDEMICS7?src=hash&amp;ref_src=twsrc%5Etfw">#EPIDEMICS7</a> <a href="https://t.co/TrP9jOsdQi">pic.twitter.com/TrP9jOsdQi</a></p>&mdash; Sam Clifford (@samclifford) <a href="https://twitter.com/samclifford/status/1202713112308260864?ref_src=twsrc%5Etfw">December 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+## References
