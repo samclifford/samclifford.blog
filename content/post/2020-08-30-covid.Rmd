@@ -41,7 +41,7 @@ We updated the syndromic screening and combined it with some work by our colleag
 
 More recently I contributed some plots and code to work that looks at estimating the number of local cases in a country and then using OpenSky flight data to estimate how many infectious travellers are moving between countries [@russell2020effect]. We then calculated the number of imported infections as a fraction of local cases to determine which countries were at risk of triggering a second wave based on imported cases. 
 
-**Conclusion:** countries considering flight restrictions from countries where they have a lot of travel from and/or there is high prevalence of infection should also consider their local outbreak situtation and act accordingly.
+**Conclusion:** *countries considering flight restrictions from countries where they have a lot of travel from and/or there is high prevalence of infection should also consider their local outbreak situtation and act accordingly.*
 
 Of course, flight restrictions aren't the only non-pharmaceutical intervention you can apply when looking at risk of importation. The next step was to build a model of quarantine effectiveness to determine whether the use of PCR testing could give the same sort of performance as a 14 day quarantine period in the UK [@clifford2020strategies]. This involved combining CAA air travel data with prevalence estimates (as in the Russell work) and looking at the proportion of travellers who were asymptomatic, applying models to published data on PCR testing of nasopharyngeal swabs, and building clinical progression profiles for simulated travellers. This was a mammoth amount of work and is still under review but forms the basis for further work.
 
