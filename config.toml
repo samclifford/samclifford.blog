@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-au"
-title = "Sam Clifford - Bayesian Statistics"
+title = "Sam Clifford - 🇦🇺🛫 🇬🇧🦠📊"
 googleAnalytics = ""
 disqusShortname = "www-samclifford-info"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib.*"]
