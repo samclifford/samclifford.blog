@@ -6,6 +6,7 @@ publishdate: '2020-08-31'
 slug: pgcilt
 citation_package: natbib
 categories: ["teaching", "pgcilt", "education"]
+excerpt: "Reflection on my teaching experiences as part of the Postgraduate Certificate in Learning and Teaching (PGCILT)."
 csl: ../chicago-author-date.csl
 link-citations: yes
 hasMath: true

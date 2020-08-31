@@ -1,5 +1,5 @@
 ---
-title: Epidemics
+title: Epidemics 7
 author: Sam Clifford
 date: '2019-12-05'
 publishdate: '2019-12-05'
@@ -11,6 +11,7 @@ link-citations: yes
 hasMath: true
 bibliography: epidemics.bib
 draft: false
+excerpt: "A write-up of my experience at Epidemics 7 in Charleston, South Carolina. There's more to be written but I'll need to look over the programme again as it's been a few months."
 ---
 
 ## Denvax

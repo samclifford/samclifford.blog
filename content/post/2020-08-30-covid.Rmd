@@ -10,6 +10,7 @@ csl: ../chicago-author-date.csl
 link-citations: yes
 hasMath: true
 bibliography: covid.bib
+excerpt: "For most of the year I've been doing research into SARS-CoV-2/COVID-19, especially the risk of imported infections causing an outbreak. Here I give a brief overview of the papers I've been most actively involved with."
 draft: false
 ---
 
